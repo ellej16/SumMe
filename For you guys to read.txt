@@ -1,0 +1,3 @@
+Yow guys, so eto na yung repo natin. Like what I said in the post, separated into three major parts yung thesis. WebApp, which holds the front end, input and survey, NLG, which is obviously the generator, and Summarizer, which holds the summarizer itself. I'm thinking of having branches for the development and for presentation, but idk. hmm. ayun. dito na kayo mag commit.
+
+pwede naman mabago yung directories while developing, so yun. pero for the meantime, gento muna.
