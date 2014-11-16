@@ -4,7 +4,7 @@
     <data-source source="LOCAL" name="Django default" uuid="319f0e72-05b9-4439-a4ff-d3994ff59354">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\JUSTINC\PycharmProjects\summe_project\db.sqlite3</jdbc-url>
+      <jdbc-url>jdbc:sqlite:C:\Users\JUSTINC\Desktop\SumMe\WebApp\summe_project\db.sqlite3</jdbc-url>
       <libraries />
     </data-source>
   </component>
