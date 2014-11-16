@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <!-- test.html -->
+  <!--
+  <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+  -->
+  <title>SumMe!</title>
+  <meta charset="UTF-8">
+  {% load staticfiles %}
+  <link rel="stylesheet" type="text/css" href="{% static "summe_app/style.css" %}">
+</head>
+<body>
+	<header>
+		<div id="top_head"><p class="arial">SumMe!</p></div>
+		<!-- Sorry mali. Hahahaha {{ variable }} kapag variable -->
+	</header>
+    <div id = "notif"><p class = "arial">{{ message }}</p></div>
+	<div id="main_wrapper">
+		<section id="section_tab">
+
+			<div id="fileTab"><p class="arial">FILE</p></div>
+			<div id="linkTab"><p class="arial">LINK</p></div>
+
+		</section> <!--- END DIV TAB -->
+			<div id="middle_div">
+			<section>
+				<!-- Post ng data sa textfiles -->
+				<form method="POST"action="uploadFile"> {% csrf_token %}
+					<input id="uploadBtn" type="submit" value="UPLOAD">
+					<input id="textBox" type="text" name="title"><br>
+				</form>
+			</section>
+			</div>
+			<footer id="footer">
+				<p>Copyrights</p>
+			</footer>
+	</div> <!-- END DIV main_wrapper -->
+
+</body></html>
