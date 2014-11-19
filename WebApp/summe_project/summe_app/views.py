@@ -1,5 +1,7 @@
 from django.shortcuts import render
 from summe_app.models import File
+from django.http import HttpResponse
+from django.template import loader, Context
 
 # Create your views here.
 
