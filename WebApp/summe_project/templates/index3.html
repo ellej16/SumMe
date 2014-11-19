@@ -7,7 +7,7 @@
   <title>SumMe!</title>
   <meta charset="UTF-8">
   {% load staticfiles %}
-  <link rel="stylesheet" type="text/css" href="{% static "summe_app/style.css" %}">
+  <link rel="stylesheet" type="text/css" href="{% static "summe_app/style2.css" %}">
 </head>
 <body>
 	<header>
@@ -28,7 +28,7 @@
 			<section>
 				<!-- Post ng data sa textfiles -->
 				<form method="POST"action="uploadFile"> {% csrf_token %}
-					<input id="uploadBtn" type="submit" value="UPLOAD">
+					<input id="uploadBtn" type="submit" value="SumMe">
 					<input id="textBox" type="text" name="title"><br>
 				</form>
 			</section>

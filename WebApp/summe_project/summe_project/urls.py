@@ -8,7 +8,8 @@ urlpatterns = patterns('',
 
     url(r'^$', 'summe_app.views.index'),
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^summe', 'summe_app.views.index'),
+    url(r'^file', 'summe_app.views.index'),
+    url(r'^link', 'summe_app.views.index_3'),
     url(r'^uploadFile', 'summe_app.views.uploadFile')
 
 )

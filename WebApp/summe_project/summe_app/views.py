@@ -6,6 +6,9 @@ from summe_app.models import File
 def index(request):
     return render(request, "index.html")
 
+def index_3(request):
+    return render(request, "index3.html")
+
 def uploadFile(request):
 	if request.method == "POST":
 		File(textFile=request.POST['title']).save()
