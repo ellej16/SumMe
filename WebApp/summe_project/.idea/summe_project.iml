@@ -4,7 +4,7 @@
     <facet type="django" name="Django">
       <configuration>
         <option name="rootFolder" value="$MODULE_DIR$" />
-        <option name="settingsModule" value="summe_project/settings.py" />
+        <option name="settingsModule" value="summe_project" />
         <option name="manageScript" value="manage.py" />
       </configuration>
     </facet>
@@ -16,11 +16,6 @@
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />
-    <option name="TEMPLATE_FOLDERS">
-      <list>
-        <option value="C:\Users\JUSTINC\PycharmProjects\summe_project\templates" />
-      </list>
-    </option>
   </component>
 </module>
 

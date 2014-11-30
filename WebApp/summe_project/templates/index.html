@@ -27,9 +27,11 @@
 			<div id="middle_div">
 			<section>
 				<!-- Post ng data sa textfiles -->
-				<form method="POST"action="uploadFile"> {% csrf_token %}
-					<input id="uploadBtn" type="submit" value="UPLOAD">
-					<input id="textBox" type="text" name="title"><br>
+				<form method="POST" action='upload_file' enctype="multipart/form-data" >
+                    {% csrf_token %}
+                    {{ form.docfiles }}
+                    <input id="uploadBtn" type="submit" value="UPLOAD">
+					<input id="textBox" type="file" name="title"><br>
 				</form>
 			</section>
 			</div>

@@ -49,6 +49,11 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
+FILE_UPLOAD_HANDLERS = (
+    'django.core.files.uploadhandler.MemoryFileUploadHandler',
+    'django.core.files.uploadhandler.TemporaryFileUploadHandler',
+)
+
 ROOT_URLCONF = 'summe_project.urls'
 
 WSGI_APPLICATION = 'summe_project.wsgi.application'
@@ -76,6 +81,9 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'static/files')
+MEDIA_URL = '/files/'
 
 
 # Static files (CSS, JavaScript, Images)
