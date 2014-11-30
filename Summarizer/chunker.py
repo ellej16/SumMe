@@ -20,7 +20,7 @@ def getSentences(str):
 		sentence.append(sent)
 		getPOS(sent)
 		sentence.append(getPOS(sent))
-		sent++
+		sentNum+=1
 		sentences.append(sentence)
 		sentence = []
 	article.append(sentences)
