@@ -1,7 +1,7 @@
 from nltk.tokenize.punkt import PunktSentenceTokenizer, PunktParameters
 from nltk.tokenize import wordpunct_tokenize
-from nltk.tag import pos_tag
-
+#from nltk.tag import pos_tag
+import nltk
 punkt_param  = PunktParameters() #creates an opening for tokenizer parameters.
 punkt_param.abbrev_types = set(['gng']) #abbreviations further accepted goes here
 
@@ -25,7 +25,8 @@ def sentence_tokenizer(str):
 	return sentence_splitter.tokenize(str.strip())
 
 def posTagger(sents):
-	return nltk.pos_tag(wordpunct_tokenize(str))
+	return nltk.pos_tag(wordpunct_tokenize(sents))
 
 def nerTagger(sents):
 	#todo: ner tagging
+	pass
