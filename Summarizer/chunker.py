@@ -20,16 +20,17 @@ def getSentences(str):
 		sentence.append(sent)
 		getPOS(sent)
 		sentence.append(getPOS(sent))
-		print(sentence)
-		#sentence.append(getWords(sent))
-	#appending per sentence[sentences.append(sent) for sent in sents]
-	#for appending everything[article.append(sent) for sent in sentences]
+		sent++
+		sentences.append(sentence)
+		sentence = []
+	article.append(sentences)
+	print(article)
 	
 def getPOS(sent):
 
-		words = []
-        POS = preprocessor.posTagger(sent)
-        for item in POS
-        	word = {"word":item[0], "POS": item[1] }
-        words.append(word)
-        return words
+	words = []
+	POS = preprocessor.posTagger(sent)
+	for item in POS:
+		word = {"word":item[0], "POS": item[1]}
+		words.append(word)
+	return words
