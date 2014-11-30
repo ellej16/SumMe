@@ -24,7 +24,9 @@ def getSentences(str):
 		sentences.append(sentence)
 		sentence = []
 	article.append(sentences)
-	print(article)
+	for sent in article:
+		print(sent)
+		print("\n")
 	
 def getPOS(sent):
 
