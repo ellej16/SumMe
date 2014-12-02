@@ -12,7 +12,10 @@ urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
     url(r'^file', 'summe_app.views.index'),
     url(r'^link', 'summe_app.views.index_3'),
+    url(r'^text', 'summe_app.views.index_4'),
     url(r'^uploadFile', 'summe_app.views.uploadFile'),
     url(r'^upload_file', 'summe_app.views.upload_file'),
+    url(r'^success', 'summe_app.views.dummy'),
+    #url(r'^get_text_form', 'summe_app.views.get_text_form'),
 
 )+static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

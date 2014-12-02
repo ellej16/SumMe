@@ -7,7 +7,7 @@
   <title>SumMe!</title>
   <meta charset="UTF-8">
   {% load staticfiles %}
-  <link rel="stylesheet" type="text/css" href="{% static "summe_app/style.css" %}">
+  <link rel="stylesheet" type="text/css" href="{% static "summe_app/style3.css" %}">
 </head>
 <body>
 	<header>
@@ -17,26 +17,22 @@
 	<div id="main_wrapper">
 		<section id="section_tab">
             <a href = "http://127.0.0.1:8000/file">
-			<div id="fileTab"><p class="arial">FILE</p></div>
+			<div id="linkTab"><p class="arial">FILE</p></div>
             </a>
             <a href = "http://127.0.0.1:8000/link">
 			<div id="linkTab"><p class="arial">LINK</p></div>
             </a>
             <a href = "http://127.0.0.1:8000/text">
-            <div id="linkTab"><p class="arial">TEXT</p></div>
+            <div id="fileTab"><p class="arial">TEXT</p></div>
             </a>
 
-
 		</section> <!--- END DIV TAB -->
-
-        <div id="middle_div">
+			<div id="middle_div">
 			<section>
 				<!-- Post ng data sa textfiles -->
-				<form method="POST" action='upload_file' enctype="multipart/form-data" >
-                    {% csrf_token %}
-                    {{ form }}
-                    <input id="uploadBtn" type="submit" value="UPLOAD">
-					<input id="textBox" type="file" name="docfile"><br>
+				<form method="POST"action="get_text_form"> {% csrf_token %}
+					<input id="uploadBtn" type="submit" value="SumMe">
+					<input id="textBox" type="text" name="texttext"><br>
 				</form>
 			</section>
 			</div>

@@ -65,6 +65,8 @@ WSGI_APPLICATION = 'summe_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
+        #'NAME': '/Users/JUSTINC/Desktop/SumMe/WebApp/summe_project/DATABASE/mysite.sqlite3',
+
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
@@ -82,7 +84,10 @@ USE_L10N = True
 
 USE_TZ = True
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'static/files')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'static/')
+'''
+MEDIA_ROOT = '/Users/JUSTINC/Desktop/SumMe/WebApp/summe_project/summe_app/static/'
+'''
 MEDIA_URL = '/files/'
 
 
