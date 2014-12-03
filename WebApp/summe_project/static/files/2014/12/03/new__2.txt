@@ -1,0 +1,7 @@
+def handle_uploaded_file(f):
+    import datetime as dt
+    from summe_project import settings
+    now = dt.datetime.now()
+    with open("%s\\%s%s%s%s%s%s_%s"%(settings.MEDIA_ROOT, now.year, now.month, now.day, now.hour, now.minute, now.second, f), 'w+') as destination:
+        print(f.readlines())
+        destination.writelines(f.readlines())
