@@ -16,6 +16,6 @@ urlpatterns = patterns('',
     url(r'^uploadFile', 'summe_app.views.uploadFile'),
     url(r'^upload_file', 'summe_app.views.upload_file'),
     url(r'^success', 'summe_app.views.dummy'),
-    #url(r'^get_text_form', 'summe_app.views.get_text_form'),
+    url(r'^get_text', 'summe_app.views.get_text'),
 
 )+static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

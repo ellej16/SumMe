@@ -29,8 +29,10 @@ def index_2(request):
 def index_4(request):
     return render(request, "index4.html")
 
+
 def dummy(request):
     return render(request, "dummy.html")
+
 
 def uploadFile(request):
 	if request.method == "POST":
@@ -50,13 +52,23 @@ def upload_file(request):
     else:
         form = UploadFileForm()
 
+
     args = {}
     args.update(csrf(request))
 
     args['form'] = form
-    return render(request, 'index2.html', args)
+
+    return render(request, 'index2.html')
 
 
+def get_text(request):
+    if request.method == 'POST':
+        text = UploadFile(texttext=request.FILES['texttext'])
+        text.save()
+        print(text)
+        return HttpResponse('success')
+    else:
+        return HttpResponse('fail')
 
 
 

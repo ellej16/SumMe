@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee4497ea-968e-4ba7-81c0-f57431458415" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebApp/summe_project/summe_app/models.py" afterPath="$PROJECT_DIR$/WebApp/summe_project/summe_app/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebApp/summe_project/summe_app/views.py" afterPath="$PROJECT_DIR$/WebApp/summe_project/summe_app/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebApp/summe_project/.idea/workspace.xml" afterPath="$PROJECT_DIR$/WebApp/summe_project/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="ee4497ea-968e-4ba7-81c0-f57431458415" name="Default" comment="" />
     <ignored path="SumMe.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
