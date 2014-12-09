@@ -84,7 +84,8 @@ body
 	border-top: 2px solid black;
 	text-align: center;
 	background: #544b52;
-	height: 100px;
+	min-height: 100px;
+    -webkit-box-flex: 1;
 }
 
 #footer p

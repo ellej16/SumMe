@@ -83,7 +83,8 @@ body
 	border-top: 2px solid black;
 	text-align: center;
 	background: #544b52;
-	height: 100px;
+	min-height: 100px;
+    -webkit-box-flex: 1;
 }
 
 #footer p
@@ -120,19 +121,19 @@ body
 	padding: 10px;
 }
 
-input#textBox
+textarea#textBox
 {
-	height: 200px;
-	width: 370px;
-	margin-left: 10px;
-	margin-top: 10px;
+    height: 170px;
+	width: 463px;
+	margin-left: 20px;
+	margin-top: 20px;
 }
 input#uploadBtn
 {
 	height: 20px;
 	width: 70px;
 	margin-left: 20px;
-	margin-top: 70px;
+	margin-top: 5px;
 	background: #dd4a17;
 }
 

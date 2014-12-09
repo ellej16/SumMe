@@ -83,7 +83,8 @@ body
 	border-top: 2px solid black;
 	text-align: center;
 	background: #544b52;
-	height: 100px;
+	min-height: 100px;
+    -webkit-box-flex: 1;
 }
 
 #footer p
@@ -97,7 +98,8 @@ body
 	-webkit-box-orient: horizontal;
 	margin-left: 250px;
 	margin-right: 250px;
-	margin-top: 0px;
+	'''margin-top: 0px;'''
+    display: -webkit-box;
 	font-weight: bold;
 }
 

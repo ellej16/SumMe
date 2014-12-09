@@ -7,6 +7,8 @@ from django.shortcuts import render_to_response
 
 from summe_app.forms import UploadFileForm
 from summe_app.models import UploadFile
+from summe_app.models import GetText
+from summe_app.forms import GetTextForm
 from django.core.context_processors import csrf
 import cgi
 
@@ -52,23 +54,25 @@ def upload_file(request):
     else:
         form = UploadFileForm()
 
-
+    '''NO NEED, DUMMY LANG TONG BABA. TEST
     args = {}
     args.update(csrf(request))
 
     args['form'] = form
+    '''
 
     return render(request, 'index2.html')
 
 
 def get_text(request):
     if request.method == 'POST':
-        text = UploadFile(texttext=request.FILES['texttext'])
-        text.save()
-        print(text)
-        return HttpResponse('success')
+        form = GetTextForm(request.POST)
+        if form.is_valid():
+            text = form.cleaned_data
+            print(text)
+            return HttpResponse("success")
     else:
-        return HttpResponse('fail')
+        return HttpResponse("fail")
 
 
 

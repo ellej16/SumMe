@@ -13,3 +13,7 @@ class File(models.Model):
 
 class UploadFile(models.Model):
     docfile = models.FileField(upload_to='files/%Y/%m/%d')
+
+
+class GetText(models.Model):
+    txt = models.CharField(max_length =200)

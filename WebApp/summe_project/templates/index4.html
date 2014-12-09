@@ -30,16 +30,16 @@
 			<div id="middle_div">
 			<section>
 				<!-- Post ng data sa textfiles -->
-				<form method="POST"action="get_text"> {% csrf_token %}
+				<form method="POST" action="get_text">
+                    {% csrf_token %}
                     {{ form }}
-					<input id="uploadBtn" type="submit" value="SumMe">
-					<input id="textBox" type="text" name="title"><br>
-				</form>
+					<textarea id="textBox" type="text" name="txt"></textarea><br>
+				    <input id="uploadBtn" type="submit" value="SumMe">
+                </form>
 			</section>
 			</div>
-			<footer id="footer">
-				<p>Copyrights</p>
-			</footer>
 	</div> <!-- END DIV main_wrapper -->
-
+<footer id="footer">
+    <p>Copyrights</p>
+</footer>
 </body></html>
