@@ -9,8 +9,8 @@ from summe_app.forms import UploadFileForm
 from summe_app.models import UploadFile
 from summe_app.models import GetText
 from summe_app.forms import GetTextForm
-from django.core.context_processors import csrf
-import cgi
+import requests
+from bs4 import BeautifulSoup
 
 
 # Create your views here.
@@ -74,6 +74,17 @@ def get_text(request):
     else:
         return HttpResponse("fail")
 
+
+def spider(max_pages):
+    page = 1
+    while page <= max_pages:
+        url = 'sampleText.html'
+        source_code = requests.get(url)
+        plain_text = source_code.text
+        soup = BeautifulSoup(plain_text)
+        for parag in soup.findAll('p', {'class': 'first'}):
+            justin = parag.get('p')
+            print(justin)
 
 
 '''
