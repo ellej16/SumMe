@@ -17,3 +17,6 @@ class UploadFile(models.Model):
 
 class GetText(models.Model):
     txt = models.CharField(max_length =200)
+
+class GetUrl(models.Model):
+    txt = models.CharField(max_length =200)

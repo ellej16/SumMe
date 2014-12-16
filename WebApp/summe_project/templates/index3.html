@@ -29,9 +29,11 @@
 			<div id="middle_div">
 			<section>
 				<!-- Post ng data sa textfiles -->
-				<form method="POST"action="uploadFile"> {% csrf_token %}
+				<form method="POST" action="web_crawler"> {% csrf_token %}
+
 					<input id="uploadBtn" type="submit" value="SumMe">
-					<input id="textBox" type="text" name="title"><br>
+                    {{ form }}
+					<input id="textBox" type="text" name="txt"><br>
 				</form>
 			</section>
 			</div>

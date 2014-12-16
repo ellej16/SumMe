@@ -8,7 +8,7 @@ from django.shortcuts import render_to_response
 from summe_app.forms import UploadFileForm
 from summe_app.models import UploadFile
 from summe_app.models import GetText
-from summe_app.forms import GetTextForm
+from summe_app.forms import GetTextForm, GetUrlForm
 import requests
 from bs4 import BeautifulSoup
 
@@ -35,14 +35,14 @@ def index_4(request):
 def dummy(request):
     return render(request, "dummy.html")
 
-
+'''
 def uploadFile(request):
 	if request.method == "POST":
 		File(textFile=request.POST['title']).save()
 		return render(request,"index2.html", {"message":"Successfully summarized!"})
 	else:
 		return render(request,"index.html",{"message": ""})
-
+'''
 
 def upload_file(request):
     if request.method == 'POST':
@@ -75,16 +75,21 @@ def get_text(request):
         return HttpResponse("fail")
 
 
-def spider(max_pages):
-    page = 1
-    while page <= max_pages:
-        url = 'sampleText.html'
-        source_code = requests.get(url)
-        plain_text = source_code.text
-        soup = BeautifulSoup(plain_text)
-        for parag in soup.findAll('p', {'class': 'first'}):
-            justin = parag.get('p')
-            print(justin)
+def web_crawler(request):
+    if request.method == 'POST':
+        form = GetUrlForm(request.POST)
+        if form.is_valid():
+            text = form.cleaned_data
+            url = text['txt']
+            source_code = requests.get(url)
+            plain_text = source_code.text
+            soup = BeautifulSoup(plain_text)
+            # if you want to gather links for a web crawler
+            for link in soup.findAll('p'):
+                print(link.string)
+            return HttpResponse("success")
+        else:
+            return HttpResponse("fail")
 
 
 '''
