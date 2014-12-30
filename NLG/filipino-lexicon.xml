@@ -462,6 +462,7 @@
 	<word>
 		<base>alis</base>
 		<category>verb</category>
+		<focus>actor</focus>
 	</word>
 	<word>
 		<base>alitan</base>
