@@ -19,6 +19,7 @@ def makeInflections(word):
         
         
     if word.category == "VERB":
+	
         inflections["infinitive"] = verb_inf(word)
         inflections["to-infinitive"] = verb_to_inf(word)
         inflections["present"] = verb_present(word)
@@ -27,6 +28,7 @@ def makeInflections(word):
         inflections["past_participle"] = verb_past_participle(word)
         inflections["present_progressive"] = verb_present_progressive(word)
         inflections["past_progressive"] = verb_past_progressive(word)
+        inflections["focus"] = verb_focus(word)
     if word.category == "ADJECTIVE":
         inflections["superlative"] = adj_superlative(word)
         inflections["comparative"] = adj_comparative(word)
@@ -34,6 +36,15 @@ def makeInflections(word):
         inflections["past"] = verb_past(word)
     return inflections
 
+def verb_focus(word):
+	if "focus"  in word.features:
+		if word.features["focus"] == "actor":
+			print("yay")
+		else:
+			print("wtf")
+	else:
+	#base lang iaaaoutput pag wala.
+		return word.base
     
 def noun_plural(word):
     base = word.base
