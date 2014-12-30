@@ -37,8 +37,13 @@ def makeInflections(word):
     return inflections
 
 def verb_focus(word):
+	base = word.base
 	if "focus"  in word.features:
-		return word.features["focus"]
+		if word.features["focus"]=="actor"
+			if base[0] in vowels:
+				return "um"+base
+			elif base[0] in consonants:
+				return base[0]+um+base[1:]
 	else:
 		return word.base
     
