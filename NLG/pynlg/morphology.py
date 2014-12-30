@@ -38,12 +38,8 @@ def makeInflections(word):
 
 def verb_focus(word):
 	if "focus"  in word.features:
-		if word.features["focus"] == "actor":
-			print("yay")
-		else:
-			print("wtf")
+		return word.features["focus"]
 	else:
-	#base lang iaaaoutput pag wala.
 		return word.base
     
 def noun_plural(word):
