@@ -8,6 +8,7 @@
   <base>abandon</base>
   <category>verb</category>
   <id>E0006429</id>
+  <focus>actor</focus>
   <ditransitive/>
   <transitive/>
 </word>
@@ -37650,4 +37651,5 @@
   <category>noun</category>
   <id>E0065982</id>
 </word>
+
 </lexicon>

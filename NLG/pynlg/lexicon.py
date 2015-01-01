@@ -9,7 +9,7 @@ from collections import defaultdict
 
 import pynlg.morphology as morph
 
-DEFAULT_PATH = os.path.realpath("C:/Documents and Settings/lenovo/Desktop/SumMe/NLG/default-lexicon.xml")
+DEFAULT_PATH = os.path.realpath("C:/users/rihanna/Documents/pol/ThesisIt/SumMe/NLG/default-lexicon.xml")
 
 
 class Word():
