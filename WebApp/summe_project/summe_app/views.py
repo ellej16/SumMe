@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from summe_app.models import File
-from django.http import HttpResponseRedirect, HttpResponse
+from django.http import HttpResponseRedirect, HttpResponse, StreamingHttpResponse
 from django.template import RequestContext
 from django.core.urlresolvers import reverse
 from django.shortcuts import render_to_response
@@ -11,6 +11,9 @@ from summe_app.models import GetText
 from summe_app.forms import GetTextForm, GetUrlForm
 import requests
 from bs4 import BeautifulSoup
+from django.http import JsonResponse
+import io
+from django.core.servers.basehttp import FileWrapper
 
 
 # Create your views here.
@@ -44,13 +47,29 @@ def uploadFile(request):
 		return render(request,"index.html",{"message": ""})
 '''
 
+'''added January 1,2015'''
+'''working right now'''
+
+def download(request):
+    myfile = io.StringIO()
+    myfile.write("I'm just trying this if its working...")
+    myfile.flush()
+    myfile.seek(0)
+    response = HttpResponse(FileWrapper(myfile), content_type='text/plain')
+    response['Content-Disposition'] = 'attachment; filename=Test_file.txt'
+    return response
+
+
+'''end here'''
+
 def upload_file(request):
     if request.method == 'POST':
         form = UploadFileForm(request.POST, request.FILES)
         if form.is_valid():
             instance = UploadFile(docfile=request.FILES['docfile'])
             instance.save()
-            return HttpResponse("uploaded %s" % request.FILES['docfile'])
+            #return HttpResponse("uploaded %s" % request.FILES['docfile'])
+            return render(request, "testOutput.html")
     else:
         form = UploadFileForm()
 
@@ -63,6 +82,18 @@ def upload_file(request):
 
     return render(request, 'index2.html')
 
+'''NEW METHOD FOR READ/WRITE FILE'''
+
+'''
+def read_file():
+    f = open("static/files/Jokes_2.txt", "w")
+    f.write(str(p))
+    f.close()
+    p.close()
+'''
+
+'''END HERE'''
+
 
 def get_text(request):
     if request.method == 'POST':
@@ -70,7 +101,7 @@ def get_text(request):
         if form.is_valid():
             text = form.cleaned_data
             print(text)
-            return HttpResponse("success")
+            return HttpResponse(text['txt'])
     else:
         return HttpResponse("fail")
 
@@ -84,9 +115,9 @@ def web_crawler(request):
             source_code = requests.get(url)
             plain_text = source_code.text
             soup = BeautifulSoup(plain_text)
-            # if you want to gather links for a web crawler
-            for link in soup.findAll('p'):
-                print(link.string)
+            # web crawl
+            for paragraph in soup.findAll('p'):
+                print(paragraph)
             return HttpResponse("success")
         else:
             return HttpResponse("fail")

@@ -12,7 +12,7 @@ class File(models.Model):
 
 
 class UploadFile(models.Model):
-    docfile = models.FileField(upload_to='files/%Y/%m/%d')
+    docfile = models.FileField(upload_to='files')
 
 
 class GetText(models.Model):
