@@ -101,7 +101,8 @@ def get_text(request):
         if form.is_valid():
             text = form.cleaned_data
             print(text)
-            return HttpResponse(text['txt'])
+            #return HttpResponse(text['txt'])
+            return render(request, "testOutput.html")
     else:
         return HttpResponse("fail")
 
