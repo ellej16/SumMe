@@ -37651,5 +37651,20 @@
   <category>noun</category>
   <id>E0065982</id>
 </word>
+<<<<<<< HEAD
+<word>
+  <base>kusinero</base>
+  <category>noun</category>
+ </word>
+<word>
+  <base>ang</base>
+  <category>determiner</category>
+ </word>
+ <word>
+  <base>nagluluto</base>
+  <category>verb</category>
+ </word>
+=======
 
+>>>>>>> 5a9d9c55583b036fb12d9bf6522af720b36dd6aa
 </lexicon>
