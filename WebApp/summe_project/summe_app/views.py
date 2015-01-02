@@ -50,15 +50,27 @@ def uploadFile(request):
 '''added January 1,2015'''
 '''working right now'''
 
+def function_ni_paul_kuno(text):
+    return text.upper()
+
+
+def sample_text():
+    text = "justin ay pogi"
+    return text
+
+def get_here(text):
+    return text
+
 def download(request):
     myfile = io.StringIO()
-    myfile.write("I'm just trying this if its working...")
+    text = request.POST['text']
+    #print(function_ni_paul_kuno(text))
+    myfile.write(function_ni_paul_kuno(text))
     myfile.flush()
     myfile.seek(0)
     response = HttpResponse(FileWrapper(myfile), content_type='text/plain')
     response['Content-Disposition'] = 'attachment; filename=Test_file.txt'
     return response
-
 
 '''end here'''
 
@@ -99,10 +111,10 @@ def get_text(request):
     if request.method == 'POST':
         form = GetTextForm(request.POST)
         if form.is_valid():
-            text = form.cleaned_data
+            text = form.cleaned_data['txt']
             print(text)
             #return HttpResponse(text['txt'])
-            return render(request, "testOutput.html")
+            return render(request, "testOutput.html", {"text" : text})
     else:
         return HttpResponse("fail")
 
@@ -118,10 +130,13 @@ def web_crawler(request):
             soup = BeautifulSoup(plain_text)
             # web crawl
             for paragraph in soup.findAll('p'):
-                print(paragraph)
-            return HttpResponse("success")
+                result = paragraph.string
+                print(result)
+            return render(request, "testOutput2.html")
+            #return HttpResponse("success")
         else:
             return HttpResponse("fail")
+
 
 
 '''
