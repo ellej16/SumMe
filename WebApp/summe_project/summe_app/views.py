@@ -58,6 +58,7 @@ def sample_text():
     text = "justin ay pogi"
     return text
 
+
 def get_here(text):
     return text
 
@@ -65,7 +66,7 @@ def download(request):
     myfile = io.StringIO()
     text = request.POST['text']
     #print(function_ni_paul_kuno(text))
-    myfile.write(function_ni_paul_kuno(text))
+    myfile.write(get_here(text))
     myfile.flush()
     myfile.seek(0)
     response = HttpResponse(FileWrapper(myfile), content_type='text/plain')
@@ -129,10 +130,13 @@ def web_crawler(request):
             plain_text = source_code.text
             soup = BeautifulSoup(plain_text)
             # web crawl
+            text = [""]
             for paragraph in soup.findAll('p'):
-                result = paragraph.string
-                print(result)
-            return render(request, "testOutput2.html")
+                #text = paragraph.string
+                text.append(paragraph.string)
+                #print(text)
+            return render(request, "testOutput.html", {"text" : text})
+            #return render(request, "testOutput2.html")
             #return HttpResponse("success")
         else:
             return HttpResponse("fail")
