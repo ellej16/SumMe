@@ -5,7 +5,7 @@
     <title>TEST OUTPUT</title>
 </head>
 <body>
-<p>Thank you for downloading</p> {{  text }}
+<p>Thank you for downloading</p> {{ new2 }}
 <form action = "/download" method="POST" target ="_blank">
     {% csrf_token %}
     <input type="hidden" name="text" value="{{ text }}">

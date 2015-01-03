@@ -38,6 +38,7 @@ def index_4(request):
 def dummy(request):
     return render(request, "dummy.html")
 
+
 '''
 def uploadFile(request):
 	if request.method == "POST":
@@ -62,11 +63,12 @@ def sample_text():
 def get_here(text):
     return text
 
+
 def download(request):
     myfile = io.StringIO()
     text = request.POST['text']
     #print(function_ni_paul_kuno(text))
-    myfile.write(get_here(text))
+    myfile.write(text)
     myfile.flush()
     myfile.seek(0)
     response = HttpResponse(FileWrapper(myfile), content_type='text/plain')
@@ -130,12 +132,17 @@ def web_crawler(request):
             plain_text = source_code.text
             soup = BeautifulSoup(plain_text)
             # web crawl
-            text = [""]
+            text_list = [""]
+            con = '\n'
+            new2 = [""]
             for paragraph in soup.findAll('p'):
                 #text = paragraph.string
-                text.append(paragraph.string)
-                #print(text)
-            return render(request, "testOutput.html", {"text" : text})
+                text_list.append(paragraph.string)
+                new = [(x if x is not None else '') for x in text_list]
+                new2 = con.join(new)
+                #new = con.join(text)
+                print(new2)
+            return render(request, "testOutput.html", {"text" : new2})
             #return render(request, "testOutput2.html")
             #return HttpResponse("success")
         else:
