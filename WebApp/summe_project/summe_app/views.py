@@ -40,7 +40,7 @@ def dummy(request):
 
 
 def waiting(request):
-    return render(request, "testOutput2.html")
+    return render(request, "waiting.html")
 
 '''
 def uploadFile(request):
@@ -82,7 +82,7 @@ def download(request):
 
 '''new download function for file upload'''
 
-
+'''
 def download_for_file(request):
     myfile = io.StringIO()
     text = request.POST['text']
@@ -93,6 +93,7 @@ def download_for_file(request):
     response = HttpResponse(FileWrapper(myfile), content_type='text/plain')
     response['Content-Disposition'] = 'attachment; filename=Test_file.txt'
     return response
+'''
 
 '''end here'''
 

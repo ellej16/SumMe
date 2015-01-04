@@ -146,6 +146,11 @@ a:visited{
     color: black;
 }
 
+#mybody{
+    text-align:center;
+    font-weight: bold;
+}
+
 /* -----------------FONT SECTION--------------------- */
 
 

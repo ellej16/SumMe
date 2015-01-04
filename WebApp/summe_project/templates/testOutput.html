@@ -16,17 +16,16 @@
 	</header>
 	<div id="main_wrapper">
 		<section id="section_tab">
-            <div id="linkTab"><p class="arial">CLICK</p></div>
-			<div id="linkTab"><p class="arial">DOWNLOAD</p></div>
-            <div id="fileTab"><p class="arial"></p></div>
+
 		</section> <!--- END DIV TAB -->
 			<div id="middle_div">
-			<section>
-				<p>Thank you for downloading</p> {{ newfile }}
+			<section id ="mybody">
+				<p>Thank you for downloading</p> <!--{{ text }}-->
+                    <textarea id="textBox" type="text" name="txt"> {{ text }} </textarea><br>
                     <form action = "/download" method="POST" target ="_blank">
                     {% csrf_token %}
                     <input type="hidden" name="text" value="{{ text }}">
-                    <button>download</button>
+                    <button>DOWNLOAD</button>
                     </form>
 			</section>
 			</div>
