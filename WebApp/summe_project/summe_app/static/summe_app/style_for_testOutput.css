@@ -1,0 +1,182 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+header, section, footer
+{
+	display: block;
+}
+
+#top_head
+{
+	height: 40px;
+	min-width: 1000px;
+	background: #00a5e3;
+	border-bottom: 1px solid #e8e8e8;
+	padding-bottom: 1px;
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+
+}
+
+#top_head p
+{
+	font-size: 30px;
+	padding-left: 30px;
+	padding-top: 3px;
+	color: #ffffff;
+}
+#notif{
+    height: 20px;
+	min-width: 1000px;
+	background: red;
+	border-bottom: 1px solid #e8e8e8;
+	padding-bottom: 1px;
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+}
+#notif p{
+    font-size: 15px;
+	padding-left: 430px;
+	padding-top: 3px;
+	color: #ffffff;
+}
+
+body
+{
+	width: 100%;
+	background: #f1f1f1;
+	display: block;
+
+}
+
+#main_wrapper
+{
+	width: 1000px;
+	margin: 50px auto;
+	display:-webkit-box;
+	-webkit-box-orient: vertical;
+
+}
+
+#middle_div
+{
+	width: 500px;
+	height: 250px;
+	margin: 0px auto;
+	display: -webkit-box;
+	background: #ffffff;
+	-webkit-box-orient: vertical;
+	-webkit-box-flex: 1;
+	border: 2px solid e0dbdb;
+    -webkit-border-bottom-left-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+}
+
+#footer
+{
+	margin-top: 140px;
+	margin-bottom: -50px;
+/*	margin: 50px 0px;*/
+	border-top: 2px solid black;
+	text-align: center;
+	background: #544b52;
+	min-height: 100px;
+    -webkit-box-flex: 1;
+}
+
+#footer p
+{
+	color: #ffffff;
+}
+
+#section_tab
+{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	margin-left: 250px;
+	margin-right: 250px;
+	margin-top: 0px;
+	font-weight: bold;
+}
+
+
+#fileTab
+{
+	background: #ffffff;
+	margin:0px;
+	height:10px;
+	width: 100px;
+	padding: 10px;
+}
+
+#linkTab
+{
+	background: #dd4a17;
+	margin:0px;
+	height:10px;
+	width: 100px;
+	padding: 10px;
+}
+
+
+textarea#textBox
+{
+    height: 170px;
+	width: 463px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+input#uploadBtn
+{
+	height: 20px;
+	width: 70px;
+	margin-left: 20px;
+	margin-top: 5px;
+	background: #dd4a17;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    color: black;
+}
+
+/* -----------------FONT SECTION--------------------- */
+
+
+p.arial
+{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+@font-face
+{
+	font-family: DeliciousRoman;
+	src: url(http://www.exljbris.com/dl/delicious-123.zip);
+	font-weight: 400;
+}
+
+p.sansserif
+{
+	font-family: DeliciousRoman;
+}
+*/
+
+/* GOOGLE FONT */
+
+/*
+p.googleFont
+{
+	font-family: Anton;
+	font-size: 50px;
+}
+*/
+
+/* ---------------------END FONT SECTION----------------------- */
+

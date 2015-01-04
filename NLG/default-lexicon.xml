@@ -37651,5 +37651,24 @@
   <category>noun</category>
   <id>E0065982</id>
 </word>
-
+<word>
+  <base>kusinero</base>
+  <category>noun</category>
+ </word>
+<word>
+  <base>ang</base>
+  <category>determiner</category>
+ </word>
+ <word>
+  <base>nagluluto</base>
+  <category>verb</category>
+ </word>
+<word>
+  <base>ng</base>
+  <category>preposition</category>
+</word>
+<word>
+  <base>babae</base>
+  <category>noun</category>
+</word>
 </lexicon>

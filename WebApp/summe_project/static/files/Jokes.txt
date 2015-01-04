@@ -1,0 +1,16 @@
+PEDRO: Pangarap ko po na KUMITA ng $20,000, tulad ng TATAY ko!
+TITSER: Wow! $20,000 ang suweldo ng tatay mo?
+PEDRO: Hindi po! yun din PANGARAP nya!
+--------------------
+Ano tawag sa maliit na kapre?
+>Kapreyanggot
+--------------------
+Ano tawag sa maliit na aso?
+>KapirASO
+--------------------
+Ano apelido ni Neil?
+> Neil Libag
+--------------------
+Q: Ano ang similarity ang UTOT at TULA?
+A: Pareho silang nagmula sa POET.
+------------------------

@@ -7,7 +7,7 @@
   <title>SumMe!</title>
   <meta charset="UTF-8">
   {% load staticfiles %}
-  <link rel="stylesheet" type="text/css" href="{% static "summe_app/style3.css" %}">
+  <link rel="stylesheet" type="text/css" href="{% static "summe_app/style_for_testOutput.css" %}">
 </head>
 <body>
 	<header>
@@ -16,25 +16,18 @@
 	</header>
 	<div id="main_wrapper">
 		<section id="section_tab">
-            <a href = "http://127.0.0.1:8000/file">
-			<div id="linkTab"><p class="arial">FILE</p></div>
-            </a>
-            <a href = "http://127.0.0.1:8000/link">
-			<div id="linkTab"><p class="arial">LINK</p></div>
-            </a>
-            <div id="fileTab"><p class="arial">TEXT</p></div>
-
-
+            <div id="linkTab"><p class="arial">CLICK</p></div>
+			<div id="linkTab"><p class="arial">DOWNLOAD</p></div>
+            <div id="fileTab"><p class="arial"></p></div>
 		</section> <!--- END DIV TAB -->
 			<div id="middle_div">
 			<section>
-				<!-- Post ng data sa textfiles -->
-				<form method="POST" action="get_text">
+				<p>Thank you for downloading</p> {{ newfile }}
+                    <form action = "/download" method="POST" target ="_blank">
                     {% csrf_token %}
-                    {{ form }}
-					<textarea id="textBox" type="text" name="txt"> Write something... </textarea><br>
-				    <input id="uploadBtn" type="submit" value="SumMe">
-                </form>
+                    <input type="hidden" name="text" value="{{ text }}">
+                    <button>download</button>
+                    </form>
 			</section>
 			</div>
 	</div> <!-- END DIV main_wrapper -->

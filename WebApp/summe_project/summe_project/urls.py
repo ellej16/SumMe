@@ -17,5 +17,9 @@ urlpatterns = patterns('',
     url(r'^upload_file', 'summe_app.views.upload_file'),
     url(r'^success', 'summe_app.views.dummy'),
     url(r'^get_text', 'summe_app.views.get_text'),
+    url(r'^download', 'summe_app.views.download'),
+    url(r'^download-file', 'summe_app.views.download_for_file'),
+    url(r'^waiting', 'summe_app.views.waiting'),
+    #^added January 1,2015 for file download
 
 )+static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
