@@ -115,7 +115,8 @@ def upload_file(request):
             instance.save()
             print(request.FILES['docfile'])
             #return HttpResponse("uploaded %s" % request.FILES['docfile'])
-            return render(request, "waiting.html", get_file(request.FILES['docfile']))
+            text = get_file(request.FILES['docfile'])
+            return render(request, "testOutput.html", {"text" : text})
     else:
         form = UploadFileForm()
 
