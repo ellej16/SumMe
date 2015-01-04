@@ -18,7 +18,7 @@ def getSentences(str):
 	for sent in sents:
 		sentence.append(sentNum)
 		sentence.append(sent)
-		getPOS(sent)
+		#getPOS(sent)
 		sentence.append(getPOS(sent))
 		sentNum+=1
 		sentences.append(sentence)
