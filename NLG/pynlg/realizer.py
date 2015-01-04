@@ -312,3 +312,102 @@ class PrepositionalPhrase():
         
         return " ".join(pp)
         
+
+class PredicateSubject():
+    
+    def __init__(self, subject = None, verb = None, object = None,):
+        if subject is None:
+            self.subject = []
+        elif isinstance(subject, NounPhrase):
+            self.subject = [subject]
+        else:
+            self.subject = subject
+        
+        if verb is None:
+            self.verb = []
+        elif isinstance(verb, VerbPhrase):
+            self.verb = [verb]
+        else:
+            self.verb = verb
+        
+        if object is None:
+            self.object = []
+        elif isinstance(object, NounPhrase):
+            self.object = [object]
+        else:
+            self.object = object
+        
+        
+
+    def add_subject(self, subject, position=None):
+        np_subject = NounPhrase.wrap_noun_in_np(subject)
+        
+        if position is None:
+            position = len(self.subject)
+            
+        self.subject.insert(position, np_subject)
+        
+        return np_subject
+        
+    def add_verb(self, verb, position=None):
+        vp_verb = VerbPhrase.wrap_verb_in_vp(verb)
+        self.verb.append(vp_verb)
+        return vp_verb
+        
+   
+    def set_verb_tense(self, tense):
+        for vp in self.verb:
+            vp.set_tense(tense)
+        
+    def realize(self):
+       return " ".join([self.verb[0].realize(), self.subject[0].realize()]) 
+
+	   
+class SubjectPredicate():
+    
+    def __init__(self, subject = None, verb = None, object = None,):
+        if subject is None:
+            self.subject = []
+        elif isinstance(subject, NounPhrase):
+            self.subject = [subject]
+        else:
+            self.subject = subject
+        
+        if verb is None:
+            self.verb = []
+        elif isinstance(verb, VerbPhrase):
+            self.verb = [verb]
+        else:
+            self.verb = verb
+        
+        if object is None:
+            self.object = []
+        elif isinstance(object, NounPhrase):
+            self.object = [object]
+        else:
+            self.object = object
+        
+        
+
+    def add_subject(self, subject, position=None):
+        np_subject = NounPhrase.wrap_noun_in_np(subject)
+        
+        if position is None:
+            position = len(self.subject)
+            
+        self.subject.insert(position, np_subject)
+        
+        return np_subject
+        
+    def add_verb(self, verb, position=None):
+        vp_verb = VerbPhrase.wrap_verb_in_vp(verb)
+        self.verb.append(vp_verb)
+        return vp_verb
+        
+   
+    def set_verb_tense(self, tense):
+        for vp in self.verb:
+            vp.set_tense(tense)
+        
+    def realize(self):
+        return " ay ".join([self.subject[0].realize(), self.verb[0].realize()]) 

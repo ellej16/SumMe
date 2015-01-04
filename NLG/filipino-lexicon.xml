@@ -6789,6 +6789,12 @@
 	<word>
 		<base>bughan</base>
 		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>bughan</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>bughaw</base>
@@ -6825,10 +6831,12 @@
 	<word>
 		<base>bugnusin</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>bugnutin</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>bugnutin</base>
@@ -6861,6 +6869,12 @@
 	<word>
 		<base>bugtungan</base>
 		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>bugtungan</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>bugwak</base>
@@ -6881,6 +6895,7 @@
 	<word>
 		<base>buhaghagin</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>buhagsigwasan</base>
@@ -6897,6 +6912,7 @@
 	<word>
 		<base>buhalhalin</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>buhanghang</base>
@@ -6905,14 +6921,17 @@
 	<word>
 		<base>buhanghangin</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>buhangin</base>
 		<category>noun</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>buhanginan</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>buhanginan</base>
@@ -6920,11 +6939,12 @@
 	</word>
 	<word>
 		<base>buhat</base>
-		<category>verb</category>
+		<category>noun</category>
 	</word>
 	<word>
 		<base>buhatin</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>buhatin</base>
@@ -6957,6 +6977,7 @@
 	<word>
 		<base>buhayin</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>buhayin</base>
@@ -6997,6 +7018,12 @@
 	<word>
 		<base>buhukan</base>
 		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>buhukan</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>buhukan</base>
@@ -7009,14 +7036,27 @@
 	<word>
 		<base>buhulan</base>
 		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>buhulan</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>buhulin</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>buhusan</base>
 		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>buhusan</base>
+		<category>verb</category>
+		<focus>obect</focus>
 	</word>
 	<word>
 		<base>buka</base>
@@ -7037,6 +7077,7 @@
 	<word>
 		<base>bukadkarin</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>bukado</base>
@@ -7049,6 +7090,7 @@
 	<word>
 		<base>bukahin</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>bukaka</base>
@@ -7069,6 +7111,7 @@
 	<word>
 		<base>bukalkalin</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>bukambibig</base>
@@ -7165,6 +7208,7 @@
 	<word>
 		<base>bukbukin</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>bukbukin</base>
@@ -7177,6 +7221,7 @@
 	<word>
 		<base>bukhin</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>bukid</base>
@@ -7205,6 +7250,7 @@
 	<word>
 		<base>buklatin</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>buklaw</base>
@@ -7221,6 +7267,12 @@
 	<word>
 		<base>bukluran</base>
 		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>bukluran</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>buko</base>
@@ -7249,6 +7301,12 @@
 	<word>
 		<base>buksan</base>
 		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>buksan</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>buktot</base>
@@ -7257,6 +7315,7 @@
 	<word>
 		<base>bukuhin</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>bukul-bukol</base>
@@ -7265,6 +7324,12 @@
 	<word>
 		<base>bukulan</base>
 		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>bukulan</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>bukung-bukong</base>
@@ -7293,6 +7358,7 @@
 	<word>
 		<base>bulaanin</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>bulabod</base>
@@ -7305,6 +7371,7 @@
 	<word>
 		<base>bulabugin</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>bulador</base>
@@ -7321,10 +7388,12 @@
 	<word>
 		<base>bulagain</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>bulagin</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>bulagsak</base>
@@ -7341,6 +7410,7 @@
 	<word>
 		<base>bulahawin</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>bulaid</base>
@@ -7401,6 +7471,7 @@
 	<word>
 		<base>bulanglangin</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>bulante</base>
@@ -7421,6 +7492,7 @@
 	<word>
 		<base>bulasin</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>bulastog</base>
@@ -7441,6 +7513,7 @@
 	<word>
 		<base>bulatlatin</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>bulaw</base>
@@ -7461,6 +7534,7 @@
 	<word>
 		<base>bulayin</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>bulbo</base>
@@ -7481,6 +7555,7 @@
 	<word>
 		<base>bulbugin</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>buldog</base>
@@ -7525,6 +7600,7 @@
 	<word>
 		<base>bulihin</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>bulik</base>
@@ -7549,6 +7625,7 @@
 	<word>
 		<base>bulingin</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>bulisik</base>
@@ -7561,6 +7638,7 @@
 	<word>
 		<base>bulislisin</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>bulitas</base>
@@ -7577,6 +7655,7 @@
 	<word>
 		<base>bulkanasyin</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>bulkanika</base>
@@ -7617,10 +7696,17 @@
 	<word>
 		<base>bulsahan</base>
 		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>bulsahan</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>bulsahin</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>bulsilyo</base>
@@ -7637,6 +7723,7 @@
 	<word>
 		<base>bultakin</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>bulto</base>
@@ -7669,6 +7756,7 @@
 	<word>
 		<base>bulukin</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>bululos</base>
@@ -7713,6 +7801,7 @@
 	<word>
 		<base>bulusin</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>bulusok</base>
@@ -7737,6 +7826,7 @@
 	<word>
 		<base>bulutungin</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>bulutungin</base>
@@ -7765,562 +7855,707 @@
 	<word>
 		<base>bulyawan</base>
 		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>bulyawan</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>bumaak</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumaba</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumabad</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumabag</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumabaw</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumagabag</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumagakbak</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumagal</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumagay</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumagbag</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumagisbis</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumago</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumagsak</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumagtas</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumagyo</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumaha</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumahagi</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumahaw</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumahin</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumaho</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumakas</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumakat</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumakay</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumakbak</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumakla</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumaklas</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumakli</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumalagbag</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumalak</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumalam</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumalangkas</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumalani</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumalantay</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumalanya</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumalasa</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumalato</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumale</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumali</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumali-baliktad</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumalibang</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumaligtad</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumalik</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumalikat</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumaliktad</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumalikwas</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumaling</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumalot</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumaltak</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumaluktot</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumanat</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumangga</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumanggit</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumanghay</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumangis</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumango</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumangon</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumantot</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumaon</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumara</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumaril</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumarkada</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumasa</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumasag</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumasbas</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumaso</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumati</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumatik</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumatikos</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumato</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumatuta</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumawas</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumawi</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumayad</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumaybay</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumayle</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumayo</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumbunan</base>
 		<category>noun</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumerang</base>
 		<category>noun</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumili</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumigat</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumigaw</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumighani</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumigkas</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumigkis</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumigla</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumigo</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumigtal</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumigti</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumigwas</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumihag</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumiklat</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumiktima</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumilang</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumilis</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumilog</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumingit</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumira</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumiro</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumisita</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumitak</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumitay</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumitiw</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumiyahe</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumoksing</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumomba</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumoto</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumubuo</base>
 		<category>adjective</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumubuo</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumuga</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumugbog</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumuhat</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumuhay</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumuka</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumukadkad</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumukaka</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumukas</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumukol</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumula</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumulabog</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumulag</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumulagta</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumulahaw</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumulatlat</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumulong</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumulusok</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumulyaw</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumundol</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumunga</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumungad</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumunggo</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumuntis</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumusina</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumutas</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumuti</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumuwag</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumuwal</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumuwelta</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumuwis</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bumuwisit</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bundat</base>
@@ -8329,6 +8564,7 @@
 	<word>
 		<base>bundatin</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>bundok</base>
@@ -8351,10 +8587,6 @@
 		<category>noun</category>
 	</word>
 	<word>
-		<base>bunggo</base>
-		<category>verb</category>
-	</word>
-	<word>
 		<base>bungi</base>
 		<category>noun</category>
 	</word>
@@ -8364,7 +8596,7 @@
 	</word>
 	<word>
 		<base>bungi</base>
-		<category>verb</category>
+		<category>noun</category>
 	</word>
 	<word>
 		<base>bungisngis</base>
@@ -8391,8 +8623,19 @@
 		<category>noun</category>
 	</word>
 	<word>
-		<base>bunot</base>
+		<base>ipagbunot</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>ibunot</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>bunutin</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>bunso</base>
@@ -8407,8 +8650,14 @@
 		<category>noun</category>
 	</word>
 	<word>
-		<base>bunton</base>
+		<base>buntonan</base>
 		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>buntonan</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>buntot</base>
@@ -8420,15 +8669,46 @@
 	</word>
 	<word>
 		<base>bura</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>burahin</base>
 		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>bumura</base>
+		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>burda</base>
 		<category>noun</category>
 	</word>
 	<word>
-		<base>burda</base>
+		<base>burdahan</base>
 		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>burdahan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>burdahin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mag-burda</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>bumurda</base>
+		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>burdado</base>
@@ -8451,8 +8731,14 @@
 		<category>adjective</category>
 	</word>
 	<word>
-		<base>buro</base>
+		<base>burohin</base>
 		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>iburo</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>burol</base>
@@ -8472,7 +8758,17 @@
 	</word>
 	<word>
 		<base>busog</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>bumusog</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>busugin</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>butas</base>
@@ -8484,7 +8780,17 @@
 	</word>
 	<word>
 		<base>butata</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>bumutata</base>
 		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>ibutata</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>butaw</base>
@@ -8512,7 +8818,22 @@
 	</word>
 	<word>
 		<base>butingting</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>butingtingin</base>
 		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mabutingting</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mag-butingting</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 		<base>butlig</base>
@@ -8532,7 +8853,27 @@
 	</word>
 	<word>
 		<base>buwal</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>bumuwal</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>ibuwal</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mabuwal</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>buwalin</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>buwan</base>
@@ -8544,7 +8885,22 @@
 	</word>
 	<word>
 		<base>buwelta</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>bumuwelta</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>buweltahan</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>buweltahan</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>buwig</base>
@@ -8640,11 +8996,47 @@
 	</word>
 	<word>
 		<base>chupa</base>
-		<category>verb</category>
+		<category>noun</category>
 	</word>
 	<word>
-		<base>daan</base>
+		<base>chupain</base>
 		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>chumupa</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>mangchupa</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>daanan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>daanan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>dumaan</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>idaan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>daanin</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 		<base>daan</base>
