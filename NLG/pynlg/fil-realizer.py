@@ -8,7 +8,7 @@ from pynlg.lexicon import Noun, Determiner, Word
 
 
 
-class PredicateSubject():
+class SubjectPredicate():
     
     def __init__(self, subject = None, verb = None, object = None,):
         if subject is None:
@@ -58,7 +58,7 @@ class PredicateSubject():
         return " ay ".join([self.subject[0].realize(), self.verb[0].realize()]) 
 
 
-class SubjectPredicate():
+class PredicateSubject():
     
     def __init__(self, subject = None, verb = None, object = None,):
         if subject is None:

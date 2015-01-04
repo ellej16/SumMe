@@ -1,5 +1,5 @@
-from pynlg.realizer import Clause, ImperativeClause, PrepositionalPhrase, NounPhrase, SubjectPredicate, PredicateSubject
-from pynlg.lexicon import Word, XMLLexicon, Noun
+from pynlg.realizer import Clause, ImperativeClause, PrepositionalPhrase, NounPhrase, SubjectPredicate, PredicateSubject, VerbPhrase
+from pynlg.lexicon import Word, XMLLexicon, Noun, Determiner, Adjective
 
 
 class Sample():
@@ -89,16 +89,18 @@ class Sample():
                 #Nagluluto ang Kusinero
                 s1 = PredicateSubject()
 
-                np_kusinero = s1.add_subject(lex.getWord("kusinero"))
-                np_kusinero.add_determiner(lex.getWord("ang"))
-                vp_nagluluto = s1.add_verb(lex.getWord("nagluluto"))
-                np_the_curtain = NounPhrase(lex.getWord("curtain", "NOUN"), determiner=lex.getWord("the"))
-                pp_the_curtain = PrepositionalPhrase(lex.getWord("behind", "PREPOSITION"), [np_the_curtain])
+                vp_nagluluto = s1.add_verb(lex.getWord("nagluluto", "VERB"))
+                np_ang_kusinero = NounPhrase(lex.getWord("kusinero", "NOUN"))
+                pp_ng_kusinero = PrepositionalPhrase(lex.getWord("ng", "PREPOSITION"), [np_ang_kusinero])
+        
+                vp_nagluluto.add_prepositional_phrase(pp_ng_kusinero)
+        
+        
+                np_ang_babae = s1.add_subject(lex.getWord("babae"))
+                np_ang_babae.add_determiner(lex.getWord("ang"))
 
 
-                vp_nagluluto.add_prepositional_phrase(pp_the_curtain)
                 print(s1.realize())
-
 Sample.setUp1()
 Sample.setUp2()
 Sample.setUp3()
