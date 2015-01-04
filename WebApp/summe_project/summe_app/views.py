@@ -38,6 +38,7 @@ def index_4(request):
 def dummy(request):
     return render(request, "dummy.html")
 
+
 '''
 def uploadFile(request):
 	if request.method == "POST":
@@ -50,15 +51,29 @@ def uploadFile(request):
 '''added January 1,2015'''
 '''working right now'''
 
+def function_ni_paul_kuno(text):
+    return text.upper()
+
+
+def sample_text():
+    text = "justin ay pogi"
+    return text
+
+
+def get_here(text):
+    return text
+
+
 def download(request):
     myfile = io.StringIO()
-    myfile.write("I'm just trying this if its working...")
+    text = request.POST['text']
+    #print(function_ni_paul_kuno(text))
+    myfile.write(text)
     myfile.flush()
     myfile.seek(0)
     response = HttpResponse(FileWrapper(myfile), content_type='text/plain')
     response['Content-Disposition'] = 'attachment; filename=Test_file.txt'
     return response
-
 
 '''end here'''
 
@@ -99,9 +114,10 @@ def get_text(request):
     if request.method == 'POST':
         form = GetTextForm(request.POST)
         if form.is_valid():
-            text = form.cleaned_data
+            text = form.cleaned_data['txt']
             print(text)
-            return HttpResponse(text['txt'])
+            #return HttpResponse(text['txt'])
+            return render(request, "testOutput.html", {"text" : text})
     else:
         return HttpResponse("fail")
 
@@ -116,11 +132,22 @@ def web_crawler(request):
             plain_text = source_code.text
             soup = BeautifulSoup(plain_text)
             # web crawl
+            text_list = [""]
+            con = '\n'
+            new2 = [""]
             for paragraph in soup.findAll('p'):
-                print(paragraph)
-            return HttpResponse("success")
+                #text = paragraph.string
+                text_list.append(paragraph.string)
+                new = [(x if x is not None else '') for x in text_list]
+                new2 = con.join(new)
+                #new = con.join(text)
+                print(new2)
+            return render(request, "testOutput.html", {"text" : new2})
+            #return render(request, "testOutput2.html")
+            #return HttpResponse("success")
         else:
             return HttpResponse("fail")
+
 
 
 '''
