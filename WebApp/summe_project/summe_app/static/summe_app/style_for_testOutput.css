@@ -138,6 +138,13 @@ input#uploadBtn
 	background: #dd4a17;
 }
 
+#btn_download{
+    height: 20px;
+	margin-left: 20px;
+	margin-top: 5px;
+	background: #dd4a17;
+}
+
 a:link{
     text-decoration: none;
     color: black;
