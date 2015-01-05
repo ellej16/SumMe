@@ -142,12 +142,17 @@ def read_file():
 '''END HERE'''
 
 
+def get_text_holder(text):
+    return text
+
+
 def get_text(request):
     if request.method == 'POST':
         form = GetTextForm(request.POST)
         if form.is_valid():
-            text = form.cleaned_data['txt']
-            print(text)
+            text_from_form = form.cleaned_data['txt']
+            print(text_from_form)
+            text = get_text_holder(text_from_form)
             #return HttpResponse(text['txt'])
             return render(request, "testOutput.html", {"text" : text})
     else:
