@@ -1,15 +1,36 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title>TEST OUTPUT</title>
+<html lang="en"><head>
+  <!-- test.html -->
+  <!--
+  <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+  -->
+  <title>SumMe!</title>
+  <meta charset="UTF-8">
+  {% load staticfiles %}
+  <link rel="stylesheet" type="text/css" href="{% static "summe_app/style_for_testOutput.css" %}">
 </head>
 <body>
-<p>Thank you for downloading</p> {{ new2 }}
-<form action = "/download" method="POST" target ="_blank">
-    {% csrf_token %}
-    <input type="hidden" name="text" value="{{ text }}">
-    <button>download</button>
-</form>
-</body>
-</html>
+	<header>
+		<div id="top_head"><p class="arial">SumMe!</p><p>{{ message }}</p></div>
+		<!-- Sorry mali. Hahahaha {{ variable }} kapag variable -->
+	</header>
+	<div id="main_wrapper">
+		<section id="section_tab">
+
+		</section> <!--- END DIV TAB -->
+			<div id="middle_div">
+			<section id ="mybody">
+				<p>Thank you for downloading</p> <!--{{ text }}-->
+                    <textarea id="textBox" type="text" name="txt"> {{ text }} </textarea><br>
+                    <form action = "/download" method="POST" target ="_blank">
+                    {% csrf_token %}
+                    <input type="hidden" name="text" value="{{ text }}">
+                    <button>DOWNLOAD</button>
+                    </form>
+			</section>
+			</div>
+	</div> <!-- END DIV main_wrapper -->
+<footer id="footer">
+    <p>Copyrights</p>
+</footer>
+</body></html>

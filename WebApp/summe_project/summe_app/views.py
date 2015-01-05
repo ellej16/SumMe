@@ -39,6 +39,9 @@ def dummy(request):
     return render(request, "dummy.html")
 
 
+def waiting(request):
+    return render(request, "waiting.html")
+
 '''
 def uploadFile(request):
 	if request.method == "POST":
@@ -68,7 +71,7 @@ def download(request):
     myfile = io.StringIO()
     text = request.POST['text']
     #print(function_ni_paul_kuno(text))
-    myfile.write(text)
+    myfile.write(get_here(text))
     myfile.flush()
     myfile.seek(0)
     response = HttpResponse(FileWrapper(myfile), content_type='text/plain')
@@ -77,14 +80,43 @@ def download(request):
 
 '''end here'''
 
+'''new download function for file upload'''
+
+'''
+def download_for_file(request):
+    myfile = io.StringIO()
+    text = request.POST['text']
+    #print(function_ni_paul_kuno(text))
+    myfile.write(get_file(text))
+    myfile.flush()
+    myfile.seek(0)
+    response = HttpResponse(FileWrapper(myfile), content_type='text/plain')
+    response['Content-Disposition'] = 'attachment; filename=Test_file.txt'
+    return response
+'''
+
+'''end here'''
+
+
+def get_file(text):
+    con = " "
+    with open('static/files/%s' % text, 'r') as f:
+        temp = f.readlines()
+        newfile = con.join(temp)
+        print(newfile)
+    return newfile
+
+
 def upload_file(request):
     if request.method == 'POST':
         form = UploadFileForm(request.POST, request.FILES)
         if form.is_valid():
             instance = UploadFile(docfile=request.FILES['docfile'])
             instance.save()
+            print(request.FILES['docfile'])
             #return HttpResponse("uploaded %s" % request.FILES['docfile'])
-            return render(request, "testOutput.html")
+            text = get_file(request.FILES['docfile'])
+            return render(request, "testOutput.html", {"text" : text})
     else:
         form = UploadFileForm()
 
