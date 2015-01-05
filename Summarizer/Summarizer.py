@@ -18,12 +18,19 @@ def getSentences(str):
 	for sent in sents:
 		sentence.append(sentNum)
 		sentence.append(sent)
-		#getPOS(sent)
-		sentence.append(getPOS(sent))
+		ID = preprocessor.LangDetect(sent)
+		if ID == "en":
+			sentence.append(getPOS(sent))
+			print(ID+ " Huehue Bitches")
+		elif ID =="tl":
+			print(ID+" yay")
+		else :
+			print(ID + " wut")
 		sentNum+=1
 		sentences.append(sentence)
 		sentence = []
 	article.append(sentences)
+	#article = [] #clears the article altogether
 	for sent in article:
 		print(sent)
 		print("\n")
