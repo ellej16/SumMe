@@ -42,29 +42,35 @@ def dummy(request):
 def waiting(request):
     return render(request, "waiting.html")
 
-'''
-def uploadFile(request):
-	if request.method == "POST":
-		File(textFile=request.POST['title']).save()
-		return render(request,"index2.html", {"message":"Successfully summarized!"})
-	else:
-		return render(request,"index.html",{"message": ""})
-'''
-
-'''added January 1,2015'''
-'''working right now'''
-
-def function_ni_paul_kuno(text):
-    return text.upper()
-
-
-def sample_text():
-    text = "justin ay pogi"
-    return text
-
 
 def get_here(text):
     return text
+
+'''LAHAT NG NASA BABA,CALL MO LANG SILA SA FUNCTION MO PARA MAKUHA UNG VALUES NILA'''
+'''ITO PARA SA WEB CRAWL FUNCTION'''
+
+
+def text_from_web_crawler(text):
+    return text
+
+'''ITO PARA SA UPLOAD FILE, DITO NYA BINASA UNG FILE,JUST CALL THIS FUNCTION'''
+
+
+def get_file(text):
+    con = " "
+    with open('static/files/%s' % text, 'r') as f:
+        temp = f.readlines()
+        newfile = con.join(temp)
+        print(newfile)
+    return newfile
+
+'''TAWAGIN MO LANG TONG FUNCTION NA TO PARA MAKUHA MO UNG VALUE NG TEXTAREA'''
+
+
+def get_text_holder(text):
+    return text
+
+'''LAHAT NG NASA TAAS,DITO MO IPAPASA UNG VALUE'''
 
 
 def download(request):
@@ -78,34 +84,6 @@ def download(request):
     response['Content-Disposition'] = 'attachment; filename=Test_file.txt'
     return response
 
-'''end here'''
-
-'''new download function for file upload'''
-
-'''
-def download_for_file(request):
-    myfile = io.StringIO()
-    text = request.POST['text']
-    #print(function_ni_paul_kuno(text))
-    myfile.write(get_file(text))
-    myfile.flush()
-    myfile.seek(0)
-    response = HttpResponse(FileWrapper(myfile), content_type='text/plain')
-    response['Content-Disposition'] = 'attachment; filename=Test_file.txt'
-    return response
-'''
-
-'''end here'''
-
-
-def get_file(text):
-    con = " "
-    with open('static/files/%s' % text, 'r') as f:
-        temp = f.readlines()
-        newfile = con.join(temp)
-        print(newfile)
-    return newfile
-
 
 def upload_file(request):
     if request.method == 'POST':
@@ -116,6 +94,7 @@ def upload_file(request):
             print(request.FILES['docfile'])
             #return HttpResponse("uploaded %s" % request.FILES['docfile'])
             text = get_file(request.FILES['docfile'])
+            '''^^^^^JUST PASS THE VALUE HERE!!!'''
             return render(request, "testOutput.html", {"text" : text})
     else:
         form = UploadFileForm()
@@ -129,21 +108,7 @@ def upload_file(request):
 
     return render(request, 'index2.html')
 
-'''NEW METHOD FOR READ/WRITE FILE'''
 
-'''
-def read_file():
-    f = open("static/files/Jokes_2.txt", "w")
-    f.write(str(p))
-    f.close()
-    p.close()
-'''
-
-'''END HERE'''
-
-
-def get_text_holder(text):
-    return text
 
 
 def get_text(request):
@@ -153,14 +118,12 @@ def get_text(request):
             text_from_form = form.cleaned_data['txt']
             print(text_from_form)
             text = get_text_holder(text_from_form)
+            '''^^^^^JUST PASS THE VALUE HERE!!!'''
             #return HttpResponse(text['txt'])
             return render(request, "testOutput.html", {"text" : text})
     else:
         return HttpResponse("fail")
 
-
-def text_from_web_crawler(text):
-    return text
 
 def web_crawler(request):
     if request.method == 'POST':
@@ -183,6 +146,7 @@ def web_crawler(request):
                 #new = con.join(text)
                 print(new2)
                 output = text_from_web_crawler(new2)
+                '''^^^^^JUST PASS THE VALUE HERE!!!'''
             return render(request, "testOutput.html", {"text" : output})
             #return render(request, "testOutput2.html")
             #return HttpResponse("success")
@@ -190,6 +154,7 @@ def web_crawler(request):
             return HttpResponse("fail")
 
 
+'''NEVERMIND THIS SHIT SA BABA'''
 
 '''
 def upload_file(request):
