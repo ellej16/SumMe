@@ -3530,7 +3530,7 @@
 	<word>
 		<base>bayuhin</base>
 		<category>verb</category>
-		<focus>object</object>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>bayukin</base>
@@ -9055,12 +9055,62 @@
 		<category>verb</category>
 	</word>
 	<word>
+		<base>daganan</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>daganan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>dumagan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>mangdagan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>idagan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
 		<base>dagat</base>
 		<category>noun</category>
 	</word>
 	<word>
 		<base>dagdag</base>
 		<category>verb</category>
+	</word>
+	<word>
+		<base>dumagdag</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>dagdagan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>dagdagan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>idagdag</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>dagdagan</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>dagol</base>
@@ -9072,7 +9122,17 @@
 	</word>
 	<word>
 		<base>dagsa</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>dumagsa</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>dagsain</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 		<base>dagta</base>
@@ -9128,7 +9188,22 @@
 	</word>
 	<word>
 		<base>dakot</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>dakutin</base>
 		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>dumakot</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>mag-dakot</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 		<base>dakot</base>
@@ -9140,7 +9215,12 @@
 	</word>
 	<word>
 		<base>dala</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>mag-dala</base>
 		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 		<base>dalag</base>
@@ -9176,7 +9256,27 @@
 	</word>
 	<word>
 		<base>dalangin</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>dumalangin</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>ipagdalangin</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>mag-dalangin</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>idalangin</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>dalangin</base>
@@ -9188,7 +9288,17 @@
 	</word>
 	<word>
 		<base>dalaw</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>dumalaw</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>dalawin</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>dalawa</base>
@@ -9216,7 +9326,12 @@
 	</word>
 	<word>
 		<base>dalo</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>dumalo</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>dalubhasa</base>
@@ -9247,8 +9362,34 @@
 		<category>adverb</category>
 	</word>
 	<word>
-		<base>damay</base>
+		<base>dumamay</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>damayan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>damayan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mangdamay</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>idamay</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>madamay</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>damay</base>
@@ -9256,7 +9397,27 @@
 	</word>
 	<word>
 		<base>damba</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>dumamba</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>dambahan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>dambahan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mangdamba</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 		<base>dambana</base>
@@ -9265,6 +9426,7 @@
 	<word>
 		<base>damhin</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>dami</base>
@@ -9292,11 +9454,56 @@
 	</word>
 	<word>
 		<base>dampi</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>dampian</base>
 		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>dampian</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>dumampi</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>idampi</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>dampot</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>dumampot</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>damputan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>damputan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>damputin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mag-dampot</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 		<base>damulag</base>
@@ -9308,7 +9515,22 @@
 	</word>
 	<word>
 		<base>danas</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>dumanas</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>danasin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>madanas</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>dangal</base>
@@ -9328,7 +9550,22 @@
 	</word>
 	<word>
 		<base>dapo</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>dumapo</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>dapuan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>dapuan</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>darak</base>
@@ -9339,8 +9576,34 @@
 		<category>noun</category>
 	</word>
 	<word>
-		<base>dasal</base>
+		<base>dasalan</base>
 		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>dasalan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>ipagdasal</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>mag-dasal</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>dasalin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>idasal</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>datapwa't</base>
@@ -9400,7 +9663,12 @@
 	</word>
 	<word>
 		<base>dedma</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>dedmahin</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>dedo</base>
@@ -9409,6 +9677,26 @@
 	<word>
 		<base>dekwat</base>
 		<category>verb</category>
+	</word>
+	<word>
+		<base>dumekwat</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>dekwatan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>dekwwatan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>dekwatin</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>delata</base>
@@ -9433,6 +9721,16 @@
 	<word>
 		<base>demanda</base>
 		<category>verb</category>
+	</word>
+	<word>
+		<base>idemanda</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mag-demanda</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 		<base>demokrasya</base>
@@ -9564,7 +9862,27 @@
 	</word>
 	<word>
 		<base>diin</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>dumiin</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>diinan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>diinan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>idiin</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>diit</base>
@@ -9580,7 +9898,27 @@
 	</word>
 	<word>
 		<base>dikit</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>dumikit</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>dikitan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>dikitan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>idikit</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>dikit</base>
@@ -9596,7 +9934,27 @@
 	</word>
 	<word>
 		<base>dikta</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>diktahan</base>
 		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>diktahan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mag-dikta</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>idikta</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>diktador</base>
@@ -9612,7 +9970,27 @@
 	</word>
 	<word>
 		<base>dilat</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>dumilat</base>
 		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>dumilat</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>idilat</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>madilat</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>dilat</base>
@@ -9632,7 +10010,17 @@
 	</word>
 	<word>
 		<base>dilihensya</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>dumilihensya</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>idilihensya</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>dilim</base>
@@ -9656,7 +10044,17 @@
 	</word>
 	<word>
 		<base>dingas</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>dumingas</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>idingas</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>dingding</base>
@@ -9672,7 +10070,17 @@
 	</word>
 	<word>
 		<base>dinig</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>madinig</base>
 		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>idinig</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>dipa</base>
@@ -9700,7 +10108,22 @@
 	</word>
 	<word>
 		<base>diretso</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>dumiretso</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>idiretso</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>diretsohin</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>diri</base>
@@ -9720,11 +10143,26 @@
 	</word>
 	<word>
 		<base>desisyon</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>desisyonan</base>
 		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>desisyonan</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 		<base>diskubri</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>diskubrihin</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>diskurso</base>
@@ -9752,7 +10190,12 @@
 	</word>
 	<word>
 		<base>dito</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>dumito</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>ditse</base>
@@ -9780,7 +10223,12 @@
 	</word>
 	<word>
 		<base>diyan</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>dumiyan</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>diyan</base>
@@ -9812,7 +10260,17 @@
 	</word>
 	<word>
 		<base>dodo</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>dumodo</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>dodoin</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>dok</base>
@@ -9836,7 +10294,7 @@
 	</word>
 	<word>
 		<base>doon</base>
-		<category>verb</category>
+		<category>noun</category>
 	</word>
 	<word>
 		<base>doon</base>
@@ -9883,12 +10341,43 @@
 		<category>noun</category>
 	</word>
 	<word>
-		<base>dugo</base>
+		<base>dumugo</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>mag-dugo</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 		<base>dugtong</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>dumugtong</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>dugtongan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>dugtongan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>idugtong</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mag-dugtong</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 		<base>duhat</base>
@@ -9908,7 +10397,32 @@
 	</word>
 	<word>
 		<base>dukot</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>dumukot</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>dukotan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>dukotan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>dukotin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mangdukot</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>dula</base>
@@ -9944,7 +10458,12 @@
 	</word>
 	<word>
 		<base>dulot</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>idulot</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>dumi</base>
@@ -9987,8 +10506,24 @@
 		<category>adjective</category>
 	</word>
 	<word>
-		<base>dura</base>
+		<base>dumura</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>duraan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>duraan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mangdura</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 		<base>dura</base>
@@ -10000,7 +10535,17 @@
 	</word>
 	<word>
 		<base>duro</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>dumuro</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>iduro</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>durog</base>
@@ -10008,7 +10553,27 @@
 	</word>
 	<word>
 		<base>durog</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>dumurog</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>mag-durog</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>durugin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>madurog</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>dusa</base>
@@ -10275,6 +10840,21 @@
 		<category>noun</category>
 	</word>
 	<word>
+		<base>gabayan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>gabayan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>gumabay</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
 		<base>gabi</base>
 		<category>noun</category>
 	</word>
@@ -10300,7 +10880,27 @@
 	</word>
 	<word>
 		<base>gahasa</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>gumahasa</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>gahasain</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>magahasa</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>manggahasa</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 		<base>gahol</base>
@@ -10308,11 +10908,26 @@
 	</word>
 	<word>
 		<base>gala</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>gumala</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>mag-gala</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 		<base>galak</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>manggalak</base>
 		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 		<base>galang</base>
@@ -10320,15 +10935,36 @@
 	</word>
 	<word>
 		<base>galang</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>gumalang</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>galangin</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>galante</base>
 		<category>adjective</category>
 	</word>
 	<word>
-		<base>galaw</base>
+		<base>gumalaw</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>galawin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>manggalaw</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 		<base>galaw</base>
@@ -10336,7 +10972,26 @@
 	</word>
 	<word>
 		<base>galing</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>galing</base>
+		<category>adjective</category>
+	</word>
+	<word>
+		<base>galingan</base>
 		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>galingan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>gumaling</base>
+		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>galis</base>
@@ -10347,8 +11002,24 @@
 		<category>noun</category>
 	</word>
 	<word>
-		<base>galt</base>
+		<base>galitin</base>
 		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>gumalit</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>manggalit</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>magalit</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>gamit</base>
@@ -10363,8 +11034,19 @@
 		<category>noun</category>
 	</word>
 	<word>
-		<base>gamot</base>
+		<base>gamutin</base>
 		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>gumamot</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>manggamot</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 		<base>gamu-gamo</base>
@@ -10420,7 +11102,27 @@
 	</word>
 	<word>
 		<base>gapang</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>gumapang</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>gapangan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>gapangan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>gapangin</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>gapas</base>
@@ -10428,7 +11130,37 @@
 	</word>
 	<word>
 		<base>gapos</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>gumapos</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>gapusin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>gapusan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>gapusan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>manggapos</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>igapos</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>gara</base>
@@ -10447,8 +11179,19 @@
 		<category>noun</category>
 	</word>
 	<word>
-		<base>gas</base>
+		<base>mag-gas</base>
 		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>gasan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>gasan</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 		<base>gasgas</base>
@@ -10468,7 +11211,27 @@
 	</word>
 	<word>
 		<base>gasta</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>gumasta</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>gastahan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>gastahan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>magasta</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>gastador</base>
@@ -10484,7 +11247,32 @@
 	</word>
 	<word>
 		<base>gastos</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>gumastos</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>gastusan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>gastusan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>gastusin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>magastos</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>gata</base>
@@ -10508,15 +11296,56 @@
 	</word>
 	<word>
 		<base>gatong</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>gatungan</base>
 		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>gatungan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>manggatong</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>igatong</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>gawa</base>
 		<category>noun</category>
 	</word>
 	<word>
-		<base>gawa</base>
+		<base>gumawa</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>mag-gawa</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>gawain</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>magawa</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>ipaggawa</base>
+		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>gawad</base>
@@ -10532,15 +11361,56 @@
 	</word>
 	<word>
 		<base>gawi</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>igawi</base>
 		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>gumawi</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>magawi</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>gaya</base>
 		<category>adjective</category>
 	</word>
 	<word>
-		<base>gaya</base>
+		<base>gumaya</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>manggaya</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>gayahin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>magaya</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>gayahan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>gayahan</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>gaya</base>
@@ -10559,8 +11429,19 @@
 		<category>noun</category>
 	</word>
 	<word>
-		<base>gayuma</base>
+		<base>gayumahin</base>
 		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>gumayuma</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>manggayuma</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 		<base>gera</base>
@@ -10572,7 +11453,22 @@
 	</word>
 	<word>
 		<base>giba</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>gumiba</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>gibain</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>magiba</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>gigi</base>
@@ -10580,7 +11476,22 @@
 	</word>
 	<word>
 		<base>giit</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>giitin</base>
 		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>magiit</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>igiit</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>gilagid</base>
@@ -10600,7 +11511,27 @@
 	</word>
 	<word>
 		<base>giling</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>igiling</base>
 		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>gumiling</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>gilingin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mag-giling</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 		<base>gilingan</base>
@@ -10612,7 +11543,27 @@
 	</word>
 	<word>
 		<base>gilit</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>gumilit</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>gilitin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>gilitan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>gilitan</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>giliw</base>
@@ -10631,8 +11582,24 @@
 		<category>adjective</category>
 	</word>
 	<word>
-		<base>ginaw</base>
+		<base>ginawin</base>
 		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>maginaw</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>ginawan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>ginawan</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>ginaw</base>
@@ -10664,7 +11631,32 @@
 	</word>
 	<word>
 		<base>gisa</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>gisahin</base>
 		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>manggisa</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>mag-gisa</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>gumisa</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>igisa</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>gisantes</base>
@@ -10676,7 +11668,27 @@
 	</word>
 	<word>
 		<base>gising</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>gumising</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>gisingin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>manggising</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>magising</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>gitara</base>
@@ -10732,7 +11744,12 @@
 	</word>
 	<word>
 		<base>goyo</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>manggoyo</base>
 		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 		<base>grabe</base>
@@ -10768,15 +11785,55 @@
 	</word>
 	<word>
 		<base>gugol</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>maggugol</base>
 		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>gugolin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>gumugol</base>
+		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>guhit</base>
 		<category>noun</category>
 	</word>
 	<word>
+		<base>iguhit</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>gumuhit</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>guhitan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>guhitan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
 		<base>guho</base>
 		<category>noun</category>
+	</word>
+	<word>
+		<base>gumuho</base>
+		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>guho</base>
@@ -10803,8 +11860,19 @@
 		<category>noun</category>
 	</word>
 	<word>
-		<base>gulat</base>
+		<base>gumulat</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>gulatin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>manggulat</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>gulay</base>
@@ -10816,7 +11884,27 @@
 	</word>
 	<word>
 		<base>gulo</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>gumulo</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>gulohin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>gulohan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>gulohan</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>gulo</base>
@@ -10836,7 +11924,22 @@
 	</word>
 	<word>
 		<base>gulong</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>gumulong</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>gulongan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>gulongan</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>gumamela</base>
@@ -10845,14 +11948,21 @@
 	<word>
 		<base>gumising</base>
 		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 		<base>gunaw</base>
 		<category>noun</category>
 	</word>
 	<word>
-		<base>gunaw</base>
+		<base>gumunaw</base>
 		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>gunawin</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>gung gong</base>
@@ -10871,8 +11981,34 @@
 		<category>noun</category>
 	</word>
 	<word>
-		<base>gupit</base>
+		<base>gupitin</base>
 		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>gumupit</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>gupitan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>gupitan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>manggupit</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>mag-gupit</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 		<base>guro</base>
@@ -10892,7 +12028,12 @@
 	</word>
 	<word>
 		<base>gusto</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>gustohin</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>gutay</base>
@@ -10900,7 +12041,12 @@
 	</word>
 	<word>
 		<base>gutom</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>gutomin</base>
 		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 		<base>guwapo</base>
@@ -10941,6 +12087,22 @@
 	<word>
 			<base>habaan</base>
 			<category>verb</category>
+			<focus>actout</focus>
+	</word>
+	<word>
+		<base>habaan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>humaba</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>ihaba</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>habag</base>
@@ -10953,10 +12115,12 @@
 	<word>
 			<base>habagatin</base>
 			<category>verb</category>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>habagin</base>
 			<category>verb</category>
+			<focus>object</object>
 	</word>
 	<word>
 			<base>haban</base>
@@ -11037,6 +12201,12 @@
 	<word>
 			<base>habilinan</base>
 			<category>verb</category>
+			<focus>object</focus>
+	</word>
+	<word>
+		<base>habilinan</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>habilog</base>
@@ -11117,6 +12287,12 @@
 	<word>
 			<base>habulin</base>
 			<category>verb</category>
+			<focus>object</focus>
+	</word>
+	<word>
+		<base>humabol</base>
+		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 			<base>habunera</base>
@@ -11152,6 +12328,22 @@
 	</word><word>
 			<base>hadlangan</base>
 			<category>verb</category>
+			<focus>object<focus>
+	</word>
+	<word>
+		<base>hadlangan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>humadlang</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>manghadlang</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>hadyi</base>
@@ -11200,6 +12392,7 @@
 	<word>
 			<base>hagarin</base>
 			<category>verb</category>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>hagayhay</base>
@@ -11236,6 +12429,12 @@
 	<word>
 			<base>hagiksikan</base>
 			<category>verb</category>
+			<focus>actout</focus>
+	</word>
+	<word>
+		<base>hagiksikan</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>hagilap</base>
@@ -11244,6 +12443,12 @@
 	<word>
 			<base>hagilapin</base>
 			<category>verb</category>
+			<focus>object</focus>
+	</word>
+	<word>
+		<base>humagilap</base>
+		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 			<base>haging</base>
@@ -11268,14 +12473,27 @@
 	<word>
 			<base>hagisan</base>
 			<category>verb</category>
+			<focus>actout</focus>
+	</word>
+	<word>
+		<base>hagisan</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>hagisin</base>
 			<category>verb</category>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>hagkan</base>
 			<category>verb</category>
+			<focus>object</focus>
+	</word>
+	<word>
+		<base>hagkan</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>hagkis</base>
@@ -11312,6 +12530,7 @@
 	<word>
 			<base>hagpusin</base>
 			<category>verb</category>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>hagudhod</base>
@@ -11320,6 +12539,7 @@
 	<word>
 			<base>hagudhurin</base>
 			<category>verb</category>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>hagulhol</base>
@@ -11344,14 +12564,27 @@
 	<word>
 			<base>hagupitan</base>
 			<category>verb</category>
+			<focus>object</focus>
+	</word>
+	<word>
+		<base>hagupitan</base>
+		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 			<base>haguran</base>
 			<category>verb</category>
+			<focus>object</focus>
+	</word>
+	<word>
+		<base>haguran</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>hagurin</base>
 			<category>verb</category>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>hagutak</base>
@@ -11396,6 +12629,7 @@
 	<word>
 			<base>hakain</base>
 			<category>verb</category>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>hakbang</base>
@@ -11412,10 +12646,12 @@
 	<word>
 			<base>hakbangan</base>
 			<category>verb</category>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>hakbangin</base>
 			<category>verb</category>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>hakbangin</base>
@@ -11432,6 +12668,7 @@
 	<word>
 			<base>hakhakin</base>
 			<category>verb</category>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>haklit</base>
@@ -11456,6 +12693,7 @@
 	<word>
 			<base>hakutin</base>
 			<category>verb</category>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>Hala</base>
@@ -11472,6 +12710,7 @@
 	<word>
 			<base>halabasin</base>
 			<category>verb</category>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>halabid</base>
@@ -11496,6 +12735,12 @@
 	<word>
 			<base>halagahan</base>
 			<category>verb</category>
+			<focus>object</focus>
+	</word>
+	<word>
+		<base>halagahan</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>halagang balasak</base>
@@ -11508,6 +12753,12 @@
 	<word>
 			<base>halagapan</base>
 			<category>verb</category>
+			<focus>object</focus>
+	</word>
+	<word>
+		<base>halagapan</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>halaghad</base>
@@ -11536,6 +12787,12 @@
 	<word>
 			<base>halakhakan</base>
 			<category>verb</category>
+			<focus>object</focus>
+	</word>
+	<word>
+		<base>halakhakan</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>halaklakan</base>
@@ -11568,6 +12825,7 @@
 	<word>
 			<base>halamanin</base>
 			<category>verb</category>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>halamanin</base>
@@ -11588,6 +12846,12 @@
 	<word>
 			<base>halangan</base>
 			<category>verb</category>
+			<focus>object</focus>
+	</word>
+	<word>
+		<base>halangan</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>halap</base>
@@ -11656,6 +12920,7 @@
 	<word>
 			<base>halawin</base>
 			<category>verb</category>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>halay</base>
@@ -11668,6 +12933,7 @@
 	<word>
 			<base>halayin</base>
 			<category>verb</category>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>halbos</base>
@@ -11716,6 +12982,7 @@
 	<word>
 			<base>halibasin</base>
 			<category>verb</category>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>halibhib</base>
@@ -11752,6 +13019,17 @@
 	<word>
 			<base>halikan</base>
 			<category>verb</category>
+			<focus>object</focus>
+	</word>
+	<word>
+		<base>halikan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>humalik</base>
+		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 			<base>Halikayo</base>
@@ -11768,6 +13046,7 @@
 	<word>
 			<base>halikwatin</base>
 			<category>verb</category>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>halili</base>
@@ -11788,6 +13067,7 @@
 	<word>
 			<base>halimbawain</base>
 			<category>verb</category>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>halimbukay</base>
@@ -11800,6 +13080,7 @@
 	<word>
 			<base>halimhiman</base>
 			<category>verb</category>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>halimunmon</base>
@@ -11820,6 +13101,7 @@
 	<word>
 			<base>halinahin</base>
 			<category>verb</category>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>haling</base>
@@ -11868,6 +13150,7 @@
 	<word>
 			<base>halipan</base>
 			<category>verb</category>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>haliparot</base>
@@ -11888,6 +13171,7 @@
 	<word>
 			<base>haliryungin</base>
 			<category>verb</category>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>halit</base>
@@ -11896,10 +13180,17 @@
 	<word>
 			<base>halitin</base>
 			<category>verb</category>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>halkan</base>
 			<category>verb</category>
+			<focus>object</focus>
+	</word>
+	<word>
+		<base>halkan</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>halmanan</base>
@@ -11956,6 +13247,7 @@
 	<word>
 			<base>haltakin</base>
 			<category>verb</category>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>halu-halo</base>
@@ -11968,6 +13260,12 @@
 	<word>
 			<base>haluan</base>
 			<category>verb</category>
+			<focus>object</focus>
+	</word>
+	<word>
+		<base>haluan</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>haluan</base>
@@ -12000,10 +13298,12 @@
 	<word>
 			<base>halughugin</base>
 			<category>verb</category>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>haluin</base>
 			<category>verb</category>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>halukay</base>
@@ -12012,6 +13312,7 @@
 	<word>
 			<base>halukayin</base>
 			<category>verb</category>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>halukipkip</base>
@@ -12036,6 +13337,7 @@
 	<word>
 			<base>halungkatin</base>
 			<category>verb</category>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>halusan</base>
@@ -12068,6 +13370,7 @@
 	<word>
 			<base>hamakin</base>
 			<category>verb</category>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>hambal</base>
@@ -12080,6 +13383,7 @@
 	<word>
 			<base>hambalin</base>
 			<category>verb</category>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>hambalos</base>
@@ -12088,6 +13392,7 @@
 	<word>
 			<base>hambalusin</base>
 			<category>verb</category>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>hambaw</base>
@@ -12124,6 +13429,7 @@
 	<word>
 			<base>hambuhan</base>
 			<category>verb</category>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>hambuhan</base>
@@ -12168,6 +13474,7 @@
 	<word>
 			<base>hampasin</base>
 			<category>verb</category>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>hampaslupa</base>
@@ -12192,6 +13499,7 @@
 	<word>
 			<base>hamunin</base>
 			<category>verb</category>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>Han!</base>
@@ -12212,6 +13520,12 @@
 	<word>
 			<base>hanapan</base>
 			<category>verb</category>
+			<focus>object</focus>
+	</word>
+	<word>
+		<base>hanapan</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>hanapbuhay</base>
@@ -12220,6 +13534,7 @@
 	<word>
 			<base>hanapin</base>
 			<category>verb</category>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>hanay</base>
@@ -12252,6 +13567,12 @@
 	<word>
 			<base>handaan</base>
 			<category>verb</category>
+			<focus>object</object>
+	</word>
+	<word>
+		<base>handaan</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>handaan</base>
@@ -12276,6 +13597,12 @@
 	<word>
 			<base>handugan</base>
 			<category>verb</category>
+			<focus>object</object>
+	</word>
+	<word>
+		<base>handugan</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>handulan</base>
@@ -12292,6 +13619,7 @@
 	<word>
 			<base>handulungan</base>
 			<category>verb</category>
+			<focus>object</object>
 	</word>
 	<word>
 			<base>handusay</base>
@@ -12328,6 +13656,7 @@
 	<word>
 			<base>hangarin</base>
 			<category>verb</category>
+			<focus>object</object>
 	</word>
 	<word>
 			<base>hangarin</base>
@@ -12344,6 +13673,12 @@
 	<word>
 			<base>hanggahan</base>
 			<category>verb</category>
+			<focus>object</object>
+	</word>
+	<word>
+		<base>hanggahan</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>hanggahan</base>
@@ -12400,6 +13735,7 @@
 	<word>
 			<base>hanginin</base>
 			<category>verb</category>
+			<focus>object</object>
 	</word>
 	<word>
 			<base>hanglay</base>
@@ -12424,6 +13760,7 @@
 	<word>
 			<base>hanguin</base>
 			<category>verb</category>
+			<focus>object</object>
 	</word>
 	<word>
 			<base>hanimun</base>
@@ -12436,6 +13773,7 @@
 	<word>
 			<base>hanipin</base>
 			<category>verb</category>
+			<focus>object</object>
 	</word>
 	<word>
 			<base>hantad</base>
@@ -12464,6 +13802,12 @@
 	<word>
 			<base>hantungan</base>
 			<category>verb</category>
+			<focus>object</object>
+	</word>
+	<word>
+		<base>hantungan</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>hantungan</base>
@@ -12484,6 +13828,7 @@
 	<word>
 			<base>hapakin</base>
 			<category>verb</category>
+			<focus>object</object>
 	</word>
 	<word>
 			<base>hapaw</base>
@@ -12492,6 +13837,7 @@
 	<word>
 			<base>hapawin</base>
 			<category>verb</category>
+			<focus>object</object>
 	</word>
 	<word>
 			<base>hapay</base>
@@ -12544,6 +13890,7 @@
 	<word>
 			<base>hapitin</base>
 			<category>verb</category>
+			<focus>object</object>
 	</word>
 	<word>
 			<base>haplas</base>
@@ -12560,6 +13907,7 @@
 	<word>
 			<base>haplitin</base>
 			<category>verb</category>
+			<focus>object</object>
 	</word>
 	<word>
 			<base>haplos</base>
@@ -12572,6 +13920,7 @@
 	<word>
 			<base>haplusin</base>
 			<category>verb</category>
+			<focus>object</object>
 	</word>
 	<word>
 			<base>Hapniyum</base>
@@ -12600,10 +13949,17 @@
 	<word>
 			<base>hapuin</base>
 			<category>verb</category>
+			<focus>object</object>
 	</word>
 	<word>
 			<base>hapunan</base>
 			<category>verb</category>
+			<focus>object</object>
+	</word>
+	<word>
+		<base>hapunan</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>hapunan</base>
@@ -12636,6 +13992,7 @@
 	<word>
 			<base>haranahin</base>
 			<category>verb</category>
+			<focus>object</object>
 	</word>
 	<word>
 			<base>harang</base>
@@ -12652,10 +14009,17 @@
 	<word>
 			<base>harangan</base>
 			<category>verb</category>
+			<focus>object</object>
+	</word>
+	<word>
+		<base>harangan</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>harangin</base>
 			<category>verb</category>
+			<focus>object</object>
 	</word>
 	<word>
 			<base>harap</base>
@@ -12664,6 +14028,17 @@
 	<word>
 			<base>harapan</base>
 			<category>verb</category>
+			<focus>object</object>
+	</word>
+	<word>
+		<base>harapan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>humarap</base>
+		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 			<base>harapan</base>
@@ -12676,6 +14051,7 @@
 	<word>
 			<base>harapin</base>
 			<category>verb</category>
+			<focus>object</object>
 	</word>
 	<word>
 			<base>hardin</base>
@@ -12740,6 +14116,7 @@
 	<word>
 			<base>hasapin</base>
 			<category>verb</category>
+			<focus>object</object>
 	</word>
 	<word>
 			<base>hasinto</base>
@@ -12768,6 +14145,7 @@
 	<word>
 			<base>hatawin</base>
 			<category>verb</category>
+			<focus>object</object>
 	</word>
 	<word>
 			<base>hati</base>
@@ -12780,6 +14158,12 @@
 	<word>
 			<base>hatian</base>
 			<category>verb</category>
+			<focus>object</object>
+	</word>
+	<word>
+		<base>hatian</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>hatian</base>
@@ -12800,14 +14184,11 @@
 	<word>
 			<base>hatiin</base>
 			<category>verb</category>
+			<focus>object</object>
 	</word>
 	<word>
 			<base>hatiin</base>
 			<category>adjective</category>
-	</word>
-	<word>
-			<base>hatiin</base>
-			<category>verb</category>
 	</word>
 	<word>
 			<base>hatimbilang</base>
@@ -12828,6 +14209,7 @@
 	<word>
 			<base>hatinggabihin</base>
 			<category>verb</category>
+			<focus>object</object>
 	</word>
 	<word>
 			<base>hatnig</base>
@@ -12840,6 +14222,12 @@
 	<word>
 			<base>hatiran</base>
 			<category>verb</category>
+			<focus>object</object>
+	</word>
+	<word>
+		<base>hatiran</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>hatiran</base>
@@ -12864,6 +14252,17 @@
 	<word>
 			<base>hatulan</base>
 			<category>verb</category>
+			<focus>object</object>
+	</word>
+	<word>
+		<base>hatulan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>humatol</base>
+		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 			<base>haula</base>
@@ -12880,6 +14279,17 @@
 	<word>
 			<base>hawahan</base>
 			<category>verb</category>
+			<focus>object</object>
+	</word>
+	<word>
+		<base>humawa</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>hawahan</base>
+		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 			<base>Hawai</base>
@@ -12900,10 +14310,22 @@
 	<word>
 			<base>hawak-hawakan</base>
 			<category>verb</category>
+			<focus>object</object>
 	</word>
 	<word>
 			<base>hawakan</base>
 			<category>verb</category>
+			<focus>object</object>
+	</word>
+	<word>
+		<base>hawakan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>humawak</base>
+		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 			<base>hawakan</base>
@@ -12920,10 +14342,12 @@
 	<word>
 			<base>hawanan</base>
 			<category>verb</category>
+			<focus>object</object>
 	</word>
 	<word>
 			<base>hawanin</base>
 			<category>verb</category>
+			<focus>object</object>
 	</word>
 	<word>
 			<base>hawas</base>
@@ -12964,6 +14388,7 @@
 	<word>
 			<base>hawiin</base>
 			<category>verb</category>
+			<focus>object</object>
 	</word>
 	<word>
 			<base>hawili</base>
@@ -12988,6 +14413,12 @@
 	<word>
 			<base>hayaan</base>
 			<category>verb</category>
+			<focus>object</object>
+	</word>
+	<word>
+		<base>hayaan</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>hayag</base>
@@ -13032,10 +14463,6 @@
 	<word>
 			<base>hayok</base>
 			<category>adjective</category>
-	</word>
-	<word>
-			<base>hayon</base>
-			<category>verb</category>
 	</word>
 	<word>
 			<base>hayon</base>
@@ -13099,11 +14526,41 @@
 	</word>
 	<word>
 			<base>hagip</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>hagipin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mahagip</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>humagip</base>
+		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 			<base>hagis</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>humagip</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>hagipin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mahagip</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>hagod</base>
@@ -13123,7 +14580,22 @@
 	</word>
 	<word>
 			<base>hain</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+		<word>
+		<base>ihain</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>hainan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>hainan</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>haka</base>
@@ -13163,7 +14635,17 @@
 	</word>
 	<word>
 			<base>halal</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>humalal</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>halalin</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>halaman</base>
@@ -13222,12 +14704,42 @@
 			<category>verb</category>
 	</word>
 	<word>
+		<base>haluin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>humalu</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
 			<base>halughog</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>halughogin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>humalughog</base>
+		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 			<base>halukay</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>humalukay</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>halukayin</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>halukipkip</base>
@@ -13239,7 +14751,22 @@
 	</word>
 	<word>
 			<base>halungkat</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>halungkatin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>humalungkat</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>mahalungkat</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>hamak</base>
@@ -13291,11 +14818,46 @@
 	</word>
 	<word>
 			<base>handa</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>ihanda</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>humanda</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>handaan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>handaan</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>handog</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>handugan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>handugan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>ihandog</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>handusay</base>
@@ -13363,7 +14925,27 @@
 	</word>
 	<word>
 			<base>higa</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>humiga</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>higaan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>higaan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>ihiga</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>higad</base>
@@ -13379,7 +14961,32 @@
 	</word>
 	<word>
 			<base>higop</base>
-			<category>verb</category>
+			<categor>noun</category>
+	</word>
+	<word>
+		<base>humigop</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>higupin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>higupan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>higupan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>ihigop</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>higpit</base>
@@ -13395,7 +15002,12 @@
 	</word>
 	<word>
 			<base>hikab</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>humikab</base>
+		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 			<base>hikahos</base>
@@ -13415,15 +15027,51 @@
 	</word>
 	<word>
 			<base>hila</base>
-			<category>verb</category>
+			<category>noun</category>
 	</word>
+	<word>
+		<base>humila</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>hilahin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>hilahan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+
 	<word>
 			<base>hilaga</base>
 			<category>noun</category>
 	</word>
 	<word>
 			<base>hilamos</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>mag-hilamos</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>hilamusin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>hilamusan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>hilamusan</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>hilat</base>
@@ -13451,11 +15099,36 @@
 	</word>
 	<word>
 			<base>hilik</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>humilik</base>
+		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 			<base>hiling</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>humiling</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>hilingan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>hilingan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>ihiling</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>hilo</base>
@@ -13463,7 +15136,22 @@
 	</word>
 	<word>
 			<base>hilod</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>hiludin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>hiludan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>hiludan</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>hilot</base>
@@ -13490,8 +15178,19 @@
 			<category>noun</category>
 	</word>
 	<word>
-			<base>himasok</base>
-			<category>verb</category>
+		<base>himasin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>humimas</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>humimasok</base>
+		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 			<base>himasok</base>
@@ -13499,7 +15198,12 @@
 	</word>
 	<word>
 			<base>himatay</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>himatayin</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>himaymay</base>
@@ -13537,9 +15241,29 @@
 			<base>hinahanap</base>
 			<category>verb</category>
 	</word>
+		<word>
+		<base>hinahanapan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>hinahanapan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
 	<word>
 			<base>hinahon</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>huminahon</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>ihinahon</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>hinahon</base>
@@ -13559,7 +15283,27 @@
 	</word>
 	<word>
 			<base>hinang</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>huminang</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>hinangin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>hinangan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>hinangan</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>hinayang</base>
@@ -13574,8 +15318,19 @@
 			<category>noun</category>
 	</word>
 	<word>
-			<base>hinga</base>
-			<category>verb</category>
+		<base>huminga</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>hingagan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>hingahan</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>hinga</base>
@@ -13583,15 +15338,60 @@
 	</word>
 	<word>
 			<base>hingal</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>hingalin</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>hingalo</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>humingalo</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>hingalohin</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>hingi</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>humingi</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>hingiin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>hingian</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>hingian</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>manghingi</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>ihingi</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>hinhin</base>
@@ -13614,16 +15414,43 @@
 			<category>adjective</category>
 	</word>
 	<word>
-			<base>hintay</base>
-			<category>verb</category>
+		<base>hintayin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>hintayan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>manghintay</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>hintay</base>
 			<category>noun</category>
 	</word>
 	<word>
-			<base>hinto</base>
-			<category>verb</category>
+		<base>hintuan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>hintuan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>huminto</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>ihinto</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>hinto</base>
@@ -13655,7 +15482,22 @@
 	</word>
 	<word>
 			<base>hirap</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>hirapan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>hirapan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>humirap</base>
+		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 			<base>hirin</base>
@@ -13663,7 +15505,27 @@
 	</word>
 	<word>
 			<base>hirit</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>humirit</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>hiritan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>hiritan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>ihirit</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>hita</base>
@@ -13675,7 +15537,17 @@
 	</word>
 	<word>
 			<base>hitit</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>hithitin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>humithit</base>
+		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 			<base>hito</base>
@@ -13719,7 +15591,27 @@
 	</word>
 	<word>
 			<base>hiyaw</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>hiyawan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>hiyawan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>humiyaw</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>ihiyaw</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>hoy!</base>
@@ -13731,7 +15623,32 @@
 	</word>
 	<word>
 			<base>hubad</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>hubadan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>hubadan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>hubadin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mag-hubad</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>manghubad</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>hubo</base>
@@ -13740,6 +15657,11 @@
 	<word>
 			<base>hubo</base>
 			<category>verb</category>
+	</word>
+	<word>
+		<base>huboan</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>hubog</base>
@@ -13755,7 +15677,27 @@
 	</word>
 	<word>
 			<base>hugas</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>hugasan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>hugasan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>humugas</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>mag-hugas</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>hugasan</base>
@@ -13771,11 +15713,51 @@
 	</word>
 	<word>
 			<base>hugot</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>humugot</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>hugutin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>hugutan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>hugutan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+		<word>
+		<base>ihugot</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>hukay</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>humukay</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>hukayin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mag-hukay</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>hukbo</base>
@@ -13791,15 +15773,56 @@
 	</word>
 	<word>
 			<base>hula</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>hulaan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>hulaan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>humula</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>ihula</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+		<word>
+		<base>manghula</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>huli</base>
 			<category>noun</category>
 	</word>
 	<word>
-			<base>huli</base>
-			<category>verb</category>
+		<base>humuli</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>hulihin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>ihuli</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mahuli</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>hulidap</base>
@@ -13811,7 +15834,27 @@
 	</word>
 	<word>
 			<base>hulog</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>humulog</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>hulugan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>hulugan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>ihulog</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>humpak</base>
@@ -13858,6 +15901,11 @@
 			<category>noun</category>
 	</word>
 	<word>
+		<base>ibahin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
 			<base>ibaba</base>
 			<category>noun</category>
 	</word>
@@ -13875,7 +15923,17 @@
 	</word>
 	<word>
 			<base>ibig</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>ibigin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mangibig</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>ibon</base>
@@ -13895,7 +15953,37 @@
 	</word>
 	<word>
 			<base>igib</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>umigib</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>igiban</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>igiban</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>igibin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>maigib</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mag-igib</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>igkas</base>
@@ -13911,15 +15999,41 @@
 	</word>
 	<word>
 			<base>ihaw</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>ihawin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>umihaw</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>mag-ihaw</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>ihi</base>
 			<category>noun</category>
 	</word>
 	<word>
-			<base>ihi</base>
-			<category>verb</category>
+		<base>umihi</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>ihian</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>ihian</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>ihit</base>
@@ -13947,7 +16061,22 @@
 	</word>
 	<word>
 			<base>ikli</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>iklian</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>iklian</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>umikli</base>
+		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 			<base>ikmo</base>
@@ -13958,8 +16087,29 @@
 			<category>noun</category>
 	</word>
 	<word>
-			<base>ikot</base>
-			<category>verb</category>
+		<base>umikot</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>ikutan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>ikutan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>ikutin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>iikot</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>iksamin</base>
@@ -13967,7 +16117,32 @@
 	</word>
 	<word>
 			<base>ilag</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>umilag</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>ilagan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+		<word>
+		<base>ilagan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>iilag</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mangilag</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>ilalim</base>
@@ -14003,11 +16178,46 @@
 	</word>
 	<word>
 			<base>imbak</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>imbakan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>imbakan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>iimbak</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mag-imbak</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>imbento</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>imbentuhin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mag-imbento</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>maimbento</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>imbestigasyon</base>
@@ -14019,7 +16229,42 @@
 	</word>
 	<word>
 			<base>imbita</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>mangimbita</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>imbitahin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>maimbita</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>umimbita</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>umimik</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>imikin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>maimik</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>imbitasyon</base>
@@ -14031,7 +16276,7 @@
 	</word>
 	<word>
 			<base>imik</base>
-			<category>verb</category>
+			<category>noun</category>
 	</word>
 	<word>
 			<base>imitasyon</base>
@@ -14039,7 +16284,12 @@
 	</word>
 	<word>
 			<base>impake</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>mag-impake</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>impeksyon</base>
@@ -14134,16 +16384,38 @@
 			<category>adjective</category>
 	</word>
 	<word>
-			<base>ingay</base>
-			<category>verb</category>
+		<base>ingayan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>ingayan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>umingay</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>mag-ingay</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>ingay</base>
 			<category>noun</category>
 	</word>
 	<word>
-			<base>inggit</base>
-			<category>verb</category>
+		<base>inggitin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>manginggit</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>inggit</base>
@@ -14179,15 +16451,55 @@
 	</word>
 	<word>
 			<base>inip</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>mainip</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>inis</base>
-			<category>verb</category>
+			<category>adjective</category>
 	</word>
 	<word>
-			<base>init</base>
-			<category>verb</category>
+		<base>inis</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>inisin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mang-inis</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>uminit</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>initan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>initan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mag-init</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>initin</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>init</base>
@@ -14203,7 +16515,32 @@
 	</word>
 	<word>
 			<base>inom</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>uminom</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>inumin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>inuman</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>inuman</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mainom</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>inso</base>
@@ -14215,7 +16552,17 @@
 	</word>
 	<word>
 			<base>insulto</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>insultohin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mainsulto</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>intelihente</base>
@@ -14227,7 +16574,17 @@
 	</word>
 	<word>
 			<base>intindi</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>intindihin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>umintindi</base>
+		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 			<base>inutil</base>
@@ -14254,8 +16611,24 @@
 			<category>noun</category>
 	</word>
 	<word>
-			<base>ipit</base>
-			<category>verb</category>
+		<base>ipitin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>ipitan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>ipitan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>maipit</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>ipit</base>
@@ -14267,7 +16640,32 @@
 	</word>
 	<word>
 			<base>ipon</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>ipunan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>ipunan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>ipunin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>maipon</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mag-ipon</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>ipot</base>
@@ -14279,7 +16677,22 @@
 	</word>
 	<word>
 			<base>irap</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>umirap</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>irapan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>irapan</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>iri</base>
@@ -14307,7 +16720,32 @@
 	</word>
 	<word>
 			<base>isip</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>isipin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>isipan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>isipan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mag-isip</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>maisip</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>iskiper</base>
@@ -14379,11 +16817,61 @@
 	</word>
 	<word>
 			<base>iwan</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>iwanan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>iwanan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>umiwan</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>mangiwan</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>iiwan</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>iwas</base>
-			<category>verb</category>
+			<category>n</category>
+	</word>
+	<word>
+		<base>iwasan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>iwasan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>umiwas</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>mangiwas</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>iiwas</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>iwi</base>
@@ -14396,6 +16884,31 @@
 	<word>
 			<base>iyak</base>
 			<category>verb</category>
+	</word>
+	<word>
+		<base>iyakan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>iyakan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>umiyak</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>iiyak</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>maiyak</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>iyan</base>
@@ -14519,7 +17032,22 @@
 	</word>
 	<word>
 			<base>kabig</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>kumabig</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>kabigin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>makabig</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>kabihasnan</base>
@@ -14535,7 +17063,12 @@
 	</word>
 	<word>
 			<base>kabisa</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>kabisahin</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>kabisado</base>
@@ -14547,7 +17080,32 @@
 	</word>
 	<word>
 			<base>kabit</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>kumabit</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>kabitan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>kabitan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>ikabit</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mag-kabit</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>kabulastugan</base>
@@ -14603,7 +17161,22 @@
 	</word>
 	<word>
 			<base>kagat</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>kagatin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>magkagat</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>kumagat</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>kagaw</base>
@@ -14679,7 +17252,12 @@
 	</word>
 	<word>
 			<base>kailangan</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>kailanganin</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>kain</base>
@@ -14687,7 +17265,32 @@
 	</word>
 	<word>
 			<base>kain</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>kainin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>kainan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>kainan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>ikain</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mangkain</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>kaingin</base>
@@ -14727,7 +17330,17 @@
 	</word>
 	<word>
 			<base>kalabit</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>kumalabit</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>kalabitin</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>kalabog</base>
@@ -14787,11 +17400,50 @@
 	</word>
 	<word>
 			<base>kalas</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>kalasin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>kumalas</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>mag-kalas</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>kalat</base>
 			<category>adjective</category>
+	</word>
+	<word>
+		<base>kalat</base>
+		<category>noun</category>
+	</word>
+	<word>
+		<base>kalatan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+		<word>
+		<base>kalatan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>ikalat</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mag-kalat</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>kalatsutsi</base>
@@ -14871,11 +17523,41 @@
 	</word>
 	<word>
 			<base>kalog</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>kalugin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>kumalog</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>ikalog</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>kalong</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>kalungin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>kumalong</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>ikalong</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>kalsonsilyo</base>
@@ -14979,7 +17661,32 @@
 	</word>
 	<word>
 			<base>kamot</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>kamutin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>kumamot</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>mag-kamot</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>kamutan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>kamutan</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>kamote</base>
@@ -15003,7 +17710,22 @@
 	</word>
 	<word>
 			<base>kampi</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>kampihan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>kampihan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>kumampi</base>
+		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 			<base>kampo</base>
@@ -15099,7 +17821,27 @@
 	</word>
 	<word>
 			<base>kanta</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>kumanta</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>kantahan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>kantahan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>kantahin</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>kantero</base>
@@ -15127,7 +17869,32 @@
 	</word>
 	<word>
 			<base>kapa</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>kapain</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>kumapa</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>mangkapa</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>kapaan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>kapaan</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>kapag</base>
@@ -15207,7 +17974,27 @@
 	</word>
 	<word>
 			<base>kapkap</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>kapkapan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>kapkapan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mag-kapkap</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>kapkapin</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>kapok</base>
@@ -15463,7 +18250,22 @@
 	</word>
 	<word>
 			<base>katay</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>katayin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>kumatay</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>mag-katay</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>kati</base>
@@ -15499,7 +18301,22 @@
 	</word>
 	<word>
 			<base>kausap</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>kausapin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>kumausap</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>mangkausap</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>kawa</base>
@@ -15523,7 +18340,32 @@
 	</word>
 	<word>
 			<base>kaway</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>kawayan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>kawayan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>kumaway</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>mangkaway</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>kawayin</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>kawayan</base>
@@ -15563,7 +18405,32 @@
 	</word>
 	<word>
 			<base>kayod</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>kayudin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>kayudan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>kayudan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mag-kayod</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>kumayod</base>
+		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 			<base>kaysa</base>
@@ -15595,7 +18462,22 @@
 	</word>
 	<word>
 			<base>kibo</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>kiboin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>kumibo</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mangkibo</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>kibot</base>
@@ -15623,7 +18505,12 @@
 	</word>
 	<word>
 			<base>kilig</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>kiligin</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>kilik</base>
@@ -15655,7 +18542,17 @@
 	</word>
 	<word>
 			<base>kilos</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>kumilos</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>ikilos</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>kilos</base>
@@ -15683,7 +18580,12 @@
 	</word>
 	<word>
 			<base>kinig</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>makinig</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>kinina</base>
@@ -15707,7 +18609,17 @@
 	</word>
 	<word>
 			<base>kipkip</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>kipkipin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>ikipkip</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>kipot</base>
@@ -15731,7 +18643,32 @@
 	</word>
 	<word>
 			<base>kiskis</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>kumiskis</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>kiskisin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>kiskisan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>kiskisan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>ikiskis</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>kislap</base>
@@ -15791,7 +18728,22 @@
 	</word>
 	<word>
 			<base>kolekta</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>kolektahin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>kumulekta</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>mangkulekta</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>kolorete</base>
@@ -15863,7 +18815,32 @@
 	</word>
 	<word>
 			<base>kopya</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>kopyahan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>kopyahan</base>
+		<category>verb</category>
+		<focus>objective</focus>
+	</word>
+	<word>
+		<base>kumopya</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>mangkopya</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>kopyahin</base>
+		<category>verb</category>
+		<focus>objective</focus>
 	</word>
 	<word>
 			<base>koro</base>
@@ -15895,7 +18872,27 @@
 	</word>
 	<word>
 			<base>kotong</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>kotongan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>kotongan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mangkotong</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>kumotong</base>
+		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 			<base>kotse</base>
@@ -15963,7 +18960,12 @@
 	</word>
 	<word>
 			<base>kudkod</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>kudkodin</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>kudkuran</base>
@@ -15975,7 +18977,32 @@
 	</word>
 	<word>
 			<base>kuha</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>kuhain</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>kuhaan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>kuhaan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>kumuha</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>ikuha</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>kuhol</base>
@@ -16023,7 +19050,17 @@
 	</word>
 	<word>
 			<base>kulo</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>kuloan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>kuloan</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>kulog</base>
@@ -16031,7 +19068,22 @@
 	</word>
 	<word>
 			<base>kulong</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>ikulong</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>kulungan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>kulungan</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>kulot</base>
@@ -16083,7 +19135,22 @@
 	</word>
 	<word>
 			<base>kumpas</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>kumpasan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>kumpasan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>ikumpas</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>kumpil</base>
@@ -16103,7 +19170,22 @@
 	</word>
 	<word>
 			<base>kumpuni</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+		<word>
+		<base>kumumpuni</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>kumpunihin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>ikumpuni</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>kumunista</base>
@@ -16115,7 +19197,21 @@
 	</word>
 	<word>
 			<base>kumusta</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>kumusta</base>
+		<category>verb</category>
+	</word>
+	<word>
+		<base>kumustahin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mangkamusta</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>kunat</base>
@@ -16271,7 +19367,17 @@
 	</word>
 	<word>
 			<base>kuskos</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>ikuskos</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>magkuskos</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>kuskus-balungos</base>
@@ -16279,7 +19385,22 @@
 	</word>
 	<word>
 			<base>kusot</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>kusotin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>makusot</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>ikusot</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>kustilyas</base>
@@ -16307,7 +19428,17 @@
 	</word>
 	<word>
 			<base>kutos</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>kutosan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>kutosan</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>kutsara</base>
@@ -16331,7 +19462,17 @@
 	</word>
 	<word>
 			<base>kutya</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>kutyain</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mangkutya</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>kuwaderno</base>
@@ -16411,7 +19552,12 @@
 	</word>
 	<word>
 			<base>laba</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>ilaba</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>lababo</base>
@@ -16419,7 +19565,17 @@
 	</word>
 	<word>
 			<base>labag</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>lumabag</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>labagin</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>labaha</base>
@@ -16427,7 +19583,32 @@
 	</word>
 	<word>
 			<base>laban</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>labanan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>labanan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>lumaban</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>ilaban</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mag-laban</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>labandera</base>
@@ -16443,7 +19624,32 @@
 	</word>
 	<word>
 			<base>labas</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>lumabas</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>labasan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>labasan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>ilabas</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mag-labas</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>labatiba</base>
@@ -16491,15 +19697,50 @@
 	</word>
 	<word>
 			<base>ladlad</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>iladlad</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>lumadlad</base>
+		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 			<base>laga</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>ilaga</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>lagain</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mag-laga</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>lagak</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>lagakin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>lumagak</base>
+		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 			<base>lagalag</base>
@@ -16523,7 +19764,27 @@
 	</word>
 	<word>
 			<base>lagay</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>ilagay</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>lumagay</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>malagay</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mag-lagay</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>lagda</base>
@@ -16551,7 +19812,32 @@
 	</word>
 	<word>
 			<base>laglag</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>malaglag</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>ilaglag</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mag-laglag</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>laglagan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>laglagan</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>lagmak</base>
@@ -16567,11 +19853,36 @@
 	</word>
 	<word>
 			<base>lagok</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>lagukin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>lumagok</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>lagukan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>lagukan</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>lagot</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>lagutin</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>lagpak</base>
@@ -16595,15 +19906,70 @@
 	</word>
 	<word>
 			<base>laho</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>ilaho</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mag-laho</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>lahok</base>
 			<category>verb</category>
 	</word>
 	<word>
+		<base>lumahok</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>manglahok</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>ilahok</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
 			<base>lakad</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>lumakad</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>lakadin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>ilakad</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mag-lakad</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>lakadan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>lakadan</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>lakas</base>
@@ -16611,7 +19977,17 @@
 	</word>
 	<word>
 			<base>lakbay</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>lakbayin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mag-lakbay</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>laki</base>
@@ -16620,6 +19996,21 @@
 	<word>
 			<base>laki</base>
 			<category>noun</category>
+	</word>
+	<word>
+		<base>lumaki</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>lakihan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>lakihan</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>lakip</base>
@@ -16675,7 +20066,22 @@
 	</word>
 	<word>
 			<base>lamas</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>lumamas</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>lamasin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mag-lamas</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>lamat</base>
@@ -16683,7 +20089,17 @@
 	</word>
 	<word>
 			<base>lamay</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>lamayan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>lamayan</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>lambak</base>
@@ -16695,7 +20111,17 @@
 	</word>
 	<word>
 			<base>lambing</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>lambingin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mag-lambing</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>lambot</base>
@@ -16787,7 +20213,17 @@
 	</word>
 	<word>
 			<base>langoy</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>langoyin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>lumangoy</base>
+		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 			<base>lansa</base>
@@ -16871,7 +20307,22 @@
 	</word>
 	<word>
 			<base>lapit</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>lapitan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>lapitan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>ilapit</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>lapu-lapu</base>
@@ -16919,7 +20370,27 @@
 	</word>
 	<word>
 			<base>latag</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>ilatag</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>latagin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>latagan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>latagan</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>latak</base>
@@ -16927,7 +20398,22 @@
 	</word>
 	<word>
 			<base>latay</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>latayan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>latayan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>latayin</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>latian</base>
@@ -16971,11 +20457,41 @@
 	</word>
 	<word>
 			<base>layag</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>lumayag</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>mag-layag</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>layas</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>lumayas</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>layasan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>layasan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mag-layas</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>layaw</base>
@@ -17039,7 +20555,17 @@
 	</word>
 	<word>
 			<base>libang</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>mag-libang</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>libangin</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>libing</base>
@@ -17099,11 +20625,41 @@
 	</word>
 	<word>
 			<base>ligo</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>maligo</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>iligo</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>ligpit</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>ligpitin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>magligpit</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>iligpit</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mag-ligpit</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>ligta</base>
@@ -17111,7 +20667,17 @@
 	</word>
 	<word>
 			<base>ligtas</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>iligtas</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mag-ligtas</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>liha</base>
@@ -17151,7 +20717,32 @@
 	</word>
 	<word>
 			<base>liko</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>lumiko</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>iliko</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>likuan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>likuan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>likuin</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>likod</base>
@@ -17183,7 +20774,12 @@
 	</word>
 	<word>
 			<base>lilis</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>lumihis</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>lilo</base>
@@ -17199,11 +20795,41 @@
 	</word>
 	<word>
 			<base>limos</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>limusan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>limusan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>ilimos</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>manglimos</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>limot</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>limutin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>malimot</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>limpiabota</base>
@@ -17251,11 +20877,41 @@
 	</word>
 	<word>
 			<base>lingkod</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>mag-lingkod</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>linis</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>luminis</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>linisan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>linisan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mag-linis</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>linisin</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>linis</base>
@@ -17271,7 +20927,27 @@
 	</word>
 	<word>
 			<base>lipad</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>lumipad</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>lipadan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>lipadan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>lipadin</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>lipas</base>
@@ -17279,7 +20955,32 @@
 	</word>
 	<word>
 			<base>lipat</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>ilipat</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mag-lipat</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>lumipat</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>lipatan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>lipatan</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>lipistik</base>
@@ -17327,7 +21028,12 @@
 	</word>
 	<word>
 			<base>litaw</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>lumitaw</base>
+		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 			<base>litid</base>
@@ -17335,7 +21041,27 @@
 	</word>
 	<word>
 			<base>lito</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>malito</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>lituhin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>ilito</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>manglito</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>litrato</base>
@@ -17491,7 +21217,12 @@
 	</word>
 	<word>
 			<base>lukso</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>lumukso</base>
+		<category>verb</category>
+		<focus>actin</focus>
 	</word>
 	<word>
 			<base>luku-luko</base>
@@ -17555,11 +21286,41 @@
 	</word>
 	<word>
 			<base>luhod</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>lumuhod</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>luhudan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>lumuhod</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>lunok</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>lumunok</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>lunokin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>ilunok</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>lunot</base>
@@ -17567,7 +21328,17 @@
 	</word>
 	<word>
 			<base>lunsad</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>lumunsad</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>ilunsad</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>lunsod</base>
@@ -17615,7 +21386,22 @@
 	</word>
 	<word>
 			<base>lusob</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>lumusob</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>lusibin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>manglusob</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>lusog</base>
@@ -17627,7 +21413,27 @@
 	</word>
 	<word>
 			<base>lusot</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>lusutan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>lusutan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>lumusot</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>ilusot</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>lutang</base>
@@ -17635,11 +21441,51 @@
 	</word>
 	<word>
 			<base>lutas</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>lutasin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>lumutas</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>mag-lutos</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>luto</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>iluto</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>lutuin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>mag-luto</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>lutuan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>lutuan</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>luto</base>
@@ -17667,7 +21513,17 @@
 	</word>
 	<word>
 			<base>luwas</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>lumuwas</base>
+		<category>verb</category>
+		<focus>actin</focus>
+	</word>
+	<word>
+		<base>iluwas</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>luwat</base>
@@ -18099,7 +21955,27 @@
 	</word>
 	<word>
 			<base>marka</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>markahan</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>markahan</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>imarka</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>mag-marka</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>marmol</base>
@@ -18119,7 +21995,12 @@
 	</word>
 	<word>
 			<base>martsa</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>mag-martsa</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>mas</base>
@@ -18131,7 +22012,12 @@
 	</word>
 	<word>
 			<base>masahe</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>mag-masahe</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>masanay</base>
@@ -18151,7 +22037,12 @@
 	</word>
 	<word>
 			<base>masid</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>mag-masid</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>masilayan</base>
@@ -18447,7 +22338,17 @@
 	</word>
 	<word>
 			<base>mukmok</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>mag-mukmok</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>imukmok</base>
+		<category>verb</category>
+		<focus>actout</focus>
 	</word>
 	<word>
 			<base>mula</base>
@@ -18471,7 +22372,22 @@
 	</word>
 	<word>
 			<base>mumog</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>mag-mumog</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>mumogin</base>
+		<category>verb</category>
+		<focus>object</focus>
+	</word>
+	<word>
+		<base>imumog</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>muna</base>
@@ -18487,7 +22403,17 @@
 	</word>
 	<word>
 			<base>mungkahi</base>
-			<category>verb</category>
+			<category>noun</category>
+	</word>
+	<word>
+		<base>mangmungkahi</base>
+		<category>verb</category>
+		<focus>actout</focus>
+	</word>
+	<word>
+		<base>imungkahi</base>
+		<category>verb</category>
+		<focus>object</focus>
 	</word>
 	<word>
 			<base>munisipyo</base>
@@ -18537,4 +22463,4 @@
 			<base>muwebles</base>
 			<category>noun</category>
 	</word>
-</lexicon>
+</lexicon>>

@@ -1,0 +1,49 @@
+
+
+
+sa/INT
+[ report/NNT ]
+ng/INT
+[ National/NNT Disaster/NNT Risk/NNT Reduction/NNT ]
+and/INT 
+[ Management/NNT Council/NNT ]
+(/(
+[ NDRRMC/NNPT ]
+)/) 
+[ alas/NNT siyete/NNT ]
+ng/INT 
+[ umaga/NNT ] 
+ng/INT 
+[ Sabado/NNT ]
+,/, 
+nasa/INT 
+[ 24/CDT ] 
+na/RBT
+[ ang/DTT ]
+kumpirmadong/VBDT
+[ patay/NNT ]
+./.
+
+Samantala/INT
+,/, 
+nagsanib/VBT
+[ pwersa/NNT ]
+naman/RBT 
+[ ang/DTT Philippine/NNPT Coast/NNT Guard/NNT ]
+(,(
+[ PCG/NNPT ]
+),)
+at/INT 
+[ Philippine/NNPT Navy/NNT ]
+(,(
+[ PN/NNPT ]
+),)
+sa/INT paghahanap/VBT sa/INT mga/RBT nawawalang/VBT 
+[ pasahero/NNT ]
+ng/INT 
+[ pampasaherong/NNT barko/NNT ]
+ng/INT 
+[ 2Go/NNPT ]
+na/RBT
+[ MV/NNPT St./NNPT Thomas/NNPT Aquinas/NNPT ]
+./.  
