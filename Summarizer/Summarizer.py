@@ -8,13 +8,14 @@ from PreProcessing import preprocessor
 	#words(this would be a dict)
 		#word
 		#POS tag
-article =  []
+article =  [] #is this shit even needed
+
 sentences = [] # sentence number, the sentence, the tuples of words 
 			#and their corresponding POS tags, and the language id
 
 
-def chunkSents():
-	for
+#def chunkSents():
+#	for  
 
 def getSentences(str):
 	
@@ -40,8 +41,9 @@ def getSentences(str):
 		sentNum+=1
 		sentences.append(sentence)
 		sentence = []
-
-	article.append(sentences)
+		
+	return sentences
+	#article.append(sentences)
 	
 	#article = [] #clears the article altogether
 	#for sent in article:
