@@ -31,7 +31,7 @@ def getSentences(str):
 			sentence.append(ID)
 			print(ID+" "+sent)
 		elif ID =="tl":
-			#sentence.append(getFilPOS(sent))
+			sentence.append(getFilPOS(preprocessor.tokenizer(sent)))
 			sentence.append(ID)
 			print(ID+" "+sent)
 		else :
@@ -58,6 +58,6 @@ def getPOS(sent):
 		words.append(word)
 	return words
 
-#def getFilPOS(sent):
-#	words = []
-#	POS = preprocessor.filposTagger(sent)
+def getFilPOS(sent):
+	words = []
+	return preprocessor.filposTagger(sent)

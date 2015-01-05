@@ -89,14 +89,14 @@ class Sample():
                 #Nagluluto ang Kusinero
                 s1 = PredicateSubject()
 
-                vp_nagluluto = s1.add_verb(lex.getWord("nagluluto", "VERB"))
+                vp_nagluluto = s1.add_verb(lex.getWord("luto", "VERB"))
                 np_ang_kusinero = NounPhrase(lex.getWord("kusinero", "NOUN"))
                 pp_ng_kusinero = PrepositionalPhrase(lex.getWord("ng", "PREPOSITION"), [np_ang_kusinero])
         
                 vp_nagluluto.add_prepositional_phrase(pp_ng_kusinero)
         
         
-                np_ang_babae = s1.add_subject(lex.getWord("babae"))
+                np_ang_babae = s1.add_subject(lex.getWord("babae","NOUN"))
                 np_ang_babae.add_determiner(lex.getWord("ang"))
 
 
