@@ -9,7 +9,13 @@ from PreProcessing import preprocessor
 		#word
 		#POS tag
 article =  []
-sentences = [] # sentence number, the sentence, the dictionary of words
+sentences = [] # sentence number, the sentence, the tuples of words 
+			#and their corresponding POS tags, and the language id
+
+
+def chunkSents():
+	for
+
 def getSentences(str):
 	
 	sents  = preprocessor.sentence_tokenizer(str)
@@ -28,16 +34,19 @@ def getSentences(str):
 			sentence.append(ID)
 			print(ID+" "+sent)
 		else :
+			sentence.append(getPOS(sent))
 			sentence.append(ID)
 			print(ID+" "+sent)
 		sentNum+=1
 		sentences.append(sentence)
 		sentence = []
+
 	article.append(sentences)
+	
 	#article = [] #clears the article altogether
-	for sent in article:
-		print(sent)
-		print("\n")
+	#for sent in article:
+	#	print(sent)
+	#	print("\n")
 	
 def getPOS(sent):
 	words = []
