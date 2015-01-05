@@ -4,5 +4,6 @@ Notes:
 	py4j
 	requests
 	beautifulsoup
+	nltk_trainer
 	Edit Path at NLG/pynlg/lexicon.py when directory changes
 	Edit path at Summarizer/Preprocessing/Preprocessor.py when directory changes
