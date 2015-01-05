@@ -14,14 +14,26 @@ sentences = [] # sentence number, the sentence, the tuples of words
 			#and their corresponding POS tags, and the language id
 
 
-#def chunkSents():
-#	for  
+def chunkSents():
+	
+	for sents in sentences:
+		if sents[3] =="en":
+			sents.append(preprocessor.enChunk(sents[2]))
+			sentences[sents[0]] = sents
+		elif sents[3] =="tl":
+			sents.append(preprocessor.tlChunk(sents[2]))
+			sentences[sents[0]] = sents
+	return sentences
+
+
+
 
 def getSentences(str):
 	
 	sents  = preprocessor.sentence_tokenizer(str)
 	sentNum = 0
 	sentence = [] 
+	sentences = []
 	for sent in sents:
 		sentence.append(sentNum)
 		sentence.append(sent)
