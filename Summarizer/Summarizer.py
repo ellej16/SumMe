@@ -10,12 +10,13 @@ from PreProcessing import preprocessor
 		#POS tag
 article =  [] #is this shit even needed
 
+global sentences
 sentences = [] # sentence number, the sentence, the tuples of words 
 			#and their corresponding POS tags, and the language id
 
 
 def chunkSents():
-	
+	global sentences
 	for sents in sentences:
 		if sents[3] =="en":
 			sents.append(preprocessor.enChunk(sents[2]))
@@ -25,6 +26,10 @@ def chunkSents():
 			sentences[sents[0]] = sents
 	return sentences
 
+def clearMem():
+	global sentences 
+	sentences = []
+	return sentences
 
 
 
@@ -33,6 +38,7 @@ def getSentences(str):
 	sents  = preprocessor.sentence_tokenizer(str)
 	sentNum = 0
 	sentence = [] 
+	global sentences
 	sentences = []
 	for sent in sents:
 		sentence.append(sentNum)
