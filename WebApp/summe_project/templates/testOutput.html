@@ -25,7 +25,7 @@
                     <form action = "/download" method="POST" target ="_blank">
                     {% csrf_token %}
                     <input type="hidden" name="text" value="{{ text }}">
-                    <button>DOWNLOAD</button>
+                    <button id = btn_download>DOWNLOAD</button>
                     </form>
 			</section>
 			</div>
