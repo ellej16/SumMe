@@ -21,11 +21,15 @@ def getSentences(str):
 		ID = preprocessor.LangDetect(sent)
 		if ID == "en":
 			sentence.append(getPOS(sent))
-			print(ID+ " Huehue Bitches")
+			sentence.append(ID)
+			print(ID+" "+sent)
 		elif ID =="tl":
-			print(ID+" yay")
+			#sentence.append(getFilPOS(sent))
+			sentence.append(ID)
+			print(ID+" "+sent)
 		else :
-			print(ID + " wut")
+			sentence.append(ID)
+			print(ID+" "+sent)
 		sentNum+=1
 		sentences.append(sentence)
 		sentence = []
@@ -36,10 +40,13 @@ def getSentences(str):
 		print("\n")
 	
 def getPOS(sent):
-
 	words = []
 	POS = preprocessor.posTagger(sent)
 	for item in POS:
 		word = (item[0],item[1])
 		words.append(word)
 	return words
+
+#def getFilPOS(sent):
+#	words = []
+#	POS = preprocessor.filposTagger(sent)
