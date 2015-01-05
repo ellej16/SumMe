@@ -159,6 +159,9 @@ def get_text(request):
         return HttpResponse("fail")
 
 
+def text_from_web_crawler(text):
+    return text
+
 def web_crawler(request):
     if request.method == 'POST':
         form = GetUrlForm(request.POST)
@@ -171,7 +174,7 @@ def web_crawler(request):
             # web crawl
             text_list = [""]
             con = '\n'
-            new2 = [""]
+            output = [""]
             for paragraph in soup.findAll('p'):
                 #text = paragraph.string
                 text_list.append(paragraph.string)
@@ -179,7 +182,8 @@ def web_crawler(request):
                 new2 = con.join(new)
                 #new = con.join(text)
                 print(new2)
-            return render(request, "testOutput.html", {"text" : new2})
+                output = text_from_web_crawler(new2)
+            return render(request, "testOutput.html", {"text" : output})
             #return render(request, "testOutput2.html")
             #return HttpResponse("success")
         else:
