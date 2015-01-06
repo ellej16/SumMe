@@ -1,0 +1,8 @@
+Notes:
+	
+	Requires: NLTK
+	py4j
+	requests
+	beautifulsoup
+	Edit Path at NLG/pynlg/lexicon.py when directory changes
+	Edit path at Summarizer/Preprocessing/Preprocessor.py when directory changes

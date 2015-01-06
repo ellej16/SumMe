@@ -80,9 +80,9 @@ body
 	margin-top: 140px;
 	margin-bottom: -50px;
 /*	margin: 50px 0px;*/
-	border-top: 2px solid black;
+/*	border-top: 2px solid black; */
 	text-align: center;
-	background: #544b52;
+	background: #f1f1f1;
 	min-height: 100px;
     -webkit-box-flex: 1;
 }
@@ -133,6 +133,13 @@ input#uploadBtn
 {
 	height: 20px;
 	width: 70px;
+	margin-left: 20px;
+	margin-top: 5px;
+	background: #dd4a17;
+}
+
+#btn_download{
+    height: 20px;
 	margin-left: 20px;
 	margin-top: 5px;
 	background: #dd4a17;

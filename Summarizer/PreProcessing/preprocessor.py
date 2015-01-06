@@ -1,14 +1,24 @@
 from nltk.tokenize.punkt import PunktSentenceTokenizer, PunktParameters
 from nltk.tokenize import wordpunct_tokenize , sent_tokenize
-#from nltk.tag import pos_tag
 import nltk
+import os.path
+from py4j.java_gateway import JavaGateway
+
+#edit this when changind dirs
+LangPaths =os.path.realpath("C:/users/rihanna/Documents/Pol/ThesisIt/SumMe/Summarizer/langdetector/profiles/")
+
+
 punkt_param  = PunktParameters() #creates an opening for tokenizer parameters.
 punkt_param.abbrev_types = set(['gng','mr','mrs','dr']) #abbreviations further accepted goes here
 
 sentence_splitter = PunktSentenceTokenizer(punkt_param)
 tokenized = ""
+gateway = JavaGateway()
+detector = gateway.entry_point
+detector.init(LangPaths)
 
-
+def LangDetect(str):
+	return detector.detect(str)
 
 def tokenizer(str):
     
