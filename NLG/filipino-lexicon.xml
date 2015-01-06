@@ -14218,7 +14218,7 @@
 	</word>
 	<word>
 			<base>hatinig-diglap</base>
-			<category></category>
+			<category>noun</category>
 	</word>
 	<word>
 			<base>hatiran</base>
@@ -14962,7 +14962,7 @@
 	</word>
 	<word>
 			<base>higop</base>
-			<categor>noun</category>
+			<category>noun</category>
 	</word>
 	<word>
 		<base>humigop</base>
@@ -73498,7 +73498,7 @@
 		<category>noun</category>
 	</word>
 	<word>
-		<base>ra<yos=ekis/base>
+		<base>rayos=ekis</base>
 		<category>noun</category>
 	</word>
 	<word>
@@ -74828,7 +74828,7 @@
 	</word>
 	<word>
 		<base>rikonosihin</base>
-		<categoryverb</category>
+		<category>verb</category>
 	</word>
 	<word>
 		<base>rikurida</base>
@@ -85910,8 +85910,6 @@
 		<base>switch</base>
 		<category>noun</category>
 	</word>	
-
-T
 	<word>
 		<base>taad</base>
 		<category>noun</category>
@@ -87004,7 +87002,7 @@ T
 		<category>noun</category>
 	</word>
 	<word>
-		<basetagaplantsa</base>
+		<base>tagaplantsa</base>
 		<category>noun</category>
 	</word>
 	<word>
@@ -87705,7 +87703,7 @@ T
 		<category>noun</category>
 	</word>
 	<word>
-		<basetahi</base>
+		<base>tahi</base>
 		<category>noun</category>
 	</word>
 
@@ -87869,7 +87867,7 @@ T
 		<category>adjective</category>
 	</word>
 	<word>
-		<batakdang-aralin</base>
+		<base>takdang-aralin</base>
 		<category>noun</category>
 	</word>
 	<word>
@@ -88033,7 +88031,7 @@ T
 	</word>
 	<word>
 		<base>talab</base>
-		<category>adjectives</category>
+		<category>adjective</category>
 	</word>
 	<word>
 		<base>talaba</base>
@@ -88135,7 +88133,7 @@ T
 		<category>noun</category>
 	</word>
 	<word>
-		<base>stalamak</base>
+		<base>talamak</base>
 		<category>adjective</category>
 	</word>
 	<word>
@@ -94139,13 +94137,6 @@ T
 
 	<word>
 	
-		<base></base>
-		<category></category>
-
-	</word>
-
-	<word>
-	
 		<base>tuberiya</base>
 		<category>noun</category>
 
@@ -94372,7 +94363,7 @@ T
 	<word>
 	
 		<base>tugano</base>
-		<category></category>
+		<category>noun</category>
 
 	</word>
 
@@ -94530,23 +94521,10 @@ T
 	<word>
 	
 		<base>tugunan</base>
-		<category></category>
+		<category>verb</category>
 
 	</word>
 
-	<word>
-	
-		<base>verb</base>
-		<category></category>
-
-	</word>
-
-	<word>
-	
-		<base>tugunan</base>
-		<category>noun</category>
-
-	</word>
 
 	<word>
 	
@@ -98576,7 +98554,7 @@ T
 
 	<word>
 	
-		<base><tuwalyita/base>
+		<base>tuwalyita</base>
 		<category>noun</category>
 
 	</word>
@@ -98676,40 +98654,6 @@ T
 
 	</word>
 
-	<word>
-	
-		<base></base>
-		<category></category>
-
-	</word>
-
-	<word>
-	
-		<base></base>
-		<category></category>
-
-	</word>
-
-	<word>
-	
-		<base></base>
-		<category></category>
-
-	</word>
-
-	<word>
-	
-		<base></base>
-		<category></category>
-
-	</word>
-
-	<word>
-	
-		<base></base>
-		<category></category>
-
-	</word>
 
 	<word>
 	
@@ -98963,7 +98907,7 @@ T
 
 	<word>
 	
-		<base><ubos-lakas/base>
+		<base>ubos-lakas</base>
 		<category>adjective</category>
 
 	</word>
@@ -100205,7 +100149,7 @@ T
 
 	<word>
 	
-		<base><ulungguro/base>
+		<base>ulungguro</base>
 		<category>noun</category>
 
 	</word>
@@ -106656,4 +106600,90 @@ T
 		<base>zoo</base>
 		<category>noun</category>
 	</word>
+
+</base>
+</base>
+</word>
+</base>
+</word>
+</base>
+</word>
+</base>
+</word>
+</base>
+</word>
+</base>
+</word>
+</base>
+</word>
+</base>
+</word>
+</base>
+</word>
+</base>
+</word>
+</word>
+</base>
+</word>
+</base>
+</word>
+</word>
+</base>
+</word>
+</base>
+</word>
+</word>
+</focus>
+</word>
+</focus>
+</word>
+</focus>
+</word>
+</focus>
+</word>
+</focus>
+</word>
+</focus>
+</word>
+</focus>
+</word>
+</focus>
+</word>
+</focus>
+</word>
+</focus>
+</word>
+</focus>
+</word>
+</focus>
+</word>
+</focus>
+</word>
+</focus>
+</word>
+</focus>
+</word>
+</focus>
+</word>
+</focus>
+</word>
+</focus>
+</word>
+</focus>
+</word>
+</focus>
+</word>
+</focus>
+</word>
+</focus>
+</word>
+</focus>
+</word>
+</focus>
+</word>
+</focus>
+</word>
+</focus>
+
+
 </lexicon>

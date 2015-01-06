@@ -4,7 +4,7 @@ Created on 2013-03-06
 @author: Nich
 '''
 
-from pynlg.fil-lexicon import Noun, Determiner, Word
+from pynlg.fil_lexicon import Noun, Determiner, Word
 
 
 
