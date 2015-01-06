@@ -33,6 +33,6 @@ def getPOS(sent):
 	words = []
 	POS = preprocessor.posTagger(sent)
 	for item in POS:
-		word = {"word":item[0], "POS": item[1]}
+		word = (item[0],item[1])
 		words.append(word)
 	return words
