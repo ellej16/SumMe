@@ -101,8 +101,8 @@ class Sample():
 
 
                 print(s1.realize())
-Sample.setUp1()
-Sample.setUp2()
-Sample.setUp3()
-Sample.setUp4()
+#Sample.setUp1()
+#Sample.setUp2()
+#Sample.setUp3()
+#Sample.setUp4()
 Sample.setUp5()

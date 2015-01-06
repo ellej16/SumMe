@@ -8,8 +8,15 @@ from PreProcessing import preprocessor
 	#words(this would be a dict)
 		#word
 		#POS tag
-article =  []
-sentences = [] # sentence number, the sentence, the dictionary of words
+article =  [] #is this shit even needed
+
+sentences = [] # sentence number, the sentence, the tuples of words 
+			#and their corresponding POS tags, and the language id
+
+
+#def chunkSents():
+#	for  
+
 def getSentences(str):
 	
 	sents  = preprocessor.sentence_tokenizer(str)
@@ -21,25 +28,36 @@ def getSentences(str):
 		ID = preprocessor.LangDetect(sent)
 		if ID == "en":
 			sentence.append(getPOS(sent))
-			print(ID+ " Huehue Bitches")
+			sentence.append(ID)
+			print(ID+" "+sent)
 		elif ID =="tl":
-			print(ID+" yay")
+			#sentence.append(getFilPOS(sent))
+			sentence.append(ID)
+			print(ID+" "+sent)
 		else :
-			print(ID + " wut")
+			sentence.append(getPOS(sent))
+			sentence.append(ID)
+			print(ID+" "+sent)
 		sentNum+=1
 		sentences.append(sentence)
 		sentence = []
-	article.append(sentences)
+		
+	return sentences
+	#article.append(sentences)
+	
 	#article = [] #clears the article altogether
-	for sent in article:
-		print(sent)
-		print("\n")
+	#for sent in article:
+	#	print(sent)
+	#	print("\n")
 	
 def getPOS(sent):
-
 	words = []
 	POS = preprocessor.posTagger(sent)
 	for item in POS:
 		word = (item[0],item[1])
 		words.append(word)
 	return words
+
+#def getFilPOS(sent):
+#	words = []
+#	POS = preprocessor.filposTagger(sent)
