@@ -13,6 +13,7 @@ article =  [] #is this shit even needed
 global sentences
 sentences = [] # sentence number, the sentence, the tuples of words 
 			#and their corresponding POS tags, and the language id
+			#when chunkSents is invoked chunks of the sentence is appended
 
 
 def chunkSents():
