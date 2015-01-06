@@ -7,9 +7,10 @@ import xml.etree.ElementTree
 import os.path
 from collections import defaultdict
 
-import pynlg.morphology as morph
+import pynlg.fil_morphology as fil_morph
 
-DEFAULT_PATH = os.path.realpath("C:/users/rihanna/Documents/pol/ThesisIt/SumMe/NLG/default-lexicon.xml")
+#Filipino Corpus
+DEFAULT_PATH = os.path.realpath("C:/users/rihanna/Documents/pol/ThesisIt/SumMe/NLG/asdf.xml")
 
 
 class Word():
@@ -114,11 +115,11 @@ class Lexicon():
         return None
     
     def makeVariants(self, word_elem):
-        for variant in morph.makeVariants(word_elem):
+        for variant in fil_morph.makeVariants(word_elem):
             self.words_by_variants[variant].append(word_elem)
     
     def makeInflections(self, word_elem):
-        inflections = morph.makeInflections(word_elem)
+        inflections = fil_morph.makeInflections(word_elem)
         for key, value in inflections.items():
             #add to variants list so we can search by it
             self.words_by_variants[value].append(word_elem)

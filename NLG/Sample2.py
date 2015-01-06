@@ -1,5 +1,7 @@
-from pynlg.realizer import Clause, ImperativeClause, PrepositionalPhrase, NounPhrase, SubjectPredicate, PredicateSubject, VerbPhrase
+#from pynlg.realizer import Clause, ImperativeClause, PrepositionalPhrase, NounPhrase, SubjectPredicate, PredicateSubject, VerbPhrase
 from pynlg.lexicon import Word, XMLLexicon, Noun, Determiner, Adjective
+import pynlg.fil_lexicon as filex
+from pynlg.fil_realizer import ImperativeClause, PrepositionalPhrase, NounPhrase, SubjectPredicate, PredicateSubject, VerbPhrase
 
 
 class Sample():
@@ -84,20 +86,21 @@ class Sample():
 
         def setUp5():
 		
-                lex = XMLLexicon()
+                lex = filex.XMLLexicon()
 
                 #Nagluluto ang Kusinero
                 s1 = PredicateSubject()
 
-                vp_nagluluto = s1.add_verb(lex.getWord("luto", "VERB"))
-                np_ang_kusinero = NounPhrase(lex.getWord("kusinero", "NOUN"))
-                pp_ng_kusinero = PrepositionalPhrase(lex.getWord("ng", "PREPOSITION"), [np_ang_kusinero])
+                #vp_nagluluto = s1.add_verb(lex.getWord("luto", "VERB"))
+                #np_ang_kusinero = NounPhrase(lex.getWord("kusinero", "NOUN"))
+                #pp_ng_kusinero = PrepositionalPhrase(lex.getWord("ng", "PREPOSITION"), [np_ang_kusinero])
+                s1.add_subject(lex.getWord("baba","NOUN"))
+                s1.add_verb(lex.getWord("luto","VERB"))
+                #vp_nagluluto.add_prepositional_phrase(pp_ng_kusinero)
         
-                vp_nagluluto.add_prepositional_phrase(pp_ng_kusinero)
         
-        
-                np_ang_babae = s1.add_subject(lex.getWord("babae","NOUN"))
-                np_ang_babae.add_determiner(lex.getWord("ang"))
+                #np_ang_babae = s1.add_subject(lex.getWord("babae","NOUN"))
+                #np_ang_babae.add_determiner(lex.getWord("ang"))
 
 
                 print(s1.realize())

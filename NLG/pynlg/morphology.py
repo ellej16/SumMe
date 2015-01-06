@@ -28,7 +28,6 @@ def makeInflections(word):
         inflections["past_participle"] = verb_past_participle(word)
         inflections["present_progressive"] = verb_present_progressive(word)
         inflections["past_progressive"] = verb_past_progressive(word)
-        inflections["focus"] = verb_focus(word)
     if word.category == "ADJECTIVE":
         inflections["superlative"] = adj_superlative(word)
         inflections["comparative"] = adj_comparative(word)
@@ -36,30 +35,29 @@ def makeInflections(word):
         inflections["past"] = verb_past(word)
     return inflections
 
-def verb_focus(word):
-	base = word.base
-	if "focus"  in word.features:
-		if word.features["focus"]=="actor":
-			print("um"+base)
-			if base[0] in vowels:
-				return "um"+base
-		#	elif base[0] in consonants:
-		#		return base[0]+um+base[1:]
-		elif word.features["focus"]=="object":
-			if base[-1] in vowels:
-				if base[-2] == 'o':
-					return base[:-2]+"u"+"in"
-				else:
-					return base+"hin"
-		#	elif base[-1] in consonants:
-		#		return base+"in"
-			else:
-				return "flower"+base
-		else:
-			return "all about that" + base
-	else:
-		return word.base
-    
+#def verb_focus(word):
+#	if "focus"  in word.features:
+#		if word.features["focus"]=="actor":
+#			print("um"+base)
+#			if base[0] in vowels:
+#				return "um"+base
+#		#	elif base[0] in consonants:
+#		#		return base[0]+um+base[1:]
+#		elif word.features["focus"]=="object":
+#			if base[-1] in vowels:
+#				if base[-2] == 'o':
+#					return base[:-2]+"u"+"in"
+#				else:
+#					return base+"hin"
+#		#	elif base[-1] in consonants:
+#		#		return base+"in"
+#			else:
+#				return "flower"+base
+#		else:
+#			return "all about that" + base
+#	else:
+#		return word.base
+   
 def noun_plural(word):
     base = word.base
     feat = word.features

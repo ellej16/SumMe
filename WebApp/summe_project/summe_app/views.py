@@ -15,6 +15,7 @@ from django.http import JsonResponse
 import io
 from django.core.servers.basehttp import FileWrapper
 
+import summe_app.Summarizer as sumMe
 
 # Create your views here.
 
@@ -68,7 +69,9 @@ def get_file(text):
 
 
 def get_text_holder(text):
-    return text
+    sumMe.getSentences(text)
+
+    return sumMe.chunkSents()
 
 '''LAHAT NG NASA TAAS,DITO MO IPAPASA UNG VALUE'''
 

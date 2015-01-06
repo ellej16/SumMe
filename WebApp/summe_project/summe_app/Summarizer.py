@@ -1,5 +1,5 @@
 'author pol'
-from PreProcessing import preprocessor
+from summe_app.PreProcessing import preprocessor
 
 #should contain these:
 #a list containing:
