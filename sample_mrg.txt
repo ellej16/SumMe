@@ -1,0 +1,73 @@
+( ( S
+		( VP ( Umakyat/VBDT na/RBT sa/INT ) )
+		( SBJ-NP 
+			( ADJP ( 24/CDT 
+			NP ( pasahero/NNT ) ) ) )
+		( VP
+			(natagpuang/VBT)
+				(NP ( patay/NNT ) ) )
+		( ,/, )
+		( ADJP
+			( habang/CCT )
+				VP ( bumaba/VBDT )
+					ADVP ( naman/RBT )
+						IN ( sa/INT ) )
+		( ADJP
+			( 217/CDT )
+				NP ( mula/NNT )
+					IN ( sa/INT ) )
+		( ADJP
+			( 274/CDT (nawawala/JJT) (kaugnay/JJT) ) )
+		( VP 
+			( IN sa/INT ) nangyaring/VBDT)
+		( NP ( banggaan/NNT ) ( ng/INT ) )
+		( NP ( dalawang/JJT ) (barko/NNT) ) )
+		( NP ( sa/INT ) ( Talisay/NNPT ) )
+		( ,/, )
+		( NP ( Cebu/NNPT ) (Biyerners/NNT) (ng/INT) (gabi/NNT))
+		( ./. )
+
+) )
+
+
+
+
+(( S
+		(NP
+			( sa/INT ) ( report/NNT ))
+		( NP
+			( ng/INT ) ( National/NNT ) ( Disaster/NNT ) (Risk/NNT) ( Reduction/NNT ) ( and/INT ) ( Management/NNT ) ( Council/NNT ) )
+		( (/( )
+		( NP
+			( NDRRMC/NNPT ) )
+		( )/) )
+		( NP
+			( alas/NNT ) ( siyete/NNT ) ( ng/INT ) ( Sabado/NNT ) )
+		( , , )
+		( ADJP
+			( nasa/INT ) ( 24/CDT ) ( na/RBT ) ( ang/DDT ) )
+		( VP
+			( kumpirmadong/VBDT ) ( patay/NNT ) )
+		( . . )
+
+
+
+		( ADVP
+			( Samantala/INT ))
+		( , , )
+		( VB
+			( nagsanib/VBT ) ( pwersa/NNT ) ( naman/RBT ) )
+		( NP
+			( Philippine/NNPT ) ( Coast/NNT ) ( Guard/NNT ) )
+		( ( / ( )
+		( NP
+			( PCG/NNPT ) )
+		( )/) )
+		( at/NNPT )
+		( NP
+			( PN/NNPT ) )
+		( , , )
+		(VP
+			( sa/INT ) ( sa/INT ) ( mga/RBT ) ( nawawalang/VBT ) ( NP
+						( pasahero/NNT ) ) )
+))
