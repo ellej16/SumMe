@@ -45,8 +45,8 @@ def posTagger(sents):
 def filposTagger(sents):
 	return tltagger.tag(sents)
 
-def tlChunk(sents):
-	return tlChunker.parse(sents)
+#def tlChunk(sents):
+#	return tlChunker.parse(sents)
 
 def enChunk(sents):
 	return enChunker.parse(sents)
