@@ -8,7 +8,7 @@ from py4j.java_gateway import JavaGateway
 LangPaths =os.path.realpath("C:/users/rihanna/Documents/Pol/ThesisIt/SumMe/Summarizer/langdetector/profiles/")
 tltagger = nltk.data.load("taggers/fil-tagged_aubt.pickle") #filipino pos tagger
 
-#tlChunker = nltk.data.load("chunkers/tagal")#filipino chunker here
+tlChunker = nltk.data.load("chunkers/fili_ub.pickle")#filipino chunker here
 enChunker = nltk.data.load("chunkers/treebank_chunk_ub.pickle") #enChunkerhere
 
 
@@ -45,8 +45,8 @@ def posTagger(sents):
 def filposTagger(sents):
 	return tltagger.tag(sents)
 
-#def tlChunk(sents):
-#	return tlChunker.parse(sents)
+def tlChunk(sents):
+	return tlChunker.parse(sents)
 
 def enChunk(sents):
 	return enChunker.parse(sents)
