@@ -70,4 +70,176 @@
 		(VP
 			( sa/INT ) ( sa/INT ) ( mga/RBT ) ( nawawalang/VBT ) ( NP
 						( pasahero/NNT ) ) )
+		( NP
+			( ng/INT ) ( pampasaherong/NNT ) ( barko/NNT ) ( ng/INT ) ( 2Go/NNPT ) ( na/RBT ) ( MV/NNPT ) ( St./NNPT ) ( Thomas/NNPT ) ( Aquinas/NNPT ) )
+		( . . )
 ))
+
+
+
+
+(( S
+	( VP
+		( Hinihigpitan/VBNT ) ( ng/INT ) )
+	( NP
+		( gobyernong/NNT ) ( Aquino/NNPTT ) ( ang/DTT ) ( seguridad/NNT ) )
+	( NP
+		( sa/INT ) ( Embahada/NNPT ) ( ng/INT )  ( Amerika/NNPT ) ( sa/INT ) ( Maynila/NNPT) )
+	( NP
+		( gayundin/RBT ) ( sa/INT ) ( iba/PRP$T) ( pa/RBT) ( nilang/PRP$T ) ( tanggapan/NNT ) )
+	( VP
+		( bunsod/NNT ) ( ng/INT ) ( banta/NNT ) )
+	( NP
+		( ng/INT ) ( terror/NNT ) ( attack/NNT ) ( ng/INT ) ( al-Qaeda/NNPT ) ( group/NNT ) )
+	(. .)
+))
+
+
+
+
+(( S
+	(ADVP
+		( Nitong/NNT ) ( sabado/NNPT ) )
+	( VP
+		( ay/VBZT ) ( nag-isyu/VBDT ) )
+	( NP
+		( ang/DTT ) ( White/NNT ) ( House/NNT ) ( ng/INT ) ( worldwide/NNT ) ( travel/NNT ) ( alert/NNT ) )
+	( VP
+		( at/INT )  ( ang/DTT ) ( pagsasara/VBNT ) ( ng/INT ) )
+	( NP
+		( kanilang/PRP$T ) ( embahada/NNT ) ( sa/INT ) ( Islamic/NNT ) ( countries/NNST ) ( dahil/NNT ) ( ADJP
+			( sa/INT ) ( pinangangambahan/VBNT ) ( nilang/PRP$T )  ) ) )
+	( VP
+		( pag-atake/VBDT ) ( ng/INT ) ( NP
+											( international/NNT ) ( terrorist/NNT ) ( group/NNT ) ) )
+	(. .)
+
+))
+
+
+((S
+
+	( ADJP
+		( Bunsod/NNT ) ( ito/PRPT ) ( ng/INT ) )
+	( VP
+		( pagpuga/VBDT ) ( ng/INT ) ( ADJP
+										( ilang/DTT ) ( daang/JJT ) ( NP ( militante/NNT ) ) ) )
+	( NP
+		( sa/INT ) ( Iraq/NNPT ) )
+	(, ,)
+	( NP
+		( Libya/NNPT ) )
+	(, ,)
+	( NP
+		( Pakistan/NNPT ) )
+	( ADJP
+		( at/INT ) ( anim/JJT ) ( na/INT ) ( bansa/NNT ) )
+	( VP
+		( na/RBT ) ( sinasabing/VBGT ) ( konektado/VBDT ) )
+	( NP
+		( sa/INT ) ( al-Qaeda/NNPT ) )
+	(. .)
+))
+
+
+
+
+
+(( S
+	( VP
+		( Niyanig/VBDT ) ( ng/INT ) )
+	( ADVP
+		( malakas/JJT ) )
+	( NP
+		( na/INT ) ( pagsabog/NNT ) )
+	( ADVP
+		( noong/RBT ) ( NP ( Biyernes/NNPT )
+											( ng/INT ) ) ( gabi/NNT ) ) 
+	( ADJP
+		( ang/DTT ) ( isang/JJT ) ( NP ( establisimyento/NNT ) ) )
+	( NP
+		( sa/INT ) ( Limketkai/NNPT ) ( Center/NNT ) )
+	( NP
+		( sa/INT ) ( Cagayan/NNPT ) ( de/NNPT ) ( Oro/NNPT ) ( City/NNT ) )
+	( VB
+		( na/INT ) ( nagreresulta/VBDT ) ( sa/INT ) ( pagkamatay/NNT ) )
+	( ADJP
+		( anim/JJT ) ( NP ( katao/NNT ) ) )
+	( VB
+		( at/INT ) ( pagkakasugat/VBGT ) ( ng/INT )  )
+	( NP
+		( 46/CDT ) ( iba/NNT) ( pa/RBT ) )
+	(. .)
+))
+
+
+
+(( S
+	( NP
+		( Kabilang/NNT ) ( sa/INT ) ( mga/RBT )
+			( VP
+				( nasawi/VBDT ) ( sa/INT ) ( pagsabog/VBDT )
+					( NP
+						( sa/INT ) ( Kyla's/NNPT ) ( bar/NNT ) ( sa/INT ) ( Limketkai/NNPT ) ( Center/NNT ) ( 
+						( ADVP
+							( dakong/NNP )
+								( NP
+									( 11/CDT )
+									(: :)
+									( 30/CDT ) ( PM/NNT ) 
+									(, ,)
+									 	( NP
+									 		( Roldan/NNPT ) ( Lagbas/NNPT )
+									 		(, ,)
+									 		( NP ( provincial/NNT ) ( board/NNT ) ( member/NNT ) ( sa/INT ) ( Misamis/NNPT ) ( Oriental/NNPT ) ) )) ) ) ) ) )
+	(. .)
+))
+
+
+
+(( S
+	( VB
+		( NP
+			( ang/DTT ) ( panawagang/NNT ) ( ito/PRPT ) ) )
+	( NP
+		( ng/INT ) ( DFA/NNPT ) ( ay/INT ) ( bunsod/NNT ) ( ng/INT ) )
+	( VB
+		( nakatakdang/JJT ) ( pagbitay/NNT ) )
+	( ADVP
+		( sa/INT ) ( susunod/VBPT ) ( na/INT ) ( linggo/INT ) )
+	( NP
+		( sa/INT ) ( ADJP
+						( isang/JJT ) ( Pinay/NNT ) ) )
+	(, ,)
+	( VB
+		( dahil/NNT) ( sa/INT ) ( pagpupuslit/VBGT ) (ng/INT ) ( NP
+					( heroin/NNT) ( sa/INT ) ( China/NNPT ) ) )
+	(. .)
+))
+
+
+
+(( S
+	( ADJP
+		( limang/JJT ) ( sundalo/NNT ) ( na/INT ) ( nakasibilyan/JJT ) )
+	( ADJP
+		( at/CCT ) ( hindi/RBT ) ( mga/RBT ) ( armado/JJT ) )
+	( VB
+		( dinukot/VBDT ) ( at/CCT ) ( binihag/VBDT ) )
+	( NP
+		( ng/INT ) ( New/NNT ) ( People's/NNT ) ( Army/NNT ) )
+	(, ,)
+	( NP
+		( NPA/NNPT ) )
+	(, ,)
+	( ADVP
+		( nitong/JJT ) ( Lunes/NNT ) )
+	( NP
+		( sa/INT ) ( Davao/NNPT ) ( del/NNPT ) ( Norte/NNPT ) )
+	(. .)
+
+))
+
+
+
+
