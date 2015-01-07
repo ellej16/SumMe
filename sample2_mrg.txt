@@ -1,0 +1,76 @@
+( ( S
+		( VP ( VBDT Umakyat) (RBT na) (INT sa) ) )
+		( NP 
+			( ADJP ( (CDT 24) 
+			NP ( pasahero/NNT ) ) ) )
+		( VP
+			(VBT natagpuang)
+				(NP ( NNT patay ) ) )
+		(, ,)
+		( ADJP
+			( CCT habang )
+				VP ( VBDT bumaba )
+					ADVP ( RBT naman )
+						IN ( INT sa ) )
+		( ADJP
+			( CDT 217 )
+				NP ( NNT mula )
+					IN ( INT sa ) )
+		( ADJP
+			 (CDT 274) (JJT nawawala) (JJT kaugnay) )
+		( VP 
+			( INT sa ) ( VBDT nangyaring ) )
+		( NP ( NNT banggaan ) ( INT ng ) )
+		( NP ( JJT dalawang ) (NNT barko) )
+		( NP ( INT sa ) ( NNPT Talisay ) )
+		(, ,)
+		( NP ( NNPT Cebu ) (NNT Biyernes) (INT ng) (NNT gabi))
+		(. .)
+
+) )
+
+
+
+
+(( S
+		(NP
+			( INT sa ) ( NNT report ))
+		( NP
+			( INT ng ) ( NNT National ) ( NNT Disaster ) (NNT Risk) ( NNT Reduction ) ( INT and ) ( NNT Management ) ( NNT Council ) )
+		(( ()
+		( NP
+			( NNPT NDRRMC ) )
+		() ))
+		( NP
+			( NNT alas ) ( NNT siyete ) ( INT ng ) ( NNT Sabado ) )
+		(, ,)
+		( ADJP
+			( INT nasa ) ( CDT 24 ) ( RBT na ) ( DDT ang ) )
+		( VP
+			( VBDT kumpirmadong ) ( NNT patay ) )
+		(. .)
+
+
+
+		( ADVP
+			( INT Samantala ))
+		(, ,)
+		( VB
+			( VBT nagsanib ) ( NNT pwersa ) ( RBT naman ) )
+		( NP
+			( NNPT Philippine ) ( NNT Coast ) ( NNT Guard ) )
+		(( ()
+		( NP
+			( NNPT PCG ) )
+		( ) ) )
+		( NNPT at )
+		( NP
+			( NNPT PN ) )
+		(, ,)
+		(VP
+			( INT sa ) ( INT sa ) ( RBT mga ) ( VBT nawawalang ) ( NP
+						( NNT pasahero ) ) )
+		( NP
+			( INT ng ) ( NNT pampasaherong ) ( NNT barko ) ( INT ng ) ( NNPT 2Go ) ( RBT na ) ( NNPT MV ) ( NNPT St. ) ( NNPT Thomas ) ( NNPT Aquinas ) )
+		(. .)
+))
