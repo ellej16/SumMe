@@ -37,10 +37,10 @@
 			( INT sa ) ( NNT report ))
 		( NP
 			( INT ng ) ( NNT National ) ( NNT Disaster ) (NNT Risk) ( NNT Reduction ) ( INT and ) ( NNT Management ) ( NNT Council ) )
-		(( ()
+		(-LRB- -LRB-)
 		( NP
 			( NNPT NDRRMC ) )
-		() ))
+		(-RRB- -RRB-)
 		( NP
 			( NNT alas ) ( NNT siyete ) ( INT ng ) ( NNT Sabado ) )
 		(, ,)
@@ -59,10 +59,10 @@
 			( VBT nagsanib ) ( NNT pwersa ) ( RBT naman ) )
 		( NP
 			( NNPT Philippine ) ( NNT Coast ) ( NNT Guard ) )
-		(( ()
+		(-LRB- -LRB-)
 		( NP
 			( NNPT PCG ) )
-		( ) ) )
+		(-RRB- -RRB-)
 		( NNPT at )
 		( NP
 			( NNPT PN ) )
