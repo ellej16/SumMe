@@ -1,5 +1,5 @@
 ( ( S
-		( VP ( VBDT Umakyat) (RBT na) (INT sa) ) )
+		( VP ( VBDT Umakyat) (RBT na) (INT sa) )
 		( NP 
 			( ADJP ( (CDT 24) 
 			NP ( pasahero/NNT ) ) ) )
