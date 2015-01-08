@@ -1,76 +1,77 @@
 ( ( S
-		( VP ( VBDT Umakyat) (RBT na) (INT sa) )
-		( NP 
-			( ADJP ( (CDT 24) 
-			NP ( pasahero/NNT ) ) ) )
-		( VP
-			(VBT natagpuang)
-				(NP ( NNT patay ) ) )
-		(, ,)
-		( ADJP
-			( CCT habang )
-				VP ( VBDT bumaba )
-					ADVP ( RBT naman )
-						IN ( INT sa ) )
-		( ADJP
-			( CDT 217 )
-				NP ( NNT mula )
-					IN ( INT sa ) )
-		( ADJP
-			 (CDT 274) (JJT nawawala) (JJT kaugnay) )
-		( VP 
-			( INT sa ) ( VBDT nangyaring ) )
-		( NP ( NNT banggaan ) ( INT ng ) )
-		( NP ( JJT dalawang ) (NNT barko) )
-		( NP ( INT sa ) ( NNPT Talisay ) )
-		(, ,)
-		( NP ( NNPT Cebu ) (NNT Biyernes) (INT ng) (NNT gabi))
-		(. .)
+		(VP Umakyat na sa) 
+		(NP 
+			(ADJP 24) 
+			(NP pasahero))
+		(VP
+			natagpuang 
+				(patay))
+						,
+		(ADJP
+			habang 
+				(VP bumaba 
+					(ADVP naman ))
+						(IN sa ))
+		(ADJP
+			217
+				(NP mula
+					(IN sa)))
+		(ADJP
+			 274 nawawala kaugnay)
+		(VP 
+			sa nangyaring)
+		(NP banggaan ng)
+		(NP dalawang barko)
+		(NP sa Talisay)
+		,
+		(NP Cebu Biyernes ng gabi)
+		.
 
 ) )
 
 
 
 
-(( S
+( ( S
 		(NP
-			( INT sa ) ( NNT report ))
-		( NP
-			( INT ng ) ( NNT National ) ( NNT Disaster ) (NNT Risk) ( NNT Reduction ) ( INT and ) ( NNT Management ) ( NNT Council ) )
+			sa report)
+		(NP
+			ng National Disaster Risk Reduction and Management Council)
 		(-LRB- -LRB-)
-		( NP
-			( NNPT NDRRMC ) )
+		(NP
+			NDRRMC)
 		(-RRB- -RRB-)
-		( NP
-			( NNT alas ) ( NNT siyete ) ( INT ng ) ( NNT Sabado ) )
-		(, ,)
-		( ADJP
-			( INT nasa ) ( CDT 24 ) ( RBT na ) ( DDT ang ) )
-		( VP
-			( VBDT kumpirmadong ) ( NNT patay ) )
-		(. .)
-
-
-
-		( ADVP
-			( INT Samantala ))
-		(, ,)
-		( VB
-			( VBT nagsanib ) ( NNT pwersa ) ( RBT naman ) )
-		( NP
-			( NNPT Philippine ) ( NNT Coast ) ( NNT Guard ) )
-		(-LRB- -LRB-)
-		( NP
-			( NNPT PCG ) )
-		(-RRB- -RRB-)
-		( NNPT at )
-		( NP
-			( NNPT PN ) )
-		(, ,)
+		(NP
+			alas siyete ng Sabado)
+		,
+		(ADJP
+			nasa 24 na DDT ang)
 		(VP
-			( INT sa ) ( INT sa ) ( RBT mga ) ( VBT nawawalang ) ( NP
-						( NNT pasahero ) ) )
-		( NP
-			( INT ng ) ( NNT pampasaherong ) ( NNT barko ) ( INT ng ) ( NNPT 2Go ) ( RBT na ) ( NNPT MV ) ( NNPT St. ) ( NNPT Thomas ) ( NNPT Aquinas ) )
-		(. .)
+			kumpirmadong patay)
+		.
 ))
+
+
+( ( S
+		(ADVP
+			Samantala)
+		,
+		(VB
+			nagsanib pwersa naman)
+		(NP
+			Philippine Coast Guard)
+		(-LRB- -LRB-)
+		(NP
+			PCG)
+		(-RRB- -RRB-)
+		(NP at
+			PN)
+		,
+		(VP
+			sa sa mga nawawalang)
+		(NP
+			pasahero)
+		(NP
+			ng pampasaherong barko ng 2Go na MV  St.Thomas Aquinas )
+		.
+) )
