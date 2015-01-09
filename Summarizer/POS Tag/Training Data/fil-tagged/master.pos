@@ -88,9 +88,7 @@ at/CCT
 [ kasama/NNT ]
 sa/INT
 [ majority/NNT congress­men/NNT ]
-na/INT nagpahayag/VBDT 
-[ agad/JJT ]
-ng/INT
+na/INT nagpahayag/VBDT agad/RBT ng/INT
 [ suporta/NNT ]
 sa/INT pagtataas/VBGT ng/INT
 [ pasahe/NNT ]
@@ -229,7 +227,9 @@ sa/INT
 [ Algeria/NNPT ]
 at/CCT
 [ apat/JJT ]
-na/INT iba/PRP$T pa/RBT rin/RBT unaccounted/VBDT nawawala/VBDT
+na/INT 
+[ iba/PRP$T ]
+pa/RBT rin/RBT unaccounted/VBDT nawawala/VBDT
 ./.
 
 
@@ -476,7 +476,7 @@ sa/INT
 Binigyang/VBDT 
 [ diin/NNT ] 
 pa/RBT 
-[ nito/PRP ] 
+[ nito/PRPT ] 
 na/INT
 [ wala/NNT ]
 umanong/VBPT naitatalang/VBGT mga/RBT pagyanig/VBGT sa/INT nakalipas/JJT na/INT mga/RBT
@@ -610,9 +610,7 @@ sa/INT mga/INT
 
 
 [ KIDAPAWAN/NNPT CITY/NNPT ]
--/-
-NAG/RB
--/-
+-/- NAG/RBT -/-
 IIKOT/VBG na/INT sa/INT mga/INT
 [ pampublikong/JJT lugar/NNT ]
 sa/INT
@@ -652,7 +650,7 @@ na/INT ikinasawi/VBD ng/INT
 ,/,
 [ MAGUINDANAO/NNPT ]
 -/-
-BIGO/VB diumano/VB sa/INT kanilang/INT
+BIGO/VB diumano/VBT sa/INT kanilang/INT
 [ plano/NNT ang/DT ]
 mga/INT
 [ armado/NNT ]
@@ -952,7 +950,8 @@ na/INT
 ng/INT 
 [ grupo/NNT ]
 ,/, 
-ayon/JJT kay/INT 
+[ ayon/JJT ]
+kay/INT 
 [ Senior/NNT Superintendent/NNT Ronald/NNPT dela/NNPT Rosa/NNPT ]
 ./.
 
@@ -969,7 +968,7 @@ dinukot/VBDT at/CCT binihag/VBDT ng/INT
 (,(
 [ NPA/NNPT ]
 ),)
-[ nitong/JJT Lunes/NNT ]
+[ nitong/PRPT Lunes/NNT ]
 sa/INT 
 [ Davao/NNPT del/NNPT Norte/NNPT ]
 ./.
@@ -1224,7 +1223,7 @@ at/CCT ang/DTT kinakasama/VBGT
 ng/INT
 [ tawagin/VBGT ]
 ng/INT 
-[ kanyang/JJT kapitbahay/NNT ]
+[ kanyang/PRP$T kapitbahay/NNT ]
 ./.
 
 
@@ -1287,7 +1286,7 @@ naman/RBT ng/INT
 
 
 
-[ Nitong/NNT Sabado/NNPT ]
+[ Nitong/PRPT Sabado/NNPT ]
 ay/VBZT nag-isyu/VBDT
 [ ang/DTT White/NNT House/NNT ]
 ng/INT 
@@ -1485,7 +1484,7 @@ ngayong/RBT
 [ taon/NNT ]
 ./.
  
-[ Ayon/JJD ]
+[ Ayon/JJT ]
 kay/INT
 [ South/NNT Cotabato/NNPT Gov./NNT ]
 
@@ -2604,3 +2603,769 @@ ng/INT
 [ South/NNPT Cotabato/NNPT ]
 ./.
 
+
+
+[ PATULOY/JJT ]
+pa/RBT na/INT inoobserbahan/VBGT ngayon/RBT sa/INT
+[ South/NNPT Cotabato/NNPT Provincial/NNT Hospital/NNT ang/DTT isang/JJT lalaki/NNT ]
+na/INT nabali/VBDT umano/VBT 
+[ ang/DTT spinal/NNT cord/NNT ] 
+matapos/VBDT mahulog/VBDT sa/INT
+[ puno/NNT ]
+ng/INT
+[ mangga/NNT ]
+./.
+
+Kinilala/VBDT
+[ ang/DTT biktimang/NNT ]
+si/INT
+[ Pancho/NNPT Jesmar/NNPT ]
+,/,
+[ 27/CDT ]
+,/, may/VBT
+[ asawa/NNT ]
+at/CTT
+[ residente/NNT ]
+ng/INT
+[ Barangay/NNT Dajay/NNPT ]
+,/,
+[ South/NNPT Cotabato/NNPT ]
+./.
+
+[ Ayon/JJT ]
+sa/INT
+[ asawa/NNT ]
+ng/INT
+[ biktima/NNT ]
+,/, namamaril/VBGT ng/INT
+[ isda/NNT ]
+sa/INT
+[ fish/NNT pond/NNT ang/DTT kanyang/PRP$T asawa/NNT gamit/NNT ang/DTT jolen/NNT gun/NNT ]
+kung/INT saan/WRB umakyat/VBDT pa/RBT 
+[ ito/PRPT ]
+sa/INT
+[ puno/NNT ]
+ng/INT
+[ mangga/NNT ]
+./.
+
+Naapakan/VBDT umano/VBT 
+[ nito/PRPT ang/DTT tuyong/JJT sanga/NNT dahilan/NNT ]
+upang/CCT mahulog/VBDT 
+[ ito/PRPT ]
+./.
+
+Agad/RBT naman/RBT na/INT dinala/VBDT sa/INT
+[ South/NNPT Cotabato/NNPT Provincial/NNPT Hospital/NNPT ang/DTT biktima/NNT ]
+at/CTT inoobserbahan/VBGT sa/INT ngayon/RBT 
+[ dahil/NNT ] 
+apektado/VBDT umano/VBT 
+[ ang/DTT spinal/NNT cord/NNT nito/PRPT ]
+sa/INT nangyaring/VBDT
+[ insidente/NNT ]
+./.
+
+
+
+NILOOBAN/VBDT ng/INT mga/RBT hindi/RBT 
+[ kilalang/JJT suspek/NNT ang/DTT isang/JJT boarding/NNT house/NNT ]
+ng/INT mga/RBT
+[ estudyante/NNT ]
+sa/INT
+[ Gensan/NNPT Drive/NNPT ]
+,/,
+[ Barangay/NNPT Morales/NNPT ]
+dito/RBT ng/INT
+[ lungsod/NNT ]
+ng/INT
+[ Koronadal/NNPT ]
+./.
+
+[ Pasado/JJT alas/NNT ]
+-/-
+[ 3/CDT ]
+:/:
+[ 00/CDT ]
+umano/VBT ng/INT 
+[ madaling/JJT araw/NNT ]
+nang/INT pinasok/VBDT ng/INT mga/RBT 
+[ suspek/NNT ]
+na/INT
+[ naka-bonnet/JJT ang/DTT Marian/NNPT Homes/NNPT ]
+sa/INT 
+[ pamamagitan/NNT ]
+ng/INT
+[ pag-akyat/NNT ]
+sa/INT
+[ bintana/NNT nitong/PRPT nakabukas/JJT ]
+./.
+
+Nakuha/VBDT sa/INT mga/RBT
+[ biktima/NNT ]
+na/INT 
+[ pawang/JJT ]
+mga/RBT
+[ college/NNT students/NNT ang/DTT isang/JJT netbook/NNT ]
+,/,
+[ dalawang/JJT cellphone/NNT ]
+at/CCT
+[ wallet/NNT ]
+na/INT may/VBT
+[ lamang/JJT cash/NNT ]
+./.
+
+Maliban/RBRT sa/INT pagnanakaw/VBDT ,/, hinimas/VBDT din/RBRT ng/INT
+[ isa/JJT ]
+sa/INT mga/RBT
+[ suspek/NNT ang/DTT dibdib/NNT ]
+ng/INT 
+[ isa/JJT ]
+sa/INT mga/RBT
+[ biktimang/JJT estudyante/NNT ]
+./.
+
+Sa/INT ngayon/RBT ,/, nagpapatuloy/VBGT pa/RBT
+[ ang/DTT imbestigasyon/NNT ]
+ng/INT
+[ Koronadal/NNPT City/NNPT PNP/NNPT ]
+sa/INT nasabing/VBDT pangyayari/NNT ]
+./.
+
+
+
+SINUSULONG/VBGT ngayon/RBT sa/INT 
+[ Sangguniang/NNPT Panlalawigan/NNPT ]
+ng/INT
+[ South/NNPT Cotabato/NNPT ]
+ang/DTT pagbibigay/VBGT ng/INT
+[ 121/CDT shotgun/NNT ]
+sa/INT mga/RBT
+[ barangay/NNT ]
+sa/INT 
+[ lalawigan/NNT ]
+./.
+
+Ang/DTT nasabing/VBDT 
+[ panukala/NNT ]
+ang/DTT sinusulong/VBGT ni/NNT
+[ Board/NNPT Member/NNPT Agustin/NNPT Dema-ala/NNPT ]
+,/,
+[ committee/NNT chairman/NNT ]
+ng/INT
+[ Committee/NNT on/NNT Peace/NNT and/NNT Order/NNT ]
+sa/INT SP./NNPT Ito/PRPT ]
+umano/VBT ay/VBZT para/RBT sa/INT
+[ peace/NNT ]
+and/CTT 
+[ order/NNT initiative/NNT ]
+sa/INT 
+[ bawat/PRPT barangay/NNT ]
+./.
+
+Umaabot/VBGT naman/RBT sa/INT 
+[P/NNT 3/CDT ]
+,/,
+[ 000/CDT ]
+,/,
+[ 000.00/CDT ang/DTT pondo/NNT ]
+na/INT iminumungkahi/VBDT para/RBT dito/RBT ./.
+
+Napag-alaman/VBDT na/INT sa/INT 
+[ 199/CDT barangay/NNT ]
+sa/INT
+[ lalawigan/NNT ]
+,/,
+[ 121/CDT ]
+pa/RBT
+[ ang/DTT walang/JJT shotgun/NNT ]
+./.
+
+Umaasa/VBDT naman/RBT si/INT
+[ Dema-ala/NNPT ]
+na/INT
+[ ito/PRPT ]
+ay/VBZT aprubahan/VBDT ng/INT
+[ SP/NNPT ]
+at/CCT ni/NNT
+[ South/NNPT Cotabato/NNPT Governor/NNPT Daisy/NNPT Avance-Fuentes/NNPT ]
+./.
+
+
+
+[ DAGDAG/NNT ]
+na/INT
+[ P/NNPT 137/CDT milyon/NNT ]
+ang/DTT inilaan/VBDT ng/INT
+[ national/NNT government/NNT ]
+para/RBT sa/INT
+[ electrification/NNT ]
+sa/INT mga/RBT 
+[ malalayong/JJT lugar/NNT ]
+sa/INT
+[ South/NNPT Cotabato/NNPT ]
+sa/INT susunod/VBT na/INT
+[ apat/JJT ]
+na/INT
+[ buwan/NNT ]
+./.
+
+[ Ayon/JJT ]
+kay/INT
+[ Santiago/NNPT Tudio/NNPT ]
+,/,
+[ South/NNPT Cotabato/NPT I/NNPT Electric/NNPT Cooperative/NNPT ]
+(/(
+[ Socoteco/NNPT I/NNPT ]
+)/)
+[ general/NNT manager/NNT ]
+,/, na/NNT inilaan/VBDT 
+[ ang/DTT pondo/NNT ]
+para/RBT sa/INT
+[ dagdag/NNT ]
+na/INT
+[ distribution/NNT lines/NNT ]
+at/CTT 
+[ iba/PRP$T ]
+pang/RBT
+[ istruktura/NNT ]
+upang/CTT magkaroon/VBGT ng/INT
+[ ilaw/NNT ang/DTT 137/CDT sitios/NNT ]
+sa/INT 
+[ lalawigan/INT ]
+./.
+
+Sinabi/VBDT din/RBRT
+[ nito/PRPT ]
+na/INT nagbigay/VBDT na/INT ng/INT “/“
+[ go/NNT signal/NNT ]
+”/”
+[ ang/DTT National/NNT Electrification/NNT Administration/NNT ]
+(/(
+[ NEA/NNPT ]
+)/) sa/INT
+[ kooperatiba/NNT ]
+upang/CCT simulan/VBT ang/DTT pagpapatupad/VBGT ng/INT nasabing/VBDT
+[ proyekto/NNT ]
+sa/INT
+[ ilalim/JJT ]
+ng/INT
+[ Sitio/NNPT Electrification/NNPT Program/NNPT ]
+(/(
+[ SEP/NNPT ]
+)/)
+./.
+
+[ Unang/CDT ]
+naglaan/VBDT ng/INT
+[ P/CDT 127/NNT million/NNT ang/DTT NEA/NNPT ]
+para/RBT sa/INT nasabing/VBDT
+[ programa/NNT ]
+sa/INT 
+[ 127/CDT sitios/NNT ]
+ngunit/CTT
+[ P/NNT 10/CDT ]
+,/,
+[ 000/CDT ]
+ang/DTT idinagdag/VBDT para/RBT sa/INT
+[ 10/CDT ]
+pang/RBT mga/RBT
+[ lugar/NNT ]
+./.
+
+Kabilang/INT sa/INT mga/RBT 
+[ project/NNT areas/NNT nito/PRPT ]
+ang/DTT makikita/VBGT sa/INT
+[ Koronadal/NNPT City/NNPT ]
+at/CTT
+[ pitong/JJT munisipalidad/NNT ]
+sa/INT
+[ South/NNPT Cotabato/NNPT ]
+na/INT
+[ bahagi/NNT ]
+ng/INT
+[ service/NNT area/NNT ]
+ng/INT
+[ SOCOTECO-1/NNT ]
+./.
+
+Ngunit/CTT
+[ malaking/JJT bahagi/NNT ] 
+umano/VBT ng/INT
+[ proyekto/NNT ]
+ang/DTT ipapatupad/VBGT sa/INT mga/RBT
+[ bayan/NNT ]
+ng/INT
+[ T’boli/NNPT ]
+at/CTT
+[ Lake/NNPT Sebu/NNPT ]
+sa/INT
+[ Upper/NNPT Valley/NNPT area/NNT ]
+ng/INT
+[ lalawigan/NNT ]
+./.
+
+
+
+NASA/INT
+[ kostudiya/NNT ]
+na/INT ng/INT
+[ Polomolok/NNPT Police/NNPT ang/DTT isang/JJT lalaki/NNT ]
+na/INT naaresto/VBDT sa/INT
+[ lungsod/NNT ]
+ng/INT 
+[ Koronadal/NNPT dahil/NNT ]
+sa/INT 
+[ kasong/NNT frustrated/NNT murder/NNT ]
+./.
+
+Sa/INT isinagawang/VBDT
+[ operasyon/NNT ]
+ng/INT
+[ South/NNPT Cotabato/NNPT Provincial/NNPT Public/NNPT Safety/NNPT Company/NNPT ]
+na/INT pinangunahan/VBDT ni/INT
+[ Police/NNPT Inspector/NNPT Herlo/NNPT Palmes/NNPT ]
+,/, nahuli/VBDT ng/INT mga/RBT
+[ otoridad/NNT ang/DTT akusadong/JJT ]
+si/INT
+[ Johny/NNPT Ciasico/NNPT Caspillo/NNPT ]
+sa/INT 
+[ Purok/NNPT Dampsite/NNPT ]
+,/,
+[ Barangay/NNPT Saravia/NNPT ]
+,/,
+[ Koronadal/NNPT City/NNPT ]
+./.
+
+May/VBT
+[ warrant/NNT of/NNT arrest/NNT ]
+ang/DTT nasabing/VBDT
+[ suspek/NNT ]
+na/INT inilabas/VBDT ni/INT
+[ Regional/NNPT Trial/NNPT Court/NNPT Judge/NNPT Eddie/NNPT R./NNPT Rojas/NNPT ]
+ng/INT
+[ RTC/NNPT Branch/NNPT 39/CDT ]
+ng/INT
+[ Polomolok/NNPT ]
+,/,
+[ South/NNPT Cotabato/NNPT ]
+./.
+
+Nailipat/VBDT na/INT sa/INT
+[ Polomolok/NNPT Police/NNPT ]
+ang/DTT nasabing/VBDT
+[ suspek/NNT ]
+./.
+
+
+
+NASA/INT
+[ 51/CDT ]
+na/INT mga/RBT
+[ police/NNT personnel/NNT ]
+ang/DTT itinalaga/VBDT sa/INT
+[ lalawigan/NNT ]
+ng/INT
+[ South/NNPT Cotabato/NNPT ]
+bilang/INT
+[ dagdag/NNT ]
+na/INT
+[ pwersa/NNT ]
+sa/INT
+[ nalalapit/NNT ]
+na/INT 
+[ Barangay/NNPT ]
+at/CCT
+[ Sangguniang/NNPT Kabataan/NNPT ]
+(/(
+[ SK/NNPT ]
+)/)
+[ elections/NNT ]
+sa/INT
+[ Oktubre/NNPT 28/CDT ]
+./.
+
+[ Ayon/JJT ]
+kay/INT
+[ Police/NNPT Senior/NNPT Inspector/NNPT Dennis/NNPT Madriaga/NNPT ]
+,/,
+[ PIO/NNPT ]
+ng/INT
+[ Provincial/NNPT Police/NNPT Office/NNPT ]
+na/INT ang/DTT nasabing/VBDT mga/RBT
+[ pulis/NNT ]
+ang/DTT tutulong/VBDT sa/INT pagpapatupad/VBNT na/INT
+[ mahigpit/JJT ]
+na/INT
+[ seguridad/NNT ]
+sa/INT darating/VBGT na/INT
+[ halalan/NNT ]
+./.
+
+[ Dagdag/NNT ]
+pa/RBT 
+[ nito/PRPT ]
+,/, nakahanda/VBNT na/INT
+[ ang/DTT security/NNT plan/NNT ]
+para/RBT sa/INT 
+[ buong/JJT lalawigan/NNT ]
+at/CTT binigyan/VBDT na/INT rin/RBT umano/VBT ng/INT
+[ assignment/NNT ]
+ang/DTT nasabing/VBDT mga/RBT 
+[ pulis/NNT ]
+./.
+
+Samantala/INT
+,/, nasa/INT
+[ full/JJT alert/NNT status/NNT ]
+ngayon/RBT 
+[ ang/DTT South/NNPT Cotabato/NNPT kaugnay/JJT ]
+ng/INT nagaganap/VBDT na/INT
+[ standoff/NNT ]
+sa/INT
+[ pagitan/NNT ]
+ng/INT
+[ Moro/NNPT National/NNPT Liberation/NNPT Front/NNPT ]
+(/(
+[ MNLF/NNPT ]
+)/) ni/INT
+[ Nur/NNPT Misuari/NNPT ]
+at/CCT ng/INT
+[ tropa/NNT ]
+ng/INT
+[ gobyerno/NNT ]
+na/INT kung/INT saan/WRB mas/RBT hinigpitan/VBGT pa/RBT
+[ ang/DTT checkpoint/NNT ]
+na/INT ipinapatupad/VBGT sa/INT
+[ buong/JJT lalawigan/NNT ]
+./. 
+
+
+
+[ WALA/NNT ]
+ng/INT
+[ buhay/NNT ]
+at/CCT nakabitin/VBGT na/INT
+[ ang/DTT katawan/NNT ]
+ng/INT
+[ isang/JJT lalaking/NNT ]
+pinaniniwalaang/VBGT nagpakamatay/VBDT sa/INT
+[ loob/NNT ]
+ng/INT
+[ bahay/NNT nito/PRPT ]
+sa/INT 
+[ Sitio/NNPT New/NNPT Sebu/NNPT ]
+,/,
+[ Barangay/NNPT Ned/NNPT ]
+,/,
+[ Lake/NNPT Sebu/NNPT ]
+,/,
+[ South/NNPT Cotabato/NNPT ]
+./,
+
+Kinilala/VBNT
+[ ang/DTT biktimang/NNT ]
+si/INT
+[ Nelson/NNPT Oracoy/NNPT ]
+,/,
+[ 38/CDT ]
+at/CCT
+[ residente/NNT ]
+ng/INT nasabing/VBDT
+[ lugar/NNT ]
+./.
+
+[ Ayon/JJT ]
+sa/INT
+[ ulat/NNT ]
+,/, nakita/VBT na/INT lamang/VBT 
+[ ito/PRPT ]
+ng/INT 
+[ kanyang/PRP$T ]
+mga/RBT
+[ kapitbahay/NNT ]
+na/INT
+[ sina/PRPT Kimvel/NNPT ]
+at/CCT
+[ Keven/NNPT Lebengesa/NNPT ]
+na/INT nakabitin/VBDT na/INT sa/INT
+[ loob/NNT ]
+ng/INT
+[ kanyang/JJT bahay/NNT ]
+./.
+
+Ngunit/CCT bago/RBT pa/RBT man/RBT nangyari/VBDT ang/DTT pagpapakamatay/VBDT ]
+,/, nakita/VBDT umano/VBT
+[ ang/DTT biktima/NNT ]
+na/INT bumili/VBDT ng/INT
+[ isang/JJT bote/NNT ]
+ng/INT 
+[ alak/NNT ]
+sa/INT
+[ kalapit/JJT ]
+na/INT
+[ tindahan/NNT ]
+./.
+
+Nakita/VBDT din/RBRT ang/DTT nasabing/VBDT
+[ bote/NNT ]
+ng/INT
+[ alak/NNT ]
+na/INT
+[ kunti/JJT ]
+na/INT lamang/RBT
+[ ang/DTT laman/NNT ]
+sa/INT
+[ lugar/NNT ]
+kung/INT saan/WRB
+[ ito/PRPT ]
+nagpakamatay/VBNT
+[ gamit/NNT ang/DTT lubid/NNT ]
+na/INT
+[ tinali/VBDT nito/PRPT ]
+sa/INT
+[ kisame/NNT ]
+at/CTT sa/INT 
+[ kanyang/PRP$T leeg/NNT ]
+./..
+
+Nakatakdang/VBGT isailalim/VBGT sa/INT
+[ otopsiya/NNT ang/DTT bangkay/NNT ]
+ng/INT
+[ biktima/NNT ]
+./.
+
+
+
+[ TAGPAS/JJT ang/NNT kaliwang/JJT tenga/NNT ]
+ng/INT
+[ isang/JJT lalaki/NNT ]
+makaraang/VBDT tinaga/VBDT
+[ ito/PRPT ]
+ng/INT
+[ kainuman/NNT dahil/NNT ]
+umano/VBT sa/INT 
+[ labis/JJT ]
+na/INT
+[ kalasingan/JJT ]
+./.
+
+Kinilala/VBDT
+[ ang/DTT biktima/NNT ]
+na/INT si/INT
+[ Felex/NNPT Buenaflor/NNPT Amorganda/NNPT ]
+,/,
+[ 48/CDT ]
+,/,
+[ biyudo/JJT ]
+at/CCT
+[ residente/NNT ]
+ng/INT
+[ Barangay/NNPT Cebuano/NNPT ]
+,/,
+[ Tupi/NNPT ]
+,/,
+[ South/NNPT Cotabato/NNPT ]
+./.
+
+Sa/INT 
+[ inisyal/JJT ]
+na/INT
+[ imbestigasyon/NNT ]
+,/, nag-iinuman/VBNT
+[ ang/DTT biktima/NNT ]
+at/CCT
+[ ang/DTT suspek/NNT ]
+na/INT si/INT
+[ Jose/NNPT Cursiga/NNPT ]
+,/,
+[ 60/CDT ]
+,/,
+[ residente/NNT ]
+din/RBRT ng/INT nasabing/VBDT
+[ lugar/NNT ]
+./.
+
+Nang/INT malasing/VBDT ang/DTT mga/RBT
+[ ito/PRPT ]
+,/, biglang/RBT na/INT lamang/RBT nagtalo/VBDT na/INT nag-resulta/VBDT nang/INT pananaga/VBDT ng/INT
+[ suspek/NNT ]
+sa/INT
+[ biktima/NNT ]
+./.
+
+Agad/RBT namang/RBT dinala/VBDT sa/INT
+[ ospital/NNT ang/DTT biktima/NNT ]
+habang/CTT 
+[ patuloy/JJT ]
+pang/RBT pinaghahanap/VBGT
+[ ang/DTT suspek/NNT ]
+na/INT tumakas/VBDT palayo/RBT matapos/VBDT nagawa/VBDT
+[ ang/DTT krimen/NNT ]
+./.
+
+
+
+[ LIMA/JJT ang/DTT sugatan/NNT ]
+kabilang/INT na/INT
+[ ang/DTT isang/JJT 6/CDT ]
+-/-
+[ taong/NNT bata/NNT ]
+sa/INT nangyaring/VBDT bangga-an/VBT ng/INT
+[ tatlong/JJT sasakyan/NNT ]
+sa/INT
+[ National/NNPT Highway/NNPT ]
+ng/INT
+[ Barangay/NNPT Palian/NNPT ]
+,/,
+[ Tupi/NNPT ]
+,/,
+[ South/NNPT Cotabato/NNPT ]
+./,
+
+Sa/INT
+[ imbestigasyon/NNT ]
+ng/INT mga/RBT 
+[ otoridad/NNT ]
+,/,
+[ mula/NNT General/NNPT Santos/NNPT ]
+papuntang/VBGT
+[ Koronadal/NNPT ang/DTT sasakyan/NNT ]
+ng/INT
+[ Bureau/NNPT of/NNPT Fisheries/NNPT and/NNPT Aquatic/NNPT Resources/NNPT ]
+(/(
+[ BFAR/NNPT ]
+)/) –/-
+[ Gensan/NNPT ]
+na/INT
+[ isang/JJT Mitshubishi/NNPT KZ/NNPT Adventure/NNPT Wagon/NNPT ]
+na/INT may/VBT
+[ plate/NNT number/NNT SHA-310/NNPT ]
+,/, nang/INT bigla/RBT
+[ itong/PRPT ]
+nag/RBT overtake/VBT at/CCT nabangga/VBDT
+[ ang/DTT kasalubong/NNT ]
+na/INT
+[ Isuzo/NNPT Trooper/NNPT Wagon/NNPT ]
+na/INT may/VBT
+[ plate/NNT number/NNT XXX-881/NNPT ]
+sa/INT
+[ inner/NNT lane/NNT ]
+at/CCT
+[ isa/JJT ]
+pang/RBT
+[ Ford/NNPT Everest/NNPT Wagon/NNPT ]
+na/INT may/VBT
+[ plate/NNT number/NNT UNO-639/NNPT mula/NNT ]
+naman/RBT sa/INT
+[ outer/NNT lane/NNT ]
+ng/INT
+[ highway/NNT ]
+./.
+
+[ Sugatan/JJT ang/DTT driver/NNT ]
+ng/INT 
+[ BFAR/NNPT ]
+na/INT kinilalang/VBDT si/INT
+[ Jay/NNPT Ugdamen/NNPT Lumampao/NNPT ]
+na/INT
+[ residente/NNT ]
+ng/INT
+[ Glan/NNPT ]
+,/,
+[ Sarangani/NNPT Province/NNPT ]
+,/,
+[ kasama/NNT ]
+ang/INT mga/RBT
+[ sakay/NNT nitong/PRPT sina/PRPT Jane/NNPT Balayo/NNPT ]
+,/,
+[ Lovely/NNPT Sumabat/NNPT ]
+at/CCT
+[ Asuncion/NNPT Fernando/NNPT ]
+,/,
+ pawang/JJT mga/RBT
+[ residente/NNT ]
+ng/INT
+[ General/NNPT Santos/NNPT City/NNPT ]
+at/CCT
+[ empleyado/NNT ]
+ng/INT nasabing/VBDT
+[ ahensiya/NNT ]
+./.
+
+Maliban/RBRT sa/INT 
+[ apat/JJT ]
+,/,
+[ sugatan/JJT ] 
+din/RBRT
+[ ang/DTT 6/CDT ]
+-/-
+[ anyos/NNT ]
+na/INT
+[ batang/NNT ]
+si/INT
+[ Dhoncendrick/NNPT Hechanova/NNPT ]
+,/, na/INT 
+[ isa/JJT ]
+sa/INT
+[ sakay/NNT ]
+ng/INT
+[ Isuzo/NNPT Trooper/NNPT Wagon/NNPT ]
+na/INT minamaneho/VBGT ni/INT
+[ Jozef/NNPT Bariosinski/NNPT ]
+,/,
+[ 47/CDT ]
+na/INT
+[ residente/NNT ]
+ng/INT
+[ Banga/NNPT ]
+,/,
+[ South/NNPT Cotabato/NNPT ]
+./.
+
+[ Ligtas/NNT ]
+naman/RBT
+[ ang/DTT driver/NNT ]
+ng/INT nasabing/VBDT
+[ sasakyan/NNT kasama/NNT ang/DTT ina/NNT ]
+ng/INT
+[ batang/NNT sugatan/JJT ]
+na/INT si/INT
+[ Jennelyn/NNPT Almeda/NNPT Hechanova/NNPT ]
+,/,
+[ 33/NNPT ]
+./.
+
+[ Pawang/JJT ligtas/NNT ]
+naman/RBT
+[ ang/DTT sakay/NNT ]
+ng/INT
+[ Ford/NNPT Everest/NNPT SUV/NNPT ]
+na/INT
+[ minamaneho/VBGT ]
+ni/INT
+[ Joey/NNPT Sumalnap/NNPT Gal/NNPT ]
+,/,
+[ 35/CDT ]
+,/, at/CCT
+[ may-aring/JJT ]
+si/INT
+[ Rudy/NNPT Caoagdan/NNPT ]
+na/INT
+[ kapwa/NNT residente/NNT ]
+ng/INT
+[ Makilala/NNPT ]
+,/,
+[ Cotabato/NNPT Province/NNPT ]
+./.
+
+Nasa/INT
+[ kostudiya/NNT ]
+ng/INT
+[ Tupi/NNPT Police/NNPT ]
+ang/DTT mga/RBT nasabing/VBDT
+[ sasakyan/NNT ]
+habang/CCT nananatili/VBGT pa/RBT sa/INT
+[ ospital/NNT ]
+ang/DTT mga/RBT
+[ sugatan/NNT ]
+./.
