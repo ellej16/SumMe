@@ -27,21 +27,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index3.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index3.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2692308" vertical-offset="408" max-vertical-offset="867">
-              <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.5950704" vertical-offset="443" max-vertical-offset="867">
+              <caret line="36" column="85" selection-start-line="36" selection-start-column="85" selection-end-line="36" selection-end-column="85" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style2.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/summe_app/static/summe_app/style2.css">
+      <file leaf-file-name="index4.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45791245" vertical-offset="2040" max-vertical-offset="3553">
-              <caret line="128" column="14" selection-start-line="128" selection-start-column="14" selection-end-line="128" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="850">
+              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style3.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/summe_app/static/summe_app/style3.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2533" max-vertical-offset="3400">
+              <caret line="166" column="1" selection-start-line="166" selection-start-column="1" selection-end-line="166" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -50,8 +60,8 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/summe_app/static/summe_app/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.642857" vertical-offset="867" max-vertical-offset="3570">
-              <caret line="57" column="18" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2703" max-vertical-offset="3570">
+              <caret line="173" column="1" selection-start-line="168" selection-start-column="0" selection-end-line="173" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -60,8 +70,8 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.230769" vertical-offset="204" max-vertical-offset="935">
-              <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="935">
+              <caret line="33" column="45" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -98,11 +108,11 @@
         <option value="$PROJECT_DIR$/summe_app/static/summe_app/style.css" />
         <option value="$PROJECT_DIR$/summe_app/static/summe_app/style_for_testOutput.css" />
         <option value="$PROJECT_DIR$/templates/index2.html" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/templates/index4.html" />
-        <option value="$PROJECT_DIR$/summe_app/static/summe_app/style3.css" />
-        <option value="$PROJECT_DIR$/templates/index3.html" />
         <option value="$PROJECT_DIR$/summe_app/static/summe_app/style2.css" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/summe_app/static/summe_app/style3.css" />
+        <option value="$PROJECT_DIR$/templates/index4.html" />
+        <option value="$PROJECT_DIR$/templates/index3.html" />
       </list>
     </option>
   </component>
@@ -138,7 +148,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -241,6 +250,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -553,7 +563,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1040" height="586" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32845187" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -881,15 +891,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/summe_app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="3519">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -897,7 +898,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.8846154" vertical-offset="120" max-vertical-offset="697">
           <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -905,15 +905,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="816">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20564516" vertical-offset="0" max-vertical-offset="850">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -925,42 +916,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/summe_app/static/summe_app/style3.css">
+    <entry file="file://$PROJECT_DIR$/summe_app/static/summe_app/style2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1759" max-vertical-offset="3179">
-          <caret line="106" column="1" selection-start-line="106" selection-start-column="1" selection-end-line="106" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.3112128" vertical-offset="2040" max-vertical-offset="3553">
+          <caret line="128" column="14" selection-start-line="128" selection-start-column="14" selection-end-line="128" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index3.html">
+    <entry file="file://$PROJECT_DIR$/summe_app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308" vertical-offset="408" max-vertical-offset="867">
-          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-          <folding />
+        <state vertical-scroll-proportion="-2.5286195" vertical-offset="1023" max-vertical-offset="3519">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769" vertical-offset="204" max-vertical-offset="935">
-          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="935">
+          <caret line="33" column="45" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/summe_app/static/summe_app/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.642857" vertical-offset="867" max-vertical-offset="3570">
-          <caret line="57" column="18" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2703" max-vertical-offset="3570">
+          <caret line="173" column="1" selection-start-line="168" selection-start-column="0" selection-end-line="173" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/summe_app/static/summe_app/style2.css">
+    <entry file="file://$PROJECT_DIR$/summe_app/static/summe_app/style3.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45791245" vertical-offset="2040" max-vertical-offset="3553">
-          <caret line="128" column="14" selection-start-line="128" selection-start-column="14" selection-end-line="128" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2533" max-vertical-offset="3400">
+          <caret line="166" column="1" selection-start-line="166" selection-start-column="1" selection-end-line="166" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="850">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5950704" vertical-offset="443" max-vertical-offset="867">
+          <caret line="36" column="85" selection-start-line="36" selection-start-column="85" selection-end-line="36" selection-end-column="85" />
           <folding />
         </state>
       </provider>
