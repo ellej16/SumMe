@@ -124,10 +124,7 @@ body
 
 textarea#textBox
 {
-    height: 170px;
-	width: 463px;
-	margin-left: 20px;
-	margin-top: 20px;
+    resize: none;
 }
 input#uploadBtn
 {
