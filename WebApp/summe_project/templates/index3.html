@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en"><head>
+  <!--PAGE FOR LINK PAGE-->
   <!-- test.html -->
   <!--
   <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
@@ -11,7 +12,7 @@
 </head>
 <body>
 	<header>
-		<div id="top_head"><p class="arial">SumMe!</p><p>{{ message }}</p></div>
+		<div id="top_head"><p class="arial2">SumMe!</p><p>{{ message }}</p></div>
 		<!-- Sorry mali. Hahahaha {{ variable }} kapag variable -->
 	</header>
 	<div id="main_wrapper">
@@ -27,7 +28,7 @@
 
 		</section> <!--- END DIV TAB -->
 			<div id="middle_div">
-			<section>
+			<section id = "inside_middle_div">
 				<!-- Post ng data sa textfiles -->
 				<form method="POST" action="web_crawler"> {% csrf_token %}
 
