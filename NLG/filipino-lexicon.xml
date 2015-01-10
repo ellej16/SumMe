@@ -12329,7 +12329,7 @@
 	<word>
 			<base>hadlangan</base>
 			<category>verb</category>
-			<focus>object<focus>
+			<focus>object</focus>
 	</word>
 	<word>
 		<base>hadlangan</base>
@@ -13568,7 +13568,7 @@
 	<word>
 			<base>handaan</base>
 			<category>verb</category>
-			<focus>object</object>
+			<focus>object</focus>
 	</word>
 	<word>
 		<base>handaan</base>
@@ -13598,7 +13598,7 @@
 	<word>
 			<base>handugan</base>
 			<category>verb</category>
-			<focus>object</object>
+			<focus>object</focus>
 	</word>
 	<word>
 		<base>handugan</base>
@@ -13620,7 +13620,7 @@
 	<word>
 			<base>handulungan</base>
 			<category>verb</category>
-			<focus>object</object>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>handusay</base>
@@ -13657,7 +13657,7 @@
 	<word>
 			<base>hangarin</base>
 			<category>verb</category>
-			<focus>object</object>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>hangarin</base>
@@ -13674,7 +13674,7 @@
 	<word>
 			<base>hanggahan</base>
 			<category>verb</category>
-			<focus>object</object>
+			<focus>object</focus>
 	</word>
 	<word>
 		<base>hanggahan</base>
@@ -13736,7 +13736,7 @@
 	<word>
 			<base>hanginin</base>
 			<category>verb</category>
-			<focus>object</object>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>hanglay</base>
@@ -13761,7 +13761,7 @@
 	<word>
 			<base>hanguin</base>
 			<category>verb</category>
-			<focus>object</object>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>hanimun</base>
@@ -13774,7 +13774,7 @@
 	<word>
 			<base>hanipin</base>
 			<category>verb</category>
-			<focus>object</object>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>hantad</base>
@@ -13803,7 +13803,7 @@
 	<word>
 			<base>hantungan</base>
 			<category>verb</category>
-			<focus>object</object>
+			<focus>object</focus>
 	</word>
 	<word>
 		<base>hantungan</base>
@@ -13829,7 +13829,7 @@
 	<word>
 			<base>hapakin</base>
 			<category>verb</category>
-			<focus>object</object>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>hapaw</base>
@@ -13838,7 +13838,7 @@
 	<word>
 			<base>hapawin</base>
 			<category>verb</category>
-			<focus>object</object>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>hapay</base>
@@ -13891,7 +13891,7 @@
 	<word>
 			<base>hapitin</base>
 			<category>verb</category>
-			<focus>object</object>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>haplas</base>
@@ -13908,7 +13908,7 @@
 	<word>
 			<base>haplitin</base>
 			<category>verb</category>
-			<focus>object</object>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>haplos</base>
@@ -13921,7 +13921,7 @@
 	<word>
 			<base>haplusin</base>
 			<category>verb</category>
-			<focus>object</object>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>Hapniyum</base>
@@ -13950,12 +13950,12 @@
 	<word>
 			<base>hapuin</base>
 			<category>verb</category>
-			<focus>object</object>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>hapunan</base>
 			<category>verb</category>
-			<focus>object</object>
+			<focus>object</focus>
 	</word>
 	<word>
 		<base>hapunan</base>
@@ -13993,7 +13993,7 @@
 	<word>
 			<base>haranahin</base>
 			<category>verb</category>
-			<focus>object</object>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>harang</base>
@@ -14010,7 +14010,7 @@
 	<word>
 			<base>harangan</base>
 			<category>verb</category>
-			<focus>object</object>
+			<focus>object</focus>
 	</word>
 	<word>
 		<base>harangan</base>
@@ -14020,7 +14020,7 @@
 	<word>
 			<base>harangin</base>
 			<category>verb</category>
-			<focus>object</object>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>harap</base>
@@ -14029,7 +14029,7 @@
 	<word>
 			<base>harapan</base>
 			<category>verb</category>
-			<focus>object</object>
+			<focus>object</focus>
 	</word>
 	<word>
 		<base>harapan</base>
@@ -14052,7 +14052,7 @@
 	<word>
 			<base>harapin</base>
 			<category>verb</category>
-			<focus>object</object>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>hardin</base>
@@ -14117,7 +14117,7 @@
 	<word>
 			<base>hasapin</base>
 			<category>verb</category>
-			<focus>object</object>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>hasinto</base>
@@ -14146,7 +14146,7 @@
 	<word>
 			<base>hatawin</base>
 			<category>verb</category>
-			<focus>object</object>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>hati</base>
@@ -14159,7 +14159,7 @@
 	<word>
 			<base>hatian</base>
 			<category>verb</category>
-			<focus>object</object>
+			<focus>object</focus>
 	</word>
 	<word>
 		<base>hatian</base>
@@ -14185,7 +14185,7 @@
 	<word>
 			<base>hatiin</base>
 			<category>verb</category>
-			<focus>object</object>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>hatiin</base>
@@ -14210,7 +14210,7 @@
 	<word>
 			<base>hatinggabihin</base>
 			<category>verb</category>
-			<focus>object</object>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>hatnig</base>
@@ -14223,7 +14223,7 @@
 	<word>
 			<base>hatiran</base>
 			<category>verb</category>
-			<focus>object</object>
+			<focus>object</focus>
 	</word>
 	<word>
 		<base>hatiran</base>
@@ -14253,7 +14253,7 @@
 	<word>
 			<base>hatulan</base>
 			<category>verb</category>
-			<focus>object</object>
+			<focus>object</focus>
 	</word>
 	<word>
 		<base>hatulan</base>
@@ -14280,7 +14280,7 @@
 	<word>
 			<base>hawahan</base>
 			<category>verb</category>
-			<focus>object</object>
+			<focus>object</focus>
 	</word>
 	<word>
 		<base>humawa</base>
@@ -14311,12 +14311,12 @@
 	<word>
 			<base>hawak-hawakan</base>
 			<category>verb</category>
-			<focus>object</object>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>hawakan</base>
 			<category>verb</category>
-			<focus>object</object>
+			<focus>object</focus>
 	</word>
 	<word>
 		<base>hawakan</base>
@@ -14343,12 +14343,12 @@
 	<word>
 			<base>hawanan</base>
 			<category>verb</category>
-			<focus>object</object>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>hawanin</base>
 			<category>verb</category>
-			<focus>object</object>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>hawas</base>
@@ -14389,7 +14389,7 @@
 	<word>
 			<base>hawiin</base>
 			<category>verb</category>
-			<focus>object</object>
+			<focus>object</focus>
 	</word>
 	<word>
 			<base>hawili</base>
@@ -14414,7 +14414,7 @@
 	<word>
 			<base>hayaan</base>
 			<category>verb</category>
-			<focus>object</object>
+			<focus>object</focus>
 	</word>
 	<word>
 		<base>hayaan</base>
@@ -26069,7 +26069,7 @@
 	</word>
 
         <word>
-		<base>naririyan/base>
+		<base>naririyan </base>
 		<category>adjective</category>	
 	</word>
 
@@ -83694,7 +83694,7 @@
 		<focus>object</focus>	
 	</word>
 	<word>
-		<base>suliting-tanong/base>
+		<base>suliting-tanong </base>
 		<category>verb</category>
 		<focus>object</focus>	
 	</word>
@@ -86696,7 +86696,7 @@
 		<category>noun</category>
 	</word>
 	<word>
-		<base>tagapaglingkod/base>
+		<base>tagapaglingkod </base>
 		<category>verb</category>
 		<focus>object</focus>	
 	</word>
@@ -87243,7 +87243,7 @@
 		<category>noun</category>
 	</word>
 	<word>
-		<base>tagatuos/base>
+		<base>tagatuos </base>
 		<category>noun</category>
 	</word>
 	<word>
@@ -88149,7 +88149,7 @@
 		<category>adjective</category>
 	</word>
 	<word>
-		<base>talampakan/base>
+		<base>talampakan </base>
 		<category>noun</category>
 	</word>
 	<word>
@@ -88824,7 +88824,7 @@
 		<category>adverb</category>
 	</word>
 	<word>
-		<base>tambo/base>
+		<base>tambo </base>
 		<category>noun</category>
 	</word>
 	<word>
@@ -90647,7 +90647,7 @@
 		<category>noun</category>
 	</word>
 	<word>
-		<base>tesis/base>
+		<base>tesis </base>
 		<category>noun</category>
 	</word>
 	<word>
@@ -92199,7 +92199,7 @@
 		<category>noun</category>
 	</word>
 	<word>
-		<base>tiradurin/base>
+		<base>tiradurin </base>
 		<category>verb</category>
 		<focus>object</focus>	
 	</word>
@@ -94869,7 +94869,7 @@ T
 
 	<word>
 	
-		<base>tulain/base>
+		<base>tulain </base>
 		<category>noun</category>
 
 	</word>
