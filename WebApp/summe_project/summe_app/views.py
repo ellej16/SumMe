@@ -15,7 +15,7 @@ from django.http import JsonResponse
 import io
 from django.core.servers.basehttp import FileWrapper
 
-import summe_app.Summarizer as sumMe
+#import summe_app.Summarizer as sumMe
 
 # Create your views here.
 

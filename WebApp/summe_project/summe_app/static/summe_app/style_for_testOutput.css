@@ -13,7 +13,7 @@ header, section, footer
 {
 	height: 40px;
 	min-width: 1000px;
-	background: #00a5e3;
+	background: #443266;
 	border-bottom: 1px solid #e8e8e8;
 	padding-bottom: 1px;
 	display: -webkit-box;
@@ -47,15 +47,16 @@ header, section, footer
 body
 {
 	width: 100%;
-	background: #f1f1f1;
+	background: #F1F0FF;
 	display: block;
 
 }
 
 #main_wrapper
 {
-	width: 1000px;
-	margin: 50px auto;
+    height: 300px;
+	width: 1008px;
+    margin: 70px auto;
 	display:-webkit-box;
 	-webkit-box-orient: vertical;
 
@@ -70,7 +71,7 @@ body
 	background: #ffffff;
 	-webkit-box-orient: vertical;
 	-webkit-box-flex: 1;
-	border: 2px solid e0dbdb;
+	border: 5px solid #8C489F;
     -webkit-border-bottom-left-radius: 10px;
     -webkit-border-bottom-right-radius: 10px;
 }
@@ -124,10 +125,11 @@ body
 
 textarea#textBox
 {
-    height: 170px;
-	width: 463px;
-	margin-left: 20px;
-	margin-top: 20px;
+    height: 200px;
+	width: 450px;
+	margin-left: 10px;
+	margin-top: 10px;
+    resize: none;
 }
 input#uploadBtn
 {
@@ -140,9 +142,11 @@ input#uploadBtn
 
 #btn_download{
     height: 20px;
-	margin-left: 20px;
+	margin-left: 5px;
 	margin-top: 5px;
-	background: #dd4a17;
+	background: #443266;
+    color: white;
+    font-weight: bold;
 }
 
 a:link{
@@ -164,6 +168,13 @@ a:visited{
 p.arial
 {
 	font-family: Arial, Helvetica, sans-serif;
+}
+
+p.arial2
+{
+	font-family: "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif , Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
 }
 
 /*

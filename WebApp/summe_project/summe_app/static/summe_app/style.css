@@ -13,7 +13,7 @@ header, section, footer
 {
 	height: 40px;
 	min-width: 1000px;
-	background: #00a5e3;
+	background: #443266;
 	border-bottom: 1px solid #e8e8e8;
 	padding-bottom: 1px;
 	display: -webkit-box;
@@ -47,16 +47,18 @@ header, section, footer
 body
 {
 	width: 100%;
-	background: #f1f1f1;
+	background: #F1F0FF;
 	display: block;
 
 }
 
+
 #main_wrapper
 {
-	width: 1000px;
-	margin: 50px auto;
-	display:-webkit-box;
+    height: 500px;
+	width: 1008px;
+    margin: 70px auto;
+/*	display:-webkit-box; */
 	-webkit-box-orient: vertical;
 
 }
@@ -70,7 +72,7 @@ body
 	background: #ffffff;
 	-webkit-box-orient: vertical;
 	-webkit-box-flex: 1;
-	border: 2px solid e0dbdb;
+	border: 5px solid #8C489F;
     -webkit-border-bottom-left-radius: 10px;
     -webkit-border-bottom-right-radius: 10px;
 }
@@ -106,7 +108,7 @@ body
 
 #fileTab
 {
-	background: #ffffff;
+	background: #8C489F;
 	margin:0px;
 	height:10px;
 	width: 100px;
@@ -115,7 +117,7 @@ body
 
 #linkTab
 {
-	background: #dd4a17;
+	background: #C3C3E5;
 	margin:0px;
 	height:10px;
 	width: 100px;
@@ -135,7 +137,15 @@ input#uploadBtn
 	width: 70px;
 	margin-left: 20px;
 	margin-top: 70px;
-	background: #dd4a17;
+	background: #443266;
+}
+#uploadBtn{
+    color:white;
+    font-weight: bold;
+}
+#inside_middle_div{
+    margin-top: 30px;
+    margin-left: 10px;
 }
 
 a:link{
@@ -152,6 +162,15 @@ a:visited{
 p.arial
 {
 	font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+p.arial2
+{
+	font-family: "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif , Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
 }
 
 input {
