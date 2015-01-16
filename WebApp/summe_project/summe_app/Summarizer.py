@@ -23,6 +23,7 @@ def chunkSents():
 			sents.append(preprocessor.enChunk(sents[2]))
 			sentences[sents[0]] = sents
 		elif sents[3] =="tl":
+			print(preprocessor.tlChunk(sents[2]))
 			sents.append(preprocessor.tlChunk(sents[2]))
 			sentences[sents[0]] = sents
 	return sentences

@@ -11,7 +11,7 @@ from PreProcessing import preprocessor
 article =  [] #is this shit even needed
 
 global sentences
-sentences = [] # sentence number, the sentence, the tuples of words 
+sentences = [] # sentence number, the sentence, the tuples of words 0 = word 1 = pos 
 			#and their corresponding POS tags, and the language id
 			#when chunkSents is invoked chunks of the sentence is appended
 
@@ -23,7 +23,7 @@ def chunkSents():
 			sents.append(preprocessor.enChunk(sents[2]))
 			sentences[sents[0]] = sents
 		elif sents[3] =="tl":
-			#sents.append(preprocessor.tlChunk(sents[2]))
+			sents.append(preprocessor.tlChunk(sents[2]))
 			sentences[sents[0]] = sents
 	return sentences
 
