@@ -60,6 +60,7 @@ def enChunk(sents):
 		pos.append(word[1])
 	for tree in parsers.srParseEng(pos):
 		chunkd = tree
+		#remember if this doesnt return anything ur grammar sux
 	pos = []
 	for a in chunkd.subtrees():
 		pos.append(a)
@@ -78,12 +79,5 @@ def clnChunk(sents,cln):
 		words.remove(words[0])
 	print(cln[0])
 
-		
-
-
-
-def nerTagger(sents):
-	#todo: ner tagging
+def getSVO(sent):
 	pass
-#def expandTree(tree):
-#	if 
