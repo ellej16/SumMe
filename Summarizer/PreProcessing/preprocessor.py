@@ -119,7 +119,7 @@ def getSVO(sent,isEnglish):
 		else:
 			for terms in tf:
 				if(terms[0]==subj):
-					terms[1] +=1
+					tf.insert(tf.index(terms),(terms[0],terms[1]+1))
 		for vb in vbs:
 			for obj in objs:
 				triples.append(SVO(subj,vb,obj))
