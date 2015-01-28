@@ -110,13 +110,31 @@ def getSVO(sent,isEnglish):
 							if node[1] in ["VBDT","VBZT","VBT", "VBNT","VBGT","VBPT"]:
 								vbs.append(node)
 	triples = []
+	tf = []
+	frq =[]
 	for subj in subjs:
+		if subj not in frq:
+			frq.append(subj)
+			tf.append(stats(subj))
+		else:
+			for terms in tf:
+				if(terms.word ==subj):
+					terms.incTf()
 		for vb in vbs:
 			for obj in objs:
 				triples.append(SVO(subj,vb,obj))
-	return triples
+
+	return triples,tf
 class SVO:
 	def __init__(self, subj,verb,obj):
 		self.subj = subj
 		self.verb = verb
 		self.obj = obj
+class stats:
+	def __init__(self,word, tf=0, idf=0.0,augtf=None):
+		self.word = word
+		self.tf = tf
+		self.idf = idf
+		self.augtf = augtf
+	def incTf():
+		self.tf+=1

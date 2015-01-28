@@ -11,9 +11,10 @@ from PreProcessing import preprocessor
 article =  [] #is this shit even needed
 
 global sentences
-sentences = [] # sentence number, the sentence, the tuples of words 0 = word 1 = pos 
-			#and their corresponding POS tags, and the language id
-			#when chunkSents is invoked chunks of the sentence is appended
+sentences = [] # 1sentence number, 2the sentence, 3the tuples of words 0 = word 1 = pos 
+			#and their corresponding POS tags, and the 4language id
+			#5when chunkSents is invoked chunks of the sentence is appended
+			#6when getTriple() is invoked svos of the sentence is appended
 
 
 def chunkSents():
@@ -91,3 +92,4 @@ def getPOS(sent):
 def getFilPOS(sent):
 	words = []
 	return preprocessor.filposTagger(sent)
+
