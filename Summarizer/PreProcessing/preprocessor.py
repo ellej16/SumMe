@@ -14,7 +14,7 @@ LangPaths =os.path.realpath("C:/users/rihanna/Documents/Pol/ThesisIt/SumMe/Summa
 tltagger = nltk.data.load("taggers/fil-tagged_aubt.pickle") #filipino pos tagger
 
 tlChunker = nltk.data.load("chunkers/fil-tagged_ub.pickle")#filipino chunker here
-enChunker = nltk.data.load("chunkers/treebank_chunk_ub.pickle") #enChunkerhere
+enChunker = nltk.data.load("chunkers/conll2000_ub.pickle") #enChunkerhere
 
 
 punkt_param  = PunktParameters() #creates an opening for tokenizer parameters.
@@ -54,7 +54,7 @@ def tlChunk(sents):
 	return tlChunker.parse(sents)
 
 def enChunk(sents):
-	#return enChunker.parse(sents)
+	return enChunker.parse(sents)
 	#pos = []
 	#for word in sents:
 	#	pos.append(word[1])
@@ -79,22 +79,34 @@ def clnChunk(sents,cln):
 		words.remove(words[0])
 	return cln[0]
 
-def getSVO(sent):
+def getSVO(sent,isEnglish):
 	subjs = []
 	vbs = []
 	objs = []
-	for trees in sent:
-		if isinstance(trees,Tree):
-			if trees.label()=="NP" :
+	if(isEnglish):
+		for trees in sent:
+			if isinstance(trees,Tree):
 				for subs in trees.subtrees():
-					if(subs.label()=="N"):
-						subjs.append(subs.leaves())
-			elif(trees.label()=="VP"):
+					if subs.label() == "NP":
+						for node in subs:
+							if node[1] in ["NN","NNS","NNP","NNPS","PRP","PRP$"]:
+								subjs.append(node)
+					elif subs.label() == "VP":
+						for node in subs:
+							if node[1] in ["VBD","VBZ","VB", "VBN","VBG","VBP"]:
+								vbs.append(node)
+	else:
+		for trees in sent:
+			if isinstance(trees,Tree):
 				for subs in trees.subtrees():
-					if subs.label()=='V':
-						vbs.append(subs.leaves())
-					elif subs.label()=='N':
-						objs.append(subs.leaves())
+					if subs.label() == "NP":
+						for node in subs:
+							if node[1] in ["NNT","NNST","NNPT","NNPST","PRPT","PRP$T"]:
+								subjs.append(node)
+					elif subs.label() == "VP":
+						for node in subs:
+							if node[1] in ["VBDT","VBZT","VBT", "VBNT","VBGT","VBPT"]:
+								vbs.append(node)
 	print(subjs)
 	print(vbs)
 	print(objs)
