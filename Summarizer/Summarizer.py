@@ -32,6 +32,17 @@ def clearMem():
 	sentences = []
 	return sentences
 
+def getTriple():
+	global sentences
+	for sents in sentences:
+		if sents[3] =="en":
+			sents.append(preprocessor.getSVO(sents[4],True))
+			sentences[sents[0]] = sents
+		elif sents[3] =="tl":
+			sents.append(preprocessor.getSVO(sents[4],False))
+			sentences[sents[0]] = sents
+	return sentences
+
 
 
 def getSentences(str):

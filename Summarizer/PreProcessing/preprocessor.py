@@ -5,7 +5,7 @@ from py4j.java_gateway import JavaGateway
 import nltk
 from nltk.tree import Tree
 import os.path
-import parsers
+from PreProcessing import parsers
 
 
 
@@ -22,9 +22,9 @@ punkt_param.abbrev_types = set(['gng','mr','mrs','dr']) #abbreviations further a
 
 sentence_splitter = PunktSentenceTokenizer(punkt_param)
 tokenized = ""
-#gateway = JavaGateway()
-#detector = gateway.entry_point
-#detector.init(LangPaths)
+gateway = JavaGateway()
+detector = gateway.entry_point
+detector.init(LangPaths)
 
 def LangDetect(str):
 	return detector.detect(str)
