@@ -55,17 +55,17 @@ def tlChunk(sents):
 
 def enChunk(sents):
 	#return enChunker.parse(sents)
-	pos = []
-	for word in sents:
-		pos.append(word[1])
-	for tree in parsers.srParseEng(pos):
-		chunkd = tree
+	#pos = []
+	#for word in sents:
+	#	pos.append(word[1])
+	#for tree in parsers.srParseEng(pos):
+	#	chunkd = tree
 		#remember if this doesnt return anything ur grammar sux
-	pos = []
-	for a in chunkd.subtrees():
-		pos.append(a)
-	pos = clnChunk(sents,pos)
-	return pos
+	#pos = []
+	#for a in chunkd.subtrees():
+	#	pos.append(a)
+	#pos = clnChunk(sents,pos)
+	#return pos
 
 def clnChunk(sents,cln):
 	words = []
@@ -77,7 +77,31 @@ def clnChunk(sents,cln):
 	for pos in cln[0].treepositions('Leaves'):
 		cln[0][pos] = cln[0][pos] = words[0]
 		words.remove(words[0])
-	print(cln[0])
+	return cln[0]
 
 def getSVO(sent):
-	pass
+	subjs = []
+	vbs = []
+	objs = []
+	for trees in sent:
+		if isinstance(trees,Tree):
+			if trees.label()=="NP" :
+				for subs in trees.subtrees():
+					if(subs.label()=="N"):
+						subjs.append(subs.leaves())
+			elif(trees.label()=="VP"):
+				for subs in trees.subtrees():
+					if subs.label()=='V':
+						vbs.append(subs.leaves())
+					elif subs.label()=='N':
+						objs.append(subs.leaves())
+	print(subjs)
+	print(vbs)
+	print(objs)
+	print(len(trees))
+
+class SVO:
+	def __init__(self, subj,verb,obj):
+		self.subj = subj
+		self.verb = verb
+		self.obj = obj
