@@ -1,0 +1,13536 @@
+
+
+
+SiINT
+
+SheriffNNT
+JuanitoNNPT
+DiazonNNPT
+  
+   ayVBZT
+  nagtamoVBDT
+  ngINT
+ 
+ maramingJJT
+tamaNNT
+
+ngINT
+
+balaNNT
+ 
+ saINT
+
+katawanNNT
+
+..
+
+
+HindiRBRT
+umanoVBT
+namukhaanVBNT
+
+angDTT
+pumaslangNTT
+
+  
+  kayINT
+  
+  DiazonNNPT
+ dulotNNT
+
+ngINT
+
+madilimJJT
+ 
+ naINT
+
+paligidNNT
+dahilNNT
+
+saINT
+
+brownoutNNT
+ 
+ ..
+
+
+
+
+
+IDSAYAPNNPT
+
+,,
+
+COTABATONNPT
+
+--
+
+PATAYNNPT
+angDTT
+sheriffNNT
+  
+   ngINT
+  
+   RegionalNNT
+ TrialNNT
+CourtNNT
+  
+   (,(
+  
+   RTCNNPT
+ 
+ ),)
+
+BranchNNT
+12CDT
+
+makaraangVBDT
+pagbabarilinVBNT
+ 
+ 
+ pasadoJJT
+alasNNT
+
+-,-
+
+7CDT
+ HuwebesNNPT
+
+ngINT
+
+  
+gabiNNT
+ 
+ saINT
+
+MidsayapNNPT
+
+,,
+
+CotabatoNNPT
+
+..
+
+
+
+
+HinigpitanVBNT
+ngINT
+
+gobyernongNNT
+AquinoNNPT
+angDTT
+  seguridadNNT
+    
+    saINT
+   
+  
+    EmbahadaNNT
+ 
+ ngINT
+
+AmerikaNNPT
+
+saINT
+
+
+MaynilaNNPT
+
+gayundinRBT
+saINT
+
+ibaPRP$T
+
+paRBT
+
+nilangPRP$T
+tanggapanNNT
+
+  bunsodNNT
+    
+    ngINT
+   
+    bantaNNT
+ 
+ ngINT
+
+terrorNNT
+attackNNT
+
+ngINT
+
+al-QaedaNNPT
+ groupNNT
+
+..
+
+
+NangangambaVBDT
+siINT
+
+ColmenaresNNPT
+
+naINT
+hindiRBT
+magigingVBPT
+patasRBT
+
+
+angDDT
+takboNNT
+
+ngINT
+
+  
+imbestigasyonNNT
+ dahilNNT
+isangJJT
+  opisyalNNT
+    
+    ngINT
+   
+  
+    LiberalNNT
+ PartyNNT
+
+((
+
+LPNNPT
+ 
+ ))
+siINT
+
+SarmientoNNPT
+
+atCCT
+
+
+kasamaNNT
+
+saINT
+
+majorityNNT
+congress­menNNT
+
+naINT
+nagpahayagVBDT
+ agadRBT
+ ngINT
+
+suportaNNT
+
+saINT
+pagtataasVBGT
+ngINT
+
+pasaheNNT
+
+saINT
+
+
+MRTNNPT
+
+atCCT
+
+LRTNNPT
+
+..
+
+
+
+
+
+AyonJJT
+kinaPRP$T
+BayanNNT
+  MunaNNT
+    party-listNNT
+    Reps.NNT
+    NeriNNPT
+    ColmenaresNNPT
+    
+    atCCT
+   
+  
+    CarlosNNPT
+ ZarateNNPT
+
+naINT
+naghainVBDT
+ ngINT
+ 
+ HouseNNT
+ResolutionNNT
+No.NNT
+  111CDT
+    
+    
+    paraRBT
+   imbestigahanVBGT
+   
+   angDTT
+fareNNT
+hikeNNT
+  
+   saINT
+  
+   MRTNNPT
+ 
+ atCCT
+
+LRTNNPT
+
+,,
+
+
+
+dudaNNT
+silaPRP$T
+
+saINT
+magigingVBGT
+ 
+ 
+ takboNNT
+
+ngINT
+
+pagdinigNNT
+
+naINT
+
+itinakdaVBDT
+
+niINT
+
+HouseNNT
+committeeNNT
+
+onIN
+
+TransportationNNT
+ chairmanNNT
+
+atCCT
+
+CatanduanesNNPT
+ Rep.NNT
+CesarNNPT
+  SarmientoNNPT
+    
+    saINT
+   
+    EneroNNPT
+ 8CDT
+
+,,
+
+apatJJT
+ 
+ naINT
+
+arawNNT
+
+mataposVBDT
+
+
+angDTT
+implementasyonNNT
+
+ngINT
+
+  
+dagdagNNT
+ 
+ --
+­
+
+singilNNT
+
+
+saINT
+
+pasaheNNT
+
+..
+
+
+
+AngDTT
+
+
+isangJJT
+kabuuangNNT
+26CDT
+  PilipinoNNPT
+    
+    naINT
+   nagtrabahoVBDT
+   saINT
+ 
+ 
+ plantaNNT
+
+
+ngINT
+
+
+gasNNT
+
+ngNNT
+
+AmenasNNPT
+
+malalimJJT
+
+naINT
+inaatakeVBGT
+ ngINT
+ 
+ 
+ al-Qaida-linkedNNPT
+gunmenNNT
+
+saINT
+
+MiyerkulesNNT
+ ..
+
+
+
+
+
+HernandezNNPT
+
+sinabiVBDT
+naINT
+
+batayNNT
+
+saINT
+mgaRBT
+
+
+ulatNNT
+
+naINT
+natanggapVBDT
+
+
+mulaNNT
+
+saINT
+
+koponanNNT
+
+saINT
+
+PhilippineNNPT
+
+naINT
+
+pamahalaanNNT
+
+saINT
+
+AlgeriaNNPT
+
+atCCT
+
+
+embahadaNNT
+
+ngINT
+
+bansaNNT
+
+saINT
+
+LondonNNPT
+
+..
+
+
+
+SaINT
+
+
+isangJJT
+pressNNT
+conferenceNNT
+  
+   ,,
+  
+   tagapagsalitaNNT
+ 
+ ngINT
+
+DFANNPT
+pandalawangCDT
+ministroNNT
+  RaulNNPT
+    HernandezNNPT
+    
+    ginawaVBDT
+   
+  
+    angDTT
+ anunsyoNNT
+
+ngunitCCT
+TinanggihanVBDT
+ upangCCT
+ bigyanVBT
+angDTT
+mgaRBT
+
+detalyeNNT
+
+
+saINT
+
+pagkakakilanlanNNT
+
+ngINT
+
+lalakiNNT
+fatalitiesNNT
+
+..
+
+
+
+
+MANILANNPT
+
+,,
+
+PilipinasNNPT
+
+–-
+
+AngDTT
+DepartmentNNT
+
+ofIN
+
+ForeignNNT
+ AffairsNNT
+
+((
+
+DFANNPT
+ 
+ ))
+saINT
+
+LunesNNT
+
+nakumpirmaVBDT
+naINT
+
+
+animJJT
+
+naINT
+
+PilipinoNNPT
+
+namatayVBDT
+saINT
+
+
+prendaNNT
+krisisNNT
+
+saINT
+
+AlgeriaNNPT
+ 
+ atCCT
+
+apatJJT
+
+naINT
+
+
+ibaPRP$T
+
+paRBT
+rinRBT
+unaccountedVBDT
+nawawalaVBDT
+..
+
+
+
+
+
+ItoPRPT
+
+ayVBZT
+nagbibigayVBGT
+ngINT
+paraRBT
+saINT
+pagbibigayVBGT
+ngINT
+mgaRBT
+
+condomNNT
+
+atCCT
+mgaRBT
+
+tabletasNNT
+
+
+saINT
+
+
+pampublikongJJT
+kalusuganNNT
+sentroNNT
+  
+   ,,
+  
+  
+   pagsasanayNNT
+ paraRBT
+saINT
+  
+   
+birthNNT
+ controlNT
+
+atCCT
+kahitCCT
+ 
+ sexNNT
+edukasyonNNT
+
+saINT
+mgaRBT
+ 
+ paaralanNNT
+
+..
+
+
+
+
+HuwebesNNT
+
+,,
+
+EneroNNT
+17CDT
+
+,,
+
+batasNNT
+ 
+ saINT
+
+nangangasiwaNNT
+
+ngINT
+
+accessNNT
+
+saINT
+
+pillNNT
+
+atCCT
+
+angDTT
+condomNNT
+
+ayVBZT
+saINT
+ wakasRBT
+ 
+ amponNNT
+
+,,
+
+pagkataposNNT
+
+ngINT
+
+tatlongJJT
+taonNNT
+
+ngINT
+
+debateNNT
+ 
+ ..
+
+
+
+
+AyonJJT
+
+kayINT
+
+stateNNT
+fireNNT
+officialNNT
+  GuidoNNPT
+    deNNPT
+    MeloNNPT
+    
+    ,,
+   
+    2CD
+ 
+ ,,
+
+000CD
+kataoNNT
+
+angDTT
+nasaINT
+ 
+ loobNNT
+
+ngINT
+
+
+nightclubNNT
+
+
+nangINT
+masunogVBNT
+,,
+
+
+
+dobleJJT
+
+saINT
+dapatVBT
+
+sanayJJT
+capacityNNT
+nitoPRPT
+  
+   naINT
+  
+  
+   1CDT
+ 
+ ,,
+
+000CDT
+
+langRBT
+..
+
+
+
+
+HindiRBT
+paRBT
+rinRBT
+
+malinawJJT
+angDTT
+sanhiNNT
+  
+   ngINT
+  
+   sunogNNT
+ 
+ naINT
+sinundanVBDT
+ngINT
+
+stampedeNNT
+mataposVBDT
+mag-panicVBDT
+  angDTT
+    mgaRBT
+    
+    
+    taoNNT
+  
+  ..
+
+
+
+
+saINT
+
+reportNNT
+
+ngINT
+
+NationalNNT
+DisasterNNT
+RiskNNT
+  ReductionNNT
+    
+    andINT
+   
+  
+    ManagementNNT
+ CouncilNNT
+
+((
+
+NDRRMCNNPT
+ 
+ ))
+
+
+alasNNT
+siyeteNNT
+
+ngINT
+
+  
+umagaNNT
+ 
+ 
+ngINT
+
+
+SabadoNNT
+
+,,
+
+nasaINT
+
+
+24CDT
+
+
+naRBT
+
+angDTT
+
+kumpirmadongVBDT
+
+patayNNT
+
+..
+
+SamantalaINT
+,,
+
+nagsanibVBT
+
+pwersaNNT
+
+namanRBT
+
+
+angDTT
+PhilippineNNPT
+CoastNNT
+  GuardNNT
+    
+    (,(
+   
+    PCGNNPT
+ 
+ ),)
+atINT
+
+
+PhilippineNNPT
+NavyNNT
+
+(,(
+
+PNNNPT
+ 
+ ),)
+saINT
+paghahanapVBT
+saINT
+mgaRBT
+nawawalangVBT
+
+
+pasaheroNNT
+
+ngINT
+
+
+pampasaherongNNT
+barkoNNT
+
+ngINT
+
+  
+2GoNNPT
+ 
+ naRBT
+
+MVNNPT
+St.NNPT
+ThomasNNPT
+  AquinasNNPT
+    
+    ..
+   
+  
+  
+    
+
+
+SANTANNT
+MARIANNT
+
+,,
+
+  
+BrazilNNPT
+ 
+ ,,
+
+
+PatuloyJJT
+angDTT
+mappingNNT
+  operationNNT
+    
+    naINT
+   isinasagawaVBGT
+   ngINT
+ mgaRBT
+
+
+otoridadNNT
+
+saINT
+
+malakingJJT
+sunogNNT
+
+  
+  naINT
+  nangyariVBN
+ saINT
+ 
+ KissNNPT
+nightclubNNT
+
+saINT
+
+SantaNNPT
+ MariaNNPT
+
+,,
+
+BrazilNNPT
+ 
+ naINT
+ikinasawiVBNT
+
+ngINT
+higitRBT
+
+230CDT
+kataoNNT
+
+..
+
+
+
+NoongRBT
+
+1963NNT
+
+,,
+
+angDTT
+SabahNNT
+
+naINT
+
+hitikJJT
+ 
+ saINT
+
+likasJJT
+
+naINT
+
+yamanNNT
+
+,,
+ayVBZT
+nasaINT
+
+
+pangangalagaNNT
+
+ngINT
+mgaRBT
+
+BritishNNPT
+mulaNNT
+
+saINT
+
+hulingJJT
+ bahagiNNT
+
+ngINT
+
+19CDT
+ thNNT
+centuryNNT
+  
+   atCCT
+  
+  
+   kinalaunanNNT
+ 
+ ayVBZT
+nagingVBDT
+
+bahagiNNT
+
+ngINT
+
+FederationNNT
+
+ofIN
+
+MalaysiaNNPT
+
+..
+
+
+
+
+
+SinabiVBNT
+niINT
+
+MisuariNNPT
+
+,,
+kungINT
+tutuusinVBPT
+ayVBZT
+
+
+siyaPRPT
+angDTT
+pangunahingCDT
+  claimantNNT
+    
+    saINT
+   
+    SabahNNPT
+ dahilNNT
+unaJJT
+  itongPRPT
+    
+    pag-aariNNT
+    
+    ngNNT
+   
+  
+    kanyangPRP$T
+ loloNNT
+
+,,
+naINT
+ 
+ 
+ kilalangJJT
+mandirigmaNNT
+
+..
+
+
+
+
+AyonJJT
+
+kayINT
+niINT
+
+MisuariNNPT
+
+naINT
+
+nararapatJJT
+
+lamangRBT
+naINT
+maibalikVBPT
+saINT
+mgaRBT
+
+mamamayanNNT
+
+ngINT
+
+SuluNNPT
+angDTT
+nasabingNTT
+  islaNNT
+    dahilNNT
+    itoPRPT
+    
+    ayVBZT
+   
+  
+    pag-aariNNT
+ 
+ ngINT
+
+
+kanilangPRPT
+
+mgaRBT
+
+ninunoNNT
+
+..
+
+
+
+
+ItoPRPT
+angDTT
+tahasangJJT
+  pahayagNNT
+    
+    niINT
+   
+    MoroNNPT
+ NationalNNT
+LiberationNNT
+  FrontNNT
+    
+    (,(
+   
+    MNLFNNPT
+ 
+ ),)
+
+
+foundingNNT
+chairmanNNT
+NurNNPT
+  MisuariNNPT
+    
+    ,,
+   naINT
+   sumusuportaVBGT
+ saINT
+
+
+hakbangNNT
+
+ngINT
+mgaRBT
+
+
+KiramNNPT
+
+ngINT
+
+SuluNNPT
+
+paraRBT
+bawiinVBPT
+
+angDTT
+SabahNNPT
+mulaNNT
+  
+   saINT
+  
+  
+   MalaysiaNNPT
+ 
+ ..
+
+
+
+BinigyangVBDT
+
+
+diinNNT
+
+
+paRBT
+
+
+nitoPRPT
+
+
+naINT
+
+walaNNT
+
+umanongVBPT
+naitatalangVBGT
+mgaRBT
+pagyanigVBGT
+saINT
+nakalipasJJT
+naINT
+mgaRBT
+
+arawNNT
+
+kungINT
+kayaCCT
+
+
+walangJJT
+movementNNT
+
+saINT
+
+ilalimNNT
+ 
+ ngINT
+
+bulkanNNT
+
+..
+
+
+
+PaliwanagVBGT
+niINT
+
+SolidumNNPT
+
+,,
+
+angDTT
+pagbugaVBDT
+ngINT
+
+makapalJJT
+
+naINT
+
+usokNNT
+
+ngINT
+
+bulkanINT
+dakongNNT
+8CDT
+  
+   ::
+  
+   00CDT
+ 
+ ngINT
+
+umagaNNT
+
+ayVBZT
+hindiRBT
+maituturingVBPT
+naINT
+pagsabogVBGT
+
+
+dahilNNT
+walaNNT
+
+namanRBT
+umanongVBGT
+ umakyatVBPT
+ naINT
+
+magmaNNT
+
+saINT
+
+craterNNT
+nitoPRPT
+
+..
+
+
+
+PinayuhanVBNT
+kahaponRBT
+niINT
+
+
+PhilippineNNPT
+InstituteNNT
+
+ofINT
+
+VolcanologyNNT
+ 
+ andCCT
+
+SeismologyNNT
+
+(,(
+
+PhivolcsNNPT
+
+),)
+
+directorNNT
+RenatoNNPT
+SolidumNNPT
+  
+   ,,
+  
+   Jr.NNT
+ angINT
+mgaRBT
+  residenteNNT
+    
+    saINT
+   
+    palibotJJT
+ 
+ ngINT
+
+MayonNNPT
+VolcanoNNT
+
+naNNT
+kumalmaVBPT
+ mataposVBDT
+ maiulatVBDT
+naINT
+sumabogVBDT
+angDTT
+nasabingVBDT
+
+bulkanNNT
+
+kahaponRBT
+ngINT
+
+
+umagaNNP
+
+..
+
+
+
+
+GUIDULUNGANNNPT
+
+,,
+
+MaguindanaoNNPT
+
+--
+UMAKYATVBD
+naINT
+saINT
+
+siyamJJT
+angDT
+patayNNT
+  
+   kabilangINT
+  naINT
+  
+  angDT
+isangJJT
+sibilyanNNT
+  
+   saINT
+  bakbakanVB
+  ngINT
+ mgaINT
+
+sundaloNNT
+
+atCC
+
+gerilyangJJT
+BangsamoroNNPT
+IslamicNNPT
+  FreedomNNPT
+    FightersNNPT
+    
+    ((
+   
+    BIFFNNPT
+ 
+ ))
+saINT
+
+GuindulunganNNPT
+
+,,
+
+MaguindanaoNNPT
+
+..
+
+
+
+inatasanVBDT
+ngINT
+
+MalacañangNNPT
+CivilNNT
+AviationNNT
+  AuthorityNNT
+    
+    ofINT
+   
+  
+    theDTT
+ PhilippinesNNPT
+
+(,(
+
+CAAPNNPT
+ 
+ ),)
+naINT
+makialamVBDT
+naINT
+saINT
+pag-aalisVBZT
+ngINT
+nakabalandrangVBPT
+
+
+commercialNNT
+planeNNT
+
+  
+  upangCCT
+  maibalikVBGT
+ 
+ angDTT
+normalJJT
+
+naINT
+
+operasyonNNT
+ 
+ ngINT
+
+
+paliparanNNT
+
+..
+
+
+
+
+MATALAMNNPT
+
+,,
+
+COTABATONNPT
+
+--
+DAHILINT
+saINT
+girianVBD
+ngINT
+
+MoroNNPT
+NationaNNPT
+LiberationNNPT
+  FrontNNPT
+    
+    ((
+   
+    MNLFNNLP
+ 
+ ))
+atCC
+
+MoroNNPT
+IslamicNNPT
+LiberationNNPT
+  FrontNNPT
+    
+    ((
+   
+    MILFNNPT
+ 
+ ))
+saINT
+
+MatalamNNPT
+
+,,
+ipinagRB
+--
+utosVB
+naINT
+
+angDT
+
+paglalagayVBG
+ngINT
+
+peacekeepingNNT
+forcesNNT
+
+saINT
+mgaINT
+ 
+ daanNNT
+
+..
+
+
+
+
+KIDAPAWANNNPT
+CITYNNPT
+
+--
+NAGRBT
+ --
+ IIKOTVBG
+naINT
+saINT
+mgaINT
+
+pampublikongJJT
+lugarNNT
+
+saINT
+
+KidapawanNNPT
+ CityNNPT
+angDT
+  K9NNT
+    unitsNNT
+    
+    ngINT
+   
+    militarNNT
+ 
+ atCC
+
+pulisNNT
+
+..
+
+
+angDT
+
+mgaINT
+
+K9NNT
+dogsNNT
+
+ngINT
+
+ArmyNNT
+ explosiveNNT
+ordinanceNNT
+  divisionNNT
+    
+    atCC
+   ngINT
+   
+   KidapawanNNPT
+CityNNPT
+PoliceNNPT
+  OfficeNNPT
+    
+    ayINT
+   umiikotVBG
+   saINT
+ mgaINT
+
+marketNNT
+
+,,
+
+mallsNNT
+
+,,
+
+terminalsNNT
+
+atCC
+mgaINT
+
+mataongJJT
+lugarNNT
+
+upangCCT
+masiguroVB
+ naINT
+ hindiRBT
+mangyariVBD
+saINT
+
+lungsodNNT
+angDT
+
+pagsabogVBD
+naINT
+ naganapVBD
+ saINT
+
+CagayanNNPT
+deNNPT
+OroNNPT
+  CityNNPT
+    
+    naINT
+   ikinasawiVBD
+   ngINT
+ 
+ waloJJT
+kataoNNT
+
+
+
+
+
+
+SKNNPT
+PENDATUNNNPT
+
+,,
+
+MAGUINDANAONNPT
+ 
+ --
+BIGOVB
+diumanoVBT
+saINT
+kanilangINT
+
+planoNNT
+angDT
+
+mgaINT
+
+armadoNNT
+ 
+ naINT
+agawinVBD
+
+angDT
+
+toneRB
+--
+toneladangVBG
+
+reliefJJT
+goodsNNT
+
+paraRBT
+saINT
+ mgaINT
+ 
+ biktimaNNT
+
+ngINT
+
+bahaNNT
+
+saINT
+
+bayanNNT
+
+ngINT
+
+SKNNPT
+PendatunNNPT
+
+atCC
+
+DatuNNPT
+ PaglasNNPT
+
+,,
+
+MaguindanaoNNPT
+ 
+ ..
+
+
+
+
+KORONADALNNPT
+CITYNNT
+
+--
+HALOSRB
+ 
+ isangJJT
+liboJJT
+
+naINT
+
+angDT
+ biktimaNNT
+
+saINT
+nagpapatuloyVBG
+ naINT
+ pagRB
+--
+akyatVB
+ngINT
+
+kasoNNT
+
+ngINT
+
+
+ chikungunyaNNT
+   
+   saINT
+  
+   lalawiganNNT
+ 
+ ngINT
+
+SouthNNPT
+CotabatoNNPT
+
+..
+
+SaINT
+ 
+ talaanNNT
+
+ngINT
+
+ProvincialNNPT
+EpidemiologyNNPT
+
+andCC
+
+HealthNNPT
+ OfficeNNPT
+
+((
+
+IPHONNPT
+ 
+ ))
+,,
+umaabotVBG
+naINT
+saINT
+
+536CD
+angDT
+kasoNNT
+  
+   ngINT
+  
+   chikungunyaNNT
+ 
+ saINT
+
+bayanNNT
+
+ngINT
+
+TampakanNNPT
+
+habangCCT
+
+272CD
+
+namanRBT
+saINT
+
+KoronadalNNPT
+CityNNPT
+
+..
+
+
+
+
+COTABATONNPT
+CITYNNPT
+
+--
+DAHILINT
+ saINT
+ naganapVBD
+naINT
+kaguluhanVBD
+atCC
+mgaINT
+pagbahaVBD
+,,
+hinilingVBD
+ngayonRBT
+naINT
+palawiginVBD
+paRB
+
+angDT
+
+pagparehistroVBD
+paraRBT
+saINT
+
+SangguniangNNPT
+KabataanNNPT
+
+((
+
+SKNNPT
+ 
+ ))
+atCC
+
+BarangayNNT
+electionNNT
+saINT
+
+MaguindanaoNNPT
+
+atCC
+
+CotabatoNNPT
+provinceNNT
+
+gayundinINT
+saINT
+ 
+ lungsodNNT
+
+ngINT
+
+CotabatoNNPT
+
+
+
+
+
+
+ISULANNNPT
+
+,,
+
+SULTANNNPT
+KUDARATNNPT
+--
+MALAPITRBT
+naINT
+diumanoVBD
+naINT
+mataposVBD
+
+angDT
+problemaNNT
+
+saINT
+
+bahaNNT
+ 
+ ngINT
+mgaINT
+
+magsasakaNNT
+
+saINT
+
+lalawiganNNT
+
+ngINT
+
+SultanNNPT
+KudaratNNPT
+
+..
+
+InaprobahanVBD
+ naINT
+ngINT
+
+WorldNNPT
+BankNNPT
+angDT
+  
+   konstruksyonVB
+  ngINT
+  nangungunangRB
+ 
+ floodNNT
+protectionNNT
+projectNNT
+  
+   saINT
+  
+   BarangayNNT
+ DansuliNNPT
+,,
+
+IsulanNNPT
+
+..
+
+
+
+
+AMPATUANNNPT
+
+,,
+
+MAGUINDANAONNPT
+
+--
+PUSPUSANVBD
+
+angDT
+
+paghahanapVBG
+ngINT
+mgaINT
+
+otoriadNNT
+
+labanVB
+saINT
+mgaINT
+natitiraVBD
+paRB
+naINT
+mgaINT
+
+suspekNNT
+
+saINT
+naganapVBD
+naINT
+
+MaguindanaoNNPT
+
+massacreVB
+noongRB
+
+NobyembreNNPT
+23CD
+
+,,
+
+2009CD
+ 
+ 
+
+
+
+
+COTABATONNPT
+CITYNNPT
+
+--
+PATULOYRB
+ 
+ 
+ angDT
+
+pagloboVB
+ngINT
+mgaINT
+
+evacueesNNT
+mulaNNT
+
+saINT
+binahaVBD
+ naINT
+ mgaINT
+
+lugarNNT
+
+saINT
+
+CotabatoNNPT
+CityNNPT
+
+atCC
+
+MaguindanaoNNPT
+ 
+ ..
+
+SaCC
+
+talaanNNT
+
+ngINT
+
+PhilippineNNPT
+RedNNPT
+CrossNNPT
+  
+   ((
+  
+   PRCNNPT
+ 
+ ))
+
+CotabatoNNPT
+
+mayroonVB
+nangINT
+
+223CDT
+
+,,
+
+614CDT
+kataoNNT
+angDT
+  
+   apektadoVBD
+  ngINT
+  
+  bahaNNT
+
+saINT
+
+189CDT
+
+naINT
+mgaINT
+
+barangayNNT
+
+ngINT
+nabanggitVBD
+naINT
+mgaINT
+
+lugarNNT
+
+..
+
+
+
+
+KABACANNNPT
+
+,,
+
+COTABATONNPT
+
+--
+NALUNODVB
+atINT
+pinaghahanapVBD
+paINT
+ngayonRBT
+angINT
+
+isangJJT
+lalakiNNT
+
+mataposVBD
+tumaobVBD
+ angINT
+ sinasakyangVBG
+
+bangkaNNT
+
+saINT
+
+bahagiJJT
+
+ngINT
+
+RioNNPT
+GrandeNNPT
+deNNPT
+  MindanaoNNPT
+    
+    naINT
+   nasaINT
+   
+   KalakatNNPT
+
+,,
+
+SitioNNPT
+MalabuayaNNPT
+
+,,
+
+KayagaNNPT
+ 
+ ,,
+
+KabacanNNPT
+
+,,
+
+CotabatoNNPT
+
+
+
+
+
+GUINDULUNGANNNPT
+
+,,
+
+MAGUINDANAONNPT
+
+--
+
+ISANGCDT
+resolutionNNT
+
+angINT
+inaprobahanVBT
+ ngINT
+ 
+ mgaINT
+
+membroNNT
+
+ngINT
+
+SangguniangNNPT
+BayanNNPT
+
+((
+
+SBNNPT
+ 
+ ))
+ngINT
+
+GuindulunganNNPT
+
+,,
+
+MaguindanaoNNPT
+
+bilangINT
+pagkondenaVBT
+saINT
+naganapVBD
+naINT
+pangangatakeVB
+saINT
+
+
+kanilangPRPT
+bayanNNT
+
+
+
+
+
+DahilNNT
+
+saINT
+
+
+matindingJJT
+abalaNNT
+
+naINT
+ngVBDT
+ pagkakasadsadVBDT
+ ngINT
+
+
+isangJJT
+eroplanoNNT
+
+ngINT
+
+CebuNNPT
+ PacificNNT
+
+saINT
+
+  
+runwayNNT
+ 
+ ngINT
+
+DavaoNNPT
+InternationalNNT
+AirportNNT
+  
+   noongRBT
+  
+   LinggoNNT
+ 
+ ..
+
+
+
+UmakyatVBDT
+naRBT
+saINT
+
+
+24CDT
+pasaheroNNT
+
+natagpuangVBDT
+
+  
+patayNNT
+ 
+ ,,
+habangCCT
+bumabaVBDT
+namanRBT
+saINT
+
+
+217CDT
+mulaNNT
+
+saINT
+
+  
+274CDT
+ angDTT
+nawawalaJJT
+  kaugnayJJT
+    
+    saINT
+   nangyaringVBDT
+   
+   
+   banggaanNNT
+
+ngINT
+
+
+dalawangJJT
+barkoNNT
+
+saINT
+
+  
+TalisayNNPT
+ 
+ ,,
+
+
+CebuNNPT
+BiyernesNNT
+
+ngINT
+
+gabiNNT
+ 
+ ..
+
+
+
+
+UmakyatVBDT
+naRBT
+saINT
+
+
+24CDT
+pasaheroNNT
+
+natagpuangVBDT
+
+  
+patayNNT
+ 
+ ,,
+habangCCT
+bumabaVBDT
+namanRBT
+saINT
+
+
+217CDT
+mulaNNT
+
+saINT
+
+  
+274CDT
+ angDTT
+nawawalaJJT
+  kaugnayJJT
+    
+    saINT
+   nangyaringVBDT
+   
+   
+   banggaanNNT
+
+ngINT
+
+
+dalawangJJT
+barkoNNT
+
+saINT
+
+  
+TalisayNNPT
+ 
+ ,,
+
+
+CebuNNPT
+BiyernesNNT
+
+ngINT
+
+gabiNNT
+ 
+ ..
+
+
+
+
+
+NalamanVBDT
+ngINT
+mgaRBT
+
+
+awtoridadNNT
+angNNT
+insidentengNNT
+  
+   nangyariVBDT
+  mataposVBDT
+  makatakasVBDT
+ atCCT
+makapag-reportVBDT
+
+
+angDTT
+isangJJT
+sundaloNNT
+  
+   naINT
+  
+  
+   kasamaNNT
+ 
+ ngINT
+
+
+grupoNNT
+
+,,
+
+
+ayonJJT
+
+kayINT
+
+
+SeniorNNT
+SuperintendentNNT
+RonaldNNPT
+  delaNNPT
+    RosaNNPT
+    
+    ..
+   
+    
+
+
+
+LimangJJT
+sundaloNNT
+
+  
+  naINT
+  
+  
+  nakasibilyanJJT
+ 
+ 
+atCCT
+hindiRBT
+mgaRBT
+
+
+armadoJJT
+
+dinukotVBDT
+atCCT
+binihagVBDT
+ngINT
+
+NewNNT
+People’sNNT
+ArmyNNT
+  
+   (,(
+  
+   NPANNPT
+ 
+ ),)
+
+nitongPRPT
+LunesNNT
+
+saINT
+
+  
+DavaoNNPT
+ delNNPT
+NorteNNPT
+  
+   ..
+  
+   
+
+
+AngDDT
+panawagangNNT
+itoPRPT
+  
+   ngINT
+  
+  
+   DFANNPT
+ 
+ ayVBZT
+
+
+bunsodNNT
+
+ngINT
+
+nakatakdangJJT
+pagbitayNNT
+
+saINT
+susunodVBPT
+ naINT
+ 
+ 
+ linggoINT
+
+saINT
+
+
+isangJJT
+PinayNNT
+
+,,
+
+  
+dahilNNT
+ 
+ saINT
+pagpupuslitVBGT
+ngINT
+
+heroinNNT
+
+saINT
+
+ChinaNNPT
+
+..
+
+
+
+
+KabilangNNT
+
+saINT
+mgaRBT
+nasawiVBDT
+saINT
+pagsabogVBDT
+saINT
+
+
+Kyla’sNNPT
+barNNT
+
+saINT
+
+LimketkaiNNPT
+ CenterNNT
+dakongNNP
+  11CDT
+    
+    ::
+   
+    30CDT
+ PMNNT
+
+,,
+
+RoldanNNPT
+ LagbasNNPT
+
+,,
+
+  
+provincialNNT
+ boardNNT
+memberNNT
+  
+   saINT
+  
+   MisamisNNPT
+ OrientalNNPT
+
+..
+
+
+
+NANGUNAVBGT
+
+
+angDTT
+PolomolokNNPT
+CentralNNT
+  ElementaryNNT
+    SchoolNNT
+    
+    atCCT
+   
+    Sto.NNT
+ NiñoNNT
+NationalNNT
+  HighNNT
+    SchoolNNT
+    
+    saINT
+   
+    SearchVBT
+ forRBT
+
+
+ModelNNT
+SchoolNNT
+
+  
+  inINT
+  
+  
+  SolidJJT
+ WasteNNT
+ManagementNNT
+  ImplementationNNT
+    
+    saINT
+   
+  
+    elementaryNNT
+ 
+ 
+atCCT
+
+highNNT
+schoolNNT
+categoryNNT
+ ..
+  
+  
+ 
+
+NiyanigVBDT
+ngINT
+
+
+malakasJJT
+
+naINT
+
+
+pagsabogNNT
+
+noongRBT
+
+
+BiyernesNNPT
+
+ngINT
+
+
+gabiNNT
+
+
+angDTT
+isangJJT
+establisimyentoNNT
+  
+   saINT
+  
+   LimketkaiNNPT
+ CenterNNT
+
+saINT
+
+  
+CagayanNNPT
+ deNNPT
+OroNNPT
+  CityNNT
+    
+    naINT
+   nagresultaVBDT
+   saINT
+ 
+ 
+ pagkamatayNNT
+
+ngINT
+
+
+animJJT
+kataoNNT
+
+atINT
+pagkakasugatVBGT
+ ngINT
+ 
+ 46CDT
+ibaPRP$T
+
+paRBT
+..
+ 
+ 
+
+
+
+PATAYNNT
+
+saINT
+pamamarilVBGT
+
+
+angDTT
+dalawangJJT
+mangangalakalNNT
+  
+   saINT
+  
+   BasilanNNPT
+ 
+ ..
+
+KinilalaVBGT
+angDTT
+mgaRBT
+namatayVBDT
+kinaINT
+
+ArnelNNPT
+DiadNNPT
+
+atCCT
+
+LeviNNPT
+ AltuveroNNPT
+
+,,
+
+kapwaNNT
+ residenteNNT
+
+ngINT
+
+ZamboangaNNPT
+ SibugayNNPT
+
+subalitCCT
+nagbebenteVBGT
+ ngINT
+ mgaRBT
+
+gamitNNT
+pang-kusinaNNT
+
+saINT
+
+lugarNNT
+ 
+ ..
+
+
+
+
+NAGDULOTVBDT
+ngINT
+
+
+sobrangJJT
+takotNNT
+
+saINT
+mgaRBT
+ 
+ 
+ kostumerNNT
+
+angDTT
+nakitangVBDT
+
+
+improvisedNNT
+explosiveNNT
+deviceNNT
+  
+   ((
+  
+   IEDNNPT
+ 
+ ))
+..
+
+
+AgadRBT
+namanRBT
+naINT
+rumespondeVBNT
+
+
+angDTT
+ExplosiveNNT
+OrdnanceNNT
+  DivisionNNT
+    
+    ((
+   
+    EODNNPT
+ 
+ ))
+
+TeamNNT
+
+atCCT
+nagawangVBGT
+madetonateVBGT
+
+angDTT
+IEDNNPT
+
+naINT
+natagpuanVBDT
+ malapitRBT
+ saINT
+
+counterNNT
+
+ngINT
+
+NewNNT
+MabuhayNNT
+BasilanNNT
+  TradingNNT
+    ShoppingNNT
+    CenterNNT
+    
+    noongRBT
+   
+  
+    LunesNNT
+ 
+ ngINT
+
+tanghaliNNT
+
+..
+
+
+
+
+
+PATAYNNT
+angDTT
+isangJJT
+  opisyalNNT
+    
+    ngINT
+   
+    ComissionNNT
+ 
+ onRBT
+
+ElectionNNT
+
+((
+
+ComelecNNPT
+
+))
+ngINT
+
+ParangNNPT
+
+,,
+
+MaguindanaoNNPT
+
+,,
+ngINT
+pagbabarilinVBGT
+saINT
+
+BarangayNNT
+ManubuanNNPT
+
+,,
+
+MatalamNNPT
+ 
+ ,,
+
+CotabatoNNPT
+
+..
+
+
+
+
+TATLONGJJT
+
+mgaRBT
+
+ordinansaNNT
+
+angDTT
+nakatakdangVBZT
+i-revisitVBZT
+ngINT
+
+SangguniangNNT
+PanlalawiganNNT
+
+ngINT
+
+SouthNNT
+ CotabatoNNPT
+
+paraRBT
+saINT
+ 
+ 
+ posiblengJJT
+pagbabagoNNT
+
+..
+
+
+
+ItoPRPT
+
+ayVBZT
+
+
+angDTT
+EnvironmentNNT
+CodeNNT
+ ,,
+  
+  
+ HealthNNT
+ CodeNNT
+
+atCCT
+
+  
+GenderNNT
+ 
+ andCCT
+
+DevelopmentNNT
+CodeNNT
+
+..
+
+  
+
+
+NAKILALAVBDT
+naINT
+
+
+angDTT
+bangkayNNT
+
+naINT
+natagpuanVBDT
+ saINT
+ 
+ gilidNNT
+
+ngINT
+
+highwayNNT
+
+saINT
+
+
+PurokNNT
+BasagNNPT
+
+,,
+
+BarangayNNT
+ MagonNNPT
+
+,,
+
+  
+TantanganNNPT
+ 
+ ,,
+
+SouthNNT
+CotabatoNNPT
+
+..
+
+
+
+
+DALAWANGJJT
+tamaNNT
+
+saINT
+
+uloNNT
+ angDTT
+natamoNNT
+  
+   ngINT
+  
+   isangJJT
+ lalakiNNT
+
+mataposVBDT
+pagbabarilinVBNT
+ saINT
+ 
+ loobNNT
+
+ngINT
+
+slaughterNNT
+houseNNT
+
+saINT
+
+BarangayNNT
+ RosaryNNPT
+HeightsNNT
+  10CDT
+    
+    kahaponRBT
+   ngINT
+   
+   umagaNNT
+
+..
+
+
+
+
+
+CARMENNNPT
+
+,,
+
+
+COTABATONNPT
+
+--
+NAUWIVBNT
+saINT
+pananagaVBGT
+
+angDTT
+inumanNNT
+
+ngINT
+
+magkapitbahayNNT
+ 
+ saINT
+
+bayanNNT
+
+ngINT
+
+CarmenNNPT
+
+,,
+
+CotabatoNNPT
+
+..
+
+
+NagkakantahanVBGT
+saINT
+
+videokeNNT
+barNNT
+
+siINT
+
+  
+PeterNNPT
+ PalerNNPT
+BayarkalNNPT
+  
+   ,,
+  
+   residenteNNT
+ 
+ ngINT
+
+SitioNNT
+KampoNNPT
+
+,,
+
+MalapagNNPT
+ 
+ ,,
+
+CarmenNNPT
+
+atCCT
+angDTT
+kinakasamaVBGT
+
+nitoPRPT
+
+ngINT
+
+tawaginVBGT
+
+ngINT
+
+
+kanyangPRP$T
+kapitbahayNNT
+
+..
+
+
+
+
+
+KORONADALNNPT
+CITYNNT
+
+--
+BINAWIANVBNT
+ ngINT
+ 
+ 
+ buhayNNT
+angDTT
+isangJJT
+  lasingNNT
+    
+    nangINT
+   mahulogVBDT
+   saINT
+ 
+ fishpondNNT
+
+saINT
+
+PurokNNPT
+Pagkaka-isaNNPT
+
+,,
+
+BarangayNNT
+ LumakilNNPT
+
+,,
+
+PolomolokNNPT
+ 
+ ,,
+
+SouthNNT
+CotabatoNNPT
+
+..
+
+KinilalaVBGT
+ 
+ 
+ angDTT
+lalakiNNT
+
+naINT
+siINT
+ 
+ 
+ GerardoNNPT
+BiansatNNPT
+
+,,
+
+51CDT
+ 
+ ,,
+mayVBT
+
+
+asawaNNT
+
+,,
+
+magsasakaNNT
+
+atCCT
+
+residenteNNT
+
+ngINT
+nasabingVBDT
+
+lugarNNT
+
+..
+
+
+
+
+sakayNNT
+
+umanoVBT
+ngINT
+
+deliveryNNT
+truckNNT
+
+ngINT
+
+  
+sinaPRPT
+ RonieNNPT
+CalixtoNNPT
+  
+   naINT
+  
+   residenteNNT
+ 
+ ngINT
+
+GPSNNPT
+
+atCCT
+
+JonathanNNPT
+SalañoNNPT
+
+naINT
+
+residenteNNT
+ 
+ namanRBT
+ngINT
+
+BarangayNNT
+RotondaNPT
+
+,,
+
+KoronadalNNPT
+ CityNNT
+
+..
+
+
+
+
+
+NitongPRPT
+SabadoNNPT
+
+ayVBZT
+nag-isyuVBDT
+ 
+ angDTT
+WhiteNNT
+HouseNNT
+  
+   ngINT
+  
+  
+   worldwideNNT
+ travelNNT
+alertNNT
+  
+   atINT
+  angDTT
+  pagsasaraVBNT
+ ngINT
+
+
+kanilangPRPT
+embahadaNNT
+
+saINT
+
+IslamicNNT
+ countriesNNST
+dahilNNT
+  
+   saINT
+  pinangangambahanVBNT
+  
+  
+  nilangPRP$T
+
+pag-atakeVBDT
+ngINT
+
+internationalNNT
+terroristNNT
+groupNNT
+  
+   ..
+  
+   
+BunsodNNT
+itoPRPT
+
+ngINT
+pagpugaVBDT
+ ngINT
+ ilangDTT
+
+daangJJT
+militanteNNT
+
+saINT
+
+  
+IraqNNPT
+ 
+ ,,
+
+
+LibyaNNPT
+
+,,
+
+
+PakistanNNPT
+
+atINT
+
+animJJT
+
+
+naRBT
+
+bansaNNT
+
+naRBT
+sinasabingVBGT
+konektadoVBDT
+
+saINT
+
+
+al-QaedaNNPT
+
+..
+
+
+
+SaINT
+
+listahanNNT
+mulaNNT
+
+saINT
+
+DepartmentNNT
+ ofINT
+
+EducationNNT
+
+((
+
+DepEdNNPT
+
+))
+
+SouthNNT
+CotabatoNNPT
+
+,,
+kinabibilanganVBGT
+ 
+ itoPRPT
+
+ngINT
+
+48CDT
+
+naINT
+mgaRBT
+
+atletaNNT
+
+saINT
+
+elementaryNNT
+
+atCCT
+
+
+52CDT
+
+saINT
+
+sekondaryaNNT
+
+..
+
+
+
+
+KORONADALNNDT
+CITYNNT
+
+--
+
+MAHIGITJJT
+ 
+ saINT
+
+
+100CDT
+
+
+naINT
+mgaRBT
+
+manlalaroNNT
+mulaNNT
+
+saINT
+
+  
+lalawiganNNT
+ 
+ ngINT
+
+SouthNNT
+CotabatoNNPT
+angDTT
+  kabilangNNT
+    
+    saINT
+   
+    delegasyonNNT
+ 
+ ngINT
+
+SOCCSKSARGENNNPT
+
+saINT
+
+PalarongNNT
+PambansaNNT
+2014CDT
+  
+   ..
+  
+   
+
+
+AyonJJT
+
+kayINT
+
+SouthNNT
+CotabatoNNPT
+Gov.NNT
+  DaisyNNPT
+    Avance-FuentesNNPT
+    
+    mgaRBT
+   
+  
+    basicJJT
+ servicesNNT
+
+angDTT
+pinapadalaVBGT
+ saINT
+ nasabingVBDT
+mgaRBT
+
+barangayNNT
+
+upangCCT
+mapanumbalikVBGT
+
+angDTT
+pagtitiwalaNNT
+
+ngINT
+mgaRBT
+ 
+ residenteNNT
+
+saINT
+
+gobyernoNNT
+
+..
+
+
+
+
+KORONADALNNPT
+CITYNNT
+
+--
+PINALAWAKVBDT
+ paRBT
+ ngINT
+
+provincialNNT
+governmentNNT
+
+ngINT
+
+SouthNNPT
+ CotabatoNNPT
+angDTT
+  outreachNNT
+    programNNT
+    nitoPRPT
+    
+    saINT
+   mgaRBT
+   
+   bulubundukingNNT
+barangayNNT
+
+ngINT
+
+T’boliNNPT
+ 
+ atCCT
+
+LakeNNPT
+SebuNNPT
+labanNNT
+ saINT
+  mgaRBT
+  
+  
+  rebeldengNNT
+NewNNT
+People’sNNT
+  ArmyNNT
+    
+    ((
+   
+    NPANNPT
+ 
+ ))
+..
+
+
+
+KinilalaVBNT
+
+angDTT
+biktimaNNT
+
+naINT
+siINT
+ 
+ HarlynNNPT
+AminolaNNPT
+
+,,
+
+23CDT
+ 
+ ,,
+mayVBT
+
+
+asawaNNT
+
+,,
+atCCT
+
+
+residenteNNT
+
+ngINT
+
+SitioNNPT
+MuslimNNPT
+
+,,
+
+BarangayNNPT
+ PunongNNPT
+GrandeNNPT
+  
+   ngINT
+  nasabingVBDT
+  
+  bayanNNT
+
+..
+
+
+
+
+
+KORONADALNNPT
+CITYNNT
+
+--
+
+SUGATANJJT
+ angDTT
+isangJJT
+  babaeNNT
+    
+    mataposVBDT
+   
+  
+    itongPRPT
+ 
+ barilinVBDT
+
+ngINT
+mgaRBT
+
+
+carnapperNNT
+
+naINT
+nang-agawVBDT
+ngINT
+
+kanyangPRP$T
+motorsikloNNT
+
+saINT
+
+  
+BangaNNPT
+ 
+ ,,
+
+SouthNNT
+CotabatoNNPT
+
+..
+
+
+
+
+DaisyNNPT
+Avance-FuentesNNPT
+
+,,
+
+PNNT
+ 52CDT
+..
+1CDT
+MNNT
+
+saINT
+nasabingVBDT
+
+pondoNNT
+
+angDTT
+nagmulaVBDT
+saINT
+
+
+generalNNT
+fundNNT
+
+ngINT
+
+probinsiyaNNT
+ 
+ habangCCT
+
+PNNT
+27CDT
+
+..
+
+85CDT
+ 
+ --
+
+MMMT
+
+
+angDTT
+kinuhaVBDT
+
+mulaNNT
+
+saINT
+
+trustNNT
+fundNNT
+
+..
+
+  
+
+
+
+KORONADALNNPT
+CITYNNT
+
+--
+NASAINT
+ 
+ 
+ PNNT
+80CDT
+milyonNNT
+  
+   angDTT
+  inilaanVBNT
+  ngINT
+ 
+ provincialNNT
+govermmentNNT
+
+ngINT
+
+  
+SouthNNT
+ CotabatoNNPT
+
+paraRBT
+saINT
+ paghahandaVBGT
+ atCCT
+pag-iwasVBGT
+saINT
+mgaRBT
+
+
+kalamidadNNT
+
+
+ngayongRBT
+
+taonNNT
+
+..
+
+
+
+AyonJJT
+
+kayINT
+
+SouthNNT
+CotabatoNNPT
+Gov.NNT
+  
+   
+
+
+
+
+COTABATONNPT
+CITYNNT
+
+--
+BINISITAVBD
+ niINT
+ 
+ AutonomousNNPT
+RegionNNPT
+
+inINT
+
+MuslimNNPT
+ MindanaoNNPT
+
+((
+
+ARMMNNPT
+ 
+ ))
+
+GovernorNNT
+MujivNNP
+HatamanNNP
+  angDT
+    
+    mgaINT
+   
+    biktimaNNT
+ 
+ ngINT
+
+bahaNNT
+
+saINT
+
+rehiyonNNT
+
+..
+
+
+
+
+COTABATONNPT
+CITYNNT
+
+--
+INAMINVBD
+ ngINT
+ pamunuanVBD
+ngINT
+
+BangsamoroNNPT
+IslamicNNPT
+FreedomNNPT
+  FightersNNPT
+    
+    ((
+   
+    BIFFNNPT
+ 
+ ))
+naINT
+
+silaPRP$T
+angDT
+
+naglunsadVBD
+ngINT
+ pangangatakeVBD
+ saINT
+
+detachmentNNT
+
+ngINT
+
+militarNNT
+
+saINT
+
+BarangayNNT
+BaganNNPT
+
+,,
+
+GuindulunganNNPT
+ 
+ ,,
+
+MaguindanaoNNPT
+
+kahaponRB
+ngINT
+umagaRB
+..
+
+
+
+
+MIDSAYAPNNPT
+
+,,
+
+COTABATONNPT
+
+--
+PATAYVB
+
+angDT
+isangJJT
+magsasakaNNT
+  
+   mataposRB
+  lumabanVBD
+  saINT
+ diumanoINT
+''
+yINT
+ngINT
+
+BangsamoroNNPT
+IslamicNNPT
+FreedomNNPT
+  FightersNNPT
+    
+    ((
+   
+    BIFFNNPT
+ 
+ ))
+naINT
+lumusobVBD
+saINT
+
+PurokNNPT
+MirasolNNPT
+
+,,
+
+BarangayNNT
+ PulumuginNNPT
+
+,,
+
+MidsayapNNPT
+ 
+ ,,
+
+CotabatoNNPT
+
+..
+
+
+
+
+COTABATONPPT
+CITYNNT
+
+--
+TUMAASVBD
+ ngINT
+ halosINT
+
+200CD
+porsyentoNNT
+angDT
+  
+   kasoINT
+  ngINT
+  
+  dengueNNT
+
+saINT
+buongINT
+
+RegionNNT
+12CD
+
+..
+
+SaINT
+ ipinalabasVBD
+naINT
+
+rekordNNT
+
+ngINT
+
+RegionalNNPT
+EpidemiologyNNPT
+SurveillanceNNPT
+  UnitNNPT
+    
+    ((
+   
+    RISUNNPT
+ 
+ ngINT
+
+DepartmentNNPT
+ofNNPT
+HealthNNPT
+  
+   ((
+  
+   DOHNNPT
+ 
+ ))
+
+regionNNPT
+12CD
+
+,,
+nasaINT
+ 
+ 7CD
+
+,,
+
+000CD
+
+naINT
+
+angDT
+kasoNNT
+
+ngINT
+
+dengueNNT
+ 
+ saINT
+
+rehiyonNNT
+
+kungINT
+saanWRB
+
+36CD
+
+saINT
+mgaINT
+
+biktimaNNT
+
+ayINT
+namatayVBD
+..
+
+
+
+
+MATALAMNNPT
+
+,,
+
+COTABATONPPT
+
+--
+TINAMAANVBD
+ngINT
+
+mortarNNT
+angDT
+isangJJT
+  kampoNNT
+    
+    ngINT
+   
+    MoroNNPT
+ IslamicNNPT
+LiberationNNPT
+  FrontNNPT
+    
+    ((
+   
+    MILFNNPT
+ 
+ ))
+saINT
+
+BarangayNNT
+PatadonNNPT
+
+,,
+
+MatalamNNPT
+ 
+ .,
+
+CotabatoNNPT
+
+..
+
+UmabotVBD
+saINT
+
+15CD
+
+mgaINT
+
+mortarNNT
+angDT
+
+tumamaVBD
+saINT
+ 
+ kampoNNT
+
+niINT
+
+MILFNNPT
+KumanderNNT
+OscarNNPT
+  MatyagalNNPT
+    
+    ..
+   
+    
+
+
+
+PIKITNNPT
+
+,,
+
+COTABATONNPT
+
+--
+SUGATANVBD
+
+angDT
+isangJJT
+myembroNNT
+  
+   ngINT
+  
+   armadongJJT
+ grupoNNT
+
+naINT
+nakasagupaVBD
+ ngINT
+ 
+ CitizenNNPT
+ArmedNNPT
+ForceNNPT
+  GeopgraphicalNNPT
+    UnitNNPT
+    
+    ((
+   
+    CAFGUNNPT
+ 
+ ))
+saINT
+
+BarangayNNT
+LingayenNNPT
+
+,,
+
+PikitNNPT
+ 
+ ,,
+
+CotabatoNNPT
+
+..
+
+
+
+
+KIDAPAWANNNPT
+CITYNNPT
+
+--
+UmaangalVBG
+ naINT
+ namanRBT
+
+angDT
+
+mgaINT
+
+residenteNNT
+
+saINT
+ipinapatupadVBG
+naINT
+
+rotationalJJT
+brownoutNNT
+
+saINT
+
+lalawiganNNT
+ 
+ ngINT
+
+CotabatoNNPT
+
+..
+NaranasanVBD
+mulaRBT
+noongRBT
+
+LunesNNPT
+angDT
+dalawangJJT
+  orasNNT
+    
+    naINT
+   
+    rotationalJJT
+ brownoutNNT
+
+
+arawNNT
+
+--
+
+arawNNT
+
+sa
+
+loadNNT
+curtailmentNNT
+
+..
+
+
+
+
+SaINT
+
+talaanNNT
+
+ngINT
+
+DepartmentNNPT
+
+ofINT
+
+SocialNNPT
+WelfareNNPT
+
+andCC
+
+DevelopmentNNPT
+ 
+ saINT
+
+AutonomousNNT
+RegionNNT
+
+inINT
+
+MuslinNNPT
+ MindananaoNNPT
+
+((
+
+DSWDNPPT
+ 
+ --
+
+ARMMNNPT
+
+))
+umababotVBG
+naINT
+saINT
+
+50CD
+
+,,
+
+000CD
+pamilyaNNT
+angDT
+  
+   nagsilikasVBD
+  mataposVBD
+  binahaVDB
+ 
+ angDT
+19CD
+
+saINT
+
+36CD
+ barangayNNT
+
+saINT
+
+MaguindanaoNNPT
+ 
+ ..
+
+
+
+
+
+COTABATONNPT
+CITYNNPT
+
+--
+ISINAILALIMVBD
+ naINT
+ saINT
+
+stateNNT
+
+ofINT
+
+calamityNNT
+angDT
+lalawiganNNT
+  
+   ngINT
+  
+   MaguindanaoNNPT
+ 
+ atCC
+
+CotabatoNNPT
+CityNNPT
+
+dahilINT
+saINT
+ 
+ bahaNNT
+
+dulotRB
+ngINT
+pagbuhosVBD
+ngINT
+
+ulanNNT
+kulakawalaJJT
+
+..
+
+
+AngDT
+
+naturangRB
+mgaINT
+
+lugarNNT
+
+ayINT
+
+unaJJT
+
+nangINT
+nagsuspendeVBD
+ngINT
+
+klaseNNT
+
+dahilINT
+paINT
+rinINT
+saINT
+matindingRB
+pagbahaVBD
+
+
+
+KINUNDENARBDT
+ngINT
+mgaRBT
+
+miembroNNT
+
+ngINT
+
+PhilippineNNPT
+CouncilorsNNT
+LeagueNNT
+  
+   ()
+  
+   PCLNNPT
+ 
+ ))
+
+MaguindanaoNNPT
+angDTT
+pamamarilVBGT
+saINT
+
+
+kanilangPRPT
+kasamahanNNT
+
+saINT
+
+LugayNNPT
+ LugayNNPT
+StreetNNT
+  
+   ,,
+  
+  
+   CotabatoNNPT
+ CityNNT
+
+..
+
+NagtamoVBDT
+ ngINT
+
+
+tamaNNT
+
+ngINT
+
+balaNNT
+
+saINT
+
+kanyangPRP$T
+tiyanNNT
+angDTT
+  biktimaNNT
+    
+    naINT
+   kinilalangNNDT
+   siINT
+ 
+ RahimaNNPT
+SangkadNNPT
+SumagkaNNPT
+  
+   ,,
+  
+   municipalNNT
+ councilorNNT
+
+ngINT
+
+  
+MotherNNPT
+ KabuntalanNNPT
+
+,,
+
+MaguindanaoNNPT
+ 
+ ..
+
+MalibanRBRT
+kayINT
+
+SumagkaNNPT
+
+,,
+
+sugatanJJT
+
+dinRBRT
+saINT
+
+leegNNT
+angDTT
+apoNNT
+  nitoPRPT
+    
+    ..
+   
+  
+    AngDTT
+ mag-lolaNNT
+
+ayVBZT
+
+patuloyJJT
+ paRBT
+
+ngaRBT
+ginagamotVBGT
+ saINT
+ 
+ isangJJT
+ospitalNNT
+
+saINT
+
+CotabatoNNPT
+ CityNNT
+
+..
+
+SaINT
+ ngayonRBT
+,,
+nagpapatuloyVBGT
+paRBT
+
+angDTT
+inbestigasyonNNT
+
+ngINT
+mgaRBT
+ 
+ pulisNNT
+
+saINT
+
+motiboNNT
+
+atCCT
+
+
+pagkakilanlanNNT
+
+ngINT
+mgaRBT
+
+suspekNNT
+
+..
+
+
+
+SAINT
+
+susunodNNT
+
+naINT
+
+buwanNNT
+
+paRBT
+ipagpatuloyVBGT
+
+angINT
+napurnadangJJT
+negosasyonNNT
+  
+   ngINT
+  
+   GovernmentNNT
+ peaceNNT
+panelNNT
+  
+   atCCT
+  
+   MoroNNT
+ NationalNNT
+LiberationNNT
+  FrontNNT
+    
+    ((
+   
+    MNLFNNPT
+ 
+ ))
+..
+
+
+UnaJJT
+
+
+nangINT
+ipinagpalibanVBDT
+ngINT
+
+OrganizationNNT
+
+ofIN
+
+IslamicNNT
+ConferenceNNT
+
+((
+
+OICNNPT
+ 
+ ))
+
+angDTT
+pulongNNT
+
+mataposVBDT
+hinilingVBDT
+ niINT
+ 
+ MNLFNNPT
+foundingNNT
+chairmanNNT
+  NurNNPT
+    MisuariNNPT
+    dahilNNT
+    
+    saINT
+   
+    kaguluhanNNT
+ 
+ naINT
+nangyariVBDT
+saINT
+
+
+ZamboangaNNPT
+CityNNT
+
+..
+
+Napag-alamanVBNT
+ naINT
+saINT
+
+NoteNNT
+VerbaleNNT
+
+kayINT
+
+OICNNPT
+ SecretaryNNT
+GeneralNNT
+  EkmeleddinNNPT
+    IhsanogluNNPT
+    
+    ipinahayagVBDT
+   naINT
+   natanggapVBDT
+ ngINT
+
+IndonesiaNNPT
+angDTT
+lihamNNT
+  mulaNNT
+    
+    saINT
+   
+    MNLFNNPT
+ 
+ naINT
+humihilingVBGT
+ngINT
+
+postponementNNT
+
+
+ngINT
+
+tripartiteNNT
+meetingNNT
+
+atCCT
+
+  
+maaringJJT
+ 
+ ituloyVBT
+saINT
+
+unangJJT
+linggoNNT
+
+ngINT
+
+  
+OktubreNNT
+ 
+ ..
+
+
+
+TatalakayinVBGT
+
+
+sanaJJT
+
+saINT
+nasabingVBDT
+
+
+pulongNNT
+angDTT
+hakbangNNT
+  
+   saINT
+  pagpatuloyVBGT
+  ngINT
+ 
+ isyuNNT
+
+ngINT
+
+finalNNT
+peaceNNT
+agreementNNT
+  
+   ngINT
+  magkabilangRBT
+  
+  panigNNT
+
+atCCT
+pagtatagVBGT
+ngINT
+
+BangsamoroNNPT
+EconomicNNT
+AssistanceNNT
+  fundNNT
+    
+    naINT
+   
+  
+    siyangPRPT
+ 
+ tutugonVBDT
+saINT
+mgaRBT
+
+
+kailanganNNT
+
+ngINT
+
+MNLFNNPT
+
+..
+
+
+
+INIREKOMENDAVBDT
+angINT
+pagbigayVBGT
+ngINT
+““
+
+MedalyaNNT
+
+ngINT
+
+KatapanganNNT
+
+””
+saINT
+
+miembroNNT
+
+ngINT
+
+MidsayapNNPT
+PoliceNNT
+StationNNT
+  
+   saINT
+  
+   CotabatoNNPT
+ provinceNNT
+
+makaraangVBDT
+nabigoVBDT
+ angDTT
+ mgaRBT
+
+kidnapperNNT
+
+naINT
+madukotVBDT
+
+angDTT
+isangJJT
+matandangJJT
+  negosyanteNNT
+    
+    saINT
+   nasabingVBDT
+   
+   lugarNNT
+
+..
+
+MismongRBT
+siINT
+
+PNPNNPT
+12CDT
+RegionalNNT
+  DirectorNNT
+    ChiefNNT
+    SuperintendentNNT
+    CharlesNNPT
+    CalimaNNPT
+    Jr.NNT
+    
+    angDTT
+   nagpahayagVBDT
+   naINT
+ 
+ 
+ nararapatJJT
+bigyanNNT
+
+ngINT
+
+pagkilalaNNT
+ angDTT
+naturangJJT
+  pulisINT
+    
+    naINT
+   nagpakitaVBDT
+   ngINT
+ 
+ katapanganNNT
+
+saINT
+pagdukotVBNT
+
+kayINT
+
+ManolitaNNPT
+CedeñoNNPT
+
+,,
+
+73CDT
+ 
+ --
+
+anyosNNT
+
+ngINT
+nasabingVBDT
+
+bayanNNT
+
+..
+
+Napag-alamanVBDT
+naINT
+agadRBT
+rumespondeVBDT
+
+
+angDTT
+trafficNNT
+policeNNT
+  
+   naINT
+  siINT
+  
+  PoliceNNT
+OfficerNNT
+
+((
+
+PO3NNPT
+ 
+ ))
+
+UlyssesNNPT
+CoronadoNNPT
+
+ngINT
+makitangVBNT
+ umiiyakVBGT
+ saINT
+
+
+loobNNT
+
+ngINT
+
+sasakyanNNT
+angDTT
+biktimaNNT
+  
+   mataposVBDT
+  dikutinVBDT
+  ngINT
+ mgaRBT
+
+
+suspekNNT
+
+..
+
+ItoPRPT
+
+angDTT
+nagingVBDT
+
+
+sanhiNNT
+
+ngINT
+pag-panicVBGT
+ngINT
+mgaRBT
+
+
+suspekNNT
+dahilanNNT
+
+kungINT
+bakitWPT
+ nakaligtasVBDT
+ 
+ 
+ angDTT
+negosyanteNNT
+
+..
+
+SaINT
+ nangyaringVBGT
+
+
+shootoutNNT
+
+,,
+
+
+isaJJT
+
+saINT
+mgaRBT
+
+suspekNNT
+
+angDTT
+namatayVBDT
+habangCCT
+nahuliVBDT
+namanRBT
+saINT
+magkahiwalayRBT
+naINT
+
+operasyonNNT
+angDTT
+tatlongJJT
+  ibaPRP$T
+    
+    paRBT
+   naINT
+   sinampahanVBNT
+ naINT
+ngINT
+
+kasoNNT
+
+..
+
+
+
+TINITIKTIKANVBGT
+naINT
+
+
+angDTT
+ilangJJT
+
+mgaRBT
+
+  
+politikoNNT
+ mulaNNT
+
+saINT
+
+MaguindanaoNNPT
+ 
+ atCCT
+
+CotabatoNNPT
+CityNNT
+
+naINT
+diumano’yRBT
+ 
+ sangkotNNT
+
+saINT
+
+
+bentahanNNT
+
+
+ngINT
+
+ilegalNNT
+
+naINT
+
+drogaNNT
+
+.,
+
+MismoRBT
+siINT
+
+SeniorNNT
+SuperintendentNNT
+YogiNNPT
+  FelimonNNPT
+    RuizNNPT
+    
+    ,,
+   
+    regionalNNT
+ directorNNT
+
+ngINT
+
+PhilippineNNPT
+ DrugNNT
+Enforcement?NNT
+  AgencyNNT
+    
+    saINT
+   
+  
+    AutonomousNNT
+ RegionNNT
+
+inINT
+
+MuslimNNPT
+ MindanaoNNPT
+
+((
+
+PDEA-ARMMNNPT
+ 
+ ))
+angDTT
+nagpahayagVBDT
+naINT
+pinalakasVBDT
+naNNT
+
+nilaPRPT
+angDTT
+hakbangNNT
+  labanNNT
+    
+    saINT
+   mgaRBT
+   hindiRBT
+ paRBT
+pinangalanangVBGT
+
+opisyalNNT
+
+..
+
+KabilangINT
+saINT
+
+
+kanilangPRPT
+
+iniimbestigahanVBGT
+ayVBZT
+mgaRBT
+
+alkaldeNNT
+
+atCCT
+
+konsehalNNT
+
+saINT
+
+ilangJJT
+bayanINT
+
+saINT
+
+MaguindanaoNNPT
+ 
+ ..
+
+AyonJJT
+
+kayINT
+
+RuizNNPT
+
+,,
+
+handaJJT
+itongPRPT
+
+kilalaninVBGT
+angDTT
+ mgaRBT
+ tinutukoyVBGT
+naINT
+mgaRBT
+
+opisyalNNT
+
+saINT
+
+sandalingNNT
+
+masampahanVBGT
+naINT
+ngINT
+
+
+nararapatJJT
+
+naINT
+
+kasoNNT
+
+angDTT
+mgaRBT
+
+
+itoPRPT
+
+..
+
+
+
+IlulunsadVBGT
+saINT
+
+
+SetyembreNNPT
+19CDT
+
+saINT
+
+lungsodNNT
+ 
+ ngINT
+
+DavaoNNT
+
+angDTT
+““
+
+DestinationNNT
+MindanaoNNT
+
+””
+kungINT
+ saanWRB
+ ipapakilalaVBGT
+
+angDTT
+iba’t-ibangJJT
+
+mgaRBT
+
+  
+tourismNNT
+ packagesNNT
+
+saINT
+
+iba’t-ibangJJT
+ lugarNNT
+
+saINT
+
+MindanaoNNPT
+ 
+ ..
+
+SaINT
+
+
+panayamNNT
+
+ngINT
+
+95CDT
+
+..
+
+7CDT
+
+
+BrigadaNNPT
+NewsNNT
+FMNNT
+  KoronadalNNPT
+    
+    kayINT
+   
+    DepartmentNNT
+ 
+ ofINT
+
+TourismNNT
+
+((
+
+DOTNNPT
+
+))
+
+RegionNNT
+12CDT
+NellyNNPT
+  NitaNNPT
+    DilleraNNPT
+    
+    ,,
+   inihayagVBNT
+   
+   
+   nitoPRPT
+
+naINT
+bagoRBT
+paRBT
+manRBT
+
+angDTT
+pormalJJT
+
+naINT
+paglulunsadVBGT
+ ngINT
+ nasabingVBDT
+
+
+aktibidadNNT
+
+,,
+
+
+patuloyJJT
+
+naINT
+angDTT
+pagdatingVBGT
+ngaRBT
+mgaRBT
+
+turistaNNT
+
+saINT
+mgaRBT
+
+touristNNT
+destinationNNT
+
+saINT
+
+RehiyonNNT
+ 
+ --
+
+12CDT
+kagayaJJT
+
+ngINT
+
+SaranganiNNPT
+ 
+ ,,
+
+GeneralNNPT
+SantosNNPT
+
+,,
+
+  
+KoronadalNNPT
+ 
+ atCCT
+
+LakeNNPT
+SebuNNPT
+
+saINT
+
+SouthNNPT
+ CotabatoNNPT
+
+..
+
+SinabiVBGT
+ niINT
+
+DilleraNNPT
+
+naINT
+nagsasagawaVBGT
+
+
+silaPRP$T
+
+ngINT
+
+earlyJJT
+bookingNNT
+
+,,
+
+dalawangJJT
+ buwanNNT
+
+bagoRBT
+
+angDTT
+ weekendNNT
+tourNNT
+  
+    
+   kungINT
+  saanWRB
+  
+  isaJJT
+
+hanggangINT
+
+
+dalawangJJT
+busNNT
+
+naINT
+
+punoJJT
+ 
+ 
+ngINT
+mgaRBT
+
+turistaNNT
+
+angDTT
+bumibistaVBDT
+saINT
+
+rehiyonNT
+
+..
+
+
+LokalJJT
+
+naINT
+
+turistaNNT
+
+umanoVBT
+angDTT
+mgaRBT
+
+itoPRPT
+
+
+mulaNNT
+saINT
+mgaRBT
+
+lungsodNNT
+
+ngINT
+
+
+TagumNNPT
+
+,,
+
+DavaoNNPT
+
+atCCT
+
+DigosNNPT
+
+naINT
+pumupuntaVBNT
+saINT
+mgaRBT
+
+magagandangJJT
+tanawinNNT
+
+saINT
+
+lugarNNT
+ 
+ ..
+
+
+KaugnayJJT
+nitoPRPT
+
+,,
+inihayagVBGT
+ niINT
+ 
+ DilleraNNPT
+
+naINT
+nagsagawaVBGT
+
+
+silaPRPT
+ngINT
+
+familiarizationNNT
+tourNNT
+
+paraRBT
+saINT
+ mgaRBT
+ 
+ travelNNT
+agencyNNT
+
+  
+  saINT
+  mgaRBT
+ 
+ hotelNNT
+
+,,
+
+restaurantNNT
+
+atCCT
+
+ibaPRP$T
+
+
+pangRBT
+
+
+touristNNPT
+attractionNNPT
+
+saINT
+
+RehiyonNNT
+ 
+ --
+
+12CDT
+
+upangCCT
+maisamaVBGT
+saINT
+itineraryVBGT
+naINT
+ina-inaalokVBGT
+saINT
+mgaRBT
+
+turistaNNT
+
+naINT
+
+
+gustongJJT
+bumisitaNNT
+
+saINT
+
+lalawiganNNT
+ 
+ ..
+
+
+
+
+
+PATULOYJJT
+
+naINT
+tumatanggapVBGT
+ngINT
+
+aplikasyonNNT
+angDTT
+PhilippineNNPT
+  NationalNNT
+    PoliceNNT
+    AcademyNNT
+    
+    ((
+   
+    PNPANNPT
+ 
+ ))
+paraRBT
+saINT
+
+CadetNNT
+AdmissionNNT
+TestNNT
+  nitoPRPT
+    
+    naINT
+   isasagawaVBGT
+   saINT
+ 
+ NobyembreNNPT
+10CDT
+
+,,
+
+2013CDT
+ 
+ saINT
+
+25CDT
+
+naINT
+mgaRBT
+
+
+testingNNT
+centersNNT
+
+saINT
+
+buongJJT
+ bansaNNT
+
+..
+
+
+AngDTT
+PNPANNPT
+CadetNNT
+  AdmissionNNT
+    TestNNT
+    angDTT
+    bukasJJT
+    
+    saINT
+   mgaRBT
+   
+   naturalJJT
+bornJJT
+FilipinoNNPT
+  citizenNNT
+    
+    ,,
+   nasaINT
+   
+   18CDT
+
+
+hanggangINT
+
+22CDT
+
+naINT
+
+
+taongJJT
+gulangNNT
+
+,,
+
+walangJJT
+ asawaNNT
+
+atCCT
+
+  
+walangJJT
+ parentalNNT
+
+atCCT
+
+financialNNT
+ obligationNNT
+
+..
+AngDTT
+ mgaRBT
+ 
+ aplikanteNNT
+
+
+ayVBZT
+kinakailanganVBGT
+dinRBRT
+naINT
+
+highNNT
+schoolNNT
+graduateNNT
+  
+   ,,
+  mayVBT
+  
+  
+  taasJJT
+
+naINt
+
+5CDT
+feetNNT
+4CCT
+  inchesNNT
+    
+    saINT
+   mgaRBT
+   
+   
+   lalakiNNT
+
+atCCT
+
+5CDT
+feetNNT
+2CDT
+  inchesNNT
+    
+    namanRBT
+   saINT
+   mgaRBT
+ 
+ 
+ babaeNNT
+
+,,
+mayVBT
+
+goodJJT
+moralNNT
+characterNNT
+  
+   atCCT
+  
+   mentallyJJT
+ 
+ atCCT
+
+physicallyJJT
+
+
+fitNNT
+
+..
+
+HindiRBT
+naINT
+kinakailangangVBGT
+kumuhaVBNT
+ngINT
+nasabingVBDT
+
+examNNT
+
+angDTT
+mgaRBT
+
+
+highNNT
+schoolNNT
+valedictorianNNT
+  
+   atCCT
+  
+   salutatorianNNT
+ 
+ gayundinRBT
+angDTT
+mgaRBT
+
+
+collegeNNT
+summaNNT
+cumNNT
+  laudeNNT
+    
+    ,,
+   
+    magnaNNT
+ cumNNT
+laudeNNT
+  
+   atCCT
+  
+   cumNNT
+ laudeNNT
+
+..
+
+ParaRBT
+ saINT
+
+
+dagdagNNT
+
+naINT
+
+
+impormasyonNNT
+
+atCCT
+saINT
+
+applicationNNT
+formNNT
+
+,,
+bumisitaVBDT
+ lamangRBT
+ saINT
+
+
+pinakamalapitJJT
+
+naINT
+
+
+PNPNNPT
+policeNNT
+stationNNT
+  
+    oJJT
+    
+    mag-log-onVBGT
+   saINT
+   www.pnpa.edu.ph.NNPT
+ 
+ AngDTT
+applicationNNT
+formNNT
+  angDTT
+    kailangangNNT
+    
+    isumiteVBGT
+   atCCT
+   ipadalaVBGT
+ saINT
+
+TheDTT
+DirectorNNT
+
+,,
+((
+ 
+ AttentionNNT
+
+::
+
+RegistrarNNT
+
+))
+,,
+
+PhilippineNNPT
+NationalNNT
+PoliceNNT
+  AcademyNNT
+    
+    ,,
+   
+    CampNNT
+ GeneralNNT
+MarianoNNPT
+  N.NNPT
+    CastanedaNNPT
+    
+    ,,
+   
+    SilangNNPT
+ 
+ ,,
+
+CaviteNNPT
+4129CDT
+
+..
+
+
+KabilangNNT
+
+saINT
+mgaRBT
+
+benepisyoNNT
+
+naINT
+makukuhaVBGT
+ngINT
+mgaRBT
+
+maswertengJJT
+
+makakapasokVBGT
+saINT
+
+
+PNPANNPT
+
+ayVBZT
+
+fullJJT
+governmentNNT
+scholarshipNNT
+  
+   ,,
+  
+  
+   4CDT
+ 
+ naINT
+
+taongNNT
+librengJJT
+edukasyonNNT
+  
+   atCCT
+  
+   trainingNNT
+ 
+ saINT
+
+kolehiyoNNT
+
+,,
+
+trainingNNT
+allowanceNNT
+
+atCTT
+
+  
+siguradongJJT
+ trabahoNNT
+pagkataposNNT
+  
+   ngINT
+  
+   graduationNNT
+ 
+ bilangINT
+
+InspectorNNT
+
+saINT
+
+PoliceNNT
+FireNNT
+oJJT
+  JailNNT
+    BureauNNT
+    
+    ..
+   
+    
+AngDTT
+deadlineNNT
+
+ngINT
+
+  
+applicationNNT
+ 
+ angDTT
+itinakdaVBNT
+saINT
+
+SetyembreNNDT
+28CDT
+
+..
+
+
+
+
+BROWNOUTNNT
+
+angDTT
+sinisisiVBGT
+ngINT
+
+isangJJT
+lalakiNNT
+
+saINT
+nangyaringVBDT
+ 
+ 
+ pagka-ospitalNNT
+nitoPRPT
+
+mataposVBDT
+nabasagVBDT
+ mismoRBT
+ saINT
+
+
+kanyangPRP$T
+tagiliranNNT
+angDTT
+  boteNNT
+    
+    ngINT
+   
+  
+    alakNNT
+ 
+ atCCT
+bumaonVBDT
+angDTT
+mgaRBT
+
+
+bubogNNT
+
+saINT
+
+
+kanyangPRP$T
+katawanNNT
+
+..
+
+KinilalaVBDT
+ 
+ 
+ angDTT
+biktimangNNT
+
+siINT
+
+EdgarNNPT
+ CrespoNNPT
+
+,,
+
+51CDT
+ 
+ ,,
+mayVBT
+
+asawaNNT
+
+atCCT
+
+residenteNNT
+
+ngINT
+
+BarangayNNT
+KusanNNPT
+
+,,
+
+BangaNNPT
+ 
+ ,,
+
+SouthNNPT
+CotabatoNNPT
+
+..
+
+
+Nag-iisangRBT
+tumatagayVBDT
+umanoVBT
+  
+   
+angDTT
+ biktimaNNT
+bandangNNT
+  alasNNT
+    
+    --
+   
+    6CDT
+ 
+ ::
+
+00CDT
+
+ngINT
+
+haponNNT
+
+ngINT
+biglaRBT
+naINT
+lamangRBT
+namatayVBDT
+
+
+angDTT
+ilawNNT
+dahilanNNT
+  
+   upangCCT
+  itagoVBDT
+  
+  
+  nitoPRPT
+angDTT
+boteNNT
+  
+   ngINT
+  
+  
+   alakNNT
+ 
+ naINT
+
+
+kanyangPRP$T
+
+
+iniinumVBGT
+..
+
+InilagayVBDT
+umanoVBT
+
+
+nitoPRPT
+angDTT
+boteNNT
+  
+   saINT
+  
+   kanyangPRP$T
+ tagiliranNNT
+
+ngunitCCT
+biglaRBT
+ 
+ 
+ itongPRPT
+
+
+nadulasVBDT
+
+
+dahilanNNT
+
+nangINT
+pagkabasagVBGT
+ngINT
+nasabingVBDT
+
+
+boteNNT
+
+atCCT
+pagkasugatVBDT
+ngINT
+
+gilidNNT
+nitoPRPT
+
+..
+
+SaINT
+ ngayonRBT
+,,
+nananatiliVBGT
+
+
+itoPRPT
+
+saINT
+
+SouthNNPT
+CotabatoNNPT
+ProvincialNNPT
+  HospitalNNPT
+    
+    habangCCT
+   
+  
+    patuloyJJT
+ 
+ pangRBT
+ginagagamotVBGT
+..
+
+
+
+
+SUGATANJJT
+angDTT
+driverNNT
+  
+   atCCT
+  
+   backriderNNT
+ 
+ ngINT
+
+
+isangJJT
+motorsikloNNT
+
+makaraangRBT
+bumanggaVBDT
+ 
+ itoPRPT
+
+saINT
+
+
+sasakyanNNT
+
+niINT
+
+
+GovernorNNT
+DaisyNNPT
+Avance-FuentesNNPT
+  
+   saINT
+  
+   AlunanNNPT
+ AvenueNNPT
+
+,,
+saINT
+ 
+ harapanJJT
+
+ngINT
+
+
+ProvincialNNT
+PlanningNNT
+
+andCCT
+
+  
+DevelopmentNNT
+ OfficeNNT
+
+((
+
+PPDONNPT
+ 
+ ))
+–-
+
+SouthNNPT
+CotabatoNNPT
+ditoRBT
+  saINT
+    
+  lungsodNNT
+  
+  ngINT
+
+KoronadalNNPT
+
+..
+
+Napag-alamanVBDT
+naINT
+papuntangVBGT
+
+meetingNNT
+
+siINT
+
+
+GovernorNNT
+FuentesNNPT
+lulanJJT
+  
+   ngINT
+  
+   naturangJJT
+ sasakyanNNT
+
+nangINT
+mabanggaVBNT
+ 
+ itoPRPT
+
+
+ngINT
+
+motorsiklongNNT
+
+walangRBT
+
+
+plateNNT
+numberNNT
+
+atCCT
+minamanehoVBGT
+ niINT
+ 
+ JakeNNPT
+SambolanNNPT
+
+,,
+
+20CDT
+ 
+ ,,
+atCCT
+
+residenteNNT
+
+ngINT
+
+BarangayNNT
+AsumpcionNNPT
+
+,,
+
+KoronadalNNPT
+ CityNNT
+
+..
+
+
+MabilisJJT
+
+umanoVBT
+
+
+angDTT
+takboNNT
+
+ngINT
+nasabingVBDT
+ 
+ motorsikloNNT
+
+atCTT
+akmangRBT
+mag-overtakeVBGT
+ngINT
+mahagipVBDT
+nitoPRPT
+angDTT
+
+
+likurangNNT
+bahagiNNT
+
+ngINT
+
+sasakyanNNT
+ 
+ niINT
+
+FuentesNNPT
+
+..
+
+
+SugatanJJT
+angDTT
+driverNNT
+  
+   ngINT
+  nasabingVBDT
+  
+  
+  motorsikloNNT
+kasamaNNT
+
+naINT
+
+  
+angDTT
+ backriderNNT
+nitongPRPT
+  
+   siINT
+  
+   CelinaNNPT
+ LanangNNPT
+
+,,
+
+78CDT
+ 
+ atCCT
+
+residenteNNT
+
+dinRBRT
+ngINT
+
+
+BarangayNNT
+AsumptionNNT
+
+  
+  naNNT
+  kasalukuyangRBT
+ 
+ 
+ ginagamotVBGT
+
+saINT
+
+SouthNNPT
+CotabatoNNPT
+ProvincialNNT
+  HospitalNNT
+    
+    ..
+   
+    
+LigtasJJT
+
+namanRBT
+
+angDTT
+gobernadoraNNT
+
+atCCT
+
+angDTT
+ driverNNT
+
+ngINT
+nasabingVBDT
+ 
+ pick-upNNT
+
+naINT
+kinilalangVBGT
+siINT
+
+DannyNNPT
+PatrocemioNNPT
+
+,,
+nasaINT
+ 
+ legalJJT
+
+naINT
+
+
+edadNNT
+
+atCCT
+
+
+residenteNNT
+
+ngINT
+
+AmuraoNNPT
+SubdivsionNNT
+
+,,
+
+KoronadalNNPT
+ CityNNT
+
+..
+
+SaINT
+ ngayonRBT
+,,
+nagpapatuloyVBGT
+paVBGT
+
+angDTT
+imbestigasyonNNT
+
+saINT
+nasabingVBDT
+ 
+ aksidenteNNT
+
+..
+
+
+
+
+
+TATLONGJJT
+
+mgaRBT
+
+barangayNNT
+
+saINT
+
+SouthNNT
+CotabatoNNPT
+
+angDTT
+apektadoVBDT
+ ngINT
+ 
+ 
+ iba’t-ibangJJT
+uriNNT
+
+ngINT
+
+kalamidadNNT
+ dalaNNT
+
+ngINT
+
+  
+walangNNT
+ humpayNNT
+
+naINT
+
+  
+ulanNNT
+ 
+ ..
+
+
+UnaCDT
+
+ritoRBT
+,,
+umaabotVBGT
+saINT
+
+tatloJJT
+
+hanggangINT
+
+
+apatJJT
+
+naINT
+
+metroNNT
+
+ngINT
+
+daanNNT
+
+saINT
+
+BarangayNNT
+PaloNNPT
+19CDT
+  
+   ,,
+  
+   TampakanNNPT
+ 
+ ,,
+
+SouthNNPT
+CotabatoNNPT
+
+angDTT
+natabunanVBDT
+ ngINT
+ 
+ 
+ lupaNNT
+dahilNNT
+
+saINT
+nasabingVBDT
+ 
+ 
+ landslideNNT
+
+..
+
+AgadRBT
+namangRBT
+isinagawaVBDT
+
+angDTT
+clearingNTT
+operationNTT
+  
+   saINT
+  
+  
+   lugarNNT
+ 
+ 
+upangCCT
+makuhaVBGT
+angDTT
+mgaRBT
+
+lupangNNT
+
+tumabonVBDT
+saINT
+
+
+daanNNT
+
+atCCT
+makapasokVBGT
+angINT
+mgaRBT
+
+
+sasakyanNNT
+
+..
+
+MalibanRBRT
+saINT
+
+landslideNNT
+
+,,
+
+isangJJT
+sasakyanNNT
+
+dinRBRT
+umanoVBT
+ naINT
+ mayVBT
+lamangRBT
+
+4CDT
+
+,,
+
+000CDT
+kiloNNT
+
+ngINT
+
+kalabasaNNT
+ 
+ angDTT
+nahulogVBDT
+saINT
+
+
+PaloNNPT
+RiverNNT
+
+ngINT
+nasabingVBDT
+ 
+ barangayNNT
+
+..
+
+SaINT
+
+bayanNNT
+
+namanRBT
+ngINT
+
+BangaNNPT
+
+,,
+umapawVBDT
+
+angDTT
+tubigNNT
+
+saINT
+
+lineNNT
+ canalNNT
+
+saINT
+
+  
+bahagiNNT
+ 
+ ngINT
+
+SanNNPT
+VicenteNNPT
+dahilanNNT
+  
+   upangCCT
+  bahainVBGT
+  
+  angDTT
+ilangJJT
+lugarNNT
+  
+   saINT
+  nasabingVBDT
+  
+  barangayNNT
+
+..
+
+MalibanRBRT
+saINT
+pagbahaVBGT
+,,
+
+dalawangJJT
+punoNNT
+
+  
+  dinRBRT
+  ngINT
+ 
+ manggaNNT
+
+angDTT
+nabuwalVBDT
+malapitRBT
+saINT
+
+barangayNNT
+plazaNNT
+
+ngINT
+
+  
+BarangayNNT
+ KusanNNPT
+
+ngINT
+nasabingVBDT
+ 
+ 
+ bayanNNT
+
+..
+
+NagresultaVBDT
+namanRBT
+
+
+itoPRPT
+
+
+ngINT
+
+kauntingJJT
+pinsalaNNT
+
+saINT
+nasabingVBDT
+ 
+ lugar
+
+..
+
+
+MaswerteJJT
+
+namangRBT
+
+
+walangJJT
+pamilyangNNT
+
+nagsilikasVBDT
+saINT
+ nasabingVBDT
+ mgaRBT
+
+kalamidadNNT
+
+naINT
+tumamaVBDT
+
+
+dahilNNT
+
+
+saINT
+
+malakasJJT
+
+naINT
+pagbuhosVBDT
+ngINT
+
+ulanNNT
+
+saINT
+
+lalawiganNNT
+
+ngINT
+
+SouthNNPT
+CotabatoNNPT
+
+..
+
+
+
+
+PATULOYJJT
+
+paRBT
+naINT
+inoobserbahanVBGT
+ngayonRBT
+saINT
+
+SouthNNPT
+CotabatoNNPT
+ProvincialNNT
+  HospitalNNT
+    angDTT
+    isangJJT
+    lalakiNNT
+    
+    naINT
+   nabaliVBDT
+   umanoVBT
+ 
+ 
+ angDTT
+spinalNNT
+cordNNT
+  
+    
+   mataposVBDT
+  mahulogVBDT
+  saINT
+ 
+ punoNNT
+
+ngINT
+
+manggaNNT
+
+..
+
+KinilalaVBDT
+
+angDTT
+biktimangNNT
+
+siINT
+
+PanchoNNPT
+ JesmarNNPT
+
+,,
+
+27CDT
+ 
+ ,,
+mayVBT
+
+asawaNNT
+
+atCTT
+
+residenteNNT
+
+ngINT
+
+BarangayNNT
+DajayNNPT
+
+,,
+
+SouthNNPT
+ CotabatoNNPT
+
+..
+
+
+AyonJJT
+
+saINT
+
+asawaNNT
+
+ngINT
+
+biktimaNNT
+
+,,
+namamarilVBGT
+ngINT
+
+isdaNNT
+
+saINT
+
+fishNNT
+pondNNT
+angDTT
+  kanyangPRP$T
+    asawaNNT
+    gamitNNT
+    angDTT
+    jolenNNT
+    gunNNT
+    
+    kungINT
+   saanWRB
+   umakyatVBDT
+ paRBT
+
+
+itoPRPT
+
+saINT
+
+punoNNT
+
+ngINT
+
+manggaNNT
+
+..
+
+NaapakanVBDT
+umanoVBT
+
+
+nitoPRPT
+angDTT
+tuyongJJT
+  sangaNNT
+    dahilanNNT
+    
+    upangCCT
+   mahulogVBDT
+   
+   
+   itoPRPT
+
+..
+
+AgadRBT
+namanRBT
+naINT
+dinalaVBDT
+saINT
+
+SouthNNPT
+CotabatoNNPT
+ProvincialNNPT
+  HospitalNNPT
+    angDTT
+    biktimaNNT
+    
+    atCTT
+   inoobserbahanVBGT
+   saINT
+ ngayonRBT
+
+
+dahilNNT
+
+
+apektadoVBDT
+umanoVBT
+
+
+angDTT
+spinalNNT
+cordNNT
+  nitoPRPT
+    
+    saINT
+   nangyaringVBDT
+   
+   insidenteNNT
+
+..
+
+
+
+NILOOBANVBDT
+ngINT
+mgaRBT
+hindiRBT
+
+
+kilalangJJT
+suspekNNT
+angDTT
+  isangJJT
+    boardingNNT
+    houseNNT
+    
+    ngINT
+   mgaRBT
+   
+   estudyanteNNT
+
+saINT
+
+GensanNNPT
+DriveNNPT
+
+,,
+
+BarangayNNPT
+ MoralesNNPT
+
+ditoRBT
+ngINT
+ 
+ lungsodNNT
+
+ngINT
+
+KoronadalNNPT
+
+..
+
+
+PasadoJJT
+alasNNT
+
+--
+
+3CDT
+ 
+ ::
+
+00CDT
+
+umanoVBT
+ngINT
+
+
+madalingJJT
+arawNNT
+
+nangINT
+pinasokVBDT
+ ngINT
+ mgaRBT
+
+
+suspekNNT
+
+naINT
+
+naka-bonnetJJT
+angDTT
+MarianNNPT
+  HomesNNPT
+    
+    saINT
+   
+  
+    pamamagitanNNT
+ 
+ ngINT
+
+pag-akyatNNT
+
+saINT
+
+bintanaNNT
+nitongPRPT
+nakabukasJJT
+  
+   ..
+  
+   NakuhaVBDT
+ saINT
+mgaRBT
+
+biktimaNNT
+
+naINT
+
+
+pawangJJT
+
+mgaRBT
+
+collegeNNT
+studentsNNT
+angDTT
+  isangJJT
+    netbookNNT
+    
+    ,,
+   
+    dalawangJJT
+ cellphoneNNT
+
+atCCT
+
+walletNNT
+ 
+ naINT
+mayVBT
+
+lamangJJT
+cashNNT
+
+..
+
+MalibanRBRT
+ saINT
+pagnanakawVBDT
+,,
+hinimasVBDT
+dinRBRT
+ngINT
+
+isaJJT
+
+saINT
+mgaRBT
+
+suspekNNT
+angDTT
+dibdibNNT
+  
+   ngINT
+  
+  
+   isaJJT
+ 
+ saINT
+mgaRBT
+
+biktimangJJT
+estudyanteNNT
+
+..
+
+SaINT
+ ngayonRBT
+,,
+nagpapatuloyVBGT
+paRBT
+
+angDTT
+imbestigasyonNNT
+
+ngINT
+
+KoronadalNNPT
+ CityNNPT
+PNPNNPT
+  
+   saINT
+  nasabingVBDT
+  pangyayariNNT
+ 
+ ..
+
+
+
+SINUSULONGVBGT
+ngayonRBT
+saINT
+
+
+SangguniangNNPT
+PanlalawiganNNPT
+
+ngINT
+
+SouthNNPT
+ CotabatoNNPT
+
+angDTT
+pagbibigayVBGT
+ ngINT
+ 
+ 121CDT
+shotgunNNT
+
+saINT
+mgaRBT
+ 
+ barangayNNT
+
+saINT
+
+
+lalawiganNNT
+
+..
+
+AngDTT
+nasabingVBDT
+
+
+panukalaNNT
+
+angDTT
+sinusulongVBGT
+niNNT
+
+BoardNNPT
+MemberNNPT
+AgustinNNPT
+  Dema-alaNNPT
+    
+    ,,
+   
+    committeeNNT
+ chairmanNNT
+
+ngINT
+
+CommitteeNNT
+ onNNT
+PeaceNNT
+  andNNT
+    OrderNNT
+    
+    saINT
+   SP.NNPT
+   ItoPRPT
+ 
+ umanoVBT
+ayVBZT
+paraRBT
+saINT
+
+peaceNNT
+
+andCTT
+
+
+orderNNT
+initiativeNNT
+
+saINT
+
+  
+bawatPRPT
+ barangayNNT
+
+..
+
+UmaabotVBGT
+ namanRBT
+saINT
+
+PNNT
+3CDT
+
+,,
+
+000CDT
+
+,,
+
+000.00CDT
+angDTT
+pondoNNT
+  
+   naINT
+  iminumungkahiVBDT
+  paraRBT
+ ditoRBT
+..
+
+Napag-alamanVBDT
+naINT
+saINT
+
+
+199CDT
+barangayNNT
+
+saINT
+
+lalawiganNNT
+ 
+ ,,
+
+121CDT
+
+paRBT
+
+angDTT
+walangJJT
+shotgunNNT
+  
+   ..
+  
+   UmaasaVBDT
+ namanRBT
+siINT
+
+Dema-alaNNPT
+
+naINT
+
+itoPRPT
+
+ayVBZT
+aprubahanVBDT
+ngINT
+
+SPNNPT
+
+atCCT
+niNNT
+
+SouthNNPT
+CotabatoNNPT
+GovernorNNPT
+  DaisyNNPT
+    Avance-FuentesNNPT
+    
+    ..
+   
+    
+
+
+DAGDAGNNT
+
+naINT
+
+PNNPT
+137CDT
+milyonNNT
+  
+   angDTT
+  inilaanVBDT
+  ngINT
+ 
+ nationalNNT
+governmentNNT
+
+paraRBT
+saINT
+ 
+ electrificationNNT
+
+saINT
+mgaRBT
+
+
+malalayongJJT
+lugarNNT
+
+saINT
+
+SouthNNPT
+ CotabatoNNPT
+
+saINT
+susunodVBT
+ naINT
+ 
+ apatJJT
+
+naINT
+
+buwanNNT
+
+..
+
+
+AyonJJT
+
+kayINT
+
+SantiagoNNPT
+TudioNNPT
+
+,,
+
+SouthNNPT
+ CotabatoNPT
+INNPT
+  ElectricNNPT
+    CooperativeNNPT
+    
+    ((
+   
+    SocotecoNNPT
+ INNPT
+
+))
+
+generalNNT
+ managerNNT
+
+,,
+naNNT
+ inilaanVBDT
+ 
+ 
+ angDTT
+pondoNNT
+
+paraRBT
+saINT
+ 
+ dagdagNNT
+
+naINT
+
+distributionNNT
+linesNNT
+
+atCTT
+
+  
+ibaPRP$T
+ 
+ pangRBT
+
+istrukturaNNT
+
+upangCTT
+magkaroonVBGT
+ngINT
+
+ilawNNT
+angDTT
+137CDT
+  sitiosNNT
+    
+    saINT
+   
+  
+    lalawiganINT
+ 
+ ..
+
+SinabiVBDT
+dinRBRT
+
+nitoPRPT
+
+naINT
+nagbigayVBDT
+naINT
+ngINT
+““
+
+goNNT
+signalNNT
+
+””
+
+angDTT
+ NationalNNT
+ElectrificationNNT
+  AdministrationNNT
+    
+    ((
+   
+    NEANNPT
+ 
+ ))
+saINT
+
+kooperatibaNNT
+
+upangCCT
+simulanVBT
+angDTT
+pagpapatupadVBGT
+ngINT
+nasabingVBDT
+
+proyektoNNT
+
+saINT
+
+ilalimJJT
+
+ngINT
+
+SitioNNPT
+ElectrificationNNPT
+ProgramNNPT
+  
+   ((
+  
+   SEPNNPT
+ 
+ ))
+..
+
+
+UnangCDT
+
+naglaanVBDT
+ngINT
+
+PCDT
+127NNT
+millionNNT
+  angDTT
+    NEANNPT
+    
+    paraRBT
+   saINT
+   nasabingVBDT
+ 
+ programaNNT
+
+saINT
+
+
+127CDT
+sitiosNNT
+
+ngunitCTT
+
+PNNT
+ 10CDT
+
+,,
+
+000CDT
+ 
+ angDTT
+idinagdagVBDT
+paraRBT
+saINT
+
+10CDT
+
+pangRBT
+mgaRBT
+
+lugarNNT
+
+..
+
+KabilangINT
+saINT
+mgaRBT
+
+
+projectNNT
+areasNNT
+nitoPRPT
+  
+   angDTT
+  makikitaVBGT
+  saINT
+ 
+ KoronadalNNPT
+CityNNPT
+
+atCTT
+
+pitongJJT
+ munisipalidadNNT
+
+saINT
+
+SouthNNPT
+ CotabatoNNPT
+
+naINT
+
+bahagiNNT
+ 
+ ngINT
+
+serviceNNT
+areaNNT
+
+ngINT
+
+SOCOTECO-1NNT
+ 
+ ..
+
+NgunitCTT
+
+malakingJJT
+bahagiNNT
+
+  
+  umanoVBT
+  ngINT
+ 
+ proyektoNNT
+
+angDTT
+ipapatupadVBGT
+saINT
+mgaRBT
+
+bayanNNT
+
+ngINT
+
+T’boliNNPT
+
+atCTT
+
+LakeNNPT
+SebuNNPT
+
+saINT
+
+UpperNNPT
+ ValleyNNPT
+areaNNT
+  
+   ngINT
+  
+   lalawiganNNT
+ 
+ ..
+
+
+
+NASAINT
+
+kostudiyaNNT
+
+naINT
+ngINT
+
+PolomolokNNPT
+PoliceNNPT
+angDTT
+  isangJJT
+    lalakiNNT
+    
+    naINT
+   naarestoVBDT
+   saINT
+ 
+ lungsodNNT
+
+ngINT
+
+
+KoronadalNNPT
+dahilNNT
+
+saINT
+
+  
+kasongNNT
+ frustratedNNT
+murderNNT
+  
+   ..
+  
+   SaINT
+ isinagawangVBDT
+
+operasyonNNT
+
+ngINT
+
+SouthNNPT
+CotabatoNNPT
+ProvincialNNPT
+  PublicNNPT
+    SafetyNNPT
+    CompanyNNPT
+    
+    naINT
+   pinangunahanVBDT
+   niINT
+ 
+ PoliceNNPT
+InspectorNNPT
+HerloNNPT
+  PalmesNNPT
+    
+    ,,
+   nahuliVBDT
+   ngINT
+ mgaRBT
+
+otoridadNNT
+angDTT
+akusadongJJT
+  
+   siINT
+  
+   JohnyNNPT
+ CiasicoNNPT
+CaspilloNNPT
+  
+   saINT
+  
+  
+   PurokNNPT
+ DampsiteNNPT
+
+,,
+
+BarangayNNPT
+ SaraviaNNPT
+
+,,
+
+KoronadalNNPT
+ CityNNPT
+
+..
+
+MayVBT
+ 
+ warrantNNT
+ofNNT
+arrestNNT
+  
+   angDTT
+  nasabingVBDT
+  
+  suspekNNT
+
+naINT
+inilabasVBDT
+niINT
+
+RegionalNNPT
+TrialNNPT
+CourtNNPT
+  JudgeNNPT
+    EddieNNPT
+    R.NNPT
+    RojasNNPT
+    
+    ngINT
+   
+    RTCNNPT
+ BranchNNPT
+39CDT
+  
+   ngINT
+  
+   PolomolokNNPT
+ 
+ ,,
+
+SouthNNPT
+CotabatoNNPT
+
+..
+
+NailipatVBDT
+ naINT
+saINT
+
+PolomolokNNPT
+PoliceNNPT
+
+angDTT
+nasabingVBDT
+ 
+ suspekNNT
+
+..
+
+
+
+NASAINT
+
+51CDT
+
+naINT
+mgaRBT
+
+policeNNT
+personnelNNT
+
+angDTT
+itinalagaVBDT
+ saINT
+ 
+ lalawiganNNT
+
+ngINT
+
+SouthNNPT
+CotabatoNNPT
+
+bilangINT
+
+dagdagNNT
+ 
+ naINT
+
+pwersaNNT
+
+saINT
+
+nalalapitNNT
+
+naINT
+
+
+BarangayNNPT
+
+atCCT
+
+SangguniangNNPT
+KabataanNNPT
+
+((
+
+SKNNPT
+ 
+ ))
+
+electionsNNT
+
+saINT
+
+OktubreNNPT
+28CDT
+
+..
+
+
+AyonJJT
+
+kayINT
+
+PoliceNNPT
+SeniorNNPT
+InspectorNNPT
+  DennisNNPT
+    MadriagaNNPT
+    
+    ,,
+   
+    PIONNPT
+ 
+ ngINT
+
+ProvincialNNPT
+PoliceNNPT
+OfficeNNPT
+  
+   naINT
+  angDTT
+  nasabingVBDT
+ mgaRBT
+
+pulisNNT
+
+angDTT
+tutulongVBDT
+saINT
+pagpapatupadVBNT
+naINT
+
+mahigpitJJT
+
+naINT
+
+seguridadNNT
+
+saINT
+daratingVBGT
+naINT
+
+halalanNNT
+
+..
+
+
+DagdagNNT
+
+paRBT
+
+
+nitoPRPT
+
+,,
+nakahandaVBNT
+naINT
+
+angDTT
+securityNNT
+planNNT
+  
+   paraRBT
+  saINT
+  
+  
+  buongJJT
+lalawiganNNT
+
+atCTT
+binigyanVBDT
+ naINT
+ rinRBT
+umanoVBT
+ngINT
+
+assignmentNNT
+
+angDTT
+nasabingVBDT
+mgaRBT
+
+
+pulisNNT
+
+..
+
+SamantalaINT
+,,
+nasaINT
+
+fullJJT
+alertNNT
+statusNNT
+  
+   ngayonRBT
+  
+  
+   angDTT
+ SouthNNPT
+CotabatoNNPT
+  kaugnayJJT
+    
+    ngINT
+   nagaganapVBDT
+   naINT
+ 
+ standoffNNT
+
+saINT
+
+pagitanNNT
+
+ngINT
+
+MoroNNPT
+NationalNNPT
+LiberationNNPT
+  FrontNNPT
+    
+    ((
+   
+    MNLFNNPT
+ 
+ ))
+niINT
+
+NurNNPT
+MisuariNNPT
+
+atCCT
+ngINT
+ 
+ tropaNNT
+
+ngINT
+
+gobyernoNNT
+
+naINT
+kungINT
+saanWRB
+masRBT
+hinigpitanVBGT
+paRBT
+
+angDTT
+checkpointNNT
+
+naINT
+ipinapatupadVBGT
+ saINT
+ 
+ buongJJT
+lalawiganNNT
+
+..
+
+  
+
+
+
+WALANNT
+
+ngINT
+
+buhayNNT
+
+atCCT
+nakabitinVBGT
+naINT
+
+angDTT
+katawanNNT
+
+ngINT
+
+isangJJT
+ lalakingNNT
+
+pinaniniwalaangVBGT
+nagpakamatayVBDT
+ saINT
+ 
+ loobNNT
+
+ngINT
+
+bahayNNT
+nitoPRPT
+
+saINT
+
+  
+SitioNNPT
+ NewNNPT
+SebuNNPT
+  
+   ,,
+  
+   BarangayNNPT
+ NedNNPT
+
+,,
+
+LakeNNPT
+ SebuNNPT
+
+,,
+
+SouthNNPT
+ CotabatoNNPT
+
+.,
+
+KinilalaVBNT
+ 
+ angDTT
+biktimangNNT
+
+siINT
+
+NelsonNNPT
+ OracoyNNPT
+
+,,
+
+38CDT
+ 
+ atCCT
+
+residenteNNT
+
+ngINT
+nasabingVBDT
+
+lugarNNT
+
+..
+
+
+AyonJJT
+
+saINT
+
+ulatNNT
+
+,,
+nakitaVBT
+naINT
+lamangVBT
+
+
+itoPRPT
+
+ngINT
+
+
+kanyangPRP$T
+
+mgaRBT
+
+kapitbahayNNT
+
+naINT
+
+sinaPRPT
+KimvelNNPT
+
+atCCT
+
+KevenNNPT
+ LebengesaNNPT
+
+naINT
+nakabitinVBDT
+ naINT
+ saINT
+
+loobNNT
+
+ngINT
+
+kanyangJJT
+bahayNNT
+
+..
+
+NgunitCCT
+ bagoRBT
+paRBT
+manRBT
+nangyariVBDT
+angDTT
+pagpapakamatayVBDT
+
+,,
+nakitaVBDT
+umanoVBT
+
+angDTT
+biktimaNNT
+
+naINT
+bumiliVBDT
+ ngINT
+ 
+ isangJJT
+boteNNT
+
+ngINT
+
+  
+alakNNT
+ 
+ saINT
+
+kalapitJJT
+
+naINT
+
+tindahanNNT
+
+..
+
+NakitaVBDT
+dinRBRT
+angDTT
+nasabingVBDT
+
+boteNNT
+
+ngINT
+
+alakNNT
+
+naINT
+
+kuntiJJT
+
+naINT
+lamangRBT
+
+angDTT
+lamanNNT
+
+saINT
+
+lugarNNT
+ 
+ kungINT
+saanWRB
+
+itoPRPT
+
+nagpakamatayVBNT
+
+gamitNNT
+angDTT
+lubidNNT
+  
+   naINT
+  
+   tinaliVBDT
+ nitoPRPT
+
+saINT
+
+kisameNNT
+ 
+ atCTT
+saINT
+
+
+kanyangPRP$T
+leegNNT
+
+...
+
+NakatakdangVBGT
+ isailalimVBGT
+saINT
+
+otopsiyaNNT
+angDTT
+bangkayNNT
+  
+   ngINT
+  
+   biktimaNNT
+ 
+ ..
+
+
+
+
+TAGPASJJT
+angNNT
+kaliwangJJT
+  tengaNNT
+    
+    ngINT
+   
+    isangJJT
+ lalakiNNT
+
+makaraangVBDT
+tinagaVBDT
+ 
+ itoPRPT
+
+ngINT
+
+kainumanNNT
+dahilNNT
+
+umanoVBT
+saINT
+ 
+ 
+ labisJJT
+
+naINT
+
+kalasinganJJT
+
+..
+
+KinilalaVBDT
+
+angDTT
+biktimaNNT
+
+naINT
+siINT
+ 
+ FelexNNPT
+BuenaflorNNPT
+AmorgandaNNPT
+  
+   ,,
+  
+   48CDT
+ 
+ ,,
+
+biyudoJJT
+
+atCCT
+
+residenteNNT
+
+ngINT
+
+BarangayNNPT
+CebuanoNNPT
+
+,,
+
+TupiNNPT
+ 
+ ,,
+
+SouthNNPT
+CotabatoNNPT
+
+..
+
+SaINT
+ 
+ 
+ inisyalJJT
+
+naINT
+
+imbestigasyonNNT
+
+,,
+nag-iinumanVBNT
+
+angDTT
+biktimaNNT
+
+atCCT
+
+angDTT
+ suspekNNT
+
+naINT
+siINT
+ 
+ JoseNNPT
+CursigaNNPT
+
+,,
+
+60CDT
+ 
+ ,,
+
+residenteNNT
+
+dinRBRT
+ngINT
+nasabingVBDT
+
+lugarNNT
+
+..
+
+NangINT
+malasingVBDT
+angDTT
+mgaRBT
+
+itoPRPT
+
+,,
+biglangRBT
+naINT
+lamangRBT
+nagtaloVBDT
+naINT
+nag-resultaVBDT
+nangINT
+pananagaVBDT
+ngINT
+
+suspekNNT
+
+saINT
+
+biktimaNNT
+
+..
+
+AgadRBT
+namangRBT
+dinalaVBDT
+saINT
+
+ospitalNNT
+angDTT
+biktimaNNT
+  
+   habangCTT
+  
+  
+   patuloyJJT
+ 
+ pangRBT
+pinaghahanapVBGT
+
+angDTT
+suspekNNT
+
+naINT
+tumakasVBDT
+ palayoRBT
+ mataposVBDT
+nagawaVBDT
+
+angDTT
+krimenNNT
+
+..
+
+
+
+
+LIMAJJT
+angDTT
+sugatanNNT
+  
+   kabilangINT
+  naINT
+  
+  angDTT
+isangJJT
+6CDT
+  
+   --
+  
+   taongNNT
+ bataNNT
+
+saINT
+nangyaringVBDT
+ bangga-anVBT
+ ngINT
+
+tatlongJJT
+sasakyanNNT
+
+saINT
+
+NationalNNPT
+ HighwayNNPT
+
+ngINT
+
+BarangayNNPT
+ PalianNNPT
+
+,,
+
+TupiNNPT
+ 
+ ,,
+
+SouthNNPT
+CotabatoNNPT
+
+.,
+
+SaINT
+ 
+ imbestigasyonNNT
+
+ngINT
+mgaRBT
+
+
+otoridadNNT
+
+,,
+
+mulaNNT
+GeneralNNPT
+SantosNNPT
+  
+   papuntangVBGT
+  
+   KoronadalNNPT
+ angDTT
+sasakyanNNT
+  
+   ngINT
+  
+   BureauNNPT
+ ofNNPT
+FisheriesNNPT
+  andNNPT
+    AquaticNNPT
+    ResourcesNNPT
+    
+    ((
+   
+    BFARNNPT
+ 
+ ))
+–-
+
+GensanNNPT
+
+naINT
+
+isangJJT
+MitshubishiNNPT
+KZNNPT
+  AdventureNNPT
+    WagonNNPT
+    
+    naINT
+   mayVBT
+   
+   plateNNT
+numberNNT
+SHA-310NNPT
+  
+   ,,
+  nangINT
+  biglaRBT
+ 
+ itongPRPT
+
+nagRBT
+overtakeVBT
+atCCT
+nabanggaVBDT
+
+angDTT
+kasalubongNNT
+
+naINT
+
+IsuzoNNPT
+ TrooperNNPT
+WagonNNPT
+  
+   naINT
+  mayVBT
+  
+  plateNNT
+numberNNT
+XXX-881NNPT
+  
+   saINT
+  
+   innerNNT
+ laneNNT
+
+atCCT
+
+isaJJT
+ 
+ pangRBT
+
+FordNNPT
+EverestNNPT
+WagonNNPT
+  
+   naINT
+  mayVBT
+  
+  plateNNT
+numberNNT
+UNO-639NNPT
+  mulaNNT
+    
+    namanRBT
+   saINT
+   
+   outerNNT
+laneNNT
+
+ngINT
+
+highwayNNT
+ 
+ ..
+
+
+SugatanJJT
+angDTT
+driverNNT
+  
+   ngINT
+  
+  
+   BFARNNPT
+ 
+ naINT
+kinilalangVBDT
+siINT
+
+JayNNPT
+UgdamenNNPT
+LumampaoNNPT
+  
+   naINT
+  
+   residenteNNT
+ 
+ ngINT
+
+GlanNNPT
+
+,,
+
+SaranganiNNPT
+ProvinceNNPT
+
+,,
+
+kasamaNNT
+ 
+ angINT
+mgaRBT
+
+sakayNNT
+nitongPRPT
+sinaPRPT
+  JaneNNPT
+    BalayoNNPT
+    
+    ,,
+   
+    LovelyNNPT
+ SumabatNNPT
+
+atCCT
+
+AsuncionNNPT
+ FernandoNNPT
+
+,,
+
+pawangJJT
+ mgaRBT
+
+residenteNNT
+
+ngINT
+
+GeneralNNPT
+SantosNNPT
+CityNNPT
+  
+   atCCT
+  
+   empleyadoNNT
+ 
+ ngINT
+nasabingVBDT
+
+ahensiyaNNT
+
+..
+
+MalibanRBRT
+saINT
+
+
+apatJJT
+
+,,
+
+sugatanJJT
+
+
+dinRBRT
+
+angDTT
+6CDT
+
+--
+
+anyosNNT
+ 
+ naINT
+
+batangNNT
+
+siINT
+
+DhoncendrickNNPT
+HechanovaNNPT
+
+,,
+naINT
+ 
+ 
+ isaJJT
+
+saINT
+
+sakayNNT
+
+ngINT
+
+IsuzoNNPT
+TrooperNNPT
+WagonNNPT
+  
+   naINT
+  minamanehoVBGT
+  niINT
+ 
+ JozefNNPT
+BariosinskiNNPT
+
+,,
+
+47CDT
+ 
+ naINT
+
+residenteNNT
+
+ngINT
+
+BangaNNPT
+
+,,
+
+SouthNNPT
+CotabatoNNPT
+
+..
+
+
+LigtasNNT
+
+namanRBT
+
+angDTT
+driverNNT
+
+ngINT
+nasabingVBDT
+ 
+ sasakyanNNT
+kasamaNNT
+angDTT
+  inaNNT
+    
+    ngINT
+   
+    batangNNT
+ sugatanJJT
+
+naINT
+siINT
+ 
+ JennelynNNPT
+AlmedaNNPT
+HechanovaNNPT
+  
+   ,,
+  
+   33NNPT
+ 
+ ..
+
+
+PawangJJT
+ligtasNNT
+
+namanRBT
+
+angDTT
+ sakayNNT
+
+ngINT
+
+FordNNPT
+ EverestNNPT
+SUVNNPT
+  
+   naINT
+  
+   minamanehoVBGT
+ 
+ niINT
+
+JoeyNNPT
+SumalnapNNPT
+GalNNPT
+  
+   ,,
+  
+   35CDT
+ 
+ ,,
+atCCT
+
+may-aringJJT
+
+siINT
+
+RudyNNPT
+CaoagdanNNPT
+
+naINT
+
+kapwaNNT
+ residenteNNT
+
+ngINT
+
+MakilalaNNPT
+ 
+ ,,
+
+CotabatoNNPT
+ProvinceNNPT
+
+..
+
+NasaINT
+ 
+ kostudiyaNNT
+
+ngINT
+
+TupiNNPT
+PoliceNNPT
+
+angDTT
+mgaRBT
+ nasabingVBDT
+ 
+ sasakyanNNT
+
+habangCCT
+nananatiliVBGT
+paRBT
+saINT
+
+ospitalNNT
+
+angDTT
+mgaRBT
+
+sugatanNNT
+
+..
+
+
+
+
+
+KABACANNNPT
+
+,,
+
+COTABATONNPT
+
+--
+INALAMVBDT
+paINT
+ngINT
+mgaINT
+
+otoridadNNT
+angDTT
+
+motiboVBT
+atCC
+ 
+ suspekNNT
+
+saINT
+pagsabogVBT
+ngINT
+
+granadaNNT
+
+saINT
+loobRBT
+ngINT
+
+compoundNNT
+
+ngINT
+
+UniversityNNPT
+ofNNPT
+SouthernNNPT
+  MindanaoNNPT
+    
+    ((
+   
+    USMNNPT
+ 
+ ))
+saINT
+
+KabacanNNPT
+
+,,
+
+CotabatoNNPT
+
+..
+
+SaINT
+inbestigasyonVBT
+ngINT
+
+KabacanNNPT
+PoliceNNPT
+OfficeNNPT
+  
+   ,,
+  sumabogVBDT
+  
+  angDTT
+granadaNNT
+
+saINT
+
+likurangJJT
+ bahagiNNT
+
+ngINT
+
+administrationNNT
+ buildingNNT
+
+ngINT
+
+USMNNPT
+ 
+ ..
+
+
+WalaJJT
+
+namangINT
+saINT
+nasugatanVBT
+saINT
+nasabingVBT
+
+insidenteNNT
+
+subalitCC
+siniraVBDT
+
+nitoNNT
+angDTT
+ilangJJT
+  bintanaNNT
+    
+    ngINT
+   nasabingVBDT
+   
+   gusaliNNT
+
+..
+
+
+HindiJJT
+
+paINT
+malamanVBDT
+kungCC
+mayINT
+kaugnayanVBT
+paINT
+rinINT
+
+itoNNT
+
+saINT
+nangyaringVBDT
+mgaINT
+kaguluhanVBDT
+saINT
+nasabingVBDT
+
+unibersidadNNT
+nitongNNT
+
+mgaINT
+nakalipasRBT
+ naINT
+ 
+ buwanNNT
+
+..
+
+Napag-alamanVBDT
+naINT
+siINT
+
+AttorneyNNPT
+ChristopherNNPT
+CabilenNNPT
+  angDTT
+    
+    umuupongVBGT
+   
+    OICNNPT
+ 
+ --
+
+PresidentNNT
+
+ngINT
+
+USMNNPT
+
+makaraangVBDT
+bumabaVBDT
+saINT
+
+kanyangNNT
+pwestoNNT
+angDTT
+  datingJJT
+    panguloNNT
+    
+    naINT
+   siINT
+   
+   Dr.NNPT
+JesusNNPT
+DerijeNNPT
+  
+   ..
+  
+   LumabasVBDT
+ namanINT
+saINT
+imbestigasyonVBDT
+naINT
+bagoRBT
+paINT
+naganapVBDT
+
+angDTT
+
+nasabingVBDT
+
+pagsabogNNT
+
+,,
+
+isangJJT
+
+pamamarilVBDT
+
+angDTT
+
+nangyariVBDT
+saINT
+
+USMNNPT
+AgriculturalNNPT
+ResearchNNPT
+  CenterNNPT
+    
+    ((
+   
+    USMARCNNPT
+ 
+ kungCC
+saanINT
+narekoberVBDT
+namanINT
+ngINT
+mgaINT
+
+pulisNNT
+angDTT
+
+mgaINT
+
+emptyJJT
+ shellNNT
+
+ngINT
+
+M16
+ 
+ ..
+
+
+angDTT
+
+nasabingVBDT
+mgaINT
+
+insedenteNNT
+
+ayCC
+patuloyVBDT
+paINT
+naCC
+tinututukanVBGT
+ngINT
+mgaINT
+
+pulisNNT
+
+..
+
+
+
+KORONADALNNPT
+CITYNNPT
+
+--
+UMAABOTVBGT
+ saINT
+ 
+ 46CDT
+pamilyaNNT
+
+mulaCCT
+saINT
+ 
+ dalawangJJT
+barangayNNT
+
+saINT
+
+KoronadalNNPT
+ CityNNPT
+
+angDTT
+nagsilikasVBDT
+ mataposVBDT
+ binahaVBDT
+dalaVBDT
+ngINT
+mgaRBT
+pag-ulanVBDT
+
+nitongNNT
+
+nakaraangVBDT
+
+arawNNT
+
+..
+
+SaINT
+
+ekslusiboJJT
+
+naINT
+
+interviewNNT
+
+ngINT
+
+95CDT
+
+..
+
+7CDT
+BrigadaNNPT
+NewsNNPT
+  KoronadalNNPT
+    
+    kayCC
+   
+    CityNNPT
+ SocialNNPT
+WelfareNNPT
+  andNNT
+    DevelopmentNNPT
+    OfficerNNPT
+    
+    ((
+   
+    CSWDONNPT
+ 
+ ))
+
+MaryNNPT
+JaneNNPT
+GabucanNNPT
+  
+   ,,
+  
+   42CDT
+ pamilyaNNT
+
+angDTT
+nag-evacuateVBDT
+ mulaRBT
+ saINT
+
+PurokNNPT
+PagkakaisaNNPT
+
+,,
+
+BarangayNNT
+ NamnamaNNT
+
+habangCCT
+
+apatJJT
+ 
+ namanINT
+naINT
+
+pamilyaNNT
+
+angDTT
+inilikasVBDT
+mulaCCT
+saINT
+
+PurokNNPT
+AguinaldoNNPT
+
+,,
+
+BarangayNNPT
+ ConcepcionNNPT
+
+..
+
+AyonCCT
+ kayINT
+
+GabucanNNPT
+
+,,
+
+angDTT
+mgaRBT
+evacueesNNT
+  
+   saINT
+  
+   BarangayNNPT
+ NamnamaNNPT
+
+ayINT
+pansamantalangRBT
+ naninirahanVBDT
+ saINT
+
+kani-kanilangNNT
+pamilyaNNT
+
+habangCCT
+nasaINT
+ 
+ barangayNNT
+gymNNT
+
+namanINT
+
+angDTT
+ apatJJT
+pamilyaNNT
+  
+   ngINT
+  
+   BarangayNNPT
+ ConcepcionNNPT
+
+..
+
+Napag-alamanVBDT
+ naINT
+angDTT
+naturangRBT
+mgaRBT
+
+pamilyaNNT
+
+ayINT
+naninirahanVBDT
+saINT
+gilidRBT
+ngINT
+
+creekNNT
+
+atCCT
+
+ilogNNT
+
+naINT
+naapektuhanVBDT
+ngINT
+
+bahaNNT
+
+noongRBT
+nakaraangVBDT
+
+arawNNT
+
+ngINT
+
+SabadoNNPT
+
+..
+
+AngDTT
+mgaRBT
+
+apektadongJJT
+pamilyaNNT
+
+ayCCT
+binigyanVBDT
+ naINT
+ ngINT
+tulongVBT
+ngINT
+
+LocalNNPT
+DisasterNNPT
+RiskNNPT
+  ReductionNNPT
+    ManagementNNPT
+    CouncilNNPT
+    
+    ngINT
+   nasabingVBDT
+   mgaRBT
+ 
+ barangayNNT
+
+..
+
+
+
+
+DatuNNPT
+PiangNNPT
+
+,,
+
+MaguindanaoNNPT
+ 
+ --
+
+DALAWANGJJT
+liderNNT
+
+ngINT
+diumano'yRBT
+ 
+ grupoNNT
+
+ngINT
+
+BangsamoroNNPT
+IslamicNNPT
+FreedomNNPT
+  FightersNNPT
+    
+    ((
+   
+    BIFF
+ 
+ ))
+angDTT
+itinuturoVBGT
+naINT
+nagpasabogVBDT
+saINT
+
+LintukanNNPT
+BridgeNNPT
+
+saINT
+
+BarangayNNPT
+ MagaslongNNPT
+
+,,
+
+DatuNNPT
+ PiangNNPT
+
+,,
+
+MaguindanaoNNPT
+ 
+ ..
+
+ItinuturoVBGT
+ngINT
+mgaRBT
+
+sibilyanNNT
+
+sinaCCT
+
+AbuNNPT
+SumayaNNPT
+
+atCCT
+
+isangJJT
+ MontaserNNPT
+
+naINT
+diumanoRBT
+ nagtanimVBDT
+ ngINT
+
+improvisedJJT
+explosiveNNT
+deviceNNT
+  
+   ((
+  
+   IEDNNPT
+ 
+ ))
+naINT
+mgaRBT
+saINT
+
+60
+mmNNT
+mortarsNNT
+  
+   saINT
+  nasabingVBDT
+  
+  tulayNNT
+
+kumakalawaRBT
+..
+
+
+WalaJJT
+
+namangNNT
+
+malakingJJT
+pinsalaNNT
+
+naINT
+naidulotVBDT
+ angDTT
+ nasabingVBDT
+
+pagsabogNNT
+
+..
+
+AngDTT
+naturangVBDT
+
+insedenteNNT
+
+ayNNT
+
+detachmentNNT
+
+ngINT
+
+2ndCDT
+MechanizedNNPT
+InfantryNNPT
+  BrigadeNNT
+    
+    saINT
+   
+    ShariffNNPT
+ SaydonaNNPT
+MustaphaNNPT
+  
+   ..
+  
+   NaniniwalaVBGT
+ 
+ angDTT
+pamunuanNNT
+
+ngINT
+
+6thCDT
+ IDNNPT
+PhilippineNNPT
+  ArmyNNPT
+    
+    naINT
+   layuninVBDT
+   ngINT
+ mgaRBT
+
+rebeldeNNT
+
+ayINT
+upangINT
+sirainVBT
+angDTT
+naturangRBT
+
+tulayNNT
+
+ngINT
+saINT
+gayunCC
+
+hindiJJT
+
+naINT
+makatawidVBDT
+angDTT
+mgaRBT
+
+sundaloNNT
+
+saINT
+
+bayanNNT
+
+ngINT
+
+DatuNNPT
+PiangNNPT
+
+atCCT
+
+ShariffNNPT
+ SaydonaNNPT
+MustaphaNNPT
+  
+   naINT
+  nagingCCT
+  
+  sentroJJT
+
+ngINT
+
+harassmentNNT
+
+mulaCCT
+paINT
+noongRBT
+nakaraangRBT
+
+buwanNNT
+
+..
+
+
+
+
+KIDAPAWANNNPT
+CITYNNPT
+
+--
+
+WALANGJJT
+ 
+ takotVBT
+naINT
+pinatayVBDT
+ngINT
+
+suspekNNT
+angDTT
+isangJJT
+  tricycleNNT
+    driverNNT
+    
+    saINT
+   mismoRBT
+   
+   bahayNNT
+nitoNNT
+
+saINT
+
+SitioNNPT
+ Sta.NNPT
+CruzNNPT
+  
+   ,,
+  
+   BarangayNNPT
+ BalindogNNPT
+
+,,
+
+KidapawanNNPT
+ CityNNPT
+
+..
+
+BagoRBT
+ naganapVBDT
+angDTT
+
+krimenNNT
+
+nagka-usapVBDT
+paINT
+diumanoRBT
+
+angDTT
+dalawaJJT
+
+hanggangRBT
+nagkasagutanVBDT
+ 
+ angDTT
+biktimaNNT
+
+atCCT
+
+angDTT
+ hindiJJT
+
+nakilalangVBDT
+
+suspekNNT
+ 
+ ..
+
+AyonCCT
+saINT
+
+
+ulatNNT
+
+,,
+lumabasVBDT
+paINT
+diumanoRBT
+saINT
+
+kanyangNNT
+bahayNNT
+angDTT
+  biktimaNNT
+    
+    naINT
+   kinilalaVBDT
+   kayCCT
+ 
+ RoyNNPT
+LargoNNPT
+
+upangINT
+harapinVBT
+ 
+ angDTT
+suspekNNT
+
+subalitCCT
+nagkainitanVBDT
+ angDTT
+ mgaRBT
+
+itoNNT
+
+habangCCT
+nag-uusapVBDT
+naINT
+nagresultaVBDT
+saINT
+pamamarilVBDT
+saINT
+
+biktimaNNT
+
+..
+
+NagtamoVBDT
+ng
+
+tamaNNT
+
+saINT
+
+kanyangNNT
+uloNNT
+angDTT
+  biktimaNNT
+    
+    naINT
+   nagingCCT
+   
+   sanhiNNT
+
+ngINT
+agaranVBDT
+
+nitongNNT
+kamatayanNNT
+
+..
+
+AgadRBT
+ namanCCT
+naINT
+tumakasVBDT
+
+angDTT
+suspekNNT
+
+sakayVBT
+saINT
+ 
+ kanyangNNT
+motorsikloNNT
+
+..
+
+SaINT
+ ngayonRBT
+,,
+nagpapatuloyVBGT
+paINT
+
+angDTT
+imbestigasyonNNT
+
+ngINT
+
+KidapawanNNPT
+ CityNNPT
+PoliceNNPT
+  OfficeNNPT
+    
+    saINT
+   nasabingVBDT
+   
+   krimenNNT
+
+laloRBT
+pa'tINT
+
+malakiJJT
+angDTT
+posibilidadNNT
+  
+   naINT
+  magkakilalaVBGT
+  
+  angDTT
+biktimaNNT
+
+atCCT
+
+angDTT
+ suspekNNT
+
+..
+
+
+
+
+ANTIPASNNPT
+
+,,
+
+COTABATONNPT
+
+--
+
+DEADNNT
+
+onINT
+
+theDTT
+spotNNT
+angDTT
+  isangJJT
+    taoNNT
+    
+    naINT
+   hinabolVBDT
+   ngINT
+ 
+ bariNNT
+
+habangRBT
+
+itoNNT
+
+ayINT
+nakipag-inumanVBDT
+saINT
+
+AntipasNNPT
+
+,,
+
+CotabatoNNPT
+
+..
+
+
+AngDTT
+biktimaNNT
+
+naINT
+kinilalaVBDT
+ kayINT
+ 
+ AllanNNPT
+SisnerosNNPT
+
+,,
+
+legalJJT
+ angDTT
+edadNNT
+  
+   ayINT
+  nakipag-inumanVBDT
+  diumanoRBT
+ saINT
+
+karenderiaNNT
+
+saINT
+
+BarangayNNPT
+PontevedraNNPT
+
+ngINT
+lapitanVBDT
+ 
+ itoNNT
+
+ngINT
+
+
+hindiJJT
+kilalangNNT
+suspekcNNT
+  
+   ..
+  
+   KumaripasRBT
+ ngINT
+takboVBT
+siINT
+
+SisnerosNNPT
+
+subalitCCT
+,,
+hinabolVBDT
+
+itoNNT
+
+ngINT
+
+suspekNNT
+
+atCCT
+ngINT
+maabutanVBDT
+ayINT
+
+kanyaNNT
+nitongNNT
+
+binarilVBDT
+..
+ 
+ AgadRBT
+naINT
+tumakasVBDT
+saINT
+
+diNNT
+
+malamangVDT
+
+
+direksyonNNT
+angDTT
+salarinNNT
+  
+   habangRBT
+  agadRBT
+  naINT
+ namatayVBDT
+
+angDTT
+biktimaNNT
+
+..
+
+InaalamanVBGT
+ paINT
+ngayonRBT
+
+angDTT
+motiboNNT
+
+saINT
+nasabingVBDT
+ 
+ krimenINT
+
+..
+
+
+
+
+PAGALUNGANNNPT
+
+,,
+
+MAGUINDANAONNPT
+
+--
+MAARINGRBT
+ipag-utosVBDT
+
+angDTT
+
+puwersahanRBT
+paglikasVBDT
+ngINT
+mgaRBT
+
+residenteNNT
+
+naINT
+
+apektadoJJT
+
+ngINT
+
+bahaNNT
+
+saINT
+
+MaguindanaoNNPT
+provinceNNT
+
+..
+
+NakaabangVBDT
+ diumanoRBT
+ngayonRBT
+angDTT
+mgaRBT
+
+tauhanNNT
+
+ngINT
+
+ProvincialNNPT
+DisasterNNPT
+RiskNNPT
+  ReductionNNPT
+    andNNPT
+    ManagementNNPT
+    CouncilNNPT
+    
+    ((
+   
+    PDRRMCNNPT
+ 
+ ))
+saINT
+posibleVBT
+pagpatupadVBDT
+ngINT
+forceVDBT
+evacuationVBT
+saINT
+sandalingRBT
+magpapatuloyVBGT
+angDTT
+pagbuhosVBDT
+ngINT
+
+ulanNNT
+
+atCCT
+
+paglalimJJT
+
+ngINT
+
+
+tubigNNT
+bahaNNT
+
+saINT
+
+lalawiganNNT
+ 
+ ..
+
+Napag-alamanVBDT
+naINT
+
+ilangJJT
+residenteNNT
+
+naINT
+angDTT
+ nagtayoVBDT
+ ngINT
+
+
+kanilangNNT
+dampaNNT
+
+saINT
+gilidRBT
+ ngINT
+ 
+ nationalNNT
+highwayNNT
+
+saINT
+
+bayanNNT
+ 
+ ngINT
+
+DatuNNPT
+MontawalNNPT
+
+atCCT
+
+PagalunganNNPT
+ 
+ mataposRBT
+angDTT
+pagragasaVBDT
+ngINT
+
+bahaNNT
+
+..
+
+SamantalaCCT
+,,
+sinuriVBDT
+ngINT
+
+DepartmentNNPT
+ofNNPT
+PublicNNPT
+  WorksNNPT
+    andNNPT
+    HighwaysNNPT
+    
+    ((
+   
+    DPWHNNPT
+ 
+ ))
+
+MaguindanaoNNPT
+angDTT
+dalawangJJT
+  tulayNNT
+    
+    saINT
+   naturangRBT
+   
+   lalawiganNNT
+
+naINT
+nasiraVBDT
+..
+
+
+UnangJJT
+
+binisitaVBDT
+
+angDTT
+LintunkanNNPT
+BridgeNNPT
+  
+   saINT
+  
+   BarangayNNPT
+ MagaslongNNPT
+
+,,
+
+DatuNNPT
+ PiangNNPT
+
+mataposRBT
+pinasabuganVBDT
+ ngINT
+ 
+ improvisedJJT
+explosiveNNT
+deviceNNT
+  
+   ((
+  
+   IEDNNPT
+ 
+ atCCT
+
+TongulNNPT
+BridgeNNPT
+
+saINT
+
+bayanNNT
+ 
+ ngINT
+
+MontawalNNPT
+
+naINT
+apektadoVBT
+ngINT
+
+bahaINT
+
+..
+
+
+
+
+COTABATONNPT
+CITYNNPT
+
+--
+SUSPINDEVBDT
+ angDTT
+ 
+ klaseNNT
+
+mataposRBT
+binahaVBDT
+
+angDTT
+25CDT
+
+saINT
+
+37CDT
+ barangayNNT
+
+saINT
+
+CotabatoNNPT
+ CityNNPT
+
+..
+
+MismoCCT
+ siINT
+
+MayorNNT
+JapalNNPT
+GuiniNNPT
+  
+   angDTT
+  nagpalabasVBDT
+  ngINT
+ 
+ kautusanNNT
+
+saINT
+pagsuspendeVDBT
+ngINT
+
+
+klaseNNT
+
+saINT
+
+
+elementaryaNNT
+
+atCCT
+
+
+sekondaryaNNT
+
+dahilCCT
+ngINT
+
+malalangJJT
+bahaNNT
+
+saINT
+
+kanilangNNT
+ lungsodNNT
+
+dalaVBT
+ngINT
+ pagbuhosVBDT
+ ngINT
+
+malakasJJT
+
+naINT
+
+
+ulanNNT
+nitongNNT
+
+nakalipasRBT
+naINT
+ 
+ 
+ linggoNNT
+
+..
+
+
+MalibanNNT
+
+saINT
+mgaRBT
+binabahaVBGT
+naINT
+
+lugarNNT
+
+saINT
+
+
+CotabatoNNPT
+CityNNPT
+
+,,
+
+14CDT
+ 
+ dinINT
+naINT
+
+lugarNNT
+
+saINT
+
+
+MaguindanaoNNPT
+
+atINT
+
+pitoNNT
+
+saINT
+
+CotabatoNNPT
+provinceNNT
+
+angDTT
+nakaranasVBDT
+ rinINT
+ ngINT
+
+bahaNNT
+
+..
+
+
+KabilangNNT
+
+saINT
+mgaRBT
+
+labisJJT
+
+naINT
+apektadoVBT
+ngINT
+
+
+bahaNNT
+angDTT
+NorthernNNPT
+  KabuntalanNNPT
+    
+    ,,
+   
+    KabuntalanNNPT
+ 
+ MotherNNPT
+
+atCCT
+
+SultanNNPT
+ KudaratNNPT
+
+naINT
+matatagpuanVBGT
+ saINT
+ 
+ 
+ bungangaNNT
+
+ngINT
+
+RioNNPT
+GrandeNNPT
+deNNPT
+  MindanaoNNPT
+    
+    ..
+   
+    DahilCCT
+ saINT
+mgaRBT
+pagbahaVBDT
+saINT
+
+CotabatoNNPT
+CityNNPT
+
+,,
+
+MaguindanaoNNPT
+ 
+ ,,
+
+SultanNNPT
+KudaratNNPT
+
+atCCT
+
+  
+CotabatoNNPT
+ provinceNNT
+
+umabotVBDT
+naINT
+ saINT
+ 
+ 
+ 30CDT
+
+,,
+
+000CDT
+
+angDTT
+apektadoVBDT
+ngINT
+nasabingVBDT
+
+
+kalamidadNNT
+
+..
+
+
+
+
+KABUNTALANNNPT
+
+,,
+
+MAGUINDANAONNPT
+
+--
+KUMILOSVBDT
+naINT
+
+angDTT
+pamunuanNNT
+
+ngINT
+
+  
+AutonomousNNPT
+ RegionNNPT
+inNNT
+  MuslimNNPT
+    MindananoNNPT
+    
+    ((
+   
+    ARMMNNPT
+ 
+ ))
+upangINT
+mabigyanVBDT
+ngINT
+
+
+tulongNNT
+
+angDTT
+mgaRBT
+binabahaVBGT
+naINT
+
+residenteNNT
+
+saINT
+
+
+NorthernNNPT
+KabuntalanNNPT
+
+,,
+
+MaguindanaoNNPT
+ 
+ ..
+
+MismoINT
+siINT
+
+ARMMNNPT
+ExecutiveNNT
+SecretaryNNT
+  Atty.NNT
+    LizaNNPT
+    AlamiyaNNPT
+    
+    angDTT
+   nakipag-ugnayanVBDT
+   saINT
+ 
+ DepartmentNNPT
+ofNNPT
+SocialNNPT
+  WelfareNNPT
+    andNNPT
+    DevelopmentNNPT
+    
+    ((
+   
+    DSWD-ARMMNNPT
+ 
+ upangINT
+matulunganVBDT
+angDTT
+halosRBT
+
+lahatJJT
+
+
+naINT
+mgaRBT
+
+
+barangayNNT
+
+naINT
+apektadoVBDT
+ngINT
+
+bahaINT
+
+..
+
+
+HindiDTT
+
+diumanoVBT
+,,
+makagalawVBDT
+angDTT
+mgaRBT
+diumanongVBT
+
+InternalNNPT
+RevenueNNPT
+AllotmentNNPT
+  
+   ((
+  
+   IRANNPT
+ 
+ ))
+angDTT
+mgaRBT
+
+
+itoNNT
+
+..
+
+
+MaaaringJJT
+
+madagdaganVBGT
+paINT
+angDTT
+
+pinsalaNNT
+
+ngINT
+
+bahaNNT
+
+saINT
+nasabingVBDT
+
+bayanNNT
+
+dahilCCT
+namanINT
+saINT
+pagbuhosVBDT
+ngINT
+
+ulanNNT
+
+dalaVBT
+ngINT
+
+
+LowNNT
+PressureNNT
+AreaNNT
+  
+   saINT
+  
+   MindanaoNNPT
+ 
+ ..
+
+
+
+
+KABACANNNPT
+
+,,
+
+COTABATONNPT
+
+--
+
+MalakiJJT
+
+angDTT
+naitulongVBDT
+ngINT
+puspusangVBT
+
+kampanyaNNT
+
+labanVBT
+saINT
+
+sexualNNT
+abuseNNT
+
+atCCT
+
+ilangJJT
+ uriNNT
+
+ngINT
+
+  
+kaharasanNNT
+ 
+ labanVBT
+saINT
+
+kababaihanNNNT
+
+atCCT
+
+kabataanNNT
+
+angDTT
+pagbabaVBDT
+ngINT
+
+
+kasoNNT
+
+ngINT
+
+
+violenceNNPT
+againstNNPT
+womenNNPT
+  andNNPT
+    childrenNNPT
+    
+    ((
+   
+    VAWCNNPT
+ 
+ saINT
+
+
+KabacanNNPT
+
+,,
+
+CotabatoNNPT
+
+..
+
+MulaINT
+noongINT
+
+
+buwanNNT
+
+ngINT
+
+EneroNNPT
+
+hanggangINT
+
+
+HunyoNNPT
+taongNNT
+
+kasalukuyanRBT
+bumabaVBDT
+ ngINT
+ 
+ 77CDT
+porsyentoNNT
+angDTT
+  kasoNNT
+    
+    ngINT
+   
+    VAWCNNPT
+ 
+ ikumparaVBT
+noongINT
+
+2012CDT
+
+saINT
+
+kaparehongJJT
+panahonNNT
+
+..
+
+SaINT
+ 
+ 
+ rekordNNT
+
+ngINT
+
+
+MunicipalNNPT
+SocialNNPT
+WelfareNNPT
+  andNNPT
+    DevelopmentNNPT
+    OfficeNNPT
+    
+    ((
+   
+    MSWDONNPT
+ 
+ mayINT
+
+pitoNNT
+
+lamangRBT
+
+silangNNT
+kasoNNT
+
+ngayongRBT
+
+  
+taonNNT
+ 
+ kungINT
+saanINT
+
+
+apatINT
+
+saINT
+mgaRBT
+
+
+itoNNT
+
+angDTT
+mgaRBT
+
+
+biktimaNNT
+
+ngaINT
+pananakitVBDT
+,,
+
+isaNNT
+
+saINT
+
+
+actsNNT
+
+ofINT
+
+
+lasciviousnessJJT
+
+atCCT
+
+
+dalawaJJT
+
+namanINT
+
+angDTT
+sexualNNT
+abuseNNT
+  
+   ..
+  
+   Napag-alamanVBDT
+ naINT
+noongRBT
+nakalipasRBT
+naINT
+
+taonNNT
+
+umaabotVBGT
+saINT
+
+30CDT
+angDTT
+kasoNNT
+  
+   ngINT
+  karahasanVBT
+  labanVBT
+ saINT
+mgaRBT
+
+kababaihanNNT
+
+atINT
+
+
+kabataanNNT
+
+saINT
+nasabingVBDT
+
+
+bayanNNT
+
+..
+
+
+
+
+KORONADALNNPT
+CITYNNPT
+
+--
+MAGBUBUKASVBGT
+ ngINT
+ 
+ jobNNT
+opportunityNNT
+angDTT
+  DepartmentNNPT
+    ofNNPT
+    SocialNNPT
+    WelfareNNPT
+    andNNPT
+    DevelopmentNNPT
+    
+    ((
+   
+    DSWDNNPT
+ 
+ ))
+
+regionNNT
+12CDT
+
+upangINT
+magsagawaVBGT
+ ngINT
+ 
+ surveyNNT
+
+paraINT
+saINT
+
+
+NationalNNPT
+HouseholdNNPT
+TargetingNNPT
+  SystemNNPT
+    forNNPT
+    PovertyNNPT
+    ReductionNNPT
+    
+    ((
+   
+    NHTS-PRNNPT
+ 
+ ngayongRBT
+
+
+2013CDT
+
+..
+
+HindiDTT
+paINT
+malamanVBT
+angDTT
+
+
+skedyulNNT
+
+kungINT
+
+kelanNNT
+
+gaganapinVBGT
+angDTT
+
+
+hiringNNT
+
+paraINT
+saINT
+magingINT
+
+
+staffNNT
+
+ngINT
+
+NHTS-PRNNPT
+
+,,
+ngunitINT
+
+
+posibleJJT
+
+naINT
+gagawinVBGT
+
+itoNNT
+
+ngayongRBT
+
+
+buwanNNT
+
+ngINT
+
+HulyoNNPT
+
+..
+
+KabilangDTT
+saINT
+mgaRBT
+
+
+posisyonNNT
+
+naINT
+nakatakdangVBDT
+buksanVBT
+ayINT
+
+AreaNNPT
+CoordinatorsNNPT
+
+,,
+
+EncodersNNPT
+ angNNPT
+VerifiersNNPT
+  
+   ,,
+  
+   AreaNNPT
+ SupervisorsNNPT
+
+atCCT
+
+EnumeratorsNNPT
+ 
+ ..
+
+Napag-alamanVBDT
+naINT
+
+
+angDTT
+NHTS-PRNNPT
+
+ayINT
+ipinapatupadVBGT
+ bawatRBT
+ 
+ 
+ apatNNT
+
+naINT
+
+taonNNT
+
+upangINT
+malamanVBT
+angDTT
+mgaRBT
+
+
+lugarNNT
+
+saINT
+
+
+PilipinasNNPT
+
+naINT
+mayINT
+
+
+pinakamataasJJST
+
+naINT
+
+
+numeroNNT
+
+ngINT
+mgaRBT
+
+
+mahihirapanJJT
+
+naINT
+
+mamamayanNNT
+
+upangINT
+matutukanVBGT
+ngINT
+
+
+gobyernoNNT
+
+ngINT
+saINT
+gayunINT
+mabigyanVBDT
+ngINT
+mgaRBT
+
+proyektoNNT
+
+naINT
+tutugonVBGT
+saINT
+
+
+kahirapanJJT
+
+..
+
+
+
+
+COTABATONNPT
+CITYNNPT
+
+--
+TAKOTVBT
+ naINT
+ angDTT
+
+namamayaniJJT
+
+saINT
+mgaRBT
+
+
+residenteNNT
+
+saINT
+
+lungsodNNT
+
+ngINT
+
+CotabatoNNPT
+
+bunsodINT
+ngINT
+sunod-sunodVBGT
+naINT
+
+
+kasoNNT
+
+ngINT
+
+pamamarilNNT
+
+..
+
+KabilangDTT
+saINT
+mgaRBT
+
+bagongJJT
+biktimaNNT
+
+ayINT
+
+  
+isangJJT
+ driverNNT
+
+atCCT
+
+bystanderNNT
+ 
+ ..
+
+AyonCCT
+saINT
+
+ulatNNT
+
+,,
+nagmamanehoVBDT
+ngINT
+
+
+kanyangNNT
+multicabNNT
+angDTT
+  biktimaNNT
+    
+    naINT
+   kinilalaVBDT
+   kayINT
+ 
+ 
+ EutenioNNPT
+AnitoNNPT
+
+,,
+
+62CDT
+ 
+ ngINT
+
+MatalamNNPT
+
+,,
+
+CotabatoNNPT
+
+ngINT
+barilinVBDT
+
+itoNNT
+
+..
+
+AngDTT
+nasabingVBDT
+
+biktimaNNT
+
+ayINT
+patuloyRBT
+paRBT
+ngaINT
+ginagamotVBGT
+saINT
+
+ospitalNNT
+
+..
+
+SiINT
+
+
+AnitoNNPT
+
+ayINT
+nagtamoVBDT
+ngINT
+
+apatJJT
+
+naINT
+
+tamaNNT
+
+ngINT
+
+
+balaNNT
+
+saINT
+
+iba't-ibangJJT
+bahagiNNT
+
+ngINT
+
+  
+kanyangNNT
+ katawanNNT
+
+ngINT
+barilinVBDT
+ ngINT
+ 
+ hindiDTT
+kilalangNNT
+suspekNNT
+  
+   naINT
+  agadRBT
+  namangRBT
+ tumakasVBDT
+..
+
+SamantalaRBT
+,,
+
+patayNNT
+
+naman
+angDTT
+
+isaNNT
+
+pangINT
+
+
+biktimaNNT
+
+naINT
+kinilalaVBDT
+kayINT
+
+
+JojoNNPT
+NavarroNNPT
+
+naINT
+tumatayoVBGT
+ lamangINT
+ saINT
+
+gilidNNT
+
+ngINT
+
+
+daanNNT
+
+saINT
+
+
+NDNNPT
+VillageNNPT
+
+,,
+
+CotabatoNNPT
+ CityNNPT
+
+ngINT
+nilipitanVBDT
+ atCCT
+ barilinVBDT
+ngINT
+
+suspekNNT
+
+..
+
+
+
+PatayJJT
+
+
+dinINT
+
+angDTT
+isaNNT
+
+pangINT
+
+  
+suspekNNT
+ 
+ naINT
+kinilalaVBDT
+kayINT
+
+
+JomarNNPT
+TibungcogNNPT
+
+,,
+
+26CDT
+ 
+ ngINT
+
+BonifacioNNPT
+StreetNNPT
+
+..
+
+BinarilVBDT
+ angDTT
+nasabingVBDT
+
+
+biktimaNNT
+
+habangNNT
+umuupoVBGT
+saINT
+
+
+hagdananNNT
+
+ngINT
+
+lodgingNNT
+houseNNT
+
+..
+
+HanggangRBT
+ ngayonRBT
+,,
+pinaghahanapVBGT
+paINT
+angDTT
+mgaRBT
+
+
+salarinNNT
+
+habangINT
+nagpapatuloyVBGT
+
+angDTT
+inbestigasyonNNT
+
+ngINT
+
+CotabatoNNPT
+ CityNNPT
+PoliceNNPT
+  
+   saINT
+  mgaRBT
+  
+  kasoNNT
+
+ngINT
+pamamarilVBDT
+saINT
+nasabingVBDT
+
+
+lungsodNNT
+
+
+..
+
+
+
+
+MAKILALANNPT
+
+,,
+
+COTABATONNPT
+
+--
+NAGSISIMULAVBDT
+naINT
+angDTT
+
+cleanNNT
+upNNT
+driveNNT
+  
+   saINT
+  
+  
+   BoysNNPT
+ ScoutNNPT
+CampNNPT
+  
+   saINT
+  
+   BulatukanNNPT
+ 
+ ,,
+
+MakilalaNNPT
+
+,,
+
+CotabatoNNPT
+
+paraINT
+saINT
+gaganapinVBGT
+naINT
+
+EasternNNPT
+MindanaoNNPT
+RegionalNNPT
+  JamboreeNNPT
+    
+    ..
+   
+    InaayosVBDT
+ naINT
+angDTT
+mgaRBT
+
+
+waterNNT
+systemNNT
+
+,,
+
+wiringNNT
+ 
+ atCCT
+pagkukumpuniVBGT
+ngINT
+mgaRBT
+
+
+quartersNNT
+
+..
+
+AngDTT
+nasabingVBDT
+
+
+jamboreeNNT
+
+ayINT
+magsisimulaVBGT
+saINT
+
+AgostoNNPT
+7CDT
+
+hanggangINT
+
+  
+11CDT
+ 
+ kungINT
+saanINT
+angDTT
+mgaRBT
+
+kalahokNNT
+
+ayINT
+magmumulaVBGT
+saINT
+
+RegionNNT
+10CDT
+
+,,
+
+11CDT
+ 
+ ,,
+
+12CDT
+
+atCDT
+
+13CDT
+
+..
+
+
+IsangJJT
+oportunidadNNT
+
+dinINT
+diumanoINT
+ angDTT
+ nasabingVBDT
+
+okasyonNNT
+
+upangINT
+mapakilalaVBGT
+angDTT
+mgaRBT
+
+
+touristNNT
+spotsNNT
+
+ngINT
+
+MakilalaNNPT
+ lalong-lalongJJT
+
+naINT
+angDTT
+ 
+ pinakamataasJJST
+
+naINT
+
+
+ziplineNNT
+
+saINT
+
+BarangayNNPT
+NewNNPT
+IsraelNNPT
+  
+   atCCT
+  
+   eco-tourismNNPT
+ parkNNPT
+
+..
+
+
+SHARIFFNNPT
+AGUAKNNPT
+
+,,
+
+MAGUINDANAONNPT
+ 
+ --
+MALAPITRBT
+naINT
+diumanongINT
+mataposVBT
+angDTT
+ginagawangVBGT
+
+
+rehabilitationNNT
+
+saINT
+mgaRBT
+
+
+nationalNNT
+highwayNNT
+
+saINT
+
+  
+MaguindanaoNNPT
+ provinceNNT
+
+..
+
+IpinahayagVBDT
+ niINT
+
+MaguindanaoNNPT
+2ndCDT
+DistrictNNPT
+  EngineerNNT
+    JamesNNPT
+    MlokNNPT
+    
+    ,,
+   nasaINT
+   
+   
+   85CDT
+porsyentoNNT
+
+naINT
+angDTT
+ nataposVBDT
+ ngINT
+nasabingVBDT
+
+
+reblockingNNT
+
+saINT
+mgaRTB
+
+
+kalsadaNNT
+
+ngINT
+nasabingVBDT
+
+
+lalawiganNNT
+
+ayonINT
+naINT
+rinINT
+saINT
+isinasagawangVBGT
+
+
+occularNNT
+inspectionNNT
+
+ngINT
+mgaRBT
+ 
+ itoNNT
+
+..
+
+
+LayuninNNT
+
+diumanoINT
+
+nitoNNT
+
+naINT
+hindiDTT
+maantalaVBT
+angDTT
+
+biyaheNNT
+
+ngINT
+mgaRBT
+
+
+motoristaNNT
+
+naINT
+dumadaanVBGT
+saINT
+
+
+nationalNNT
+highwayNNT
+
+ngINT
+
+  
+MaguindanaoNNPT
+ 
+ ..
+
+SuportadoVBT
+namanINT
+niINT
+
+
+MaguindanaoNNPT
+GovernorNNT
+EsmaelNNPT
+  "Toto"NNPT
+    MangudadatuNNPT
+    
+    angDTT
+   nasabingVBDT
+   
+   
+   proyektoNNT
+
+ngINT
+
+
+DepartmentNNPT
+ofNNPT
+PublicNNPT
+  WorksNNPT
+    andNNPT
+    HighwaysNNPT
+    
+    ..
+   
+    
+
+
+PIKITNNPT
+
+,,
+
+COTABATONNPT
+
+--
+
+DEADNNT
+onNNT
+arrivalNNT
+  
+   saINT
+  
+  
+   ospitalNNT
+ angDTT
+dalawaJJT
+  kataoNNT
+    
+    naINT
+   
+    matagalNNT
+ 
+ nangINT
+pinaghahanapVBGT
+ngINT
+mgaRBT
+
+
+otoridadNNT
+
+saINT
+
+BarangayNNT
+BatulawanNNT
+
+,,
+
+PikitNNPT
+ 
+ ,,
+
+CotabatoNNPT
+
+..
+
+
+PatayJJT
+
+angDTT
+mgaRBT
+
+suspekNNT
+
+naINT
+kinilalaVBDT
+kinaINT
+
+
+RaymundNNPT
+TimanNNPT
+alyasNNT
+  MenuNNPT
+    
+    atCCT
+   
+    tauhanNNT
+ nitoNNT
+
+naINT
+siINT
+ 
+ PepinNNPT
+AlbaNNPT
+alyasNNT
+  TeoNNPT
+    
+    naINT
+   diumano'yINT
+   mgaRBT
+ 
+ drugNNT
+pushersNNT
+
+,,
+
+miembroNNT
+ 
+ ngINT
+
+
+gunNNT
+forNNT
+hireNNT
+  
+   atCCT
+  nasaINT
+  
+  
+  watchlistNNT
+
+ngINT
+
+pulisNNT
+
+..
+
+NagtangkaVBDT
+
+angDTT
+dalawaNNT
+
+naINT
+paputukanVBDT
+ 
+ angDTT
+raidingNNT
+teamNNT
+  
+   naINT
+  
+   kinabibilanganNNT
+ 
+ ngINT
+mgaRBT
+
+elementoNNT
+
+ngINT
+
+
+PhilippineNNPT
+DrugNNPT
+EnforcementNNPT
+  AgencyNNPT
+    
+    saINT
+   
+    AutonomousNNPT
+ RegionNNPT
+inNNPT
+  MuslimNNPT
+    MindanaoNNPT
+    
+    ((
+   
+    PDEA-ARMMNNPT
+ 
+ ))
+atCCT
+
+
+7thCDT
+InfantryNNPT
+DivisionNNPT
+  
+   ngINT
+  
+   PhilippineNNPT
+ ArmyNNPT
+
+dahilanCCT
+kungINT
+ bakitCCT
+ binarilVBDT
+angDTT
+mgaRBT
+
+itoNNT
+
+ngINT
+mgaRBT
+
+
+otoridadNNT
+
+..
+
+NagawaVBDT
+pangINT
+makapaputokVBDT
+ngINT
+
+suspekNNT
+
+naINT
+siINT
+
+AlbaNNPT
+
+labaVBT
+saINT
+
+
+backu-upNNT
+teamNNT
+
+ngINT
+
+  
+PDEANNPT
+ 
+ atCCT
+mgaRBT
+
+
+sundaloNNT
+
+..
+
+WalaDTT
+nangINT
+
+buhayNNT
+angDTT
+dalawaNNT
+  
+   ngINT
+  makaratingVBDT
+  saINT
+ 
+ pagamutanNNT
+
+..
+
+NarekoberVBDT
+namanINT
+mulaINT
+saINT
+
+pinagkukutaanNNT
+
+ngINT
+mgaRBT
+
+
+suspekNNT
+angDTT
+isangJJT
+  .38NNT
+    revolverNNT
+    pistolNNT
+    
+    ,,
+   
+    isangJJT
+ ccNNT
+9mmNNT
+  pistolNNT
+    
+    ,,
+   
+    isangJJT
+ M16NNT
+riffleNNT
+  
+   atCCT
+  mgaRBT
+  
+  magazinesNNT
+
+,,
+
+KJNNT
+9mmNNT
+submachineNNT
+  gunNNT
+    
+    naINT
+   mayINT
+   
+   isangJJT
+magazineNNT
+
+atCCT
+
+  
+tatlongJJT
+ granadaNNT
+
+gayundinCCT
+
+angDTT
+ 10CDT
+gramoNNT
+  
+   ngINT
+  pinaniniwalaangVBGT
+  
+  shabuNNT
+
+..
+
+SaINT
+ngayonRBT
+,,
+isina-ilalimVBDT
+naINT
+saINT
+
+eksaminasyonNNT
+
+ngINT
+
+PNP-ARMMNNPT
+crimeNNT
+laboratoryNNT
+  
+   angDTT
+  mgaRBT
+  
+  barilNNT
+
+atCCT
+diumano'yINT
+
+
+shabuNNT
+
+naINT
+nakuhaVBDT
+saINT
+
+pinagtataguanNNT
+
+ngINT
+mgaRBT
+
+suspekNNT
+
+..
+
+
+
+
+KORONADALNNPT
+CITYNNPT
+
+--
+NAKAKARANASVBGT
+ ngINT
+ 
+ 
+ bahaNNT
+angDTT
+ilangJJT
+  lugarNNT
+    
+    saINT
+   
+  
+    KoronadalNNPT
+ CityNNPT
+
+dahilCCT
+saINT
+ pagbuhosVBDT
+ ngINT
+
+malakasJJT
+
+naINT
+
+ulanNNT
+
+dalaVBT
+ngINT
+
+LowNNT
+PressureNNT
+AreaNNT
+  
+   ((
+  
+   LPANNT
+ 
+ ))
+saINT
+
+MindanaoNNPT
+
+..
+
+
+KabilangJJT
+
+saINT
+mgaRBT
+
+binahangJJT
+barangayNNT
+angDTT
+  GeneralNNPT
+    PaulinoNNPT
+    SantosNNPT
+    
+    ((
+   
+    GPSNNPT
+ 
+ ,,
+
+ZoneNNPT
+IIINNPT
+
+,,
+
+MoralesNNPT
+ 
+ ,,
+atCCT
+
+CarpenterNNPT
+HillNNPT
+
+..
+
+PansamantalangRBT
+ isinaraVBDT
+saINT
+
+
+trapikoNNT
+angDTT
+daanNNT
+  
+   saINT
+  
+   PantuaNNPT
+ 
+ atCCT
+
+MaranonNNPT
+VillageNNPT
+
+mataposRBT
+tumaasRBT
+ 
+ angDTT
+tubigNNT
+
+saINT
+
+naturangJJT
+ areaNNT
+
+..
+
+Napag-alamanVBDT
+ naINT
+
+maramingJJT
+bahayNNT
+
+angDTT
+pinasokVBDT
+ ngINT
+ 
+ tubigNNT
+
+saINT
+
+BarangayNNPT
+ZoneNNPT
+IIINNPT
+  
+   kungINT
+  saanINT
+  malapitRBT
+ 
+ 
+ itoNNT
+
+saINT
+
+BulokNNPT
+CreekNNPT
+
+..
+
+
+AngDTT
+pagbabaraNNT
+
+ngINT
+
+  
+basuraNNT
+ 
+ saINT
+
+
+naturangJJT
+ilogNNT
+
+angDTT
+itinuturongVBGT
+ dahilanCCT
+ ngINT
+
+pag-apawNNT
+
+ngINT
+
+tubigNNT
+
+naINT
+pumasokVBDT
+saINT
+mgaRBT
+
+
+kabahayanNNT
+
+..
+
+NagpapatuloyVBGT
+paINTA
+saINT
+ngayonRBT
+angDTT
+paglilinisVBGT
+ngINT
+mgaRBT
+
+
+residenteNNT
+
+saINT
+
+
+kani-kanilangNNT
+bahayNNT
+
+naINT
+
+punoJJT
+ 
+ ngINT
+
+
+putikNNT
+
+dalaVBT
+ngINT
+
+
+tubigNNT
+bahaNNT
+
+..
+
+
+
+
+LEBAKNNPT
+
+,,
+
+SULTANNNPT
+KUDARATNNPT
+
+--
+TINATAYANGVBGT
+ umaabotRBT
+ saINT
+
+
+ilangJJT
+libongNNT
+
+mgaRBT
+
+  
+kabataanNNT
+ 
+ angDTT
+nakibahagiVBDT
+saINT
+
+
+localNNT
+Archdiocesan-wideNNPT
+WorldNNPT
+  YouthNNPT
+    DayNNPT
+    
+    saINT
+   
+  
+    NotreNNPT
+ DameNNPT
+ofNNPT
+  SalamanNNPT
+    CollegeNNPT
+    
+    ,,
+   
+    LebakNNPT
+ 
+ ,,
+
+SultanNNPT
+KudaratNNPT
+
+..
+
+
+angDTT
+lokalNNT
+
+naINT
+
+  
+selebrasyonNNT
+ 
+ ngINT
+
+WorldNNPT
+YouthNNPT
+DayNNPT
+  
+   ayINT
+  
+  
+   bahagiNNT
+ lamangJJT
+
+ngINT
+
+  
+worldwideNNT
+ celebrationNNT
+
+ngINT
+
+WorldNNPT
+ YouthNNPT
+DayNNPT
+  
+   naINT
+  ginaganapVBGT
+  saINT
+ 
+ RioNNPT
+deNNPT
+JaneiroNNPT
+  
+   naINT
+  dinadaluhanVBGT
+  niINT
+ 
+ PopeNNPT
+FrancisNNPT
+
+..
+
+Napag-alamanVBDT
+ naINT
+
+pormalJJT
+
+naINT
+magsisimulaVBGT
+ngayongRBT
+
+arawNNT
+angDTT
+localNNT
+  celebrationNNT
+    
+    ngINT
+   
+  
+    WorldNNPT
+ YouthNNPT
+DayNNPT
+  
+   naINT
+  magtataposVBGT
+  namanINT
+ bukasRBT
+
+HulyoNNPT
+28CDT
+
+..
+
+
+TemaNNT
+
+ngINT
+
+selebraysonNNT
+
+ngayongRBT
+
+taonNNT
+
+ayINT
+
+""
+
+GoNNT
+andNNT
+MakeNNT
+  DisciplesNNT
+    ofNNT
+    allNNT
+    NationsNNT
+    
+    ""
+   ..
+   
+   
+
+TULUNANNNPT
+
+,,
+
+COTABATONNPT
+
+--
+ABOTRBT
+hangangINT
+
+
+baywangNNT
+angDTT
+tubigNNT
+  
+   naint
+  nanalasaNNT
+  saINT
+ 
+ 
+ ilangJJT
+barangayNNT
+
+saINT
+
+  
+TulunanNNPT
+ 
+ ,,
+
+CotabaotNNPT
+
+dalaVBT
+ngINT
+malakasRBT
+naINT
+buhosVBT
+ngINT
+
+
+ulanNNT
+
+..
+
+
+KabilangNNT
+
+saINT
+mgaRBT
+binahaVBDT
+ayINT
+
+angDTT
+BarangayNNPT
+PoblacionNNPT
+  
+   ,,
+  
+   F.
+ CajeloNNPT
+
+,,
+
+EsperanzaNNPT
+ 
+ ,,
+
+BagumbayanNNPT
+
+,,
+
+DamawatoNNPT
+
+,,
+
+SibsibNNPT
+
+,,
+
+DungosNNPT
+
+,,
+
+PopoyonNNPT
+
+atCCT
+
+BualNNPT
+
+..
+
+SaINT
+
+
+reportNNT
+
+ngINT
+
+
+MunicipalNNPT
+DisasterNNPT
+RiskNNPT
+  ReductionNNPT
+    andNNPT
+    ManagementNNPT
+    CouncilNNPT
+    
+    ((
+   
+    MDRRMCNNPT
+ 
+ ))
+,,
+umapawRBT
+
+
+angDTT
+tubigNNT
+
+mulaRBT
+saINT
+ 
+ 
+ TulunanNNPT
+RiverNNPT
+
+naINT
+naginINT
+ 
+ 
+ sanhiNNT
+
+ngINT
+
+bahaNNT
+
+saINT
+mgaRBT
+
+mababangJJT
+lugarNNT
+
+..
+
+Napag-alamanVBDT
+ naINT
+
+ilanJJT
+
+saINT
+mgaRBT
+
+
+residenteNNT
+
+angDTT
+hindiDTT
+nakalabasVBDT
+saINT
+
+kanilangNNT
+bahayNNT
+
+saINT
+nangyaringVBDT
+ 
+ bahaNNT
+
+..
+
+HabangRBT
+,,
+inanodVBDT
+dinINT
+diumanoINT
+ngINT
+
+tubigNNT
+bahaNNT
+angDTT
+  alagangNNT
+    hayopNNT
+    
+    ngINT
+   
+    ilangJJT
+ 
+ mgaRBT
+
+mamayanNNT
+
+..
+
+
+AngDTT
+naturangNNT
+bahaNNT
+  
+   ayINT
+  ayINT
+  nagdulotVBDT
+ dinINT
+ngINT
+matindingRBT
+
+
+trapikoNNT
+
+saINT
+
+
+nationalNNT
+highwayNNT
+
+mulaINT
+saINT
+ 
+ 
+ TacurongNNPT
+CityNNPT
+
+papuntangVBGT
+
+  
+DavaoNNPT
+ CityNNPT
+
+..
+
+DahilCCT
+ saINT
+nasabingVBDT
+
+
+pangyayariNNT
+
+,,
+
+sinuspindeNNT
+
+niINT
+
+TulunanNNPT
+MayorNNT
+LaniNNPT
+  CandoladaNNPT
+    angDTT
+    klaseNNT
+    
+    saINT
+   mgaRBT
+   
+   apektadongNNT
+lugarNNT
+
+..
+
+SaINT
+ ngayonRBT
+,,
+inaalamVBGT
+paINT
+ngINT
+
+
+MDRRMCNNPT
+angDTT
+kabuuangJJT
+  pinsalaNNT
+    
+    naINT
+   
+    dulotNNT
+ 
+ ngINT
+nasabingVBDT
+
+bahaNNT
+
+saINT
+mgaRBT
+
+
+pananimNNT
+
+atCCT
+
+
+kabuhayanNNT
+
+ngINT
+mgaRBT
+
+
+residenteNNT
+
+..
+
+
+
+
+CARMENNNPT
+
+,,
+
+COTABATONNPT
+
+--
+NIYANIGVBDT
+ngINT
+
+
+dalawangJJT
+
+magkasunodRBT
+naINT
+
+lindolNNT
+angDTT
+bayanNNT
+  
+   ngINT
+  
+   CarmenNNPT
+ 
+ ,,
+
+CotabatoNNPT
+kamakalawaJJT
+
+ngINT
+
+gabiNNT
+ 
+ ..
+
+
+SentroNNT
+
+ngINT
+
+lindoNNT
+
+ayINT
+nasaINT
+
+
+18CDT
+kilometroNNT
+hilagang-silangangNNT
+  
+   saINT
+  naturangINT
+  
+  bayanNNT
+partikularNNT
+
+naINT
+saINT
+ 
+ 
+ BarangayNNPT
+KibudtunganNNPT
+
+..
+
+
+UnangJJT
+
+niyanigVBDT
+angDTT
+nasabingVBDT
+
+
+bayanNNT
+
+ngINT
+
+4.8NNT
+magnitudeNNT
+
+naINT
+
+  
+lindolNNT
+ 
+ ,,
+
+alas-NNT
+6CDT
+
+::
+
+51CDT
+ HuwebesNNPT
+
+ngINT
+
+gabiNNT
+ 
+ naINT
+mayINT
+lalimRBT
+naINT
+
+
+isangJJT
+kilometroNNT
+
+atCCT
+sinundanVDBT
+ namanINT
+ ngINT
+
+4.4NNT
+magnitudeNNT
+
+naINT
+
+lindolNNT
+ alas-NNT
+7CDT
+  
+   ::
+  
+   05CDT
+ 
+ ngINT
+
+gabiNNT
+
+..
+
+NaramdamanVBDT
+
+angDTT
+intensityNNT
+4CDT
+  
+   saINT
+  
+   CarmenNNT
+ 
+ ;;
+
+intensityNNT
+3CDT
+
+saINT
+
+DangcaganNNPT
+ 
+ atCCT
+
+DumulogNNPT
+
+,,
+
+BukidnonNNPT
+
+;;
+
+intensityNNT
+2CDT
+
+saINT
+
+KidapawanNNPT
+ CityNNPT
+
+,,
+
+CagayanNNPT
+ deNNPT
+OroNNPT
+  CityNNPT
+    
+    ,,
+   
+    DavaoNNPT
+ CityNNPT
+
+atCCT
+
+CotabatoNNPT
+ CityNNPT
+
+..
+
+
+TectonicNNT
+
+inINT
+
+originNNT
+
+diumanoINT
+angDTT
+nasabingVBDT
+
+lindolNNT
+
+..
+
+WalaDTT
+namangNNT
+mayINT
+
+nasugatanNNT
+
+saINT
+nasabingVBDT
+
+
+insidenteNNT
+
+..
+
+AyonINT
+saINT
+
+PhivolcsNNPT
+NorthNNPT
+CotabatoNNPT
+  StationNNPT
+    
+    ,,
+   
+    aftershockNNT
+ 
+ paINT
+rinINT
+
+itoNNT
+
+ngINT
+
+5.7NNT
+magnitudeNNT
+
+naINT
+
+  
+lindolNNT
+ 
+ naINT
+
+tumamaNNT
+
+saINT
+
+CarmenNNPT
+
+noongRBT
+
+
+HunyoNNPT
+1CDT
+taongNNT
+  
+   kasalukuyanRBT
+  ..
+  
+  MatatandaanVBGT
+naINT
+
+
+10CDT
+kataoNNT
+
+angDTT
+nasugatanVDBT
+ ngINT
+ maganapVBDT
+angDTT
+
+naturangJJT
+lindolNNT
+
+naINT
+sumiraVBDT
+ saINT
+ 
+ 
+ 100CDT
+kabahayanNNT
+
+atINT
+mgaRBT
+ 
+ 
+ gusaliNNT
+
+atCCT
+
+
+dalawangJJT
+tulayNNT
+
+..
+
+NagdulotVBDT
+ dinINT
+
+itoNNT
+
+ngINT
+
+
+landslideNNT
+
+saINT
+
+mataasJJT
+
+naINT
+
+lugarNNT
+
+dahilanCCT
+kungINT
+bakitCCT
+,,
+inilikasVDBT
+angDTT
+halosRBT
+
+
+50CDT
+pamilyaNNT
+
+naINT
+
+apektadoNNT
+ 
+ ngINT
+
+kalamidadNNT
+
+..
+
+AyonINT
+saINT
+
+
+PhilvolcsNNPT
+
+,,
+aasahanVBGT
+paINT
+diumanoCCT
+
+angDTT
+dagdagNNT
+
+naINT
+
+  
+lindolNNT
+ 
+ saINT
+nasabingVBDT
+lugarNNT
+..
+
+
+
+
+COTABATONNPT
+CITYNNPT
+
+--
+NASAINT
+ 
+ 
+ MetroNNPT
+ManilaNNPT
+
+naINT
+angDTT
+ 
+ isaNNT
+
+pangINT
+
+
+suspekNNT
+
+saINT
+
+MaguindanaoNNPT
+MassacreNNPT
+
+naINT
+nahuliVBDT
+ saINT
+ 
+ BarangayNNPT
+ManongkalingNNPT
+
+,,
+
+MamasapanoNNT
+ 
+ kamakalawaRBT
+..
+
+
+AngDTT
+suspekNNT
+
+naINT
+siINT
+ 
+ MamaNNPT
+NombaNNPT
+HabibNNPT
+  
+   ayINT
+  itinurn-overVBDT
+  ngINT
+ 
+ 
+ CriminalNNPT
+InvestigationNNPT
+andNNPT
+  DetectionNNPT
+    GroupNNPT
+    
+    ngINT
+   
+  
+    AutonomousNNPT
+ RegionNNPT
+inNNPT
+  MuslimNNPT
+    MindanaoNNPT
+    
+    ((
+   
+    CIDG-ARMMNNPT
+ 
+ saINT
+
+CampNNPT
+BagongNNPT
+DiwaNNPT
+  
+   saINT
+  
+   TaguigNNPT
+ CityNNPT
+
+makaraangRBT
+mahuliVBDT
+ ngINT
+ mgaINT
+
+tauhanNNT
+
+ngINT
+
+
+CIDG-ARMMNNPT
+
+atCCT
+ngINT
+
+
+45thCDT
+InfantryNNPT
+BattalionNNPT
+  
+   ,,
+  
+   PhilippineNNPT
+ ArmyNNPT
+
+,,
+
+HuwebesNNPT
+ 
+ ngINT
+haponRBT
+..
+
+SiINT
+
+
+HabibNNPT
+
+,,
+
+43CDT
+
+--
+
+anyosNNT
+
+,,
+ayINT
+
+datingJJT
+miembroNNT
+
+ngINT
+
+  
+privateNNT
+ armyNNT
+
+ngINT
+
+pamilyaNNT
+ AmpatuanNNPT
+
+naINT
+
+siyangNNT
+ pangunahingJJT
+suspekNNT
+  
+   saINT
+  
+   MaguindanaoNNPT
+ massacreNNPT
+
+..
+
+AngDTT
+ nasabingVBDT
+
+
+suspekNNT
+
+ayINT
+
+isaJJT
+
+saINT
+
+198CDT
+suspekNNT
+
+saINT
+
+karumal-dumalJJT
+ 
+ naINT
+
+krimenNNT
+
+naINT
+nangyariVBDT
+noongRBT
+
+NobyembreNNPT
+23CDT
+
+,,
+
+2009CDT
+ 
+ naINT
+ikinamatayVBDT
+ngINT
+
+58INT
+kataoNNT
+
+..
+
+
+
+
+BAGUMBAYANNNPT
+
+,,
+
+SULTANNNPT
+KUDARATNNPT
+
+--
+INAASAHANVBGT
+ naINT
+ bababaVBGT
+naINT
+
+angDTT
+kasoNNT
+
+ngINT
+
+kahirapanNNT
+ 
+ saINT
+
+BagumbayanNNT
+
+,,
+
+SultanNNPT
+KudaratNNPT
+
+mataposRBT
+makompletoVBDT
+ angINT
+ 
+ iba't-ibangJJT
+proyektoNNT
+
+saINT
+
+  
+apatJJT
+ 
+ naINT
+
+malalayongJJT
+barangayNNT
+
+saINT
+nasabingVBDT
+ 
+ bayanNNT
+
+..
+
+
+KabilangJJT
+
+saINT
+mgaRBT
+
+nilalamanNNT
+
+ngINT
+
+P6.86NNT
+milyonNNT
+angNNT
+  tatlongJJT
+    schoolNNT
+    buildingsNNT
+    
+    atCCT
+   
+    waterNNT
+ systemNNT
+projectsNNT
+  
+   ..
+  
+   
+AngDTT
+P2.03NNT
+milyongJJT
+  halagaNNT
+    
+    ngINT
+   
+    schoolNNT
+ buildingsNNT
+
+ayINT
+itinayoVBDT
+ saINT
+ 
+ 
+ BarangayNNPT
+DalugaNNPT
+
+atCCT
+
+MonteverdeNNPT
+ 
+ atCCT
+nagkakahalagaVBDT
+namanINT
+ngINT
+
+P1.93
+milyonNNT
+
+angDTT
+itinayoVBDT
+ namanINT
+ saINT
+
+
+SouthNNPT
+SepakaNNPT
+
+..
+
+NasagotVBDT
+ namanINT
+
+angDTT
+problemaNNT
+
+saINT
+
+  
+kakulanganNNT
+ 
+ ngINT
+
+
+malinisJJT
+
+naINT
+
+tubigNNT
+
+saINT
+
+BarangayNNPT
+Sto.NNPT
+NinoNNPT
+  
+   mataposVBDT
+  pinatayuanVBDT
+  ngINT
+ 
+ P866,000CDT
+
+naINT
+
+waterNNT
+systemNNT
+projectNNT
+  
+   ..
+  
+   AngDTT
+ nasambitVBDT
+mgaRBT
+
+proyektoNNT
+
+ayINT
+ipinatupadVBDT
+ngINT
+
+DepartmentNNPT
+ofNNPT
+SocialNNPT
+  WelfareNNPT
+    andNNPT
+    DevelopmentNNPT
+    
+    ((
+   
+    DSWDNNPT
+ regionNNT
+12CDT
+  
+   kungCDT
+  saanINT
+  
+  
+  layuninNNT
+nitoNNT
+
+ayINT
+upangINT
+ matugunanVBGT
+ 
+ angDTT
+problemaNNT
+
+saINT
+
+  
+kakulanganNNT
+ 
+ atCCT
+saINT
+
+malinisJJT
+
+naINT
+
+
+tubigNNT
+
+..
+
+
+MalibanJJT
+
+saINT
+naturangVBDT
+mgaRBT
+
+proyektoNNT
+
+,,
+InaasahanVBGT
+naINT
+matataposVBGT
+naINT
+rinINT
+saINT
+susunodVBGT
+naINT
+
+
+buwanNNT
+angDTT
+P3.42CDT
+  milyonNNT
+    solarNNT
+    projectNNT
+    
+    saINT
+   
+    barangayNNT
+ SumililNNPT
+
+atCCT
+
+KanulayNNPT
+ 
+ saINT
+
+BagumbayanNNPT
+
+..
+Napag-alamanVBDT
+naINT
+angDTT
+nasabingVBDT
+mgaRBT
+
+proyektoNNT
+
+ayINT
+itinayoVBDT
+saINT
+pamamagitanVBGT
+ngINT
+
+
+DSWDNNPT
+
+naINT
+""
+
+Kapit-bisigNNT
+
+LabanVBT
+saINT
+
+KahirapanNNT
+
+--
+
+ComprehensiveNNT
+andNNT
+IntegratedNNT
+  DeliveryNNT
+    ofNNT
+    SocialNNT
+    ServicesNNT
+    
+    ..
+   ""
+   
+   
+
+
+COTABATONNPT
+CITYNNPT
+
+--
+NAGPALABASVBDT
+ ngINT
+ 
+ 
+ kautusanNNT
+
+siINT
+
+AutonomousNNPT
+RegionNNPT
+in
+  MuslimNNPT
+    MindanaoNNPT
+    
+    ((
+   
+    ARMMNNPT
+ 
+ ))
+
+GovernorNNT
+MujivNNPT
+HatamanNNPT
+  
+   saINT
+  pagpatupadVBGT
+  ngINT
+ 
+ 
+ bagongJJT
+sistemaNNT
+
+upangINT
+makamitVBGT
+ angDTT
+ ninanaisVBGT
+naINT
+
+
+repormaNNT
+
+saINT
+
+kanilangNNT
+rehiyonNNT
+
+..
+
+IpapatupadVBGT
+ niINT
+
+
+HatamanNNPT
+angDTT
+proceduralNNT
+  flowchartNNT
+    
+    
+    naINT
+   
+  
+    siyangNNT
+ 
+ mangangalagaVBGT
+saINT
+mgaRBT
+
+financialNNT
+transactionsNNT
+
+ngINT
+
+  
+gobyernoNNT
+ 
+ saINT
+
+
+ARMMNNPT
+
+..
+
+
+LayuninNNT
+
+diumanoINT
+
+
+nitoNNT
+
+ayINT
+upangINT
+
+maiwasanNNTA
+
+angDTT
+mgaRBT
+
+
+anomalyaNNT
+
+atINT
+kahinahinalangVBGT
+mgaRBT
+
+transaksyonNNT
+
+saINT
+
+tanggapanNNT
+
+ngINT
+
+gobyernoNNT
+
+..
+
+
+KaugnayJJR
+nitoNNT
+
+,,
+inatasanVBDT
+ angDTT
+ mgaRBT
+
+
+pinunoNNT
+
+ngINT
+bawatINT
+
+tanggapanNNT
+
+naINT
+magsumiteVBGT
+ngINT
+
+kompletongNNT
+inventoryNNT
+
+ngINT
+mgaRBT
+ 
+ governmentNNT
+equipmentsNNT
+
+saINT
+
+  
+kanilangNNT
+ pangangalagaNNT
+
+,,
+mgaRBT
+ 
+ empleyadoNNT
+
+atCCT
+paggastaVBGT
+ngINT
+
+pondoNNT
+
+upangINT
+ipakitaVBDT
+
+angDTT
+transparencyJJT
+
+saINT
+mgaRBT
+ 
+ transaksyonNNT
+
+ngINT
+
+gobyernoNNT
+
+..
+
+PinapasumiteVBGT
+dinINT
+ngINT
+
+kanilangNNT
+workNNT
+
+andCCT
+
+financialNNT
+ planNNT
+
+angDTT
+mgaRBT
+ 
+ opisyalNNT
+
+saINT
+
+ARMM
+
+..
+
+NainsVBT
+diumanoVB
+niINT
+
+HatamanNNPT
+
+naINT
+makamitVBGT
+angDTT
+tinatawagVBGT
+naINT
+''
+
+honestNNT
+regionalNNT
+governmentNNT
+  
+   ''
+  paraINT
+  saINT
+ nalalapitVBGT
+naINT
+pagtayoVBGT
+ngINT
+
+BangsamoroNNPT
+politicalNNT
+entityNNT
+  
+   naINT
+  
+   siyangNNT
+ 
+ 
+papalitVBGT
+saINT
+
+ARMMNNPT
+
+saINT
+sandalingRBT
+mataposVBGT
+
+angDTT
+peaceNNT
+processNNT
+  
+   ngINT
+  
+   gobyernoNNT
+ 
+ atCCT
+
+MoroNNPT
+IslamicNNPT
+LiberationNNPT
+  FrontNNPT
+    
+    ((
+   
+    MILFNNPT
+ 
+ ))
+..
