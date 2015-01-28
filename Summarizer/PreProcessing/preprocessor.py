@@ -13,7 +13,7 @@ import parsers
 LangPaths =os.path.realpath("C:/users/rihanna/Documents/Pol/ThesisIt/SumMe/Summarizer/langdetector/profiles/")
 tltagger = nltk.data.load("taggers/fil-tagged_aubt.pickle") #filipino pos tagger
 
-tlChunker = nltk.data.load("chunkers/fil-tagged_ub.pickle")#filipino chunker here
+tlChunker = nltk.data.load("chunkers/fili_ub.pickle")#filipino chunker here
 enChunker = nltk.data.load("chunkers/conll2000_ub.pickle") #enChunkerhere
 
 
@@ -91,6 +91,7 @@ def getSVO(sent,isEnglish):
 						for node in subs:
 							if node[1] in ["NN","NNS","NNP","NNPS","PRP","PRP$"]:
 								subjs.append(node)
+								objs.append(node)
 					elif subs.label() == "VP":
 						for node in subs:
 							if node[1] in ["VBD","VBZ","VB", "VBN","VBG","VBP"]:
@@ -103,15 +104,17 @@ def getSVO(sent,isEnglish):
 						for node in subs:
 							if node[1] in ["NNT","NNST","NNPT","NNPST","PRPT","PRP$T"]:
 								subjs.append(node)
+								objs.append(node)
 					elif subs.label() == "VP":
 						for node in subs:
 							if node[1] in ["VBDT","VBZT","VBT", "VBNT","VBGT","VBPT"]:
 								vbs.append(node)
-	print(subjs)
-	print(vbs)
-	print(objs)
-	print(len(trees))
-
+	triples = []
+	for subj in subjs:
+		for vb in vbs:
+			for obj in objs:
+				triples.append(SVO(subj,vb,obj))
+	return triples
 class SVO:
 	def __init__(self, subj,verb,obj):
 		self.subj = subj
