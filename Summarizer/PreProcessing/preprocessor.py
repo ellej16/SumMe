@@ -115,16 +115,16 @@ def getSVO(sent,isEnglish):
 	for subj in subjs:
 		if subj not in frq:
 			frq.append(subj)
-			tf.append(stats(subj))
+			tf.append((subj, 1))
 		else:
 			for terms in tf:
-				if(terms.word ==subj):
-					terms.incTf()
+				if(terms[0]==subj):
+					terms[1] +=1
 		for vb in vbs:
 			for obj in objs:
 				triples.append(SVO(subj,vb,obj))
 
-	return triples,tf
+	return [triples,tf]
 class SVO:
 	def __init__(self, subj,verb,obj):
 		self.subj = subj

@@ -15,6 +15,7 @@ sentences = [] # 1sentence number, 2the sentence, 3the tuples of words 0 = word 
 			#and their corresponding POS tags, and the 4language id
 			#5when chunkSents is invoked chunks of the sentence is appended
 			#6when getTriple() is invoked svos of the sentence is appended
+			#7when getTriple() is invoked frequencies of the sentences is also appended
 
 
 def chunkSents():
@@ -93,3 +94,24 @@ def getFilPOS(sent):
 	words = []
 	return preprocessor.filposTagger(sent)
 
+def getFreq():
+	global sentences
+	compare = sentences
+	nDocs = []
+	ideff = []
+	for sents in sentences:
+		for terms in sents[7]:
+			for com in compare:
+				for chk in com[7]:
+					if terms[0] in chk[0]:
+						for n in nDocs:
+							if terms[0]==n[0]:
+								nDocs.insert(nDocs.index(n),(n[0],n[1]+1))
+							else:
+								nDocs.append((terms,1))
+						break;
+					else: continue;
+	for n in nDocs:
+		idf = math.log10(len(sentences)/n[1])
+		print(idf)
+		ideff.append((n[0],idf))
