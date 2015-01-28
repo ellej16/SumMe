@@ -23,7 +23,6 @@ na INT B-NP
 kilalang JJT I-NP
 mandirigma NNT I-NP
 . . O
-
 Ayon JJT B-VP
 kay INT I-VP
 ni INT I-VP
@@ -50,7 +49,6 @@ kanilang PRPT I-NP
 mga RBT I-NP
 ninuno NNT I-NP
 . . O
-
 Ito PRPT B-NP
 ang DTT I-NP
 tahasang JJT I-NP
@@ -99,7 +97,6 @@ bala NNT I-NP
 sa INT I-NP
 katawan NNT I-NP
 . . O
-
 Hindi RBRT B-VP
 umano VBT I-VP
 namukhaan VBNT I-VP
@@ -119,7 +116,7 @@ brownout NNT I-NP
 PATAY NNPT B-NP
 ang DTT I-NP
 sheriff NNT I-NP
-ng INT INP
+ng INT I-NP
 Regiona lNNT I-NP
 Trial NNT I-NP
 Court NNT I-NP
@@ -142,7 +139,6 @@ Midsayap NNPT I-NP
 , , I-NP
 Cotabato NNPT I-NP
 . . O
-
 Hinigpitan VBNT B-VP
 ng INT B-NP
 gobyernong NNT I-NP
@@ -171,13 +167,12 @@ ng INT I-NP
 al-Qaeda NNPT I-NP
 group NNT I-NP
 . . O
-
 Nangangamba VBDT B-VP
 si INT B-NP
 Colmenares NNPT I-NP
 na INT I-NP
 hindi RBT B-VP
-magigingVBPT I-VP
+magiging VBPT I-VP
 patas RBT I-VP
 ang DDT B-NP
 takbo NNT I-NP
@@ -189,9 +184,9 @@ opisyal NNT I-NP
 ng INT I-NP
 Liberal NNT I-NP
 Party NNT I-NP
-( (. I-NP
+-LRB- (. I-NP
 LP NNPT I-NP
-) ). I-NP
+-RRB- ). I-NP
 si INT I-NP
 Sarmiento NNPT I-NP
 at CCT I-NP
