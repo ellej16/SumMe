@@ -174,3 +174,265 @@ sa INT I-NP
 Malaysia NNPT I-NP
  
 . . O
+
+
+
+Si INT B-NP
+
+Sheriff NNT I-NP
+
+Juanito NNPT I-NP
+
+Diazon NNPT I-NP
+  
+ay VBZT O
+
+nagtamo VBDT B-VP
+
+ng INT I-VP
+ 
+maraming JJT B-NP
+
+tama NNT I-NP
+
+ng INT I-NP
+
+bala NNT I-NP
+ 
+sa INT I-NP
+
+katawan NNT I-NP
+
+. . O
+
+
+
+Hindi RBRT B-VP
+
+umano VBT I-VP
+
+namukhaan VBNT I-VP
+
+ang DTT V-NP
+
+pumaslang NTT I-NP
+
+kay INT I-NP
+  
+Diazon NNPT I-NP
+
+dulot NNT I-NP
+
+ng INT I-NP
+
+madilim JJT I-NP
+ 
+na INT I-NP
+
+paligid NNT I-NP
+
+dahil NNT I-NP
+
+sa INT I-NP
+
+brownout NNT I-NP
+ 
+. . O
+
+
+
+PATAY NNPT B-NP
+
+ang DTT I-NP
+
+sheriff NNT I-NP
+  
+ng INT INP
+  
+Regiona lNNT I-NP
+
+Trial NNT I-NP
+
+Court NNT I-NP
+  
+( ( I-NP
+  
+RTC NNPT I-NP
+ 
+) ) I-NP
+
+Branch NNT I-NP
+
+12 CDT I-NP
+
+makaraang VBDT B-VP
+
+pagbabarilin VBNT I-VP
+  
+pasado JJT B-NP
+
+alas NNT I-NP
+
+- - I-NP
+
+7 CDT I-NP
+ 
+Huwebes NNPT I-NP
+
+ng INT I-NP
+
+  
+gabi NNT I-NP
+ 
+sa INT I-NP
+
+Midsayap NNPT I-NP
+
+, , I-NP
+
+Cotabato NNPT I-NP
+
+. . O
+
+
+
+Hinigpitan VBNT B-VP
+
+ng INT B-NP
+
+gobyernong NNT I-NP
+
+Aquino NNPT I-NP
+
+ang DTT I-NP
+
+seguridad NNT I-NP
+    
+sa INT I-NP
+   
+Embahada NNT I-NP
+ 
+ng INT I-NP
+
+Amerika NNPT I-NP
+
+sa INT I-NP
+
+Maynila NNPT I-NP
+
+gayundin RBT I-NP
+
+sa INT I-NP
+
+iba PRP$T I-NP
+
+pa RBT I-NP
+
+nilang PRP$T I-NP
+
+tanggapan NNT I-NP
+
+bunsod NNT I-NP
+    
+ng INT I-NP
+   
+banta NNT I-NP
+ 
+ng INT I-NP
+
+
+terror NNT I-NP
+
+attack NNT I-NP
+
+ng INT I-NP
+
+al-Qaeda NNPT I-NP
+
+group NNT I-NP
+
+. . O
+
+
+
+Nangangamba VBDT B-VP
+
+si INT B-NP
+
+Colmenares NNPT I-NP
+
+na INT I-NP
+
+hindi RBT B-VP
+
+magigingVBPT I-VP
+
+patas RBT I-VP
+
+ang DDT B-NP
+
+takbo NNT I-NP
+
+ng INT I-NP
+  
+imbestigasyon NNT I-NP
+
+dahil NNT I-NP
+
+isang JJT I-NP
+
+opisyal NNT I-NP
+    
+ng INT I-NP
+   
+Liberal NNT I-NP
+
+Party NNT I-NP
+
+( ( . I-NP
+
+LP NNPT I-NP
+ 
+) ). I-NP
+
+si INT I-NP
+
+Sarmiento NNPT I-NP
+
+at CCT I-NP
+
+kasama NNT I-NP
+
+sa INT I-NP
+
+majority NNT I-NP
+
+congress­men NNT I-NP
+
+na INT I-NP
+
+nagpahayag VBDT B-VP
+
+agad RBT I-VP
+
+ng INT B-NP
+
+suporta NNT I-NP
+
+sa INT I-NP
+
+pagtataas VBGT B-VP
+
+ng INT B-NP
+
+pasahe NNT I-NP
+
+sa INT I-NP
+
+MRT NNPT I-NP
+
+at CCT I-NP
+
+LRT NNPT I-NP
+
+. . 0
