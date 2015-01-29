@@ -16,6 +16,13 @@ sentences = [] # 0sentence number, 1the sentence, 2the tuples of words 0 = word 
 			#4when chunkSents is invoked chunks of the sentence is appended
 			#5when getTriple() is invoked svos of the sentence is appended
 			#6when getFreq() is invoked frequencies of the sentences is also appended
+#class Sentence:
+#	self.SentNum
+#	self.langId
+#	self.Sent
+#	self.SentenceScore
+#	self.Words
+#	self.Chunks
 
 
 def chunkSents():
@@ -27,12 +34,12 @@ def chunkSents():
 		elif sents[3] =="tl":
 			sents.append(preprocessor.tlChunk(sents[2]))
 			sentences[sents[0]] = sents
-	return sentences
+	#return sentences
 
 def clearMem():
 	global sentences 
 	sentences = []
-	return sentences
+	#return sentences
 
 def getTriple():
 	global sentences
@@ -43,7 +50,7 @@ def getTriple():
 		elif sents[3] =="tl":
 			sents.append(preprocessor.getSVO(sents[4],False))
 			sentences[sents[0]] = sents
-	return sentences
+	#return sentences
 
 
 
@@ -74,7 +81,7 @@ def getSentences(str):
 		sentences.append(sentence)
 		sentence = []
 		
-	return sentences
+	#return sentences
 	#article.append(sentences)
 	
 	#article = [] #clears the article altogether
@@ -103,7 +110,7 @@ def getFreq():
 		elif sents[3] =="tl":
 			sents.append(preprocessor.getFreqs(sents[4],False))
 			sentences[sents[0]] = sents
-	return sentences
+	#return sentences
 	#	idf = math.log10(len(sentences)/n[1])
 	#	print(idf)
 	#	ideff.append((n[0],idf))
@@ -120,9 +127,6 @@ def getIDF():
 		for tup in sents[6]:
 			if tup[0][0] in nWords :
 				nDocs.show[nDocs.words.index(tup[0][0])] +=1
-				print(nDocs.show[nDocs.words.index(tup[0][0])])
-				print(nDocs.words[nDocs.words.index(tup[0][0])])
-				
 	for n in nDocs.words:
 		print(nDocs.show[nDocs.words.index(n)])
 		idf = math.log10(len(sentences)/nDocs.show[nDocs.words.index(n)])
