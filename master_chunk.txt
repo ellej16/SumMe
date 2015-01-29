@@ -261,780 +261,420 @@ LRT NNPT I-NP
 
 
 
-
-AyonJJT
-kinaPRP$T
-BayanNNT
-  MunaNNT
-    party-listNNT
-    Reps.NNT
-    NeriNNPT
-    ColmenaresNNPT
-    
-    atCCT
-   
-  
-    CarlosNNPT
- ZarateNNPT
-
-naINT
-naghainVBDT
- ngINT
- 
- HouseNNT
-ResolutionNNT
-No.NNT
-  111CDT
-    
-    
-    paraRBT
-   imbestigahanVBGT
-   
-   angDTT
-fareNNT
-hikeNNT
-  
-   saINT
-  
-   MRTNNPT
- 
- atCCT
-
-LRTNNPT
-
-,,
-
-
-
-dudaNNT
-silaPRP$T
-
-saINT
-magigingVBGT
- 
- 
- takboNNT
-
-ngINT
-
-pagdinigNNT
-
-naINT
-
-itinakdaVBDT
-
-niINT
-
-HouseNNT
-committeeNNT
-
-onIN
-
-TransportationNNT
- chairmanNNT
-
-atCCT
-
-CatanduanesNNPT
- Rep.NNT
-CesarNNPT
-  SarmientoNNPT
-    
-    saINT
-   
-    EneroNNPT
- 8CDT
-
-,,
-
-apatJJT
- 
- naINT
-
-arawNNT
-
-mataposVBDT
-
-
-angDTT
-implementasyonNNT
-
-ngINT
-
-  
-dagdagNNT
- 
- --
-­
-
-singilNNT
-
-
-saINT
-
-pasaheNNT
-
-..
-
-
-
-AngDTT
-
-
-isangJJT
-kabuuangNNT
-26CDT
-  PilipinoNNPT
-    
-    naINT
-   nagtrabahoVBDT
-   saINT
- 
- 
- plantaNNT
-
-
-ngINT
-
-
-gasNNT
-
-ngNNT
-
-AmenasNNPT
-
-malalimJJT
-
-naINT
-inaatakeVBGT
- ngINT
- 
- 
- al-Qaida-linkedNNPT
-gunmenNNT
-
-saINT
-
-MiyerkulesNNT
- ..
-
-
-
-
-
-HernandezNNPT
-
-sinabiVBDT
-naINT
-
-batayNNT
-
-saINT
-mgaRBT
-
-
-ulatNNT
-
-naINT
-natanggapVBDT
-
-
-mulaNNT
-
-saINT
-
-koponanNNT
-
-saINT
-
-PhilippineNNPT
-
-naINT
-
-pamahalaanNNT
-
-saINT
-
-AlgeriaNNPT
-
-atCCT
-
-
-embahadaNNT
-
-ngINT
-
-bansaNNT
-
-saINT
-
-LondonNNPT
-
-..
-
-
-
-SaINT
-
-
-isangJJT
-pressNNT
-conferenceNNT
-  
-   ,,
-  
-   tagapagsalitaNNT
- 
- ngINT
-
-DFANNPT
-pandalawangCDT
-ministroNNT
-  RaulNNPT
-    HernandezNNPT
-    
-    ginawaVBDT
-   
-  
-    angDTT
- anunsyoNNT
-
-ngunitCCT
-TinanggihanVBDT
- upangCCT
- bigyanVBT
-angDTT
-mgaRBT
-
-detalyeNNT
-
-
-saINT
-
-pagkakakilanlanNNT
-
-ngINT
-
-lalakiNNT
-fatalitiesNNT
-
-..
-
-
-
-
-MANILANNPT
-
-,,
-
-PilipinasNNPT
-
-–-
-
-AngDTT
-DepartmentNNT
-
-ofIN
-
-ForeignNNT
- AffairsNNT
-
-((
-
-DFANNPT
- 
- ))
-saINT
-
-LunesNNT
-
-nakumpirmaVBDT
-naINT
-
-
-animJJT
-
-naINT
-
-PilipinoNNPT
-
-namatayVBDT
-saINT
-
-
-prendaNNT
-krisisNNT
-
-saINT
-
-AlgeriaNNPT
- 
- atCCT
-
-apatJJT
-
-naINT
-
-
-ibaPRP$T
-
-paRBT
-rinRBT
-unaccountedVBDT
-nawawalaVBDT
-..
-
-
-
-
-
-ItoPRPT
-
-ayVBZT
-nagbibigayVBGT
-ngINT
-paraRBT
-saINT
-pagbibigayVBGT
-ngINT
-mgaRBT
-
-condomNNT
-
-atCCT
-mgaRBT
-
-tabletasNNT
-
-
-saINT
-
-
-pampublikongJJT
-kalusuganNNT
-sentroNNT
-  
-   ,,
-  
-  
-   pagsasanayNNT
- paraRBT
-saINT
-  
-   
-birthNNT
- controlNT
-
-atCCT
-kahitCCT
- 
- sexNNT
-edukasyonNNT
-
-saINT
-mgaRBT
- 
- paaralanNNT
-
-..
-
-
-
-
-HuwebesNNT
-
-,,
-
-EneroNNT
-17CDT
-
-,,
-
-batasNNT
- 
- saINT
-
-nangangasiwaNNT
-
-ngINT
-
-accessNNT
-
-saINT
-
-pillNNT
-
-atCCT
-
-angDTT
-condomNNT
-
-ayVBZT
-saINT
- wakasRBT
- 
- amponNNT
-
-,,
-
-pagkataposNNT
-
-ngINT
-
-tatlongJJT
-taonNNT
-
-ngINT
-
-debateNNT
- 
- ..
-
-
-
-
-AyonJJT
-
-kayINT
-
-stateNNT
-fireNNT
-officialNNT
-  GuidoNNPT
-    deNNPT
-    MeloNNPT
-    
-    ,,
-   
-    2CD
- 
- ,,
-
-000CD
-kataoNNT
-
-angDTT
-nasaINT
- 
- loobNNT
-
-ngINT
-
-
-nightclubNNT
-
-
-nangINT
-masunogVBNT
-,,
-
-
-
-dobleJJT
-
-saINT
-dapatVBT
-
-sanayJJT
-capacityNNT
-nitoPRPT
-  
-   naINT
-  
-  
-   1CDT
- 
- ,,
-
-000CDT
-
-langRBT
-..
-
-
-
-
-HindiRBT
-paRBT
-rinRBT
-
-malinawJJT
-angDTT
-sanhiNNT
-  
-   ngINT
-  
-   sunogNNT
- 
- naINT
-sinundanVBDT
-ngINT
-
-stampedeNNT
-mataposVBDT
-mag-panicVBDT
-  angDTT
-    mgaRBT
-    
-    
-    taoNNT
-  
-  ..
-
-
-
-
-saINT
-
-reportNNT
-
-ngINT
-
-NationalNNT
-DisasterNNT
-RiskNNT
-  ReductionNNT
-    
-    andINT
-   
-  
-    ManagementNNT
- CouncilNNT
-
-((
-
-NDRRMCNNPT
- 
- ))
-
-
-alasNNT
-siyeteNNT
-
-ngINT
-
-  
-umagaNNT
- 
- 
-ngINT
-
-
-SabadoNNT
-
-,,
-
-nasaINT
-
-
-24CDT
-
-
-naRBT
-
-angDTT
-
-kumpirmadongVBDT
-
-patayNNT
-
-..
-
-SamantalaINT
-,,
-
-nagsanibVBT
-
-pwersaNNT
-
-namanRBT
-
-
-angDTT
-PhilippineNNPT
-CoastNNT
-  GuardNNT
-    
-    (,(
-   
-    PCGNNPT
- 
- ),)
-atINT
-
-
-PhilippineNNPT
-NavyNNT
-
-(,(
-
-PNNNPT
- 
- ),)
-saINT
-paghahanapVBT
-saINT
-mgaRBT
-nawawalangVBT
-
-
-pasaheroNNT
-
-ngINT
-
-
-pampasaherongNNT
-barkoNNT
-
-ngINT
-
-  
-2GoNNPT
- 
- naRBT
-
-MVNNPT
-St.NNPT
-ThomasNNPT
-  AquinasNNPT
-    
-    ..
-   
-  
-  
-    
-
-
-SANTANNT
-MARIANNT
-
-,,
-
-  
-BrazilNNPT
- 
- ,,
-
-
-PatuloyJJT
-angDTT
-mappingNNT
-  operationNNT
-    
-    naINT
-   isinasagawaVBGT
-   ngINT
- mgaRBT
-
-
-otoridadNNT
-
-saINT
-
-malakingJJT
-sunogNNT
-
-  
-  naINT
-  nangyariVBN
- saINT
- 
- KissNNPT
-nightclubNNT
-
-saINT
-
-SantaNNPT
- MariaNNPT
-
-,,
-
-BrazilNNPT
- 
- naINT
-ikinasawiVBNT
-
-ngINT
-higitRBT
-
-230CDT
-kataoNNT
-
-..
-
-
-
-NoongRBT
-
-1963NNT
-
-,,
-
-angDTT
-SabahNNT
-
-naINT
-
-hitikJJT
- 
- saINT
-
-likasJJT
-
-naINT
-
-yamanNNT
-
-,,
-ayVBZT
-nasaINT
-
-
-pangangalagaNNT
-
-ngINT
-mgaRBT
-
-BritishNNPT
-mulaNNT
-
-saINT
-
-hulingJJT
- bahagiNNT
-
-ngINT
-
-19CDT
- thNNT
-centuryNNT
-  
-   atCCT
-  
-  
-   kinalaunanNNT
- 
- ayVBZT
-nagingVBDT
-
-bahagiNNT
-
-ngINT
-
-FederationNNT
-
-ofIN
-
-MalaysiaNNPT
-
-..
-
-
-
-
-
+-----------------------------------------
+Ayon JJT B-NP
+kina PRP$T I-NP
+Bayan NNT I-NP
+Muna NNT I-NP
+party-list NNT I-NP
+Reps. NNT I-NP
+Neri NNPT I-NP
+Colmenares NNPT I-NP
+at CCT I-NP
+Carlos NNPT I-NP
+Zarate NNPT I-NP
+na INT B-VP
+naghain VBDT I-VP
+ng INT B-NP
+House NNT I-NP
+Resolution NNT I-NP
+No. NNT I-NP
+111 CDT I-NP
+para RBT B-VP
+imbestigahan VBGT I-VP
+ang DTT B-NP
+fare NNT I-NP
+hike NNT I-NP
+sa INT I-NP
+MRT NNPT I-NP
+at CCT I-NP
+LRT NNPT I-NP
+, , I-NP
+duda NNT I-NP
+sila PRP$T I-NP
+sa INT B-VP
+magiging VBGT I-VP
+takbo NNT B-NP
+ng INT I-NP
+pagdinig NNT I-NP
+na INT B-VP
+itinakda VBDT I-VP
+ni INT B-NP
+House NNT I-NP
+committee NNT I-NP
+on IN I-NP
+Transportation NNT I-NP
+chairman NNT I-NP
+at CCT I-NP
+Catanduanes NNPT I-NP
+Rep.NNT I-NP
+Cesar NNPT I-NP
+Sarmiento NNPT I-NP
+Sa INT I-NP
+Enero NNPT I-NP
+8 CDT I-NP
+, , I-NP
+apat JJT I-NP
+na INT I-NP
+araw NNT I-NP
+matapos VBDT B-VP
+ang DTT B-NP
+implementasyon NNT I-NP
+ng INT I-NP 
+dagdag NNT I-NP
+- - I-NP
+singil NNT I-NP
+sa INT I-NP
+pasahe NNT I-NP
+. . O
+Ang DTT B-NP
+isang JJT I-NP
+kabuuang NNT I-NP
+26 CDT I-NP
+Pilipino NNPT I-NP
+na INT B-VP
+nagtrabaho VBDT I-VP
+sa INT B-NP
+planta NNT I-NP
+ng INT I-NP
+gas NNT I-NP
+ng NNT I-NP
+Amenas NNPT I-NP
+malalim JJT I-NP
+na INT B-VP
+inaatake VBGT I-VP
+ng INT B-NP
+al-Qaida-linked NNPT I-NP
+gunmen NNT I-NP
+sa INT I-NP
+Miyerkules NNT I-NP
+. . O
+Hernandez NNPT B-NP
+sinabi VBDT B-VP
+na INT B-NP
+batay NNT I-NP
+sa INT I-NP
+mga RBT I-NP
+ulat NNT I-NP
+na INT B-VP
+natanggap VBDT I-VP
+mula NNT B-NP
+sa INT I-NP
+koponan NNT I-NP
+sa INT I-NP
+Philippine NNPT I-NP
+na INT I-NP
+pamahalaan NNT I-NP
+sa INT I-NP
+Algeria NNPT I-NP
+at CCT I-NP
+embahada NNT I-NP
+ng INT I-NP
+bansa NNT I-NP
+sa INT I-NP
+London NNPT I-NP
+. . O
+Sa INT B-NP
+isang JJT I-NP
+press NNT I-NP
+conference NNT I-NP
+, , I-NP
+tagapagsalita NNT I-NP
+ng INT I-NP
+DFA NNPT I-NP
+pandalawang CDT I-NP
+ministro NNT I-NP
+Raul NNPT I-NP
+Hernandez NNPT I-NP
+ginawa VBDT B-VP
+ang DTT B-NP
+anunsyo NNT I-NP
+ngunit CCT I-NP
+Tinanggihan VBDT B-VP
+upang CCT I-VP
+bigyan VBT I-VP
+ang DTT B-NP
+mga RBT I-NP
+detalye NNT I-NP
+sa INT I-NP
+pagkakakilanlan NNT I-NP
+ng INT I-NP
+lalaki NNT I-NP
+fatalities NNT I-NP
+. . O
+Ang DTT B-NP
+Department NNT I-NP
+of IN I-NP
+Foreign NNT I-NP
+Affairs NNT I-NP
+( ( I-NP
+DFA NNPT I-NP 
+) ) I-NP
+sa INT I-NP
+Lunes NNT I-NP
+nakumpirma VBDT B-VP
+na INT B-NP
+anim JJT I-NP
+na INT I-NP
+Pilipino NNPT I-NP
+namatay VBDT V-BP
+sa INT B-NP
+prenda NNT I-NP
+krisis NNT I-NP
+sa INT I-NP
+Algeria NNPT I-NP
+at CCT I-NP
+apat JJT I-NP
+na INT I-NP
+iba PRP$T I-NP
+pa RBT I-NP
+rin RBT I-NP
+unaccounted VBDT B-VP
+nawawala VBDT I-VP
+. . O
+Ito PRPT B-NP
+ay VBZT B-VP
+nagbibigay VBGT I-VP
+ng INT I-VP
+para RBT I-VP
+sa INT I-VP
+pagbibigay VBGT I-VP
+ng INT B-NP
+mga RBT I-NP
+condom NNT I-NP
+at CCT I-NP
+mga RBT I-NP
+tabletas NNT I-NP
+sa INT I-NP
+pampublikong JJT I-NP
+kalusugan NNT I-NP
+sentro NNT I-NP
+, , I-NP
+pagsasanay NNT I-NP
+para RBT I-NP
+sa INT I-NP   
+birth NNT I-NP
+contro lNT I-NP
+at CCT I-NP
+kahit CCT I-NP
+sex NNT I-NP
+edukasyon NNT I-NP
+sa INT I-NP
+mga RBT I-NP
+paaralan NNT I-NP
+. . O
+Huwebes NNT B-NP
+, , I-NP
+Enero NNT I-NP
+17 CDT I-NP
+, , I-NP
+batas NNT I-NP
+sa INT I-NP
+nangangasiwa NNT I-NP
+ng INT I-NP
+access NNT I-NP
+sa INT I-NP
+pill NNT I-NP
+at CCT I-NP
+ang DTT I-NP
+condom NNT I-NP
+ay VBZT B-VP
+sa INT I-VP
+wakas RBT I-VP
+ampon NNT B-NP
+, , I-NP
+pagkatapos NNT I-NP
+ng INT I-NP
+tatlong JJT I-NP
+taon NNT I-NP
+ng INT I-NP
+debate NNT I-NP
+. . O
+Ayon JJT B-NP
+kay INT I-NP
+state NNT I-NP
+fire NNT I-NP
+official NNT I-NP
+Guido NNPT I-NP
+de NNPT I-NP
+Melo NNPT I-NP
+, , I-NP
+2 CDT I-NP
+, , I-NP
+000 CDT I-NP
+katao NNT I-NP
+ang DTT I-NP
+nasa INT I-NP
+loob NNT I-NP
+ng INT I-NP
+nightclub NNT I-NP
+nang INT I-NP
+masunog VBNT B-VP
+, , B-NP
+doble JJT I-NP
+sa INT I-NP
+dapat VBT B-VP
+sanay JJT B-NP
+capacity NNT I-NP
+nito PRPT I-NP
+na INT I-NP
+1 CDT I-NP
+, , I-NP
+000 CDT I-NP
+lang RBT I-NP
+. . O
+Hindi RBT B-NP
+pa RBT I-NP
+rin RBT I-NP
+malinaw JJT I-NP
+ang DTT I-NP
+sanhi NNT I-NP
+ng INT I-NP
+sunog NNT I-NP
+na INT B-VP
+sinundan VBDT I-VP
+ng INT B-NP
+stampede NNT I-NP
+matapos VBDT B-VP
+mag-panic VBDT I-VP
+ang DTT B-NP
+mga RBT I-NP
+tao NNT I-NP
+. . O
+sa INT B-NP
+report NNT I-NP
+ng INT I-NP
+National NNT I-NP
+Disaster NNT I-NP
+Risk NNT I-NP
+Reduction NNT I-NP
+and INT I-NP
+Management NNT I-NP
+Council NNT I-NP
+( ( I-NP
+NDRRMC NNPT I-NP
+) ) I-NP
+alas NNT I-NP
+siyete NNT I-NP
+ng INT I-NP
+umaga NNT I-NP
+ng INT I-NP
+Sabado NNT I-NP
+, , I-NP
+nasa INT I-NP
+24 CDT I-NP
+na RBT I-NP
+ang DTT B-VP
+kumpirmadong VBDT I-VP
+patay NNT B-NP
+. . O
+Samantala INT B-NP
+, , I-NP
+nagsanib VBT B-VP
+pwersa NNT B-NP
+naman RBT I-NP
+ang DTT I-NP
+Philippine NNPT I-NP
+Coast NNT I-NP
+Guard NNT I-NP
+( ( I-NP
+PCG NNPT I-NP
+) ) I-NP
+at INT I-NP
+Philippine NNPT I-NP
+Navy NNT I-NP
+( ( I-NP
+PN NNPT I-NP
+) ) I-NP
+sa INT B-VP
+paghahanap VBT I-VP
+sa INT B-VP
+mga RBT I-VP
+nawawalang VBT I-VP
+pasahero NNT B-NP
+ng INT I-NP
+pampasaherong NNT I-NP
+barko NNT I-NP
+ng INT I-NP
+2Go NNPT I-NP
+na RBT I-NP
+MV NNPT I-NP
+St. NNPT I-NP
+Thomas NNPT I-NP
+Aquinas NNPT I-NP
+. . O
+SANTA NNT B-NP
+MARIA NNT I-NP
+, , I-NP
+Brazil NNPT I-NP
+, , I-NP
+Patuloy JJT I-NP
+ang DTT I-NP
+mapping NNT I-NP
+operation NNT I-NP
+na INT B-VP
+isinasagawa VBGT I-VP
+ng INT B-NP
+mga RBT I-NP
+otoridad NNT I-NP
+sa INT I-NP
+malaking JJT I-NP
+sunog NNT I-NP
+na INT B-VP
+nangyari VBN I-VP
+sa INT B-NP
+Kiss NNPT I-NP
+nightclub NNT I-NP
+sa INT I-NP
+Santa NNPT I-NP
+Maria NNPT I-NP
+, , I-NP
+Brazil NNPT I-NP
+na INT B-VP
+ikinasawi VBNT I-VP
+ng INT B-NP
+higit RBT I-NP
+230 CDT I-NP
+katao NNT I-NP
+. . O
+Noong RBT B-NP
+1963 NNT I-NP
+, , O
+ang DTT B-NP
+Sabah NNT I-NP
+na INT I-NP
+hitik JJT I-NP
+sa INT I-NP
+likas JJT I-NP
+na INT I-NP
+yaman NNT I-NP
+, , I-NP
+ay VBZT B-VP
+nasa INT B-NP
+pangangalaga NNT I-NP
+ng INT I-NP
+mga RBT I-NP
+British NNPT I-NP
+mula NNT I-NP
+sa INT I-NP
+huling JJT I-NP
+bahagi NNT I-NP
+ng INT I-NP
+19 CDT I-NP
+th NNT I-NP
+century NNT I-NP
+at CCT I-NP
+kinalaunan NNT I-NP
+ay VBZT B-VP
+naging VBDT I-VP
+bahagi NNT B-NP
+ng INT I-NP
+Federation NNT I-NP
+of IN I-NP
+Malaysia NNPT I-NP
+. . O
 Sinabi VBNT B-VP
-
+---------------------------------------
 ni INT I-VP
 
 Misuari NNPT I-VP
