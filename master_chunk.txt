@@ -1033,174 +1033,201 @@ MalaysiaNNPT
 
 
 
-SinabiVBNT
-niINT
+Sinabi VBNT B-VP
 
-MisuariNNPT
+ni INT I-VP
 
-,,
-kungINT
-tutuusinVBPT
-ayVBZT
+Misuari NNPT I-VP
 
+, , I-NP
 
-siyaPRPT
-angDTT
-pangunahingCDT
-  claimantNNT
+kung INT B-NP
+
+tutuusin VBPT I-NP
+
+ay VBZT I-NP
+
+siya PRPT I-NP
+
+ang DTT I-NP
+
+pangunahing CDT I-NP
+
+claimant NNT I-NP
     
-    saINT
+sa INT I-NP
    
-    SabahNNPT
- dahilNNT
-unaJJT
-  itongPRPT
+Sabah NNPT I-NP
+
+dahil NNT B-NP
+
+una JJT I-NP
+
+itong PRPT I-NP
     
-    pag-aariNNT
+pag-aari NNT I-NP
     
-    ngNNT
+ng NNT I-NP
    
-  
-    kanyangPRP$T
- loloNNT
+kanyang PRP$T I-NP
 
-,,
-naINT
+lolo NNT I-NP
+
+, , I-NP
+
+na INT B-NP
  
- 
- kilalangJJT
-mandirigmaNNT
+kilalang JJT I-NP
 
-..
+mandirigma NNT I-NP
 
-
+. . O
 
 
-AyonJJT
 
-kayINT
-niINT
+Ayon JJT B-VB
 
-MisuariNNPT
+kay INT I-VB
 
-naINT
+ni INT I-VB
 
-nararapatJJT
+Misuari NNPT I-VB
 
-lamangRBT
-naINT
-maibalikVBPT
-saINT
-mgaRBT
+na INT B-NP
 
-mamamayanNNT
+nararapat JJT I-NP
 
-ngINT
+lamang RBT I-NP
 
-SuluNNPT
-angDTT
-nasabingNTT
-  islaNNT
-    dahilNNT
-    itoPRPT
+na INT I-NP
+
+maibalik VBPT B-VB
+
+sa INT I-VB
+
+mga RBT I-VB
+
+mamamayan NNT I-VB
+
+ng INT I-VB
+
+Sulu NNPT I-VB
+
+ang DTT B-NP
+
+nasabing NTT I-NP
+
+isla NNT I-NP
+
+dahil NNT B-NP
+
+ito PRPT I-NP
     
-    ayVBZT
+ay VBZT I-NP
    
-  
-    pag-aariNNT
+pag-aari NNT I-NP
  
- ngINT
+ng INT I-NP
 
+kanilang PRPT I-NP
 
-kanilangPRPT
+mga RBT I-NP
 
-mgaRBT
+ninuno NNT I-NP
 
-ninunoNNT
-
-..
-
+. . O
 
 
 
-ItoPRPT
-angDTT
-tahasangJJT
-  pahayagNNT
+Ito PRPT B-NP
+
+ang DTT I-NP
+
+tahasang JJT I-NP
+
+pahayag NNT I-NP
     
-    niINT
+ni INT I-NP
    
-    MoroNNPT
- NationalNNT
-LiberationNNT
-  FrontNNT
+Moro NNPT I-NP
+
+National NNT I-NP
+
+Liberation NNT I-NP
+
+Front NNT I-NP
     
-    (,(
+( ( I-NP
    
-    MNLFNNPT
+MNLF NNPT I-NP
  
- ),)
+) ) I-NP
 
+founding NNT I-NP
 
-foundingNNT
-chairmanNNT
-NurNNPT
-  MisuariNNPT
+chairman NNT I-NP
+
+Nur NNPT I-NP
+
+Misuari NNPT I-NP
     
-    ,,
-   naINT
-   sumusuportaVBGT
- saINT
+, , I-NP
 
+na INT B-VP
 
-hakbangNNT
+sumusuporta VBGT I-VP
 
-ngINT
-mgaRBT
+sa INT I-VP
 
+hakbang NNT I-VB
 
-KiramNNPT
+ng INT I-VB
 
-ngINT
+mga RBT I-VB
 
-SuluNNPT
+Kiram NNPT I-VP
 
-paraRBT
-bawiinVBPT
+ng INT I-VP
 
-angDTT
-SabahNNPT
-mulaNNT
+Sulu NNPT I-VP
+
+para RBT B-NP
+
+bawiin VBPT I-NP
+
+ang DTT I-NP
+
+Sabah NNPT I-NP
+
+mula NNT I-NP
   
-   saINT
+sa INT I-NP
   
-  
-   MalaysiaNNPT
+Malaysia NNPT I-NP
  
- ..
+. . O
 
 
 
-BinigyangVBDT
+Binigyang VBDT B-VP
 
+diin NNT I-VP
 
-diinNNT
+pa RBT I-VP
 
+nito PRPT I-VP
 
-paRBT
+na INT I-VP
 
+wala NNT I-VP
 
-nitoPRPT
+umanong VBPT B-VP
 
+naitatalang VBGT I-VP
 
-naINT
+mga RBT I-VP
 
-walaNNT
-
-umanongVBPT
-naitatalangVBGT
-mgaRBT
-pagyanigVBGT
+pagyanig VBGT *****
 saINT
 nakalipasJJT
 naINT

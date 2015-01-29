@@ -14,7 +14,7 @@ LangPaths =os.path.realpath("C:/users/rihanna/Documents/Pol/ThesisIt/SumMe/Summa
 tltagger = nltk.data.load("taggers/fil-tagged_aubt.pickle") #filipino pos tagger
 
 tlChunker = nltk.data.load("chunkers/fil-tagged_ub.pickle")#filipino chunker here
-enChunker = nltk.data.load("chunkers/treebank_chunk_ub.pickle") #enChunkerhere
+enChunker = nltk.data.load("chunkers/conll2000_ub.pickle") #enChunkerhere
 
 
 punkt_param  = PunktParameters() #creates an opening for tokenizer parameters.
@@ -54,17 +54,18 @@ def tlChunk(sents):
 	return tlChunker.parse(sents)
 
 def enChunk(sents):
-	#return enChunker.parse(sents)
-	pos = []
-	for word in sents:
-		pos.append(word[1])
-	for tree in parsers.srParseEng(pos):
-		chunkd = tree
-	pos = []
-	for a in chunkd.subtrees():
-		pos.append(a)
-	pos = clnChunk(sents,pos)
-	return pos
+	return enChunker.parse(sents)
+	#pos = []
+	#for word in sents:
+	#	pos.append(word[1])
+	#for tree in parsers.srParseEng(pos):
+	#	chunkd = tree
+		#remember if this doesnt return anything ur grammar sux
+	#pos = []
+	#for a in chunkd.subtrees():
+	#	pos.append(a)
+	#pos = clnChunk(sents,pos)
+	#return pos
 
 def clnChunk(sents,cln):
 	words = []
@@ -76,14 +77,43 @@ def clnChunk(sents,cln):
 	for pos in cln[0].treepositions('Leaves'):
 		cln[0][pos] = cln[0][pos] = words[0]
 		words.remove(words[0])
-	print(cln[0])
+	return cln[0]
 
-		
+def getSVO(sent,isEnglish):
+	subjs = []
+	vbs = []
+	objs = []
+	if(isEnglish):
+		for trees in sent:
+			if isinstance(trees,Tree):
+				for subs in trees.subtrees():
+					if subs.label() == "NP":
+						for node in subs:
+							if node[1] in ["NN","NNS","NNP","NNPS","PRP","PRP$"]:
+								subjs.append(node)
+					elif subs.label() == "VP":
+						for node in subs:
+							if node[1] in ["VBD","VBZ","VB", "VBN","VBG","VBP"]:
+								vbs.append(node)
+	else:
+		for trees in sent:
+			if isinstance(trees,Tree):
+				for subs in trees.subtrees():
+					if subs.label() == "NP":
+						for node in subs:
+							if node[1] in ["NNT","NNST","NNPT","NNPST","PRPT","PRP$T"]:
+								subjs.append(node)
+					elif subs.label() == "VP":
+						for node in subs:
+							if node[1] in ["VBDT","VBZT","VBT", "VBNT","VBGT","VBPT"]:
+								vbs.append(node)
+	print(subjs)
+	print(vbs)
+	print(objs)
+	print(len(trees))
 
-
-
-def nerTagger(sents):
-	#todo: ner tagging
-	pass
-#def expandTree(tree):
-#	if 
+class SVO:
+	def __init__(self, subj,verb,obj):
+		self.subj = subj
+		self.verb = verb
+		self.obj = obj
