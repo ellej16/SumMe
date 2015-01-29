@@ -542,13 +542,13 @@ kahapon/RBT ng/INT
 ,/,
 [ Maguindanao/NNPT ]
 -/-
-UMAKYAT/VBD na/INT sa/INT
+UMAKYAT/VBDT na/INT sa/INT
 [ siyam/JJT ang/DT patay/NNT ]
 kabilang/INT na/INT
 [ ang/DT isang/JJT sibilyan/NNT ]
 sa/INT bakbakan/VB ng/INT mga/INT
 [ sundalo/NNT ]
-at/CC
+at/CCP
 [ gerilyang/JJT Bangsamoro/NNPT Islamic/NNPT Freedom/NNPT Fighters/NNPT ]
 (/(
 [ BIFF/NNPT ]
