@@ -1,240 +1,262 @@
+Si INT B-NP
 
+Sheriff NNT I-NP
 
+Juanito NNPT I-NP
 
-SiINT
-
-SheriffNNT
-JuanitoNNPT
-DiazonNNPT
+Diazon NNPT I-NP
   
-   ayVBZT
-  nagtamoVBDT
-  ngINT
+ay VBZT O
+
+nagtamo VBDT B-VP
+
+ng INT I-VP
  
- maramingJJT
-tamaNNT
+maraming JJT B-NP
 
-ngINT
+tama NNT I-NP
 
-balaNNT
+ng INT I-NP
+
+bala NNT I-NP
  
- saINT
+sa INT I-NP
 
-katawanNNT
+katawan NNT I-NP
 
-..
+. . O
 
 
-HindiRBRT
-umanoVBT
-namukhaanVBNT
 
-angDTT
-pumaslangNTT
+Hindi RBRT B-VP
+
+umano VBT I-VP
+
+namukhaan VBNT I-VP
+
+ang DTT V-NP
+
+pumaslang NTT I-NP
+
+kay INT I-NP
+  
+Diazon NNPT I-NP
+
+dulot NNT I-NP
+
+ng INT I-NP
+
+madilim JJT I-NP
+ 
+na INT I-NP
+
+paligid NNT I-NP
+
+dahil NNT I-NP
+
+sa INT I-NP
+
+brownout NNT I-NP
+ 
+. . O
+
+
+
+PATAY NNPT B-NP
+
+ang DTT I-NP
+
+sheriff NNT I-NP
+  
+ng INT INP
+  
+Regiona lNNT I-NP
+
+Trial NNT I-NP
+
+Court NNT I-NP
+  
+( ( I-NP
+  
+RTC NNPT I-NP
+ 
+) ) I-NP
+
+Branch NNT I-NP
+
+12 CDT I-NP
+
+makaraang VBDT B-VP
+
+pagbabarilin VBNT I-VP
+  
+pasado JJT B-NP
+
+alas NNT I-NP
+
+- - I-NP
+
+7 CDT I-NP
+ 
+Huwebes NNPT I-NP
+
+ng INT I-NP
 
   
-  kayINT
-  
-  DiazonNNPT
- dulotNNT
-
-ngINT
-
-madilimJJT
+gabi NNT I-NP
  
- naINT
+sa INT I-NP
 
-paligidNNT
-dahilNNT
+Midsayap NNPT I-NP
 
-saINT
+, , I-NP
 
-brownoutNNT
- 
- ..
+Cotabato NNPT I-NP
 
+. . O
 
 
 
+Hinigpitan VBNT B-VP
 
-IDSAYAPNNPT
+ng INT B-NP
 
-,,
+gobyernong NNT I-NP
 
-COTABATONNPT
+Aquino NNPT I-NP
 
---
+ang DTT I-NP
 
-PATAYNNPT
-angDTT
-sheriffNNT
-  
-   ngINT
-  
-   RegionalNNT
- TrialNNT
-CourtNNT
-  
-   (,(
-  
-   RTCNNPT
- 
- ),)
-
-BranchNNT
-12CDT
-
-makaraangVBDT
-pagbabarilinVBNT
- 
- 
- pasadoJJT
-alasNNT
-
--,-
-
-7CDT
- HuwebesNNPT
-
-ngINT
-
-  
-gabiNNT
- 
- saINT
-
-MidsayapNNPT
-
-,,
-
-CotabatoNNPT
-
-..
-
-
-
-
-HinigpitanVBNT
-ngINT
-
-gobyernongNNT
-AquinoNNPT
-angDTT
-  seguridadNNT
+seguridad NNT I-NP
     
-    saINT
+sa INT I-NP
    
-  
-    EmbahadaNNT
+Embahada NNT I-NP
  
- ngINT
+ng INT I-NP
 
-AmerikaNNPT
+Amerika NNPT I-NP
 
-saINT
+sa INT I-NP
 
+Maynila NNPT I-NP
 
-MaynilaNNPT
+gayundin RBT I-NP
 
-gayundinRBT
-saINT
+sa INT I-NP
 
-ibaPRP$T
+iba PRP$T I-NP
 
-paRBT
+pa RBT I-NP
 
-nilangPRP$T
-tanggapanNNT
+nilang PRP$T I-NP
 
-  bunsodNNT
+tanggapan NNT I-NP
+
+bunsod NNT I-NP
     
-    ngINT
+ng INT I-NP
    
-    bantaNNT
+banta NNT I-NP
  
- ngINT
-
-terrorNNT
-attackNNT
-
-ngINT
-
-al-QaedaNNPT
- groupNNT
-
-..
+ng INT I-NP
 
 
-NangangambaVBDT
-siINT
+terror NNT I-NP
 
-ColmenaresNNPT
+attack NNT I-NP
 
-naINT
-hindiRBT
-magigingVBPT
-patasRBT
+ng INT I-NP
+
+al-Qaeda NNPT I-NP
+
+group NNT I-NP
+
+. . O
 
 
-angDDT
-takboNNT
 
-ngINT
+Nangangamba VBDT B-VP
 
+si INT B-NP
+
+Colmenares NNPT I-NP
+
+na INT I-NP
+
+hindi RBT B-VP
+
+magigingVBPT I-VP
+
+patas RBT I-VP
+
+ang DDT B-NP
+
+takbo NNT I-NP
+
+ng INT I-NP
   
-imbestigasyonNNT
- dahilNNT
-isangJJT
-  opisyalNNT
+imbestigasyon NNT I-NP
+
+dahil NNT I-NP
+
+isang JJT I-NP
+
+opisyal NNT I-NP
     
-    ngINT
+ng INT I-NP
    
-  
-    LiberalNNT
- PartyNNT
+Liberal NNT I-NP
 
-((
+Party NNT I-NP
 
-LPNNPT
+( ( . I-NP
+
+LP NNPT I-NP
  
- ))
-siINT
+) ). I-NP
 
-SarmientoNNPT
+si INT I-NP
 
-atCCT
+Sarmiento NNPT I-NP
 
+at CCT I-NP
 
-kasamaNNT
+kasama NNT I-NP
 
-saINT
+sa INT I-NP
 
-majorityNNT
-congress­menNNT
+majority NNT I-NP
 
-naINT
-nagpahayagVBDT
- agadRBT
- ngINT
+congress­men NNT I-NP
 
-suportaNNT
+na INT I-NP
 
-saINT
-pagtataasVBGT
-ngINT
+nagpahayag VBDT B-VP
 
-pasaheNNT
+agad RBT I-VP
 
-saINT
+ng INT B-NP
 
+suporta NNT I-NP
 
-MRTNNPT
+sa INT I-NP
 
-atCCT
+pagtataas VBGT B-VP
 
-LRTNNPT
+ng INT B-NP
 
-..
+pasahe NNT I-NP
+
+sa INT I-NP
+
+MRT NNPT I-NP
+
+at CCT I-NP
+
+LRT NNPT I-NP
+
+. . 0
 
 
 
