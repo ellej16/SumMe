@@ -53,13 +53,13 @@ mandirigma NNT I-NP
 
 
 
-Ayon JJT B-VB
+Ayon JJT B-VP
 
-kay INT I-VB
+kay INT I-VP
 
-ni INT I-VB
+ni INT I-VP
 
-Misuari NNPT I-VB
+Misuari NNPT I-VP
 
 na INT B-NP
 
@@ -69,17 +69,17 @@ lamang RBT I-NP
 
 na INT I-NP
 
-maibalik VBPT B-VB
+maibalik VBPT B-VP
 
-sa INT I-VB
+sa INT I-VP
 
-mga RBT I-VB
+mga RBT I-VP
 
-mamamayan NNT I-VB
+mamamayan NNT I-VP
 
-ng INT I-VB
+ng INT I-VP
 
-Sulu NNPT I-VB
+Sulu NNPT I-VP
 
 ang DTT B-NP
 
@@ -147,11 +147,11 @@ sumusuporta VBGT I-VP
 
 sa INT I-VP
 
-hakbang NNT I-VB
+hakbang NNT I-VP
 
-ng INT I-VB
+ng INT I-VP
 
-mga RBT I-VB
+mga RBT I-VP
 
 Kiram NNPT I-VP
 
