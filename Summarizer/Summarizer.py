@@ -155,14 +155,13 @@ def getCandidSubjs(start, end):
 					CandidSVO.append(svo)
 				elif svo.obj[0] == term[0]:
 					CandidSVO.append(svo)
-def cleanCandidSubs(start,end):
-	global CandidSVO
-	copy  = CandidSVO
+
+def doGet():
+	chunkSents()
+	getTriple()
+	getFreq()
+	getIDF()
 	
-	for svo in CandidSVO:
-		
-
-
 class Docs:
 	def __init__(self, words,show):
 		self.words = words
