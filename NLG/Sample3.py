@@ -5,18 +5,17 @@ class Sample():
 
         def setUp1():
 
-                lex = XMLLexicon()
-
                 #the girl is playing the guitar        
-                s1 = SubjectPredicate()
+                s1 = Clause()
                 
-                np_sub = s1.add_subject(lex.getWord("lalaki"))
-                np_sub.add_determiner(lex.getWord("ang"))
-                vp_bumayo = s1.add_verb(lex.getWord("bumayo", "VERB"))
+                np_sub = s1.add_subject(lex.getWord("girl"))
+                np_sub.add_determiner(lex.getWord("the"))
+                vp_play = s1.add_verb(lex.getWord("play", "VERB"))
         
-                np_aso = vp_play.add_object(lex.getWord("aso"))
- 
-                np_ng_aso = PrepositionalPhrase(lex.getWord("ng", "PREPOSITION"), [np_aso])
+                np_guitar = vp_play.add_object(lex.getWord("guitar"))
+                np_guitar.add_determiner(lex.getWord("the"))
+        
+                s1.set_verb_tense("present_progressive")
 
                 print(s1.realize())
 
