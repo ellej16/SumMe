@@ -1,8 +1,8 @@
 Sinabi VBNT B-VP
 ni INT I-VP
 Misuari NNPT I-VP
-, , I-NP
-kung INT B-NP
+, , B-NP
+kung INT I-NP
 tutuusin VBPT I-NP
 ay VBZT I-NP
 siya PRPT I-NP
@@ -11,7 +11,7 @@ pangunahing CDT I-NP
 claimant NNT I-NP
 sa INT I-NP
 Sabah NNPT I-NP
-dahil NNT B-NP
+dahil NNT I-NP
 una JJT I-NP
 itong PRPT I-NP
 pag-aari NNT I-NP
@@ -19,7 +19,7 @@ ng NNT I-NP
 kanyang PRP$T I-NP
 lolo NNT I-NP
 , , I-NP
-na INT B-NP
+na INT I-NP
 kilalang JJT I-NP
 mandirigma NNT I-NP
 . . O
@@ -40,7 +40,7 @@ Sulu NNPT I-VP
 ang DTT B-NP
 nasabing NTT I-NP
 isla NNT I-NP
-dahil NNT B-NP
+dahil NNT I-NP
 ito PRPT I-NP
 ay VBZT I-NP
 pag-aari NNT I-NP
@@ -266,7 +266,7 @@ araw NNT I-NP
 matapos VBDT B-VP
 ang DTT B-NP
 implementasyon NNT I-NP
-ng INT I-NP 
+ng INT I-NP
 dagdag NNT I-NP
 - - I-NP
 singil NNT I-NP
@@ -354,7 +354,7 @@ of IN I-NP
 Foreign NNT I-NP
 Affairs NNT I-NP
 -LRB- ( I-NP
-DFA NNPT I-NP 
+DFA NNPT I-NP
 -RRB- ) I-NP
 sa INT I-NP
 Lunes NNT I-NP
@@ -363,7 +363,7 @@ na INT B-NP
 anim JJT I-NP
 na INT I-NP
 Pilipino NNPT I-NP
-namatay VBDT V-BP
+namatay VBDT V-NP
 sa INT B-NP
 prenda NNT I-NP
 krisis NNT I-NP
@@ -825,7 +825,7 @@ gerilyang JJT I-VP
 Bangsamoro NNPT I-VP
 Islamic NNPT I-VP
 Freedom NNPT I-VP
-Fighters NNPT I-VP    
+Fighters NNPT I-VP
 -LRB- ( B-NP
 BIFF NNPT I-NP
 -RRB- ) I-NP
@@ -839,7 +839,7 @@ ng INT I-VP
 Malacañang NNPT I-VP
 Civil NNT I-VP
 Aviation NNT I-VP
-Authority NNT I-VP 
+Authority NNT I-VP
 of INT I-VP
 the DTT I-VP
 Philippines NNPT I-VP
@@ -849,7 +849,7 @@ CAAP NNPT I-NP
 na INT I-NP
 makialam VBDT B-VP
 na INT I-VP
-sa INT I-VP 
+sa INT I-VP
 pag-aalis VBZT I-VP
 ng INT I-VP
 nakabalandrang VBPT I-VP
@@ -976,7 +976,7 @@ walo JJT I-VP
 katao NNT I-VP
 SK NNPT I-VP
 PENDATUN NNPT I-VP
-, , I-VP 
+, , I-VP
 MAGUINDANAO NNPT B-NP
 - - I-NP
 BIGO VBT B-VP
