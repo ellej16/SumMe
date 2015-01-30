@@ -157,6 +157,10 @@ def getCandidSubjs(start, end):
 					CandidSVO.append(svo)
 def cleanCandidSubs(start,end):
 	global CandidSVO
+	copy  = CandidSVO
+	
+	for svo in CandidSVO:
+		
 
 
 class Docs:
