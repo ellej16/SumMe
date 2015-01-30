@@ -1,7 +1,6 @@
 Sinabi VBNT B-VP
 ni INT I-VP
 Misuari NNPT I-VP
-, , B-NP
 kung INT I-NP
 tutuusin VBPT I-NP
 ay VBZT I-NP
@@ -18,7 +17,6 @@ pag-aari NNT I-NP
 ng NNT I-NP
 kanyang PRP$T I-NP
 lolo NNT I-NP
-, , I-NP
 na INT I-NP
 kilalang JJT I-NP
 mandirigma NNT I-NP
@@ -65,7 +63,6 @@ founding NNT I-NP
 chairman NNT I-NP
 Nur NNPT I-NP
 Misuari NNPT I-NP
-, , I-NP
 na INT B-VP
 sumusuporta VBGT I-VP
 sa INT I-VP
@@ -129,14 +126,12 @@ makaraang VBDT B-VP
 pagbabarilin VBNT I-VP
 pasado JJT B-NP
 alas NNT I-NP
-- - I-NP
 7 CDT I-NP
 Huwebes NNPT I-NP
 ng INT I-NP
 gabi NNT I-NP
 sa INT I-NP
 Midsayap NNPT I-NP
-, , I-NP
 Cotabato NNPT I-NP
 . . O
 Hinigpitan VBNT B-VP
@@ -235,7 +230,6 @@ sa INT I-NP
 MRT NNPT I-NP
 at CCT I-NP
 LRT NNPT I-NP
-, , I-NP
 duda NNT I-NP
 sila PRP$T I-NP
 sa INT B-VP
@@ -259,7 +253,6 @@ Sarmiento NNPT I-NP
 Sa INT I-NP
 Enero NNPT I-NP
 8 CDT I-NP
-, , I-NP
 apat JJT I-NP
 na INT I-NP
 araw NNT I-NP
@@ -268,7 +261,6 @@ ang DTT B-NP
 implementasyon NNT I-NP
 ng INT I-NP
 dagdag NNT I-NP
-- - I-NP
 singil NNT I-NP
 sa INT I-NP
 pasahe NNT I-NP
@@ -324,7 +316,6 @@ Sa INT B-NP
 isang JJT I-NP
 press NNT I-NP
 conference NNT I-NP
-, , I-NP
 tagapagsalita NNT I-NP
 ng INT I-NP
 DFA NNPT I-NP
@@ -395,7 +386,6 @@ sa INT I-NP
 pampublikong JJT I-NP
 kalusugan NNT I-NP
 sentro NNT I-NP
-, , I-NP
 pagsasanay NNT I-NP
 para RBT I-NP
 sa INT I-NP
@@ -410,10 +400,8 @@ mga RBT I-NP
 paaralan NNT I-NP
 . . O
 Huwebes NNT B-NP
-, , I-NP
 Enero NNT I-NP
 17 CDT I-NP
-, , I-NP
 batas NNT I-NP
 sa INT I-NP
 nangangasiwa NNT I-NP
@@ -428,7 +416,6 @@ ay VBZT B-VP
 sa INT I-VP
 wakas RBT I-VP
 ampon NNT B-NP
-, , I-NP
 pagkatapos NNT I-NP
 ng INT I-NP
 tatlong JJT I-NP
@@ -444,9 +431,7 @@ official NNT I-NP
 Guido NNPT I-NP
 de NNPT I-NP
 Melo NNPT I-NP
-, , I-NP
 2 CDT I-NP
-, , I-NP
 000 CDT I-NP
 katao NNT I-NP
 ang DTT I-NP
@@ -456,7 +441,6 @@ ng INT I-NP
 nightclub NNT I-NP
 nang INT I-NP
 masunog VBNT B-VP
-, , B-NP
 doble JJT I-NP
 sa INT I-NP
 dapat VBT B-VP
@@ -465,7 +449,6 @@ capacity NNT I-NP
 nito PRPT I-NP
 na INT I-NP
 1 CDT I-NP
-, , I-NP
 000 CDT I-NP
 lang RBT I-NP
 . . O
@@ -506,7 +489,6 @@ ng INT I-NP
 umaga NNT I-NP
 ng INT I-NP
 Sabado NNT I-NP
-, , I-NP
 nasa INT I-NP
 24 CDT I-NP
 na RBT I-NP
@@ -515,7 +497,6 @@ kumpirmadong VBDT I-VP
 patay NNT B-NP
 . . O
 Samantala INT B-NP
-, , I-NP
 nagsanib VBT B-VP
 pwersa NNT B-NP
 naman RBT I-NP
@@ -551,9 +532,7 @@ Aquinas NNPT I-NP
 . . O
 SANTA NNT B-NP
 MARIA NNT I-NP
-, , I-NP
 Brazil NNPT I-NP
-, , I-NP
 Patuloy JJT I-NP
 ang DTT I-NP
 mapping NNT I-NP
@@ -574,7 +553,6 @@ nightclub NNT I-NP
 sa INT I-NP
 Santa NNPT I-NP
 Maria NNPT I-NP
-, , I-NP
 Brazil NNPT I-NP
 na INT B-VP
 ikinasawi VBNT I-VP
@@ -585,7 +563,6 @@ katao NNT I-NP
 . . O
 Noong RBT B-NP
 1963 NNT I-NP
-, , O
 ang DTT B-NP
 Sabah NNT I-NP
 na INT I-NP
@@ -594,7 +571,6 @@ sa INT I-NP
 likas JJT I-NP
 na INT I-NP
 yaman NNT I-NP
-, , I-NP
 ay VBZT B-VP
 nasa INT B-NP
 pangangalaga NNT I-NP
@@ -622,7 +598,6 @@ Malaysia NNPT I-NP
 Sinabi VBNT B-VP
 ni INT I-VP
 Misuari NNPT I-VP
-, , I-NP
 kung INT B-NP
 tutuusin VBPT I-NP
 ay VBZT I-NP
@@ -639,7 +614,6 @@ pag-aari NNT I-NP
 ng NNT I-NP
 kanyang PRP$T I-NP
 lolo NNT I-NP
-, , I-NP
 na INT B-NP
 kilalang JJT I-NP
 mandirigma NNT I-NP
@@ -686,7 +660,6 @@ founding NNT I-NP
 chairman NNT I-NP
 Nur NNPT I-NP
 Misuari NNPT I-NP
-, , I-NP
 na INT B-VP
 sumusuporta VBGT I-VP
 sa INT I-VP
@@ -731,7 +704,6 @@ bulkan NNT I-NP
 Paliwanag VBGT B-VP
 ni INT I-VP
 Solidum NNPT I-VP
-, , I-NP
 ang DTT I-VP
 pagbuga VBDT I-VP
 ng INT I-VP
@@ -777,7 +749,6 @@ Phivolcs NNPT I-VP
 director NNT I-VP
 Renato NNPT I-VP
 Solidum NNPT I-VP
-, , I-VP
 Jr. NNT I-VP
 ang INT B-NP
 mga RBT I-NP
@@ -801,9 +772,7 @@ ng INT I-VP
 umaga NNPT I-VP
 . . O
 GUIDULUNGAN NNPT B-NP
-, , I-NP
 Maguindanao NNPT I-NP
-- - I-NP
 UMAKYAT VBDT B-VP
 na INT I-VP
 sa INT I-VP
@@ -831,7 +800,6 @@ BIFF NNPT I-NP
 -RRB- ) I-NP
 sa INT I-NP
 Guindulungan NNPT I-NP
-, , I-NP
 Maguindanao NNPT I-NP
 . . O
 inatasan VBDT B-VP
@@ -865,9 +833,7 @@ ng INT I-VP
 paliparan NNT I-VP
 . . I-VP
 MATALAM NNPT B-NP
-, , I-NP
 COTABATO NNPT I-NP
-- - I-NP
 DAHIL INT B-VP
 sa INT I-VP
 girian VBDT I-VP
@@ -889,9 +855,7 @@ MILF NNPT I-VP
 -RRB- ) I-VP
 sa INT B-NP
 Matalam NNPT B-NP
-, , I-NP
 ipinag RBT I-NP
-- - I-NP
 utos VBT I-NP
 na INT I-NP
 ang DTT I-NP
@@ -905,9 +869,7 @@ daan NNT I-VP
 . . O
 KIDAPAWAN NNPT B-NP
 CITY NNPT I-NP
-- - I-NP
 NAG RBT B-VP
-- - I-VP
 IIKOT VBGT I-VP
 na INT I-VP
 sa INT I-VP
@@ -945,9 +907,7 @@ umiikot VBGT I-VP
 sa INT I-VP
 mga INT I-VP
 market NNT I-VP
-, , I-VP
 malls NNT B-NP
-, , I-NP
 terminals NNT I-NP
 at CCT I-NP
 mga INT B-NP
@@ -976,9 +936,7 @@ walo JJT I-VP
 katao NNT I-VP
 SK NNPT I-VP
 PENDATUN NNPT I-VP
-, , I-VP
 MAGUINDANAO NNPT B-NP
-- - I-NP
 BIGO VBT B-VP
 diumano VBT I-VP
 sa INT I-VP
@@ -991,7 +949,6 @@ na INT I-NP
 agawin VBDT B-VP
 ang DTT I-VP
 tone RBT I-VP
-- - I-VP
 toneladang VBGT I-VP
 relief JJT I-VP
 goods NNT I-VP
@@ -1009,12 +966,10 @@ Pendatun NNPT I-NP
 at CCT I-NP
 Datu NNPT B-NP
 Paglas NNPT I-NP
-, , I-NP
 Maguindanao NNPT I-NP
 . . O
 KORONADAL NNPT B-NP
 CITY NNT I-NP
-- - I-NP
 HALOS RBT B-NP
 isang JJT I-NP
 libo JJT I-NP
@@ -1025,7 +980,6 @@ sa INT B-VP
 nagpapatuloy VBGT I-VP
 na INT I-VP
 pag RBT I-VP
-- - I-VP
 akyat VBT I-VP
 ng INT I-VP
 kaso NNT I-VP
@@ -1048,7 +1002,6 @@ Office NNPT I-NP
 -LRB- ( I-NP
 IPHO NNPT I-NP
 -RRB- ) I-NP
-, , I-NP
 umaabot VBGT B-VP
 na INT I-VP
 sa INT I-VP
@@ -1070,7 +1023,6 @@ City NNPT I-NP
 . . O
 COTABATO NNPT B-NP
 CITY NNPT I-NP
-- - I-NP
 DAHIL INT B-VP
 sa INT I-VP
 naganap VBDT I-VP
@@ -1079,7 +1031,6 @@ kaguluhan VBDT I-VP
 at CCT I-VP
 mga INT B-NP
 pagbaha VBDT I-NP
-, , I-NP
 hiniling VBDT B-VP
 ngayon RBT I-VP
 na INT I-VP
@@ -1108,10 +1059,8 @@ lungsod NNT I-NP
 ng INT I-NP
 Cotabato NNPT I-NP
 ISULAN NNPT I-NP
-, , I-NP
 SULTAN NNPT B-NP
 KUDARAT NNPT I-NP
-- - I-NP
 MALAPIT RBT B-VP
 na INT I-VP
 diumano VBDT I-VP
@@ -1145,13 +1094,10 @@ project NNT I-VP
 sa INT B-NP
 Barangay NNT I-NP
 Dansuli NNPT I-NP
-, , I-NP
 Isulan NNPT I-NP
 . . O
 AMPATUAN NNPT B-NP
-, , I-NP
 MAGUINDANAO NNPT I-NP
-- - I-NP
 PUSPUSAN VBDT B-VP
 ang DTT I-VP
 paghahanap VBGT I-VP
@@ -1174,5 +1120,4 @@ massacre VBT I-VP
 noong RBT B-NP
 Nobyembre NNPT I-NP
 23 CDT I-NP
-, , I-NP
 2009 CDT I-NP
