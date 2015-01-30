@@ -12,6 +12,11 @@ article =  [] #is this shit even needed
 
 global sentences
 global terms
+global CandidSVO
+
+
+
+
 global Vterms
 sentences = [] # 0sentence number, 1the sentence, 2the tuples of words 0 = word 1 = pos 
 			#and their corresponding POS tags, and the 3language id
@@ -21,6 +26,7 @@ sentences = [] # 0sentence number, 1the sentence, 2the tuples of words 0 = word 
 Sterms = []
 Vterms = []
 terms = []
+CandidSVO = []
 #class Sentence:
 #	self.SentNum
 #	self.langId
@@ -141,8 +147,7 @@ def getIDF():
 def getCandidSubjs():
 	global sentences
 	global terms
-	pass
-	#for sents in sentences:
+	for sents in sentences:
 
 
 class Docs:
