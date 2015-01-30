@@ -114,9 +114,60 @@ def getSVO(sent,isEnglish):
 		for vb in vbs:
 			for obj in objs:
 				triples.append(SVO(subj,vb,obj))
+
 	return triples
+
+
+def getFreqs(sent,isEnglish):
+	subjs =[]
+	vbs = []
+	if(isEnglish):
+		for trees in sent:
+			if isinstance(trees,Tree):
+				for subs in trees.subtrees():
+					if subs.label() == "NP":
+						for node in subs:
+							if node[1] in ["NN","NNS","NNP","NNPS","PRP","PRP$"]:
+								subjs.append(node)
+					elif subs.label() == "VP":
+						for node in subs:
+							if node[1] in ["VBD","VBZ","VB", "VBN","VBG","VBP"]:
+								vbs.append(node)
+	else:
+		for trees in sent:
+			if isinstance(trees,Tree):
+				for subs in trees.subtrees():
+					if subs.label() == "NP":
+						for node in subs:
+							if node[1] in ["NNT","NNST","NNPT","NNPST","PRPT","PRP$T"]:
+								subjs.append(node)
+					elif subs.label() == "VP":
+						for node in subs:
+							if node[1] in ["VBDT","VBZT","VBT", "VBNT","VBGT","VBPT"]:
+								vbs.append(node)
+	frq = []
+	tf = []
+	for subj in subjs:
+		if subj not in frq:
+			frq.append(subj)
+			tf.append((subj, 1))
+		else:
+			for terms in tf:
+				if(terms[0]==subj):
+					tf.remove(terms)
+					tf.append((terms[0],terms[1]+1))
+	return tf
+
 class SVO:
 	def __init__(self, subj,verb,obj):
 		self.subj = subj
 		self.verb = verb
 		self.obj = obj
+class stats:
+	def __init__(self,word, tf=0, idf=0.0,augtf=None):
+		self.word = word
+		self.tf = tf
+		self.idf = idf
+		self.augtf = augtf
+	def incTf():
+		self.tf+=1

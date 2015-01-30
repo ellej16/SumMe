@@ -674,954 +674,566 @@ of IN I-NP
 Malaysia NNPT I-NP
 . . O
 Sinabi VBNT B-VP
+<<<<<<< HEAD
+=======
 ---------------------------------------
+>>>>>>> a43be5585e279a39706108b0b00a83e667edae86
 ni INT I-VP
-
 Misuari NNPT I-VP
-
 , , I-NP
-
 kung INT B-NP
-
 tutuusin VBPT I-NP
-
 ay VBZT I-NP
-
 siya PRPT I-NP
-
 ang DTT I-NP
-
 pangunahing CDT I-NP
-
 claimant NNT I-NP
-    
 sa INT I-NP
-   
 Sabah NNPT I-NP
-
 dahil NNT B-NP
-
 una JJT I-NP
-
 itong PRPT I-NP
-    
 pag-aari NNT I-NP
-    
 ng NNT I-NP
-   
 kanyang PRP$T I-NP
-
 lolo NNT I-NP
-
 , , I-NP
-
 na INT B-NP
- 
 kilalang JJT I-NP
-
 mandirigma NNT I-NP
-
 . . O
-
-
-
-Ayon JJT B-VB
-
-kay INT I-VB
-
-ni INT I-VB
-
-Misuari NNPT I-VB
-
+Ayon JJT B-VP
+kay INT I-VP
+ni INT I-VP
+Misuari NNPT I-VP
 na INT B-NP
-
 nararapat JJT I-NP
-
 lamang RBT I-NP
-
 na INT I-NP
-
-maibalik VBPT B-VB
-
-sa INT I-VB
-
-mga RBT I-VB
-
-mamamayan NNT I-VB
-
-ng INT I-VB
-
-Sulu NNPT I-VB
-
-ang DTT B-NP
-
-nasabing NTT I-NP
-
-isla NNT I-NP
-
-dahil NNT B-NP
-
-ito PRPT I-NP
-    
-ay VBZT I-NP
-   
-pag-aari NNT I-NP
- 
-ng INT I-NP
-
-kanilang PRPT I-NP
-
-mga RBT I-NP
-
-ninuno NNT I-NP
-
-. . O
-
-
-
-Ito PRPT B-NP
-
-ang DTT I-NP
-
-tahasang JJT I-NP
-
-pahayag NNT I-NP
-    
-ni INT I-NP
-   
-Moro NNPT I-NP
-
-National NNT I-NP
-
-Liberation NNT I-NP
-
-Front NNT I-NP
-    
-( ( I-NP
-   
-MNLF NNPT I-NP
- 
-) ) I-NP
-
-founding NNT I-NP
-
-chairman NNT I-NP
-
-Nur NNPT I-NP
-
-Misuari NNPT I-NP
-    
-, , I-NP
-
-na INT B-VP
-
-sumusuporta VBGT I-VP
-
+maibalik VBPT B-VP
 sa INT I-VP
-
-hakbang NNT I-VB
-
-ng INT I-VB
-
-mga RBT I-VB
-
-Kiram NNPT I-VP
-
-ng INT I-VP
-
-Sulu NNPT I-VP
-
-para RBT B-NP
-
-bawiin VBPT I-NP
-
-ang DTT I-NP
-
-Sabah NNPT I-NP
-
-mula NNT I-NP
-  
-sa INT I-NP
-  
-Malaysia NNPT I-NP
- 
-. . O
-
-
-
-Binigyang VBDT B-VP
-
-diin NNT I-VP
-
-pa RBT I-VP
-
-nito PRPT I-VP
-
-na INT I-VP
-
-wala NNT I-VP
-
-umanong VBPT B-VP
-
-naitatalang VBGT I-VP
-
 mga RBT I-VP
-
-pagyanig VBGT *****
-saINT
-nakalipasJJT
-naINT
-mgaRBT
-
-arawNNT
-
-kungINT
-kayaCCT
-
-
-walangJJT
-movementNNT
-
-saINT
-
-ilalimNNT
- 
- ngINT
-
-bulkanNNT
-
-..
-
-
-
-PaliwanagVBGT
-niINT
-
-SolidumNNPT
-
-,,
-
-angDTT
-pagbugaVBDT
-ngINT
-
-makapalJJT
-
-naINT
-
-usokNNT
-
-ngINT
-
-bulkanINT
-dakongNNT
-8CDT
-  
-   ::
-  
-   00CDT
- 
- ngINT
-
-umagaNNT
-
-ayVBZT
-hindiRBT
-maituturingVBPT
-naINT
-pagsabogVBGT
-
-
-dahilNNT
-walaNNT
-
-namanRBT
-umanongVBGT
- umakyatVBPT
- naINT
-
-magmaNNT
-
-saINT
-
-craterNNT
-nitoPRPT
-
-..
-
-
-
-PinayuhanVBNT
-kahaponRBT
-niINT
-
-
-PhilippineNNPT
-InstituteNNT
-
-ofINT
-
-VolcanologyNNT
- 
- andCCT
-
-SeismologyNNT
-
-(,(
-
-PhivolcsNNPT
-
-),)
-
-directorNNT
-RenatoNNPT
-SolidumNNPT
-  
-   ,,
-  
-   Jr.NNT
- angINT
-mgaRBT
-  residenteNNT
-    
-    saINT
-   
-    palibotJJT
- 
- ngINT
-
-MayonNNPT
-VolcanoNNT
-
-naNNT
-kumalmaVBPT
- mataposVBDT
- maiulatVBDT
-naINT
-sumabogVBDT
-angDTT
-nasabingVBDT
-
-bulkanNNT
-
-kahaponRBT
-ngINT
-
-
-umagaNNP
-
-..
-
-
-
-
-GUIDULUNGANNNPT
-
-,,
-
-MaguindanaoNNPT
-
---
-UMAKYATVBD
-naINT
-saINT
-
-siyamJJT
-angDT
-patayNNT
-  
-   kabilangINT
-  naINT
-  
-  angDT
-isangJJT
-sibilyanNNT
-  
-   saINT
-  bakbakanVB
-  ngINT
- mgaINT
-
-sundaloNNT
-
-atCC
-
-gerilyangJJT
-BangsamoroNNPT
-IslamicNNPT
-  FreedomNNPT
-    FightersNNPT
-    
-    ((
-   
-    BIFFNNPT
- 
- ))
-saINT
-
-GuindulunganNNPT
-
-,,
-
-MaguindanaoNNPT
-
-..
-
-
-
-inatasanVBDT
-ngINT
-
-MalacañangNNPT
-CivilNNT
-AviationNNT
-  AuthorityNNT
-    
-    ofINT
-   
-  
-    theDTT
- PhilippinesNNPT
-
-(,(
-
-CAAPNNPT
- 
- ),)
-naINT
-makialamVBDT
-naINT
-saINT
-pag-aalisVBZT
-ngINT
-nakabalandrangVBPT
-
-
-commercialNNT
-planeNNT
-
-  
-  upangCCT
-  maibalikVBGT
- 
- angDTT
-normalJJT
-
-naINT
-
-operasyonNNT
- 
- ngINT
-
-
-paliparanNNT
-
-..
-
-
-
-
-MATALAMNNPT
-
-,,
-
-COTABATONNPT
-
---
-DAHILINT
-saINT
-girianVBD
-ngINT
-
-MoroNNPT
-NationaNNPT
-LiberationNNPT
-  FrontNNPT
-    
-    ((
-   
-    MNLFNNLP
- 
- ))
-atCC
-
-MoroNNPT
-IslamicNNPT
-LiberationNNPT
-  FrontNNPT
-    
-    ((
-   
-    MILFNNPT
- 
- ))
-saINT
-
-MatalamNNPT
-
-,,
-ipinagRB
---
-utosVB
-naINT
-
-angDT
-
-paglalagayVBG
-ngINT
-
-peacekeepingNNT
-forcesNNT
-
-saINT
-mgaINT
- 
- daanNNT
-
-..
-
-
-
-
-KIDAPAWANNNPT
-CITYNNPT
-
---
-NAGRBT
- --
- IIKOTVBG
-naINT
-saINT
-mgaINT
-
-pampublikongJJT
-lugarNNT
-
-saINT
-
-KidapawanNNPT
- CityNNPT
-angDT
-  K9NNT
-    unitsNNT
-    
-    ngINT
-   
-    militarNNT
- 
- atCC
-
-pulisNNT
-
-..
-
-
-angDT
-
-mgaINT
-
-K9NNT
-dogsNNT
-
-ngINT
-
-ArmyNNT
- explosiveNNT
-ordinanceNNT
-  divisionNNT
-    
-    atCC
-   ngINT
-   
-   KidapawanNNPT
-CityNNPT
-PoliceNNPT
-  OfficeNNPT
-    
-    ayINT
-   umiikotVBG
-   saINT
- mgaINT
-
-marketNNT
-
-,,
-
-mallsNNT
-
-,,
-
-terminalsNNT
-
-atCC
-mgaINT
-
-mataongJJT
-lugarNNT
-
-upangCCT
-masiguroVB
- naINT
- hindiRBT
-mangyariVBD
-saINT
-
-lungsodNNT
-angDT
-
-pagsabogVBD
-naINT
- naganapVBD
- saINT
-
-CagayanNNPT
-deNNPT
-OroNNPT
-  CityNNPT
-    
-    naINT
-   ikinasawiVBD
-   ngINT
- 
- waloJJT
-kataoNNT
-
-
-
-
-
-
-SKNNPT
-PENDATUNNNPT
-
-,,
-
-MAGUINDANAONNPT
- 
- --
-BIGOVB
-diumanoVBT
-saINT
-kanilangINT
-
-planoNNT
-angDT
-
-mgaINT
-
-armadoNNT
- 
- naINT
-agawinVBD
-
-angDT
-
-toneRB
---
-toneladangVBG
-
-reliefJJT
-goodsNNT
-
-paraRBT
-saINT
- mgaINT
- 
- biktimaNNT
-
-ngINT
-
-bahaNNT
-
-saINT
-
-bayanNNT
-
-ngINT
-
-SKNNPT
-PendatunNNPT
-
-atCC
-
-DatuNNPT
- PaglasNNPT
-
-,,
-
-MaguindanaoNNPT
- 
- ..
-
-
-
-
-KORONADALNNPT
-CITYNNT
-
---
-HALOSRB
- 
- isangJJT
-liboJJT
-
-naINT
-
-angDT
- biktimaNNT
-
-saINT
-nagpapatuloyVBG
- naINT
- pagRB
---
-akyatVB
-ngINT
-
-kasoNNT
-
-ngINT
-
-
- chikungunyaNNT
-   
-   saINT
-  
-   lalawiganNNT
- 
- ngINT
-
-SouthNNPT
-CotabatoNNPT
-
-..
-
-SaINT
- 
- talaanNNT
-
-ngINT
-
-ProvincialNNPT
-EpidemiologyNNPT
-
-andCC
-
-HealthNNPT
- OfficeNNPT
-
-((
-
-IPHONNPT
- 
- ))
-,,
-umaabotVBG
-naINT
-saINT
-
-536CD
-angDT
-kasoNNT
-  
-   ngINT
-  
-   chikungunyaNNT
- 
- saINT
-
-bayanNNT
-
-ngINT
-
-TampakanNNPT
-
-habangCCT
-
-272CD
-
-namanRBT
-saINT
-
-KoronadalNNPT
-CityNNPT
-
-..
-
-
-
-
-COTABATONNPT
-CITYNNPT
-
---
-DAHILINT
- saINT
- naganapVBD
-naINT
-kaguluhanVBD
-atCC
-mgaINT
-pagbahaVBD
-,,
-hinilingVBD
-ngayonRBT
-naINT
-palawiginVBD
-paRB
-
-angDT
-
-pagparehistroVBD
-paraRBT
-saINT
-
-SangguniangNNPT
-KabataanNNPT
-
-((
-
-SKNNPT
- 
- ))
-atCC
-
-BarangayNNT
-electionNNT
-saINT
-
-MaguindanaoNNPT
-
-atCC
-
-CotabatoNNPT
-provinceNNT
-
-gayundinINT
-saINT
- 
- lungsodNNT
-
-ngINT
-
-CotabatoNNPT
-
-
-
-
-
-
-ISULANNNPT
-
-,,
-
-SULTANNNPT
-KUDARATNNPT
---
-MALAPITRBT
-naINT
-diumanoVBD
-naINT
-mataposVBD
-
-angDT
-problemaNNT
-
-saINT
-
-bahaNNT
- 
- ngINT
-mgaINT
-
-magsasakaNNT
-
-saINT
-
-lalawiganNNT
-
-ngINT
-
-SultanNNPT
-KudaratNNPT
-
-..
-
-InaprobahanVBD
- naINT
-ngINT
-
-WorldNNPT
-BankNNPT
-angDT
-  
-   konstruksyonVB
-  ngINT
-  nangungunangRB
- 
- floodNNT
-protectionNNT
-projectNNT
-  
-   saINT
-  
-   BarangayNNT
- DansuliNNPT
-,,
-
-IsulanNNPT
-
-..
-
-
-
-
-AMPATUANNNPT
-
-,,
-
-MAGUINDANAONNPT
-
---
-PUSPUSANVBD
-
-angDT
-
-paghahanapVBG
-ngINT
-mgaINT
-
-otoriadNNT
-
-labanVB
-saINT
-mgaINT
-natitiraVBD
-paRB
-naINT
-mgaINT
-
-suspekNNT
-
-saINT
-naganapVBD
-naINT
-
-MaguindanaoNNPT
-
-massacreVB
-noongRB
-
-NobyembreNNPT
-23CD
-
-,,
-
-2009CD
- 
- 
-
-
+mamamayan NNT I-VP
+ng INT I-VP
+Sulu NNPT I-VP
+ang DTT B-NP
+nasabing NTT I-NP
+isla NNT I-NP
+dahil NNT B-NP
+ito PRPT I-NP
+ay VBZT I-NP
+pag-aari NNT I-NP
+ng INT I-NP
+kanilang PRPT I-NP
+mga RBT I-NP
+ninuno NNT I-NP
+. . O
+Ito PRPT B-NP
+ang DTT I-NP
+tahasang JJT I-NP
+pahayag NNT I-NP
+ni INT I-NP
+Moro NNPT I-NP
+National NNT I-NP
+Liberation NNT I-NP
+Front NNT I-NP
+( ( I-NP
+MNLF NNPT I-NP
+) ) I-NP
+founding NNT I-NP
+chairman NNT I-NP
+Nur NNPT I-NP
+Misuari NNPT I-NP
+, , I-NP
+na INT B-VP
+sumusuporta VBGT I-VP
+sa INT I-VP
+hakbang NNT I-VP
+ng INT I-VP
+mga RBT I-VP
+Kiram NNPT I-VP
+ng INT I-VP
+Sulu NNPT I-VP
+para RBT B-NP
+bawiin VBPT I-NP
+ang DTT I-NP
+Sabah NNPT I-NP
+mula NNT I-NP
+sa INT I-NP
+Malaysia NNPT I-NP
+. . O
+Binigyang VBDT B-VP
+diin NNT I-VP
+pa RBT I-VP
+nito PRPT I-VP
+na INT I-VP
+wala NNT I-VP
+umanong VBPT B-VP
+naitatalang VBGT I-VP
+mga RBT I-VP
+pagyanig VBGT B-VP
+sa INT I-VP
+nakalipas JJT I-VP
+na INT I-VP
+mga RBT I-VP
+araw NNT I-VP
+kung INT B-NP
+kaya CCT I-NP
+walang JJT I-NP
+movement NNT I-NP
+sa INT I-NP
+ilalim NNT I-NP
+ng INT I-NP
+bulkan NNT I-NP
+. . O
+Paliwanag VBGT B-VP
+ni INT I-VP
+Solidum NNPT I-VP
+, , I-NP
+ang DTT I-VP
+pagbuga VBDT I-VP
+ng INT I-VP
+makapal JJT I-VP
+na INT I-VP
+usok NNT I-VP
+ng INT I-VP
+bulkan INT I-VP
+dakong NNT I-VP
+8 CDT B-NP
+: : I-NP
+00 CDT I-NP
+ng INT I-NP
+umaga NNT I-NP
+ay VBZT B-VP
+hindi RBT I-VP
+maituturing VBPT I-VP
+na INT I-VP
+pagsabog VBGT I-VP
+dahil NNT I-VP
+wala NNT I-VP
+naman RBT I-VP
+umanong VBGT I-VP
+umakyat VBPT I-VP
+na INT B-NP
+magma NNT I-NP
+sa INT I-NP
+crater NNT I-NP
+nito PRPT I-NP
+. . O
+Pinayuhan VBNT B-VP
+kahapon RBT I-VP
+ni INT I-VP
+Philippine NNPT I-VP
+Institute NNT I-VP
+of INT I-VP
+Volcanology NNT I-VP
+and CCT I-VP
+Seismology NNT I-VP
+( ( I-VP
+Phivolcs NNPT I-VP
+) ) I-VP
+director NNT I-VP
+Renato NNPT I-VP
+Solidum NNPT I-VP
+, , I-VP
+Jr. NNT I-VP
+ang INT B-NP
+mga RBT I-NP
+residente NNT I-NP
+sa INT I-NP
+palibot JJT I-NP
+ng INT I-NP
+Mayon NNPT I-NP
+Volcano NNT I-NP
+na NNT B-VP
+kumalma VBPT I-VP
+matapos VBDT I-VP
+maiulat VBDT I-VP
+na INT I-VP
+sumabog VBDT I-VP
+ang DTT B-VP
+nasabing VBDT I-VP
+bulkan NNT I-VP
+kahapon RBT I-VP
+ng INT I-VP
+umaga NNP I-VP
+. . O
+GUIDULUNGAN NNPT B-NP
+, , I-NP
+Maguindanao NNPT I-NP
+- - I-NP
+UMAKYAT VBD B-VP
+na INT I-VP
+sa INT I-VP
+siyam JJT I-VP
+ang DT I-VP
+patay NNT I-VP
+kabilang INT B-NP
+na INT I-NP
+ang DT I-NP
+isang JJT I-NP
+sibilyan NNT I-NP
+sa INT I-NP
+bakbakan VB B-VP
+ng INT I-VP
+mga INT I-VP
+sundalo NNT I-VP
+at CC I-VP
+gerilyang JJT I-VP
+Bangsamoro NNPT I-VP
+Islamic NNPT I-VP
+Freedom NNPT I-VP
+Fighters NNPT I-VP    
+( ( B-NP
+BIFF NNPT I-NP
+) ) I-NP
+sa INT I-NP
+Guindulungan NNPT I-NP
+, , I-NP
+Maguindanao NNPT I-NP
+. . O
+inatasan VBDT B-VP
+ng INT I-VP
+Malacañang NNPT I-VP
+Civil NNT I-VP
+Aviation NNT I-VP
+Authority NNT I-VP 
+of INT I-VP
+the DTT I-VP
+Philippines NNPT I-VP
+( ( B-NP
+CAAP NNPT I-NP
+) ) I-NP
+na INT I-NP
+makialam VBDT B-VP
+na INT I-VP
+sa INT I-VP 
+pag-aalis VBZT I-VP
+ng INT I-VP
+nakabalandrang VBPT I-VP
+commercial NNT I-VP
+plane NNT I-VP
+upang CCT I-VP
+maibalik VBGT B-VP
+ang DTT I-VP
+normal JJT I-VP
+na INT I-VP
+operasyon NNT I-VP
+ng INT I-VP
+paliparan NNT I-VP
+. . I-VP
+MATALAM NNPT B-NP
+, , I-NP
+COTABATO NNPT I-NP
+- - I-NP
+DAHIL INT B-VP
+sa INT I-VP
+girian VBD I-VP
+ng INT I-VP
+Moro NNPT I-VP
+Nationa NNPT I-VP
+Liberation NNPT I-VP
+Front NNPT I-VP
+( ( I-VP
+MNLF NNLP I-VP
+) ) I-VP
+at CC I-VP
+Moro NNPT B-VP
+Islamic NNPT I-VP
+Liberation NNPT I-VP
+Front NNPT I-VP
+( ( I-VP
+MILF NNPT I-VP
+) ) I-VP
+sa INT B-NP
+Matalam NNPT B-NP
+, , I-NP
+ipinag RB I-NP
+- - I-NP
+utos VB I-NP
+na INT I-NP
+ang DT I-NP
+paglalagay VBG B-VP
+ng INT I-VP
+peacekeeping NNT I-VP
+forces NNT I-VP
+sa INT I-VP
+mga INT I-VP
+daan NNT I-VP
+. . O
+KIDAPAWAN NNPT B-NP
+CITY NNPT I-NP
+- - I-NP
+NAG RBT B-VP
+- - I-VP
+IIKOT VBG I-VP
+na INT I-VP
+sa INT I-VP
+mga INT I-VP
+pampublikong JJT I-VP
+lugar NNT I-VP
+sa INT B-NP
+Kidapawan NNPT I-NP
+City NNPT I-NP
+ang DT I-NP
+K9 NNT I-NP
+units NNT I-NP
+ng INT I-NP
+militar NNT I-NP
+at CC I-NP
+pulis NNT I-NP
+. . O
+ang DT B-NP
+mga INT I-NP
+K9 NNT I-NP
+dogs NNT I-NP
+ng INT I-NP
+Army NNT I-NP
+explosive NNT I-NP
+ordinance NNT I-NP
+division NNT I-NP
+at CC I-NP
+ng INT B-NP
+Kidapawan NNPT I-NP
+City NNPT I-NP
+Police NNPT I-NP
+Office NNPT I-NP
+ay INT B-VP
+umiikot VBG I-VP
+sa INT I-VP
+mga INT I-VP
+market NNT I-VP
+, , I-VP
+malls NNT B-NP
+, , I-NP
+terminals NNT I-NP
+at CC I-NP
+mga INT B-NP
+mataong JJT I-NP
+lugar NNT I-NP
+upang CCT B-VP
+masiguro VB I-VP
+na INT I-VP
+hindi RBT I-VP
+mangyari VBD I-VP
+sa INT I-VP
+lungsod NNT I-VP
+ang DT B-VP
+pagsabog VBD I-VP
+na INT I-VP
+naganap VBD I-VP
+sa INT I-VP
+Cagayan NNPT I-VP
+de NNPT I-VP
+Oro NNPT I-VP
+City NNPT I-VP
+na INT I-VP
+ikinasawi VBD B-VP
+ng INT I-VP
+walo JJT I-VP
+katao NNT I-VP
+SK NNPT I-VP
+PENDATUN NNPT I-VP
+, , I-VP 
+MAGUINDANAO NNPT B-NP
+- - I-NP
+BIGO VB B-VP
+diumano VBT I-VP
+sa INT I-VP
+kanilang INT I-VP
+plano NNT I-VP
+ang DT B-NP
+mga INT I-NP
+armado NNT I-NP
+na INT I-NP
+agawin VBD B-VP
+ang DT I-VP
+tone RB I-VP
+- - I-VP
+toneladang VBG I-VP
+relief JJT I-VP
+goods NNT I-VP
+para RBT B-NP
+sa INT B-NP
+mga INT I-NP
+biktima NNT I-NP
+ng INT I-NP
+baha NNT I-NP
+sa INT I-NP
+bayan NNT I-NP
+ng INT I-NP
+SK NNPT I-NP
+Pendatun NNPT I-NP
+at CC I-NP
+Datu NNPT B-NP
+Paglas NNPT I-NP
+, , I-NP
+Maguindanao NNPT I-NP
+. . O
+KORONADAL NNPT B-NP
+CITY NNT I-NP
+- - I-NP
+HALOS RB B-NP
+isang JJT I-NP
+libo JJT I-NP
+na INT I-NP
+ang DT I-NP
+biktima NNT I-NP
+sa INT B-VP
+nagpapatuloy VBG I-VP
+na INT I-VP
+pag RB I-VP
+- - I-VP
+akyat VB I-VP
+ng INT I-VP
+kaso NNT I-VP
+ng INT B-NP
+chikungunya NNT I-NP
+sa INT I-NP
+lalawigan NNT I-NP
+ng INT I-NP
+South NNPT I-NP
+Cotabato NNPT I-NP
+. . O
+Sa INT B-NP
+talaan NNT I-NP
+ng INT I-NP
+Provincial NNPT I-NP
+Epidemiology NNPT I-NP
+and CC I-NP
+Health NNPT I-NP
+Office NNPT I-NP
+( ( I-NP
+IPHO NNPT I-NP
+) ) I-NP
+, , I-NP
+umaabot VBG B-VP
+na INT I-VP
+sa INT I-VP
+536 CD I-VP
+ang DT I-VP
+kaso NNT I-VP
+ng INT B-NP
+chikungunya NNT I-NP
+sa INT I-NP
+bayan NNT I-NP
+ng INT I-NP
+Tampakan NNPT I-NP
+habang CCT I-NP
+272 CD B-NP
+naman RBT I-NP
+sa INT I-NP
+Koronadal NNPT I-NP
+City NNPT I-NP
+. . O
+COTABATO NNPT B-NP
+CITY NNPT I-NP
+- - I-NP
+DAHIL INT B-VP
+sa INT I-VP
+naganap VBD I-VP
+na INT I-VP
+kaguluhan VBD I-VP
+at CC I-VP
+mga INT B-NP
+pagbaha VBD I-NP
+, , I-NP
+hiniling VBD B-VP
+ngayon RBT I-VP
+na INT I-VP
+palawigin VBD I-VP
+pa RB I-VP
+ang DT B-VP
+pagparehistro VBD I-VP
+para RBT I-VP
+sa INT I-VP
+Sangguniang NNPT I-VP
+Kabataan NNPT I-VP
+( ( I-VP
+SK NNPT I-VP
+) ) I-VP
+at CC B-NP
+Barangay NNT I-NP
+election NNT I-NP
+sa INT I-NP
+Maguindanao NNPT I-NP
+at CC B-NP
+Cotabato NNPT I-NP
+province NNT I-NP
+gayundin INT I-NP
+sa INT I-NP
+lungsod NNT I-NP
+ng INT I-NP
+Cotabato NNPT I-NP
+ISULAN NNPT I-NP
+, , I-NP
+SULTAN NNPT B-NP
+KUDARAT NNPT I-NP
+- - I-NP
+MALAPIT RBT B-VP
+na INT I-VP
+diumano VBD I-VP
+na INT I-VP
+matapos VBD I-VP
+ang DT B-NP
+problema NNT I-NP
+sa INT I-NP
+baha NNT I-NP
+ng INT I-NP
+mga INT I-NP
+magsasaka NNT I-NP
+sa INT B-NP
+lalawigan NNT I-NP
+ng INT I-NP
+Sultan NNPT I-NP
+Kudarat NNPT I-VP
+. . O
+Inaprobahan VBD B-VP
+na INT I-VP
+ng INT I-VP
+World NNPT I-VP
+Bank NNPT I-VP
+ang DT B-VP
+konstruksyon VB I-VP
+ng INT I-VP
+nangungunang RB I-VP
+flood NNT I-VP
+protection NNT I-VP
+project NNT I-VP
+sa INT B-NP
+Barangay NNT I-NP
+Dansuli NNPT I-NP
+, , I-NP
+Isulan NNPT I-NP
+. . O
+AMPATUAN NNPT B-NP
+, , I-NP
+MAGUINDANAO NNPT I-NP
+- - I-NP
+PUSPUSAN VBD B-VP
+ang DT I-VP
+paghahanap VBG I-VP
+ng INT I-VP
+mga INT I-VP
+otoriad NNT I-VP
+laban VB I-VP
+sa INT B-VP
+mga INT I-VP
+natitira VBD I-VP
+pa RB I-VP
+na INT I-VP
+mga INT I-VP
+suspek NNT I-VP
+sa INT B-VP
+naganap VBD I-VP
+na INT I-VP
+Maguindanao NNPT I-VP
+massacre VB I-VP
+noong RB B-NP
+Nobyembre NNPT I-NP
+23 CD I-NP
+, , I-NP
+2009 CD I-NP
 
 
 COTABATONNPT

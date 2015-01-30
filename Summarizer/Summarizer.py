@@ -1,6 +1,6 @@
 'author pol'
 from PreProcessing import preprocessor
-
+import math
 #should contain these:
 #a list containing:
 	#sentence number,
@@ -11,9 +11,11 @@ from PreProcessing import preprocessor
 article =  [] #is this shit even needed
 
 global sentences
-sentences = [] # sentence number, the sentence, the tuples of words 0 = word 1 = pos 
-			#and their corresponding POS tags, and the language id
-			#when chunkSents is invoked chunks of the sentence is appended
+sentences = [] # 0sentence number, 1the sentence, 2the tuples of words 0 = word 1 = pos 
+			#and their corresponding POS tags, and the 3language id
+			#4when chunkSents is invoked chunks of the sentence is appended
+			#5when getTriple() is invoked svos of the sentence is appended
+			#6when getFreq() is invoked frequencies of the sentences is also appended
 
 
 def chunkSents():
@@ -91,3 +93,42 @@ def getPOS(sent):
 def getFilPOS(sent):
 	words = []
 	return preprocessor.filposTagger(sent)
+
+def getFreq():
+	global sentences
+	for sents in sentences:
+		if sents[3] =="en":
+			sents.append(preprocessor.getFreqs(sents[4],True))
+			sentences[sents[0]] = sents
+		elif sents[3] =="tl":
+			sents.append(preprocessor.getFreqs(sents[4],False))
+			sentences[sents[0]] = sents
+	return sentences
+	#	idf = math.log10(len(sentences)/n[1])
+	#	print(idf)
+	#	ideff.append((n[0],idf))
+def getIDF():
+	global sentences
+	nWords = []
+	
+	for sents in sentences:
+		for tup in sents[6]:
+			if tup[0][0] not in nWords:
+				nWords.append(tup[0][0])
+	nDocs = Docs(nWords,[0]*len(nWords))
+	for sents in sentences:
+		for tup in sents[6]:
+			if tup[0][0] in nWords :
+				nDocs.show[nDocs.words.index(tup[0][0])] +=1
+				print(nDocs.show[nDocs.words.index(tup[0][0])])
+				print(nDocs.words[nDocs.words.index(tup[0][0])])
+				
+	for n in nDocs.words:
+		print(nDocs.show[nDocs.words.index(n)])
+		idf = math.log10(len(sentences)/nDocs.show[nDocs.words.index(n)])
+		print(idf)
+		print(n)
+class Docs:
+	def __init__(self, words,show):
+		self.words = words
+		self.show = show
