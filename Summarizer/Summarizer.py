@@ -144,10 +144,19 @@ def getIDF():
 		idf = math.log10(len(sentences)/nDocs.show[nDocs.words.index(n)])
 		terms.append((n,nDocs.show[nDocs.words.index(n)]*idf))
 
-def getCandidSubjs():
+def getCandidSubjs(start, end):
 	global sentences
 	global terms
+	global CandidSVO
 	for sents in sentences:
+		for svo in sents[5]:
+			for term in  terms[start:end]:
+				if svo.subj[0] == term[0]:
+					CandidSVO.append(svo)
+				elif svo.obj[0] == term[0]:
+					CandidSVO.append(svo)
+def cleanCandidSubs(start,end):
+	global CandidSVO
 
 
 class Docs:
