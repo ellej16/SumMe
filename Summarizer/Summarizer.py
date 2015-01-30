@@ -11,11 +11,16 @@ import math
 article =  [] #is this shit even needed
 
 global sentences
+global terms
+global Vterms
 sentences = [] # 0sentence number, 1the sentence, 2the tuples of words 0 = word 1 = pos 
 			#and their corresponding POS tags, and the 3language id
 			#4when chunkSents is invoked chunks of the sentence is appended
 			#5when getTriple() is invoked svos of the sentence is appended
-			#6when getFreq() is invoked frequencies of the sentences is also appended
+			#6when getFreq() is invoked frequencies of the sentences is also appended(subjects only)
+Sterms = []
+Vterms = []
+terms = []
 #class Sentence:
 #	self.SentNum
 #	self.langId
@@ -115,7 +120,9 @@ def getFreq():
 	#	print(idf)
 	#	ideff.append((n[0],idf))
 def getIDF():
+	#currently gets idfs of subjects/nouns only
 	global sentences
+	global terms
 	nWords = []
 	
 	for sents in sentences:
@@ -128,10 +135,16 @@ def getIDF():
 			if tup[0][0] in nWords :
 				nDocs.show[nDocs.words.index(tup[0][0])] +=1
 	for n in nDocs.words:
-		print(nDocs.show[nDocs.words.index(n)])
 		idf = math.log10(len(sentences)/nDocs.show[nDocs.words.index(n)])
-		print(idf)
-		print(n)
+		terms.append((n,nDocs.show[nDocs.words.index(n)]*idf))
+
+def getCandidSubjs():
+	global sentences
+	global terms
+	pass
+	#for sents in sentences:
+
+
 class Docs:
 	def __init__(self, words,show):
 		self.words = words
