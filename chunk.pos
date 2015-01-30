@@ -1085,7 +1085,7 @@ ngayon RBT I-VP
 na INT I-VP
 palawigin VBD I-VP
 pa RB I-VP
-ang DT B-VP
+ang DT I-VP
 pagparehistro VBD I-VP
 para RBT I-VP
 sa INT I-VP
@@ -1094,7 +1094,7 @@ Kabataan NNPT I-VP
 -LRB- ( I-VP
 SK NNPT I-VP
 -RRB- ) I-VP
-at CC B-NP
+at CCT B-NP
 Barangay NNT I-NP
 election NNT I-NP
 sa INT I-NP
