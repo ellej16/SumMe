@@ -89,7 +89,7 @@ def getSVO(sent,isEnglish):
 				for subs in trees.subtrees():
 					if subs.label() == "NP":
 						for node in subs:
-							if node[1] in ["NN","NNS","NNP","NNPS","PRP","PRP$"]:
+							if node[1] in ["NN","NNS","NNP","NNPS"]:
 								subjs.append(node)
 								objs.append(node)
 					elif subs.label() == "VP":
@@ -102,7 +102,7 @@ def getSVO(sent,isEnglish):
 				for subs in trees.subtrees():
 					if subs.label() == "NP":
 						for node in subs:
-							if node[1] in ["NNT","NNST","NNPT","NNPST","PRPT","PRP$T"]:
+							if node[1] in ["NNT","NNST","NNPT","NNPST"]:
 								subjs.append(node)
 								objs.append(node)
 					elif subs.label() == "VP":
