@@ -79,41 +79,33 @@ def clnChunk(sents,cln):
 		words.remove(words[0])
 	return cln[0]
 
-def getSVO(sent,isEnglish):
+def getSVO(num,sent,isEnglish):
 	subjs = []
 	vbs = []
 	objs = []
+	nouns = []
+	
 	if(isEnglish):
-		for trees in sent:
-			if isinstance(trees,Tree):
-				for subs in trees.subtrees():
-					if subs.label() == "NP":
-						for node in subs:
-							if node[1] in ["NN","NNS","NNP","NNPS"]:
-								subjs.append(node)
-								objs.append(node)
-					elif subs.label() == "VP":
-						for node in subs:
-							if node[1] in ["VBD","VBZ","VB", "VBN","VBG","VBP"]:
-								vbs.append(node)
-	else:
-		for trees in sent:
-			if isinstance(trees,Tree):
-				for subs in trees.subtrees():
-					if subs.label() == "NP":
-						for node in subs:
-							if node[1] in ["NNT","NNST","NNPT","NNPST"]:
-								subjs.append(node)
-								objs.append(node)
-					elif subs.label() == "VP":
-						for node in subs:
-							if node[1] in ["VBDT","VBZT","VBT", "VBNT","VBGT","VBPT"]:
-								vbs.append(node)
-	triples = []
-	for subj in subjs:
+		for word in sent:
+			if  word[1] in ["NN","NNS","NNP","NNPS"]:
+				nouns.append(word)
+			elif word[1] in ["VBD","VBZ","VB", "VBN","VBG","VBP"]:
+				vbs.append(word)
 		for vb in vbs:
+			posit = sent.index(vb)
+			for noun in nouns:
+				if posit > sent.index(noun):
+					subjs.append([vbs.index(vb), noun])
+				else:
+					objs.append([vbs.index(vb), noun])
+	else:
+		pass
+	triples = []
+	for vb in vbs:
+		for subj in subjs:
 			for obj in objs:
-				triples.append(SVO(subj,vb,obj))
+				if subj[0] == vbs.index(vb) and obj[0] == vbs.index(vb):
+					triples.append(SVO(subj[1],vb,obj[1],num))
 
 	return triples
 
@@ -159,10 +151,13 @@ def getFreqs(sent,isEnglish):
 	return tf
 
 class SVO:
-	def __init__(self, subj,verb,obj):
+	def __init__(self, subj,verb,obj,sNum):
 		self.subj = subj
 		self.verb = verb
 		self.obj = obj
+		self.sNum = sNum
+
+
 class stats:
 	def __init__(self,word, tf=0, idf=0.0,augtf=None):
 		self.word = word

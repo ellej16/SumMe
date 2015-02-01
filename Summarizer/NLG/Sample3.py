@@ -13,7 +13,8 @@ def setUp1(noun, verb, obj):
 		np_sub.add_determiner(lex.getWord("the"))
 		vp_play = s1.add_verb(lex.getWord(verb, "VERB"))
 
-		np_guitar = vp_play.add_object(lex.getWord(obj))
+		#if none
+		np_guitar = vp_play.add_object(obj)
 		np_guitar.add_determiner(lex.getWord("the"))
 
 		s1.set_verb_tense("present_progressive")

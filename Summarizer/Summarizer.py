@@ -18,8 +18,11 @@ global CandidSVO
 
 
 global Vterms
-sentences = [] # 0sentence number, 1the sentence, 2the tuples of words 0 = word 1 = pos 
-			#and their corresponding POS tags, and the 3language id
+sentences = [] # 0sentence number, 
+			#1the sentence, 
+			#2the tuples of words 0 = word 1 = pos 
+			#and their corresponding POS tags, and 
+			#the 3 language id
 			#4when chunkSents is invoked chunks of the sentence is appended
 			#5when getTriple() is invoked svos of the sentence is appended
 			#6when getFreq() is invoked frequencies of the sentences is also appended(subjects only)
@@ -56,10 +59,10 @@ def getTriple():
 	global sentences
 	for sents in sentences:
 		if sents[3] =="en":
-			sents.append(preprocessor.getSVO(sents[4],True))
+			sents.append(preprocessor.getSVO(sents[0],sents[2],True))
 			sentences[sents[0]] = sents
 		elif sents[3] =="tl":
-			sents.append(preprocessor.getSVO(sents[4],False))
+			sents.append(preprocessor.getSVO(sents[0],sents[2],False))
 			sentences[sents[0]] = sents
 	#return sentences
 

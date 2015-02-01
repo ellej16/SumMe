@@ -1,0 +1,9 @@
+hiearchy
+	anything thats inside your game
+		made up of gameobjects
+			everything inside it is usable by that scene
+
+powers of two for spritesheets
+	DDXT5 compression
+spritesheet
+	sa huli
