@@ -164,7 +164,7 @@ def getCandidSubjs(start, end):
 				elif svo.subj[0]==term[0]:
 					CandidSVO.append(svo)
 				elif svo.obj[0] == term[0]:
-					CandidSVO.append(svo) 	
+					CandidSVO.append(svo) 
 
 def doGet():
 	chunkSents()

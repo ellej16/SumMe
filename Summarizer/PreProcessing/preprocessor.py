@@ -99,7 +99,19 @@ def getSVO(num,sent,isEnglish):
 				else:
 					objs.append([vbs.index(vb), noun])
 	else:
-		pass
+		for word in sent:
+			if  word[1] in ["NNT","NNST","NNPT","NNPST"]:
+				nouns.append(word)
+			elif word[1] in ["VBDT","VBZT","VBT", "VBNT","VBGT","VBPT"]:
+				vbs.append(word)
+		for vb in vbs:
+			posit = sent.index(vb)
+			for noun in nouns:
+				if posit > sent.index(noun):
+					subjs.append([vbs.index(vb), noun])
+				else:
+					objs.append([vbs.index(vb), noun])
+
 	triples = []
 	for vb in vbs:
 		for subj in subjs:
