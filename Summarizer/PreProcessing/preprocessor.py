@@ -161,7 +161,6 @@ def getFreqs(sent,isEnglish):
 					tf.remove(terms)
 					tf.append((terms[0],terms[1]+1))
 	return tf
-
 class SVO:
 	def __init__(self, subj,verb,obj,sNum):
 		self.subj = subj
