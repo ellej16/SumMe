@@ -16,7 +16,7 @@ def setUp1(noun, verb, obj):
 		#if none
 		np_guitar = vp_play.add_object(lex.getWord(obj,"NOUN"))
 		np_guitar.add_determiner(lex.getWord("the"))
-		s1.set_verb_tense("present_progressive")
+		
 		print(s1.realize())
 
 	except :
@@ -28,7 +28,7 @@ def setUp1(noun, verb, obj):
 			#if none
 			np_guitar = vp_play.add_object(Noun(obj))
 			np_guitar.add_determiner(lex.getWord("the"))
-			s1.set_verb_tense("present_progressive")
+			
 			print(s1.realize())
 		except:
 			pass
