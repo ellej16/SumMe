@@ -2850,9 +2850,33 @@
 	  <transitive/>
 </word>
 <word>
+  <base>is</base>
+  <category>verb</category>
+</word>
+<word>
+  <base>was</base>
+  <category>verb</category>
+</word>
+<word>
+  <base>will</base>
+  <category>verb</category>
+</word>
+<word>
+  <base>been</base>
+  <category>verb</category>
+</word>
+<word>
+  <base>being</base>
+  <category>verb</category>
+</word>
+<word>
   <base>beach</base>
   <category>noun</category>
   <id>E0012153</id>
+</word>
+<word>
+  <base>to be</base>
+  <category>verb</category>
 </word>
 <word>
   <base>beam</base>
@@ -15462,6 +15486,18 @@
   <pastParticiple>had</pastParticiple>
   <presentParticiple>having</presentParticiple>
   <transitive/>
+</word>
+<word>
+  <base>has</base>
+  <category>verb</category>
+</word>
+<word>
+  <base>had</base>
+  <category>verb</category>
+</word>
+<word>
+  <base>been</base>
+  <category>verb</category>
 </word>
 <word>
   <base>hay</base>
