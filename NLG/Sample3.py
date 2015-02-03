@@ -9,6 +9,8 @@ def setUp1(noun, verb, obj):
 	#the girl is playing the guitar        
 	s1 = Clause()
 
+<<<<<<< HEAD
+	np_sub = s1.add_subject(lex.getWord("girl"))
 	np_sub = s1.add_subject(lex.getWord(noun,"NOUN"))
 	np_sub.add_determiner(lex.getWord("the"))
 	vp_play = s1.add_verb(lex.getWord(verb, "VERB"))

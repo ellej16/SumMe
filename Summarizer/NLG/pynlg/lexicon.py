@@ -90,7 +90,11 @@ class Lexicon():
     def getWord(self, word, word_cat = None):
         retr_word = self.getWords(word, word_cat)
         if len(retr_word) == 0:
-            raise Exception("The word '"+word+"' was not found in the current lexicon. You will need to define it and its features manually or add it to the lexicon.")
+            with open('C:/Documents and Settings/lenovo/Desktop/SumMe/NLG/asdf.xml', 'a') as f:
+               f.write('<word>\n')
+               f.write('\t<base>'+word+'</base>\n')
+               f.write('\t<category>noun</category>\n')
+               f.write('</word>\n')
         if len(retr_word) > 1:
             raise Exception("The word '"+word+"' is ambiguous, and could be one of the following categories: "+", ".join([w.category for w in retr_word])+". Specify a category or use 'getWords()' to retrieve a list")        
         return retr_word[0]
