@@ -195,7 +195,7 @@ def getCandidSubjs(start, end):
 def getAcSents():
 	global sentences
 	acc = []
-	for sent in senences:
+	for sent in sentences:
 		if sent[7] >= sentenceTh:
 			acc.append(sent[0])
 	return acc
