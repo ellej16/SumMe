@@ -120,7 +120,7 @@ def verb_present_participle(word):
         if base[-1] == "e":
             return base[:-1]+"ing"
         if base[-1] in ('b', 'd', 'f', 'g', 'l', 'm', 'n', 'p', 's', 't', 'z') and not base[-3:-1] in double_vowels and not base[-2:] == "ss":
-            return base+base[-1]+"ing"
+            return base+"ing"
         if base[-1] == 'y':
             return base+"ing"
         else:
@@ -134,7 +134,7 @@ def verb_past_participle(word):
         if base[-1] == "e":
             return base[:-1]+"ed"
         if base[-1] in ('b', 'd', 'f', 'g', 'l', 'm', 'n', 'p', 's', 't', 'z') and not base[-3:-1] in double_vowels:
-            return base+base[-1]+"ed"
+            return base+"ed"
         if base[-1] == 'y':
             return base+"ed"
         else:

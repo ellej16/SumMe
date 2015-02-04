@@ -2850,6 +2850,16 @@
 	  <transitive/>
 </word>
 <word>
+	  <base>are</base>
+	  <category>verb</category>
+	  <present>are</present>
+	  <past>were</past>
+	  <future>will</future>
+	  <pastParticiple>been</pastParticiple>
+	  <presentParticiple>being</presentParticiple>
+	  <transitive/>
+</word>
+<word>
   <base>will</base>
   <category>verb</category>
 </word>
@@ -8629,6 +8639,12 @@
   <transitive/>
 </word>
 <word>
+  <base>redefine</base>
+  <category>verb</category>
+  <intransitive/>
+  <transitive/>
+</word>
+<word>
   <base>definite</base>
   <category>adjective</category>
   <id>E0021227</id>
@@ -14258,6 +14274,12 @@
   <id>E0029227</id>
 </word>
 <word>
+  <base>game</base>
+  <category>verb</category>
+  <present>gaming</present>
+  <presentParticiple>gaming</presentParticiple>
+</word>
+<word>
   <base>gang</base>
   <category>noun</category>
   <id>E0029258</id>
@@ -17206,6 +17228,10 @@
   <base>innovation</base>
   <category>noun</category>
   <id>E0034706</id>
+</word>
+<word>
+  <base>innovate</base>
+  <category>verb</category>
 </word>
 <word>
   <base>innovative</base>
