@@ -15470,14 +15470,9 @@
 <word>
   <base>has</base>
   <category>verb</category>
-</word>
-<word>
-  <base>had</base>
-  <category>verb</category>
-</word>
-<word>
-  <base>been</base>
-  <category>verb</category>
+  <present>has</present>
+  <past>had</past>
+  <pastParticiple>had</pastParticiple>
 </word>
 <word>
   <base>hay</base>
