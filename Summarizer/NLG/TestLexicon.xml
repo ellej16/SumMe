@@ -1,0 +1,34 @@
+<lexicon>
+	<word>
+	  <base>good</base>
+	  <category>adjective</category>
+	  <id>E0030153</id>
+	  <comparative>better</comparative>
+	  <predicative/>
+	  <qualitative/>
+	  <superlative>best</superlative>
+	</word>
+	<word>
+	  <base>eat</base>
+	  <category>verb</category>
+	  <id>E0024352</id>
+	  <present3s>eats</present3s>
+	  <intransitive/>
+	  <past>ate</past>
+	  <pastParticiple>eaten</pastParticiple>
+	  <presentParticiple>eating</presentParticiple>
+	  <transitive/>
+	</word>
+	<word>
+	  <base>be</base>
+	  <category>verb</category>
+	  <id>E0012152</id>
+	  <infinitive>to be</infinitive>
+	  <present>is</present>
+	  <past>was</past>
+	  <future>will</future>
+	  <pastParticiple>been</pastParticiple>
+	  <presentParticiple>being</presentParticiple>
+	  <transitive/>
+	</word>
+</lexicon>

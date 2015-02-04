@@ -12,17 +12,23 @@ article =  [] #is this shit even needed
 
 global sentences
 global terms
+global sentenceTh
 global CandidSVO
 
-
+sentenceTh = 0
 
 
 global Vterms
-sentences = [] # 0sentence number, 1the sentence, 2the tuples of words 0 = word 1 = pos 
-			#and their corresponding POS tags, and the 3language id
+sentences = [] # 0sentence number, 
+			#1the sentence, 
+			#2the tuples of words 0 = word 1 = pos 
+			#and their corresponding POS tags, and 
+			#the 3 language id
 			#4when chunkSents is invoked chunks of the sentence is appended
 			#5when getTriple() is invoked svos of the sentence is appended
 			#6when getFreq() is invoked frequencies of the sentences is also appended(subjects only)
+			#7 when getSentScore is inovked
+
 Sterms = []
 Vterms = []
 terms = []
@@ -47,6 +53,31 @@ def chunkSents():
 			sentences[sents[0]] = sents
 	#return sentences
 
+def getSenScore(sent, isEnglish):
+	sentScore = 0
+	if isEnglish:
+		for word in sent[2]:
+			if word[1] in ["NN","NNS","NNP","NNPS","VBD","VBZ","VB", "VBN","VBG","VBP",
+							"JJ","JJR","JJS"]:
+				sentScore = sentScore + 0.75
+			elif word[1] in ["RBR","RBS","RP","."]:
+				sentScore  = sentScore + 0.25
+			else:
+				sentScore = sentScore + 0.50
+	else:
+		pass
+	sentScore = sentScore/len(sent[2])
+	return sentScore
+
+def getSenThreshold():
+	global sentenceTh
+	for sent in sentences:
+		sentenceTh = sentenceTh + sent[7]
+	sentenceTh = sentenceTh/len(sentences)
+	return sentenceTh
+
+
+
 def clearMem():
 	global sentences 
 	sentences = []
@@ -56,10 +87,10 @@ def getTriple():
 	global sentences
 	for sents in sentences:
 		if sents[3] =="en":
-			sents.append(preprocessor.getSVO(sents[4],True))
+			sents.append(preprocessor.getSVO(sents[0],sents[2],True))
 			sentences[sents[0]] = sents
 		elif sents[3] =="tl":
-			sents.append(preprocessor.getSVO(sents[4],False))
+			sents.append(preprocessor.getSVO(sents[0],sents[2],False))
 			sentences[sents[0]] = sents
 	#return sentences
 
@@ -144,6 +175,11 @@ def getIDF():
 		idf = math.log10(len(sentences)/nDocs.show[nDocs.words.index(n)])
 		terms.append((n,nDocs.show[nDocs.words.index(n)]*idf))
 
+def sortTerms():
+	global terms
+	terms = sorted(terms,key= lambda t : t[1] , reverse = True)
+
+
 def getCandidSubjs(start, end):
 	global sentences
 	global terms
@@ -151,18 +187,26 @@ def getCandidSubjs(start, end):
 	for sents in sentences:
 		for svo in sents[5]:
 			for term in  terms[start:end]:
-				if svo.subj[0] == term[0]:
+				if svo.subj[0] == term[0] and svo.obj[0]==term[0]:
+					continue
+				elif svo.subj[0]==term[0]:
 					CandidSVO.append(svo)
 				elif svo.obj[0] == term[0]:
-					CandidSVO.append(svo)
-def cleanCandidSubs(start,end):
-	global CandidSVO
-	copy  = CandidSVO
-	
-	for svo in CandidSVO:
-		
+					CandidSVO.append(svo) 
 
+def doGet():
 
+	global sentenceTh
+	chunkSents()
+	getTriple()
+	getFreq()
+	getIDF()
+	sortTerms()
+	for sent in sentences:
+		sent.append(getSenScore(sent, True))
+		sentences[sent[0]] = sent
+	getSenThreshold()
+	print(sentenceTh)
 class Docs:
 	def __init__(self, words,show):
 		self.words = words
