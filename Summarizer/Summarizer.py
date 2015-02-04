@@ -1,6 +1,7 @@
 'author pol'
 from PreProcessing import preprocessor
 import math
+import NLG.Sample3 as nlg
 #should contain these:
 #a list containing:
 	#sentence number,
@@ -207,6 +208,19 @@ def doGet():
 		sentences[sent[0]] = sent
 	getSenThreshold()
 	print(sentenceTh)
+
+def genSents():
+	global CandidSVO
+	for svo in CandidSVO:
+		print(str(svo.sNum),svo.subj[0]+" "+svo.verb[0]+" "+svo.obj[0])
+		if svo.verb[1] in ["VB","VBZ","VBP"]:
+			nlg.setUp1(svo.subj[0],svo.verb[0],svo.obj[0],"present")
+		elif svo.verb[1] in ["VBD"]:
+			nlg.setUp1(svo.subj[0],svo.verb[0],svo.obj[0],"past")
+		elif svo.verb[1] in ["VBN"]:
+			nlg.setUp1(svo.subj[0],svo.verb[0],svo.obj[0],"past_participle")
+		elif svo.verb[1] in ["VBG"]:
+			nlg.setUp1(svo.subj[0],svo.verb[0],svo.obj[0],"present_participle")
 class Docs:
 	def __init__(self, words,show):
 		self.words = words
