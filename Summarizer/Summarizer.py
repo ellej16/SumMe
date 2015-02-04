@@ -19,7 +19,7 @@ global CandidSVO
 sentenceTh = 0
 
 
-global Vterms
+
 sentences = [] # 0sentence number, 
 			#1the sentence, 
 			#2the tuples of words 0 = word 1 = pos 
@@ -29,9 +29,6 @@ sentences = [] # 0sentence number,
 			#5when getTriple() is invoked svos of the sentence is appended
 			#6when getFreq() is invoked frequencies of the sentences is also appended(subjects only)
 			#7 when getSentScore is inovked
-
-Sterms = []
-Vterms = []
 terms = []
 CandidSVO = []
 #class Sentence:
@@ -187,13 +184,22 @@ def getCandidSubjs(start, end):
 	global CandidSVO
 	for sents in sentences:
 		for svo in sents[5]:
-			for term in  terms[start:end]:
-				if svo.subj[0] == term[0] and svo.obj[0]==term[0]:
-					continue
-				elif svo.subj[0]==term[0]:
-					CandidSVO.append(svo)
-				elif svo.obj[0] == term[0]:
-					CandidSVO.append(svo) 
+			if svo.sNum in getAcSents():
+				for term in  terms[start:end]:
+					if svo.subj[0] == term[0] and svo.obj[0]==term[0]:
+						continue
+					elif svo.subj[0]==term[0]:
+						CandidSVO.append(svo)
+					elif svo.obj[0] == term[0]:
+						CandidSVO.append(svo) 
+def getAcSents():
+	global sentences
+	acc = []
+	for sent in senences:
+		if sent[7] >= sentenceTh:
+			acc.append(sent[0])
+	return acc
+
 
 def doGet():
 
