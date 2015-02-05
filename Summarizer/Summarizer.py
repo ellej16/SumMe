@@ -20,11 +20,12 @@ sentenceTh = 0
 
 
 
-sentences = [] # 0sentence number, 
-			#1the sentence, 
-			#2the tuples of words 0 = word 1 = pos 
-			#and their corresponding POS tags, and 
-			#the 3 language id
+sentences = []
+			# 0 sentence number, 
+			#1 the sentence, 
+			#2 the tuples of words 0 = word 1 = pos 
+			#  their corresponding POS tags, and 
+			# the 3 language id
 			#4when chunkSents is invoked chunks of the sentence is appended
 			#5when getTriple() is invoked svos of the sentence is appended
 			#6when getFreq() is invoked frequencies of the sentences is also appended(subjects only)
@@ -137,6 +138,8 @@ def getPOS(sent):
 		words.append(word)
 	return words
 
+
+
 def getFilPOS(sent):
 	words = []
 	return preprocessor.filposTagger(sent)
@@ -191,7 +194,26 @@ def getCandidSubjs(start, end):
 					elif svo.subj[0]==term[0]:
 						CandidSVO.append(svo)
 					elif svo.obj[0] == term[0]:
-						CandidSVO.append(svo) 
+						CandidSVO.append(svo)
+	clnCandSubjs(start,end)
+
+def clnCandSubjs(start,end):
+
+	global CandidSVO
+	global terms
+	dltMe = False
+	for svo in CandidSVO:
+		for term in terms[start:end]:
+			if(svo.subj[0]==term[0]):
+				continue
+			else:
+				dltMe = True
+		if dltMe:
+			CandidSVO.remove(svo)
+			dltMe = False
+
+
+
 def getAcSents():
 	global sentences
 	acc = []
@@ -227,6 +249,9 @@ def genSents():
 			nlg.setUp1(svo.subj[0],svo.verb[0],svo.obj[0],"past_participle")
 		elif svo.verb[1] in ["VBG"]:
 			nlg.setUp1(svo.subj[0],svo.verb[0],svo.obj[0],"present_participle")
+
+
+			
 class Docs:
 	def __init__(self, words,show):
 		self.words = words
