@@ -279,7 +279,7 @@ def genSents():
 			nlg.setUp1(svo.subj[0],svo.verb[0],svo.obj[0],"present_participle")
 
 
-if svo.verb[0] in subs:
+#if svo.verb[0] in subs:
 
 			
 class Docs:
