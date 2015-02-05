@@ -1,7 +1,10 @@
 'author pol'
 from PreProcessing import preprocessor
 import math
+from NLG.pynlg.realizer import Clause, ImperativeClause, PrepositionalPhrase, NounPhrase, SubjectPredicate, PredicateSubject, VerbPhrase
+from NLG.pynlg.lexicon import Word, XMLLexicon, Noun, Determiner, Adjective,Verb
 import NLG.Sample3 as nlg
+from nltk.tree import Tree
 #should contain these:
 #a list containing:
 	#sentence number,
@@ -56,7 +59,7 @@ def getSenScore(sent, isEnglish):
 	sentScore = 0
 	if isEnglish:
 		for word in sent[2]:
-			if word[1] in ["NN","NNS","NNP","NNPS","VBD","VBZ","VB", "VBN","VBG","VBP",
+			if word[1] in ["NN","NNS","NNP","NNPS","VBD","VBZ","VB", "VBN","VBG","VBP","MD",
 							"JJ","JJR","JJS"]:
 				sentScore = sentScore + 0.75
 			elif word[1] in ["RBR","RBS","RP","."]:
@@ -239,8 +242,33 @@ def doGet():
 
 def genSents():
 	global CandidSVO
+	global sentences
+	lsubj = []
+	lverb = []
+	nn =""
+	ob =""
 	for svo in CandidSVO:
 		print(str(svo.sNum),svo.subj[0]+" "+svo.verb[0]+" "+svo.obj[0])
+		#for trees in sentences[svo.sNum][4]:
+		#	if isinstance(trees,Tree):
+		#		for subs in trees.subtrees():
+		#			if subs.label()=="NP":
+		#				if svo.subj[0] in subs:
+		#					for  node in subs:
+		#						if node[1] =="DT":
+		#							lsubj.append(("det",node[0]))
+		#						elif node[1] in ["NN","NNS","NNP","NNPS"]:
+		#							nn+= node[0] +" "
+		#							continue
+		#				elif svo.obj[0] in subs:
+		#			elif subs.label() =="PP":
+		#				continue
+		#			elif subs.label() =="VP":
+		#				if svo.verb[0] in subs:
+		#					for  node in subs:
+		#						if node[1] in ["VBD","VBZ","VB", "VBN","VBG","VBP"]:
+		#							nn+= node[0] +" "
+		#							continue
 		if svo.verb[1] in ["VB","VBZ","VBP"]:
 			nlg.setUp1(svo.subj[0],svo.verb[0],svo.obj[0],"present")
 		elif svo.verb[1] in ["VBD"]:
@@ -250,6 +278,8 @@ def genSents():
 		elif svo.verb[1] in ["VBG"]:
 			nlg.setUp1(svo.subj[0],svo.verb[0],svo.obj[0],"present_participle")
 
+
+if svo.verb[0] in subs:
 
 			
 class Docs:
