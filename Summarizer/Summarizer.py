@@ -254,7 +254,10 @@ def genSents():
 				for subs in trees.subtrees():
 					if subs.label()=="NP":
 						Nphrases = []
-						if svo.subj[0] in subs.leaves():
+						npnoun = []
+						for n in subs.leaves():
+							npnoun.append(n[0])
+						if svo.subj[0] in npnoun:
 							for node in subs:
 								if node[1] =="DT":
 									Nphrases.append(node)
@@ -262,6 +265,7 @@ def genSents():
 									Nphrases.append(node)
 							lsubj.append(Nphrases) #try leaves later: if svo.subj[0] in subs.leaves()
 						elif svo.obj[0] in subs:
+							continue
 					elif subs.label() =="PP":
 						continue
 					elif subs.label() =="VP":
