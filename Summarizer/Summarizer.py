@@ -244,44 +244,38 @@ def genSents():
 	global CandidSVO
 	global sentences
 	lsubj = []
+	lobj = []
 	lverb = []
-	nn =""
-	ob =""
 	for svo in CandidSVO:
 		print(str(svo.sNum),svo.subj[0]+" "+svo.verb[0]+" "+svo.obj[0])
 		for trees in sentences[svo.sNum][4]:
 			if isinstance(trees,Tree):
 				for subs in trees.subtrees():
 					if subs.label()=="NP":
-						Nphrases = []
 						npnoun = []
 						for n in subs.leaves():
 							npnoun.append(n[0])
 						if svo.subj[0] in npnoun:
-							for node in subs:
-								if node[1] =="DT":
-									Nphrases.append(node)
-								elif node[1] in ["NN","NNS","NNP","NNPS"]:
-									Nphrases.append(node)
-							lsubj.append(Nphrases) #try leaves later: if svo.subj[0] in subs.leaves()
-						elif svo.obj[0] in subs:
-							continue
+							lsubj.append(subs)
+						elif svo.obj[0] in npnoun:
+							lobj.append(subs)
 					elif subs.label() =="PP":
 						continue
 					elif subs.label() =="VP":
-						if svo.verb[0] in subs:
-							for  node in subs:
-								if node[1] in ["VBD","VBZ","VB", "VBN","VBG","VBP"]:
-									nn+= node[0] +" "
-									continue
-		if svo.verb[1] in ["VB","VBZ","VBP"]:
-			nlg.setUp1(svo.subj[0],svo.verb[0],svo.obj[0],"present")
-		elif svo.verb[1] in ["VBD"]:
-			nlg.setUp1(svo.subj[0],svo.verb[0],svo.obj[0],"past")
-		elif svo.verb[1] in ["VBN"]:
-			nlg.setUp1(svo.subj[0],svo.verb[0],svo.obj[0],"past_participle")
-		elif svo.verb[1] in ["VBG"]:
-			nlg.setUp1(svo.subj[0],svo.verb[0],svo.obj[0],"present_participle")
+						vpverb = []
+						for v in subs.leaves():
+							vpverb.append(v[0])
+						if svo.verb[0] in vpverb:
+							lverb.append(subs)
+
+#	if svo.verb[1] in ["VB","VBZ","VBP"]:
+#		nlg.setUp1(svo.subj[0],svo.verb[0],svo.obj[0],"present")
+#	elif svo.verb[1] in ["VBD"]:
+#		nlg.setUp1(svo.subj[0],svo.verb[0],svo.obj[0],"past")
+#	elif svo.verb[1] in ["VBN"]:
+#		nlg.setUp1(svo.subj[0],svo.verb[0],svo.obj[0],"past_participle")
+#	elif svo.verb[1] in ["VBG"]:
+#		nlg.setUp1(svo.subj[0],svo.verb[0],svo.obj[0],"present_participle")
 
 
 #if svo.verb[0] in subs:
