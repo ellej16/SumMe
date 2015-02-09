@@ -334,14 +334,14 @@ def genSents():
 #								nn+=n[0]+" "
 #								redundant.append(n[0])
 #						Ophrase = NounPhrase(nn,Det,adjs)
-			dis.append((Nphrase,vps))
-			gen+= Nphrase.realize()+" "
-			for vph in vps:
-				if vps.index(vph) == (len(vps)-1):
-					vph.add_object(Noun(svo.obj[0]))
-					gen+=vph.realize()
-				else:
-					gen+=vph.realize()
+				dis.append((Nphrase,vps))
+				gen+= Nphrase.realize()+" "
+				for vph in vps:
+					if vps.index(vph) == (len(vps)-1):
+						vph.add_object(Noun(svo.obj[0]))
+						gen+=vph.realize()
+					else:
+						gen+=vph.realize()
 							#gen+=" "+Ophrase.realize()
 						
 		lsubj=[]
