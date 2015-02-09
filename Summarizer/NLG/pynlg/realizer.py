@@ -177,7 +177,6 @@ class NounPhrase():
     
     def set_number(self, n):
         self.number = n
-    
     def realize_possessive(self):
         np = []
         if self.determiner:

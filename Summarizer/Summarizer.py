@@ -241,8 +241,11 @@ def doGet():
 	print(sentenceTh)
 
 def genSents():
+
+	gen = Clause()
 	global CandidSVO
 	global sentences
+	lex = XMLLexicon()
 	lsubj = []
 	lobj = []
 	lverb = []
@@ -267,6 +270,12 @@ def genSents():
 							vpverb.append(v[0])
 						if svo.verb[0] in vpverb:
 							lverb.append(subs)
+			for np in lsubj:
+				for n in np.leaves():
+					if n
+				for vp in lverb:
+					for op in lobj:
+						gen.realize()
 
 #	if svo.verb[1] in ["VB","VBZ","VBP"]:
 #		nlg.setUp1(svo.subj[0],svo.verb[0],svo.obj[0],"present")
