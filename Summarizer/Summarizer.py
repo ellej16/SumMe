@@ -285,41 +285,44 @@ def genSents():
 			for n in np.leaves():
 				adjs = []
 				if n[1] in ["NN","NNS","NNP","NNPS"]:
-					if n[1] not in redundant:
+					if n[0] not in redundant:
 						nn+=n[0]+" "
-						redundant.append(n[1])
+						redundant.append(n[0])
 				elif n[1] in ["DT"]:
 					Det = n[0]
 				elif n[1] in ["JJR","JJ","JJS"]:
 					adjs.append(n[0])
 				else:
-					if n[1] not in redundant:
+					if n[0] not in redundant:
 						nn+=n[0]+" "
-						redundant.append(n[1])
+						redundant.append(n[0])
 			Nphrase = NounPhrase(nn,Det,adjs)
 			for vp in lverb:
 				vps = []
+				redundant = []
 				for v in vp.leaves():
 					if v[1] in ["VBD","VBZ","VB", "VBN","VBG","VBP"]:
-						print(v[0])
-						vps.append(VerbPhrase(lex.getWordFromVariant(v[0],"VERB")))
+						if v[0] not in redundant:
+							redundant.appen(v[0])
+							vps.append(VerbPhrase(lex.getWordFromVariant(v[0],"VERB")))
+							redundant.app(v[0])
 					for op in lobj:
 						nn =""
 						redundant = []
 						for o in op.leaves():
 							adjs = []
 							if n[1] in ["NN","NNS","NNP","NNPS"]:
-								if n[1] not in redundant:
+								if n[0] not in redundant:
 									nn+=n[0]+" "
-									redundant.append(n[1])
+									redundant.append(n[0])
 							elif n[1] in ["DT"]:
 								Det = n[0]
 							elif n[1] in ["JJR","JJ","JJS"]:
 								adjs.append(n[0])
 							else:
-								if n[1] not in redundant:
+								if n[0] not in redundant:
 									nn+=n[0]+" "
-									redundant.append(n[1])
+									redundant.append(n[0])
 						Ophrase = NounPhrase(nn,Det,adjs)
 						gen+= Nphrase.realize()+" "
 						for vph in vps:
