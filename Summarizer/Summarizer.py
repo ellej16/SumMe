@@ -305,7 +305,16 @@ def genSents():
 				for v in vp.leaves():
 					if v[1] in ["VBD","VBZ","VB", "VBN","VBG","VBP"]:
 						if v[0] not in redundant:
-							vps.append(VerbPhrase(lex.getWordFromVariant(v[0],"VERB")))
+							phrase = VerbPhrase(lex.getWordFromVariant(v[0],"VERB"))
+							if v[1] in ["VB","VBZ","VBP"]:
+								phrase.set_tense("present")
+							elif v[1] in ["VBD"]:
+								phrase.set_tense("past")
+							elif v[1] in ["VBN"]:
+								phrase.set_tense("past_participle")
+							elif v[1] in ["VBG"]:
+								phrase.set_tense("present_participle")
+							vps.append(phrase)
 							redundant.append(v[0])
 #				for op in lobj:
 #					nn =""
