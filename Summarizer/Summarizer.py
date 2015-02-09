@@ -240,6 +240,11 @@ def doGet():
 	getSenThreshold()
 	print(sentenceTh)
 
+def doGetAll():
+	doGet()
+	getCandidSubjs(None,10)
+	genSents()
+
 def genSents():
 
 	
@@ -280,17 +285,17 @@ def genSents():
 			for n in np.leaves():
 				adjs = []
 				if n[1] in ["NN","NNS","NNP","NNPS"]:
-					redundant.append(n[1])
 					if n[1] not in redundant:
 						nn+=n[0]+" "
+						redundant.append(n[1])
 				elif n[1] in ["DT"]:
 					Det = n[0]
 				elif n[1] in ["JJR","JJ","JJS"]:
 					adjs.append(n[0])
 				else:
-					redundant.append(n[1])
 					if n[1] not in redundant:
 						nn+=n[0]+" "
+						redundant.append(n[1])
 			Nphrase = NounPhrase(nn,Det,adjs)
 			for vp in lverb:
 				vps = []
@@ -304,22 +309,22 @@ def genSents():
 						for o in op.leaves():
 							adjs = []
 							if n[1] in ["NN","NNS","NNP","NNPS"]:
-								redundant.append(n[1])
 								if n[1] not in redundant:
 									nn+=n[0]+" "
+									redundant.append(n[1])
 							elif n[1] in ["DT"]:
 								Det = n[0]
 							elif n[1] in ["JJR","JJ","JJS"]:
 								adjs.append(n[0])
 							else:
-								redundant.append(n[1])
 								if n[1] not in redundant:
 									nn+=n[0]+" "
+									redundant.append(n[1])
 						Ophrase = NounPhrase(nn,Det,adjs)
-						gen+= Nphrase.realize()
+						gen+= Nphrase.realize()+" "
 						for vph in vps:
 							gen+=vph.realize()
-						gen+=Ophrase.realize()
+						gen+=" "+Ophrase.realize()
 						print(gen)
 		lsubj=[]
 		lobj=[]
