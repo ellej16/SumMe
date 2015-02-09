@@ -368,10 +368,11 @@ def genSents():
 #if svo.verb[0] in subs:
 def gvSumme():
 	for sent in sentences:
+		senens= ""
 		for item in summary:
 			if item[0] == sent[0]:
-				print(item[1])
-		print(".")
+				senens+=item[1]
+		print(senens+".")
 			
 class Docs:
 	def __init__(self, words,show):
