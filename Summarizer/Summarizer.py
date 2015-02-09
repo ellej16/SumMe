@@ -342,6 +342,7 @@ def genSents():
 						gen+=vph.realize()
 					else:
 						gen+=vph.realize()
+				print(gen)
 							#gen+=" "+Ophrase.realize()
 						
 		lsubj=[]
