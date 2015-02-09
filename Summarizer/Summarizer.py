@@ -242,7 +242,8 @@ def doGet():
 
 def genSents():
 
-	gen = Clause()
+	
+
 	global CandidSVO
 	global sentences
 	lex = XMLLexicon()
@@ -270,13 +271,59 @@ def genSents():
 							vpverb.append(v[0])
 						if svo.verb[0] in vpverb:
 							lverb.append(subs)
-			for np in lsubj:
-				for n in np.leaves():
-					if n
-				for vp in lverb:
-					for op in lobj:
-						gen.realize()
 
+		for np in lsubj:
+			gen = ""
+			nn =""
+			redundant = []
+			Det = None
+			for n in np.leaves():
+				adjs = []
+				if n[1] in ["NN","NNS","NNP","NNPS"]:
+					redundant.append(n[1])
+					if n[1] not in redundant:
+						nn+=n[0]+" "
+				elif n[1] in ["DT"]:
+					Det = n[0]
+				elif n[1] in ["JJR","JJ","JJS"]:
+					adjs.append(n[0])
+				else:
+					redundant.append(n[1])
+					if n[1] not in redundant:
+						nn+=n[0]+" "
+			Nphrase = NounPhrase(nn,Det,adjs)
+			for vp in lverb:
+				vps = []
+				for v in vp.leaves():
+					if v[1] in ["VBD","VBZ","VB", "VBN","VBG","VBP"]:
+						print(v[0])
+						vps.append(VerbPhrase(lex.getWordFromVariant(v[0],"VERB")))
+					for op in lobj:
+						nn =""
+						redundant = []
+						for o in op.leaves():
+							adjs = []
+							if n[1] in ["NN","NNS","NNP","NNPS"]:
+								redundant.append(n[1])
+								if n[1] not in redundant:
+									nn+=n[0]+" "
+							elif n[1] in ["DT"]:
+								Det = n[0]
+							elif n[1] in ["JJR","JJ","JJS"]:
+								adjs.append(n[0])
+							else:
+								redundant.append(n[1])
+								if n[1] not in redundant:
+									nn+=n[0]+" "
+						Ophrase = NounPhrase(nn,Det,adjs)
+						gen+= Nphrase.realize()
+						for vph in vps:
+							gen+=vph.realize()
+						gen+=Ophrase.realize()
+						print(gen)
+		lsubj=[]
+		lobj=[]
+		lverb=[]
 #	if svo.verb[1] in ["VB","VBZ","VBP"]:
 #		nlg.setUp1(svo.subj[0],svo.verb[0],svo.obj[0],"present")
 #	elif svo.verb[1] in ["VBD"]:

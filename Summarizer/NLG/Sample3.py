@@ -8,7 +8,8 @@ def setUp1(noun, verb, obj, tense):
 	s1 = Clause()
 	try:
 		np_sub = s1.add_subject(lex.getWord(noun,"NOUN"))
-		np_sub.add_determiner(lex.getWord("the")) vp_play = s1.add_verb(lex.getWordFromVariant(verb, "VERB"))
+		np_sub.add_determiner(lex.getWord("the")) 
+		vp_play = s1.add_verb(lex.getWordFromVariant(verb, "VERB"))
 
 		#if none
 		np_guitar = vp_play.add_object(lex.getWord(obj,"NOUN"))
