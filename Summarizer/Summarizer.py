@@ -252,6 +252,8 @@ def genSents():
 	global CandidSVO
 	global sentences
 	global dis
+	global summary
+	summary = []
 	dis = []
 	lex = XMLLexicon()
 	lsubj = []
@@ -278,7 +280,8 @@ def genSents():
 							vpverb.append(v[0])
 						if svo.verb[0] in vpverb:
 							lverb.append(subs)
-
+#reminder try getting all them pos tags
+#and try getting the object part too
 		for np in lsubj:
 			gen = ""
 			nn =""
@@ -334,6 +337,7 @@ def genSents():
 #								nn+=n[0]+" "
 #								redundant.append(n[0])
 #						Ophrase = NounPhrase(nn,Det,adjs)
+				#printing function
 				dis.append((Nphrase,vps))
 				gen+= Nphrase.realize()+" "
 				for vph in vps:
@@ -342,7 +346,10 @@ def genSents():
 						gen+=vph.realize()
 					else:
 						gen+=vph.realize()
+				summary.append((svo.sNum,gen))
 				print(gen)
+				#printing function
+		
 							#gen+=" "+Ophrase.realize()
 						
 		lsubj=[]
@@ -359,7 +366,12 @@ def genSents():
 
 
 #if svo.verb[0] in subs:
-
+def gvSumme():
+	for sent in sentences:
+		for item in summary:
+			if item[0] == sent[0]:
+				print(item[1])
+		print(".")
 			
 class Docs:
 	def __init__(self, words,show):
