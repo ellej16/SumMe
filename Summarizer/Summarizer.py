@@ -343,19 +343,16 @@ def genSents():
 				dis.append((Nphrase,vps,))
 				gen+= Nphrase.realize()+" "
 				for vph in vps:
-					try:
-						vph.add_object(ops[vps.index(vph)])
+					for oph in ops:
+						vph.add_object(oph)
 						gen+=vph.realize()
-					except Exception as dat:
-						print(type(dat))
-						print(dat.args)
-						pass
+						summary.append((svo.sNum,gen))
 #					if vps.index(vph) == (len(vps)-1):
 #						vph.add_object(Ophrase)
 #						gen+=vph.realize()
 #					else:
 #						gen+=vph.realize()
-				summary.append((svo.sNum,gen))
+				
 				print(gen)
 				#printing function
 		
