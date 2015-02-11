@@ -270,8 +270,8 @@ def genSents():
 							npnoun.append(n[0])
 						if svo.subj[0] in npnoun:
 							lsubj.append(subs)
-						#elif svo.obj[0] in npnoun:
-						#	lobj.append(subs)
+						elif svo.obj[0] in npnoun:
+							lobj.append(subs)
 					elif subs.label() =="PP":
 						continue
 					elif subs.label() =="VP":
@@ -319,33 +319,42 @@ def genSents():
 								phrase.set_tense("present_participle")
 							vps.append(phrase)
 							redundant.append(v[0])
-#				for op in lobj:
-#					nn =""
-#					redundant = []
-#					for o in op.leaves():
-#						adjs = []
-#						if n[1] in ["NN","NNS","NNP","NNPS"]:
-#							if n[0] not in redundant:
-#								nn+=n[0]+" "
-#								redundant.append(n[0])
-#						elif n[1] in ["DT"]:
-#							Det = n[0]
-#						elif n[1] in ["JJR","JJ","JJS"]:
-#							adjs.append(n[0])
-#						else:
-#							if n[0] not in redundant:
-#								nn+=n[0]+" "
-#								redundant.append(n[0])
-#						Ophrase = NounPhrase(nn,Det,adjs)
+				ops = []
+				for op in lobj:
+					nn =""
+					redundant = []
+					for o in op.leaves():
+						adjs = []
+						if n[1] in ["NN","NNS","NNP","NNPS"]:
+							if n[0] not in redundant:
+								nn+=n[0]+" "
+								redundant.append(n[0])
+						elif n[1] in ["DT"]:
+							Det = n[0]
+						elif n[1] in ["JJR","JJ","JJS"]:
+							adjs.append(n[0])
+						else:
+							if n[0] not in redundant:
+								nn+=n[0]+" "
+								redundant.append(n[0])
+						Ophrase = NounPhrase(nn,Det,adjs)
+						ops.append(Ophrase)
 				#printing function
-				dis.append((Nphrase,vps))
+				dis.append((Nphrase,vps,))
 				gen+= Nphrase.realize()+" "
 				for vph in vps:
-					if vps.index(vph) == (len(vps)-1):
-						vph.add_object(Noun(svo.obj[0]))
+					try:
+						vph.add_object(ops[vps.index(vph)])
 						gen+=vph.realize()
-					else:
-						gen+=vph.realize()
+					except Exception as dat:
+						print(type(dat))
+						print(dat.args)
+						pass
+#					if vps.index(vph) == (len(vps)-1):
+#						vph.add_object(Ophrase)
+#						gen+=vph.realize()
+#					else:
+#						gen+=vph.realize()
 				summary.append((svo.sNum,gen))
 				print(gen)
 				#printing function
@@ -375,6 +384,7 @@ def gvSumme():
 		print(senens+".")
 			
 class Docs:
+	
 	def __init__(self, words,show):
 		self.words = words
 		self.show = show
