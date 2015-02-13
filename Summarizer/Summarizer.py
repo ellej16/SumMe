@@ -28,7 +28,7 @@ ActualSum = []
 
 sentences = []
 			# 0 sentence number, 
-			#1 the sentence, 
+			#1 the sentence, 5
 			#2 the tuples of words 0 = word 1 = pos 
 			#  their corresponding POS tags, and 
 			# the 3 language id
@@ -399,6 +399,7 @@ def getIdealSent(num):
 	global sumTh
 	sent = []
 	ideal = ""
+	lsidea = []
 	for sents in summary:
 		if num == sents[0]:
 			sent.append(sents)
@@ -410,7 +411,10 @@ def getIdealSent(num):
 	getSumTh(sent)
 	for sents in sent:
 		if sents[2] >= sumTh:
-			ideal = ideal + " "+sents[1]
+			if sents[1] not in lsidea:
+				lsidea.append(sents[1])
+				ideal = ideal+ " "+sents[1]
+	ideal = ideal +"."
 	return ideal
 
 
