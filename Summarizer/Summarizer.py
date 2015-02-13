@@ -18,9 +18,12 @@ global sentences
 global terms
 global sentenceTh
 global CandidSVO
+global sumTh
+global ActualSum
 
+sumTh = 0
 sentenceTh = 0
-
+ActualSum = []
 
 
 sentences = []
@@ -309,8 +312,10 @@ def genSents():
 					if v[1] in ["VBD","VBZ","VB", "VBN","VBG","VBP"]:
 						if v[0] not in redundant:
 							phrase = VerbPhrase(lex.getWordFromVariant(v[0],"VERB"))
-							if v[1] in ["VB","VBZ","VBP"]:
+							if v[1] in ["VB"]:
 								phrase.set_tense("present")
+							elif v[1] in ["VBZ","VBP"]:
+								phrase.set_tense("infinitive")
 							elif v[1] in ["VBD"]:
 								phrase.set_tense("past")
 							elif v[1] in ["VBN"]:
@@ -319,40 +324,39 @@ def genSents():
 								phrase.set_tense("present_participle")
 							vps.append(phrase)
 							redundant.append(v[0])
-				ops = []
-				for op in lobj:
-					nn =""
-					redundant = []
-					for o in op.leaves():
-						adjs = []
-						if n[1] in ["NN","NNS","NNP","NNPS"]:
-							if n[0] not in redundant:
-								nn+=n[0]+" "
-								redundant.append(n[0])
-						elif n[1] in ["DT"]:
-							Det = n[0]
-						elif n[1] in ["JJR","JJ","JJS"]:
-							adjs.append(n[0])
-						else:
-							if n[0] not in redundant:
-								nn+=n[0]+" "
-								redundant.append(n[0])
-						Ophrase = NounPhrase(nn,Det,adjs)
-						ops.append(Ophrase)
+#				ops = []
+#				for op in lobj:
+#					nn =""
+#					redundant = []
+#					for o in op.leaves():
+#						adjs = []
+#						if n[1] in ["NN","NNS","NNP","NNPS"]:
+#							if n[0] not in redundant:
+#								nn+=n[0]+" "
+#								redundant.append(n[0])
+#						elif n[1] in ["DT"]:
+#							Det = n[0]
+#						elif n[1] in ["JJR","JJ","JJS"]:
+#							adjs.append(n[0])
+#						else:
+#							if n[0] not in redundant:
+#								nn+=n[0]+" "
+#								redundant.append(n[0])
+#						Ophrase = NounPhrase(nn,Det,adjs)
+#						ops.append(Ophrase)
 				#printing function
-				dis.append((Nphrase,vps,))
+				dis.append((Nphrase,vps))
 				gen+= Nphrase.realize()+" "
 				for vph in vps:
-					for oph in ops:
-						vph.add_object(oph)
-						gen+=vph.realize()
-						summary.append((svo.sNum,gen))
-#					if vps.index(vph) == (len(vps)-1):
-#						vph.add_object(Ophrase)
+#					for oph in ops:
+#						vph.add_object(oph)
 #						gen+=vph.realize()
-#					else:
-#						gen+=vph.realize()
-				
+					if vps.index(vph) == (len(vps)-1):
+						vph.add_object(Noun(svo.obj[0]))
+						gen+=vph.realize()+" "
+					else:
+						gen+=vph.realize()+" "
+				summary.append([svo.sNum,gen])
 				print(gen)
 				#printing function
 		
@@ -369,6 +373,82 @@ def genSents():
 #		nlg.setUp1(svo.subj[0],svo.verb[0],svo.obj[0],"past_participle")
 #	elif svo.verb[1] in ["VBG"]:
 #		nlg.setUp1(svo.subj[0],svo.verb[0],svo.obj[0],"present_participle")
+
+def gvActSum():
+
+	global summary
+	global ActualSum
+	global sumTh
+	senens = []
+	senNum = []
+	for sent in summary:
+		if sent[0] in senNum:
+			continue
+		else:
+			senNum.append(sent[0])
+	for rapi in senNum:
+		ActualSum.append(getIdealSent(rapi))
+	for test in ActualSum:
+		print(test)
+
+
+
+def getIdealSent(num):
+	global summary
+	global sentences
+	global sumTh
+	sent = []
+	ideal = ""
+	for sents in summary:
+		if num == sents[0]:
+			sent.append(sents)
+	for sents in sent:
+		if sentences[sents[0]][3] =="en":
+			sents.append(getSumScore(True,sents[1]))
+		else:
+			sents.append(getSumScore(False,sents[1]))
+	getSumTh(sent)
+	for sents in sent:
+		if sents[2] >= sumTh:
+			ideal = ideal + " "+sents[1]
+	return ideal
+
+
+
+
+def getSumFreq():
+	pass
+def getSumIDF():
+	pass
+def getSumTh(lst):
+	global sumTh
+	for sent in lst:
+		sumTh = sumTh + sent[2]
+	sumTh = sumTh/len(lst)
+	return sumTh
+def getSumScore(isEnglish, sent):
+	sentScore = 0
+	if isEnglish:
+		for word in getPOS(sent):
+			if word[1] in ["NN","NNS","NNP","NNPS","VBD","VBZ","VB", "VBN","VBG","VBP","MD",
+							"JJ","JJR","JJS"]:
+				sentScore = sentScore + 0.75
+			elif word[1] in ["RBR","RBS","RP","."]:
+				sentScore  = sentScore + 0.25
+			else:
+				sentScore = sentScore + 0.50
+	else:
+		for word in getFilPOS(preprocessor.tokenizer(sent)):
+			if word[1] in ["NN","NNS","NNP","NNPS","VBD","VBZ","VB", "VBN","VBG","VBP","MD",
+							"JJ","JJR","JJS"]:
+				sentScore = sentScore + 0.75
+			elif word[1] in ["RBR","RBS","RP","."]:
+				sentScore  = sentScore + 0.25
+			else:
+				sentScore = sentScore + 0.50
+	sentScore = sentScore/len(sent[2])
+	return sentScore
+
 
 
 #if svo.verb[0] in subs:
