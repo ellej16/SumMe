@@ -256,6 +256,7 @@ def genSents():
 	global sentences
 	global dis
 	global summary
+	global opha
 	summary = []
 	dis = []
 	lex = XMLLexicon()
@@ -305,6 +306,7 @@ def genSents():
 						nn+=n[0]+" "
 						redundant.append(n[0])
 			Nphrase = NounPhrase(nn,Det,adjs)
+			vebs = []
 			for vp in lverb:
 				vps = []
 				redundant = []
@@ -324,40 +326,44 @@ def genSents():
 								phrase.set_tense("present_participle")
 							vps.append(phrase)
 							redundant.append(v[0])
-#				ops = []
-#				for op in lobj:
-#					nn =""
-#					redundant = []
-#					for o in op.leaves():
-#						adjs = []
-#						if n[1] in ["NN","NNS","NNP","NNPS"]:
-#							if n[0] not in redundant:
-#								nn+=n[0]+" "
-#								redundant.append(n[0])
-#						elif n[1] in ["DT"]:
-#							Det = n[0]
-#						elif n[1] in ["JJR","JJ","JJS"]:
-#							adjs.append(n[0])
-#						else:
-#							if n[0] not in redundant:
-#								nn+=n[0]+" "
-#								redundant.append(n[0])
-#						Ophrase = NounPhrase(nn,Det,adjs)
-#						ops.append(Ophrase)
+				vebs.append(vps)
+			opha = []
+			for op in lobj:
+				ops = []
+				nn =""
+				redundant = []
+				for o in op.leaves():
+					adjs = []
+					if n[1] in ["NN","NNS","NNP","NNPS"]:
+						if n[0] not in redundant:
+							nn+=n[0]+" "
+							redundant.append(n[0])
+					elif n[1] in ["DT"]:
+						Det = n[0]
+					elif n[1] in ["JJR","JJ","JJS"]:
+						adjs.append(n[0])
+					else:
+						if n[0] not in redundant:
+							nn+=n[0]+" "
+							redundant.append(n[0])
+					Ophrase = NounPhrase(nn,Det,adjs)
+					ops.append(Ophrase)
+				opha.append(ops)
 				#printing function
 				dis.append((Nphrase,vps))
-				gen+= Nphrase.realize()+" "
-				for vph in vps:
-#					for oph in ops:
-#						vph.add_object(oph)
-#						gen+=vph.realize()
-					if vps.index(vph) == (len(vps)-1):
-						vph.add_object(Noun(svo.obj[0]))
-						gen+=vph.realize()+" "
-					else:
-						gen+=vph.realize()+" "
-				summary.append([svo.sNum,gen])
-				print(gen)
+				gen = ""
+				for vps in vebs:
+					gen+= Nphrase.realize()+" "
+					for vph in vps:
+						if vps.index(vph) == (len(vps)-1):
+							for op in ops:
+								print(op.realize())
+								vph.add_object(op)
+							gen+=vph.realize()+" "
+						else:
+							gen+=vph.realize()+" "
+					summary.append([svo.sNum,gen])
+					print(gen)
 				#printing function
 		
 							#gen+=" "+Ophrase.realize()
@@ -398,6 +404,7 @@ def getIdealSent(num):
 	global sentences
 	global sumTh
 	sent = []
+	sent2 = []
 	ideal = ""
 	lsidea = []
 	for sents in summary:
@@ -461,7 +468,7 @@ def gvSumme():
 		senens= ""
 		for item in summary:
 			if item[0] == sent[0]:
-				senens+=item[1]
+				senens+=item[1]	
 		print(senens+".")
 			
 class Docs:
