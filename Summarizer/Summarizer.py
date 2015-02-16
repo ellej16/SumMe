@@ -336,18 +336,18 @@ def genSents():
 				redundant = []
 				for o in op.leaves():
 					adjs = []
-					if n[1] in ["NN","NNS","NNP","NNPS"]:
-						if n[0] not in redundant:
+					if o[1] in ["NN","NNS","NNP","NNPS"]:
+						if o[0] not in redundant:
 							nn+=n[0]+" "
 							redundant.append(n[0])
-					elif n[1] in ["DT"]:
+					elif o[1] in ["DT"]:
 						Det = n[0]
-					elif n[1] in ["JJR","JJ","JJS"]:
-						adjs.append(n[0])
+					elif o[1] in ["JJR","JJ","JJS"]:
+						adjs.append(o[0])
 					else:
-						if n[0] not in redundant:
-							nn+=n[0]+" "
-							redundant.append(n[0])
+						if o[0] not in redundant:
+							nn+=o[0]+" "
+							redundant.append(o[0])
 					Ophrase = NounPhrase(nn,Det,adjs)
 					ops.append(Ophrase)
 				opha.append([ops,svo.sNum])
