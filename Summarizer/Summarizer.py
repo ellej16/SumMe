@@ -257,6 +257,7 @@ def genSents():
 	global dis
 	global summary
 	global opha
+	opha = []
 	summary = []
 	dis = []
 	lex = XMLLexicon()
@@ -286,6 +287,7 @@ def genSents():
 							lverb.append(subs)
 #reminder try getting all them pos tags
 #and try getting the object part too
+		
 		for np in lsubj:
 			gen = ""
 			nn =""
@@ -327,7 +329,7 @@ def genSents():
 							vps.append(phrase)
 							redundant.append(v[0])
 				vebs.append(vps)
-			opha = []
+			
 			for op in lobj:
 				ops = []
 				nn =""
@@ -348,7 +350,7 @@ def genSents():
 							redundant.append(n[0])
 					Ophrase = NounPhrase(nn,Det,adjs)
 					ops.append(Ophrase)
-				opha.append(ops)
+				opha.append([ops,svo.sNum])
 				#printing function
 				dis.append((Nphrase,vps))
 				gen = ""
