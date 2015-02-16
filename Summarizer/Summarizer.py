@@ -336,12 +336,13 @@ def genSents():
 				redundant = []
 				for o in op.leaves():
 					adjs = []
+					print(o)
 					if o[1] in ["NN","NNS","NNP","NNPS"]:
 						if o[0] not in redundant:
-							nn+=n[0]+" "
+							nn+=o[0]+" "
 							redundant.append(n[0])
 					elif o[1] in ["DT"]:
-						Det = n[0]
+						Det = o[0]
 					elif o[1] in ["JJR","JJ","JJS"]:
 						adjs.append(o[0])
 					else:
