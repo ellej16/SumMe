@@ -345,6 +345,7 @@ def genSents():
 						Det = o[0]
 					elif o[1] in ["JJR","JJ","JJS"]:
 						adjs.append(o[0])
+						nn+=o[0]+" "
 					else:
 						if o[0] not in redundant:
 							nn+=o[0]+" "
