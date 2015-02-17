@@ -443,7 +443,9 @@ def getSumTh(lst):
 	return sumTh
 def getSumScore(isEnglish, sent):
 	sentScore = 0
+	lent = 0
 	if isEnglish:
+		lent = len(getPOS(sent))
 		for word in getPOS(sent):
 			if word[1] in ["NN","NNS","NNP","NNPS","VBD","VBZ","VB", "VBN","VBG","VBP","MD",
 							"JJ","JJR","JJS"]:
@@ -453,6 +455,7 @@ def getSumScore(isEnglish, sent):
 			else:
 				sentScore = sentScore + 0.50
 	else:
+		lent = preprocessor.tokenizer(sent)
 		for word in getFilPOS(preprocessor.tokenizer(sent)):
 			if word[1] in ["NN","NNS","NNP","NNPS","VBD","VBZ","VB", "VBN","VBG","VBP","MD",
 							"JJ","JJR","JJS"]:
@@ -461,7 +464,7 @@ def getSumScore(isEnglish, sent):
 				sentScore  = sentScore + 0.25
 			else:
 				sentScore = sentScore + 0.50
-	sentScore = sentScore/len(sent[2])
+	sentScore = sentScore/lent#len(sent[2])
 	return sentScore
 
 
