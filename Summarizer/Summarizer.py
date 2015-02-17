@@ -354,7 +354,7 @@ def genSents():
 					ops.append(Ophrase)
 				opha.append([ops,svo.sNum])
 				#printing function
-				dis.append((Nphrase,vps))
+				# not sedis.append((Nphrase,vps)) not used
 				gen = ""
 				for vps in vebs:
 					gen+= Nphrase.realize()+" "
@@ -388,8 +388,7 @@ def gvActSum():
 
 	global summary
 	global ActualSum
-	global sumTh
-	senens = []
+
 	senNum = []
 	for sent in summary:
 		if sent[0] in senNum:
@@ -397,9 +396,50 @@ def gvActSum():
 		else:
 			senNum.append(sent[0])
 	for rapi in senNum:
-		ActualSum.append(getIdealSent(rapi))
+		if getIdealSent(rapi) != ".":
+			ActualSum.append(getIdealSent(rapi))
 	for test in ActualSum:
 		print(test)
+
+#def gvActSums():
+#	global summary
+#	global sentences
+#	global sumTh
+#	global ActualStuff
+#	process = []
+#	ActualStuff = []
+#	senNum = []
+#	lsidea = []
+#	senens = []
+#	for sent in summary:
+#		if sent[0] in senNum:
+#			continue
+#		else:
+#			senNum.append(sent[0])#
+
+#	for num in sentNum:
+#		for sent in summary:
+#			if num == sent[0]:
+#				process.append(sent)
+#		for sents in process:
+#			if sentences[sents[0]][3] =="en":
+#				sents.append(getSumScore(True,sents[1]))
+#			else:
+#				sents.append(getSumScore(False,sents[1]))
+#		getSumTh(sent)
+#		for sents in process:
+#			if sents[2] >= sumTh:
+#				if sents[1] not in lsidea:
+#					lsidea.append(sents[1])
+#					senens.append(sents)
+#			ActualStuff.append(senens)
+#	for d in senens:
+#		print("Summary:\n")
+#		for s in d:
+
+
+
+
 
 
 
@@ -424,7 +464,9 @@ def getIdealSent(num):
 		if sents[2] >= sumTh:
 			if sents[1] not in lsidea:
 				lsidea.append(sents[1])
-				ideal = ideal+ " "+sents[1]
+				#print(sents[2])
+				ideal = sents[1]
+
 	ideal = ideal +"."
 	return ideal
 
@@ -446,6 +488,7 @@ def getSumScore(isEnglish, sent):
 	lent = 0
 	if isEnglish:
 		lent = len(getPOS(sent))
+		print(lent)
 		for word in getPOS(sent):
 			if word[1] in ["NN","NNS","NNP","NNPS","VBD","VBZ","VB", "VBN","VBG","VBP","MD",
 							"JJ","JJR","JJS"]:
