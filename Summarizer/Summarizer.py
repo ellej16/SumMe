@@ -319,96 +319,180 @@ def genSents():
 							lverb.append(subs)
 #reminder try getting all them pos tags
 #and try getting the object part too
-		
-		for np in lsubj:
-			gen = ""
-			nn =""
-			redundant = []
-			Det = None
-			for n in np.leaves():
-				adjs = []
-				if n[1] in ["NN","NNS","NNP","NNPS"]:
-					if n[0] not in redundant:
-						nn+=n[0]+" "
-						redundant.append(n[0])
-				elif n[1] in ["DT"]:
-					Det = n[0]
-				elif n[1] in ["JJR","JJ","JJS"]:
-					adjs.append(n[0])
-				else:
-					if n[0] not in redundant:
-						nn+=n[0]+" "
-						redundant.append(n[0])
-			Nphrase = NounPhrase(nn,Det,adjs)
-			vebs = []
-			for vp in lverb:
-				vps = []
-				redundant = []
-				for v in vp.leaves():
-					if v[1] in ["VBD","VBZ","VB", "VBN","VBG","VBP","MD"]:
-						if v[0] not in redundant:
-							if v[1] not in ["MD"]:
-								phrase = VerbPhrase(lex.getWordFromVariant(v[0],"VERB"))
-							else:
-								phrase = VerbPhrase(lex.getWordFromVariant(v[0],"MODAL"))
-							if v[1] in ["VB"]:
-								phrase.set_tense("present")
-							elif v[1] in ["VBZ","VBP"]:
-								phrase.set_tense("infinitive")
-							elif v[1] in ["VBD"]:
-								phrase.set_tense("past")
-							elif v[1] in ["VBN"]:
-								phrase.set_tense("past_participle")
-							elif v[1] in ["VBG"]:
-								phrase.set_tense("present_participle")
-							elif v[1] in ["MD"]:
-								if lex.getWordFromVariant(v[0],"MODAL").base == v[0]:
-									phrase.set_tense("present")
-								else:
-									phrase.set_tense("past")
-							vps.append(phrase)
-							redundant.append(v[0])
-				vebs.append(vps)
-			
-			for op in lobj:
-				ops = []
+		if sentences[svo.sNum][3] == "en" or not in ["tl"]:
+			for np in lsubj:
+				gen = ""
 				nn =""
 				redundant = []
-				for o in op.leaves():
+				Det = None
+				for n in np.leaves():
 					adjs = []
-					print(o)
-					if o[1] in ["NN","NNS","NNP","NNPS"]:
-						if o[0] not in redundant:
-							nn+=o[0]+" "
+					if n[1] in ["NN","NNS","NNP","NNPS"]:
+						if n[0] not in redundant:
+							nn+=n[0]+" "
 							redundant.append(n[0])
-					elif o[1] in ["DT"]:
-						Det = o[0]
-					elif o[1] in ["JJR","JJ","JJS"]:
-						adjs.append(o[0])
-						nn+=o[0]+" "
+					elif n[1] in ["DT"]:
+						Det = n[0]
+					elif n[1] in ["JJR","JJ","JJS"]:
+						adjs.append(n[0])
 					else:
-						if o[0] not in redundant:
+						if n[0] not in redundant:
+							nn+=n[0]+" "
+							redundant.append(n[0])
+				Nphrase = NounPhrase(nn,Det,adjs)
+				vebs = []
+				for vp in lverb:
+					vps = []
+					redundant = []
+					for v in vp.leaves():
+						if v[1] in ["VBD","VBZ","VB", "VBN","VBG","VBP","MD"]:
+							if v[0] not in redundant:
+								if v[1] not in ["MD"]:
+									phrase = VerbPhrase(lex.getWordFromVariant(v[0],"VERB"))
+								else:
+									phrase = VerbPhrase(lex.getWordFromVariant(v[0],"MODAL"))
+								if v[1] in ["VB"]:
+									phrase.set_tense("present")
+								elif v[1] in ["VBZ","VBP"]:
+									phrase.set_tense("infinitive")
+								elif v[1] in ["VBD"]:
+									phrase.set_tense("past")
+								elif v[1] in ["VBN"]:
+									phrase.set_tense("past_participle")
+								elif v[1] in ["VBG"]:
+									phrase.set_tense("present_participle")
+								elif v[1] in ["MD"]:
+									if lex.getWordFromVariant(v[0],"MODAL").base == v[0]:
+										phrase.set_tense("present")
+									else:
+										phrase.set_tense("past")
+								vps.append(phrase)
+								redundant.append(v[0])
+					vebs.append(vps)
+				
+				for op in lobj:
+					ops = []
+					nn =""
+					redundant = []
+					for o in op.leaves():
+						adjs = []
+						print(o)
+						if o[1] in ["NN","NNS","NNP","NNPS"]:
+							if o[0] not in redundant:
+								nn+=o[0]+" "
+								redundant.append(n[0])
+						elif o[1] in ["DT"]:
+							Det = o[0]
+						elif o[1] in ["JJR","JJ","JJS"]:
+							adjs.append(o[0])
 							nn+=o[0]+" "
-							redundant.append(o[0])
-					Ophrase = NounPhrase(nn,Det,adjs)
-					ops.append(Ophrase)
-				opha.append([ops,svo.sNum])
-				#printing function
-				# not sedis.append((Nphrase,vps)) not used
+						else:
+							if o[0] not in redundant:
+								nn+=o[0]+" "
+								redundant.append(o[0])
+						Ophrase = NounPhrase(nn,Det,adjs)
+						ops.append(Ophrase)
+					opha.append([ops,svo.sNum])
+					#printing function
+					# not sedis.append((Nphrase,vps)) not used
+					gen = ""
+					for vps in vebs:
+						gen+= Nphrase.realize()+" "
+						for vph in vps:
+							if vph.verb != None:
+								if vps.index(vph) == (len(vps)-1):
+									for op in ops:
+										print(op.realize())
+										vph.add_object(op)
+									gen+=vph.realize()+" "
+								else:
+									gen+=vph.realize()+" "
+						summary.append([svo.sNum,gen])
+						print(gen)
+		else:
+			for np in lsubj:
 				gen = ""
-				for vps in vebs:
-					gen+= Nphrase.realize()+" "
-					for vph in vps:
-						if vph.verb != None:
-							if vps.index(vph) == (len(vps)-1):
-								for op in ops:
-									print(op.realize())
-									vph.add_object(op)
-								gen+=vph.realize()+" "
-							else:
-								gen+=vph.realize()+" "
-					summary.append([svo.sNum,gen])
-					print(gen)
+				nn =""
+				redundant = []
+				Det = None
+				for n in np.leaves():
+					adjs = []
+					if n[1] in ["NNT","NNST","NNPT","NNPST"]:
+						if n[0] not in redundant:
+							nn+=n[0]+" "
+							redundant.append(n[0])
+					elif n[1] in ["DTT"]:
+						Det = n[0]
+					elif n[1] in ["JJRT","JJT","JJST"]:
+						adjs.append(n[0])
+					else:
+						if n[0] not in redundant:
+							nn+=n[0]+" "
+							redundant.append(n[0])
+				Nphrase = NounPhrase(nn,Det,adjs)
+				vebs = []
+				for vp in lverb:
+					vps = []
+					redundant = []
+					for v in vp.leaves():
+						if v[1] in ["VBDT","VBZT","VBT", "VBNT","VBGT","VBPT"]:
+							if v[0] not in redundant:
+								phrase = VerbPhrase(lex.getWordFromVariant(v[0],"VERB"))
+								
+								if v[1] in ["VBT"]:
+									phrase.set_tense("present")
+								elif v[1] in ["VBZT","VBPT"]:
+									phrase.set_tense("infinitive")
+								elif v[1] in ["VBDT"]:
+									phrase.set_tense("past")
+								elif v[1] in ["VBNT"]:
+									phrase.set_tense("past_participle")
+								elif v[1] in ["VBGT"]:
+									phrase.set_tense("present_participle")
+								vps.append(phrase)
+								redundant.append(v[0])
+					vebs.append(vps)
+				
+				for op in lobj:
+					ops = []
+					nn =""
+					redundant = []
+					for o in op.leaves():
+						adjs = []
+						print(o)
+						if o[1] in ["NNT","NNST","NNPT","NNPST"]:
+							if o[0] not in redundant:
+								nn+=o[0]+" "
+								redundant.append(n[0])
+						elif o[1] in ["DTT"]:
+							Det = o[0]
+						elif o[1] in ["JJRT","JJT","JJST"]:
+							adjs.append(o[0])
+							nn+=o[0]+" "
+						else:
+							if o[0] not in redundant:
+								nn+=o[0]+" "
+								redundant.append(o[0])
+						Ophrase = NounPhrase(nn,Det,adjs)
+						ops.append(Ophrase)
+					opha.append([ops,svo.sNum])
+					#printing function
+					# not sedis.append((Nphrase,vps)) not used
+					gen = ""
+					for vps in vebs:
+						gen+= Nphrase.realize()+" "
+						for vph in vps:
+							if vph.verb != None:
+								if vps.index(vph) == (len(vps)-1):
+									for op in ops:
+										print(op.realize())
+										vph.add_object(op)
+									gen+=vph.realize()+" "
+								else:
+									gen+=vph.realize()+" "
+						summary.append([svo.sNum,gen])
+						print(gen)
+
 				#printing function
 		
 							#gen+=" "+Ophrase.realize()
