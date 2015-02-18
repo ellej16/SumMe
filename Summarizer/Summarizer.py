@@ -51,10 +51,22 @@ def chunkSents():
 	global sentences
 	for sents in sentences:
 		if sents[3] =="en":
-			sents.append(preprocessor.enChunk(sents[2]))
+			if not preprocessor.enChunk(sents[2]):
+				sents.append([])
+			else:
+				sents.append(preprocessor.enChunk(sents[2]))
 			sentences[sents[0]] = sents
 		elif sents[3] =="tl":
-			sents.append(preprocessor.tlChunk(sents[2]))
+			if not preprocessor.tlChunk(sents[2]):
+				sents.append([])
+			else:
+				sents.append(preprocessor.tlChunk(sents[2]))
+			sentences[sents[0]] = sents
+		else:
+			if not preprocessor.enChunk(sents[2]):
+				sents.append([])
+			else:
+				sents.append(preprocessor.enChunk(sents[2]))
 			sentences[sents[0]] = sents
 	#return sentences
 
@@ -85,6 +97,17 @@ def getSenThreshold():
 
 def clearMem():
 	global sentences 
+	global CandidSVO 
+	global terms
+	global sentenceTh
+	global sumTh
+	global ActualSum
+
+	ActualSum = []
+	sumTh = 0
+	sentenceTh = 0
+	terms = []
+	CandidSVO = []
 	sentences = []
 	#return sentences
 
@@ -96,6 +119,9 @@ def getTriple():
 			sentences[sents[0]] = sents
 		elif sents[3] =="tl":
 			sents.append(preprocessor.getSVO(sents[0],sents[2],False))
+			sentences[sents[0]] = sents
+		else:
+			sents.append(preprocessor.getSVO(sents[0],sents[2],True))
 			sentences[sents[0]] = sents
 	#return sentences
 
@@ -159,6 +185,9 @@ def getFreq():
 		elif sents[3] =="tl":
 			sents.append(preprocessor.getFreqs(sents[4],False))
 			sentences[sents[0]] = sents
+		else:
+			sents.append(preprocessor.getFreqs(sents[4],True))
+			sentences[sents[0]] = sents
 	#return sentences
 	#	idf = math.log10(len(sentences)/n[1])
 	#	print(idf)
@@ -170,9 +199,12 @@ def getIDF():
 	nWords = []
 	
 	for sents in sentences:
-		for tup in sents[6]:
-			if tup[0][0] not in nWords:
-				nWords.append(tup[0][0])
+		try:
+			for tup in sents[6]:
+				if tup[0][0] not in nWords:
+					nWords.append(tup[0][0])
+		except:
+			continue
 	nDocs = Docs(nWords,[0]*len(nWords))
 	for sents in sentences:
 		for tup in sents[6]:
@@ -313,7 +345,7 @@ def genSents():
 				vps = []
 				redundant = []
 				for v in vp.leaves():
-					if v[1] in ["VBD","VBZ","VB", "VBN","VBG","VBP"]:
+					if v[1] in ["VBD","VBZ","VB", "VBN","VBG","VBP","MD"]:
 						if v[0] not in redundant:
 							phrase = VerbPhrase(lex.getWordFromVariant(v[0],"VERB"))
 							if v[1] in ["VB"]:
