@@ -32,9 +32,9 @@ sa/INT
 [ PATAY/NNPT ang/DTT sheriff/NNT ]
 ng/INT
 [ Regional/NNT Trial/NNT Court/NNT ]
-(,(
+(/(
 [ RTC/NNPT ]
-),)
+)/)
 [ Branch/NNT 12/CDT ]
 makaraang/VBDT pagbabarilin/VBNT 
 [ pasado/JJT alas/NNT ]
@@ -345,14 +345,14 @@ nagsanib/VBT
 [ pwersa/NNT ]
 naman/RBT 
 [ ang/DTT Philippine/NNPT Coast/NNT Guard/NNT ]
-(,(
+(/(
 [ PCG/NNPT ]
-),)
+)/)
 at/INT 
 [ Philippine/NNPT Navy/NNT ]
-(,(
+(/(
 [ PN/NNPT ]
-),)
+)/)
 sa/INT paghahanap/VBT sa/INT mga/RBT nawawalang/VBT 
 [ pasahero/NNT ]
 ng/INT 
@@ -455,9 +455,9 @@ mga/RBT
 [ Ito/PRPT ang/DTT tahasang/JJT pahayag/NNT ]
 ni/INT
 [ Moro/NNPT National/NNT Liberation/NNT Front/NNT ]
-(,(
+(/(
 [ MNLF/NNPT ]
-),) 
+)/) 
 [ founding/NNT chairman/NNT Nur/NNPT Misuari/NNPT ]
 ,/, na/INT sumusuporta/VBGT sa/INT 
 [ hakbang/NNT ]
@@ -520,9 +520,9 @@ of/INT
 [ Volcanology/NNT ]
 and/CCT
 [ Seismology/NNT ]
-(,(
+(/(
 [ Phivolcs/NNPT ]
-),)
+)/)
 [ director/NNT Renato/NNPT Solidum/NNPT ]
 ,/,
 [ Jr./NNT ang/INT mga/RBT residente/NNT ]
@@ -565,9 +565,9 @@ inatasan/VBDT ng/INT
 [ Malacañang/NNPT Civil/NNT Aviation/NNT Authority/NNT ]
 of/INT 
 [ the/DTT Philippines/NNPT ]
-(,(
+(/(
 [ CAAP/NNPT ]
-),)
+)/)
 na/INT makialam/VBDT na/INT sa/INT pag-aalis/VBZT ng/INT nakabalandrang/VBPT 
 [ commercial/NNT plane/NNT ] 
 upang/CCT maibalik/VBGT
@@ -965,9 +965,9 @@ at/CCT hindi/RBT mga/RBT
 [ armado/JJT ]
 dinukot/VBDT at/CCT binihag/VBDT ng/INT
 [ New/NNT People’s/NNT Army/NNT ]
-(,(
+(/(
 [ NPA/NNPT ]
-),)
+)/)
 [ nitong/PRPT Lunes/NNT ]
 sa/INT 
 [ Davao/NNPT del/NNPT Norte/NNPT ]
