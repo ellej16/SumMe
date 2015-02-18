@@ -1,7 +1,11 @@
 <lexicon>
 	<word>
 		<base>ay</base>
-		<category>determiner</category>
+		<category>conjunction</category>
+	</word>
+	<word>
+		<base>ay</base>
+		<category>verb</category>
 	</word>
 	<word>
 		<base>abuloy</base>
