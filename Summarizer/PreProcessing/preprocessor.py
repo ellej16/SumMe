@@ -89,7 +89,7 @@ def getSVO(num,sent,isEnglish):
 		for word in sent:
 			if  word[1] in ["NN","NNS","NNP","NNPS"]:
 				nouns.append(word)
-			elif word[1] in ["VBD","VBZ","VB", "VBN","VBG","VBP"]:
+			elif word[1] in ["VBD","VBZ","VB", "VBN","VBG","VBP","MD"]:
 				vbs.append(word)
 		for vb in vbs:
 			posit = sent.index(vb)
@@ -135,7 +135,7 @@ def getFreqs(sent,isEnglish):
 								subjs.append(node)
 					elif subs.label() == "VP":
 						for node in subs:
-							if node[1] in ["VBD","VBZ","VB", "VBN","VBG","VBP"]:
+							if node[1] in ["VBD","VBZ","VB", "VBN","VBG","VBP","MD"]:
 								vbs.append(node)
 	else:
 		for trees in sent:

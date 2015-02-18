@@ -51,10 +51,22 @@ def chunkSents():
 	global sentences
 	for sents in sentences:
 		if sents[3] =="en":
-			sents.append(preprocessor.enChunk(sents[2]))
+			if not preprocessor.enChunk(sents[2]):
+				sents.append([])
+			else:
+				sents.append(preprocessor.enChunk(sents[2]))
 			sentences[sents[0]] = sents
 		elif sents[3] =="tl":
-			sents.append(preprocessor.tlChunk(sents[2]))
+			if not preprocessor.tlChunk(sents[2]):
+				sents.append([])
+			else:
+				sents.append(preprocessor.tlChunk(sents[2]))
+			sentences[sents[0]] = sents
+		else:
+			if not preprocessor.enChunk(sents[2]):
+				sents.append([])
+			else:
+				sents.append(preprocessor.enChunk(sents[2]))
 			sentences[sents[0]] = sents
 	#return sentences
 
@@ -85,6 +97,17 @@ def getSenThreshold():
 
 def clearMem():
 	global sentences 
+	global CandidSVO 
+	global terms
+	global sentenceTh
+	global sumTh
+	global ActualSum
+
+	ActualSum = []
+	sumTh = 0
+	sentenceTh = 0
+	terms = []
+	CandidSVO = []
 	sentences = []
 	#return sentences
 
@@ -96,6 +119,9 @@ def getTriple():
 			sentences[sents[0]] = sents
 		elif sents[3] =="tl":
 			sents.append(preprocessor.getSVO(sents[0],sents[2],False))
+			sentences[sents[0]] = sents
+		else:
+			sents.append(preprocessor.getSVO(sents[0],sents[2],True))
 			sentences[sents[0]] = sents
 	#return sentences
 
@@ -159,6 +185,9 @@ def getFreq():
 		elif sents[3] =="tl":
 			sents.append(preprocessor.getFreqs(sents[4],False))
 			sentences[sents[0]] = sents
+		else:
+			sents.append(preprocessor.getFreqs(sents[4],True))
+			sentences[sents[0]] = sents
 	#return sentences
 	#	idf = math.log10(len(sentences)/n[1])
 	#	print(idf)
@@ -170,9 +199,12 @@ def getIDF():
 	nWords = []
 	
 	for sents in sentences:
-		for tup in sents[6]:
-			if tup[0][0] not in nWords:
-				nWords.append(tup[0][0])
+		try:
+			for tup in sents[6]:
+				if tup[0][0] not in nWords:
+					nWords.append(tup[0][0])
+		except:
+			continue
 	nDocs = Docs(nWords,[0]*len(nWords))
 	for sents in sentences:
 		for tup in sents[6]:
@@ -287,87 +319,180 @@ def genSents():
 							lverb.append(subs)
 #reminder try getting all them pos tags
 #and try getting the object part too
-		
-		for np in lsubj:
-			gen = ""
-			nn =""
-			redundant = []
-			Det = None
-			for n in np.leaves():
-				adjs = []
-				if n[1] in ["NN","NNS","NNP","NNPS"]:
-					if n[0] not in redundant:
-						nn+=n[0]+" "
-						redundant.append(n[0])
-				elif n[1] in ["DT"]:
-					Det = n[0]
-				elif n[1] in ["JJR","JJ","JJS"]:
-					adjs.append(n[0])
-				else:
-					if n[0] not in redundant:
-						nn+=n[0]+" "
-						redundant.append(n[0])
-			Nphrase = NounPhrase(nn,Det,adjs)
-			vebs = []
-			for vp in lverb:
-				vps = []
-				redundant = []
-				for v in vp.leaves():
-					if v[1] in ["VBD","VBZ","VB", "VBN","VBG","VBP"]:
-						if v[0] not in redundant:
-							phrase = VerbPhrase(lex.getWordFromVariant(v[0],"VERB"))
-							if v[1] in ["VB"]:
-								phrase.set_tense("present")
-							elif v[1] in ["VBZ","VBP"]:
-								phrase.set_tense("infinitive")
-							elif v[1] in ["VBD"]:
-								phrase.set_tense("past")
-							elif v[1] in ["VBN"]:
-								phrase.set_tense("past_participle")
-							elif v[1] in ["VBG"]:
-								phrase.set_tense("present_participle")
-							vps.append(phrase)
-							redundant.append(v[0])
-				vebs.append(vps)
-			
-			for op in lobj:
-				ops = []
+		if sentences[svo.sNum][3] == "en" or not in ["tl"]:
+			for np in lsubj:
+				gen = ""
 				nn =""
 				redundant = []
-				for o in op.leaves():
+				Det = None
+				for n in np.leaves():
 					adjs = []
-					print(o)
-					if o[1] in ["NN","NNS","NNP","NNPS"]:
-						if o[0] not in redundant:
-							nn+=o[0]+" "
+					if n[1] in ["NN","NNS","NNP","NNPS"]:
+						if n[0] not in redundant:
+							nn+=n[0]+" "
 							redundant.append(n[0])
-					elif o[1] in ["DT"]:
-						Det = o[0]
-					elif o[1] in ["JJR","JJ","JJS"]:
-						adjs.append(o[0])
-						nn+=o[0]+" "
+					elif n[1] in ["DT"]:
+						Det = n[0]
+					elif n[1] in ["JJR","JJ","JJS"]:
+						adjs.append(n[0])
 					else:
-						if o[0] not in redundant:
+						if n[0] not in redundant:
+							nn+=n[0]+" "
+							redundant.append(n[0])
+				Nphrase = NounPhrase(nn,Det,adjs)
+				vebs = []
+				for vp in lverb:
+					vps = []
+					redundant = []
+					for v in vp.leaves():
+						if v[1] in ["VBD","VBZ","VB", "VBN","VBG","VBP","MD"]:
+							if v[0] not in redundant:
+								if v[1] not in ["MD"]:
+									phrase = VerbPhrase(lex.getWordFromVariant(v[0],"VERB"))
+								else:
+									phrase = VerbPhrase(lex.getWordFromVariant(v[0],"MODAL"))
+								if v[1] in ["VB"]:
+									phrase.set_tense("present")
+								elif v[1] in ["VBZ","VBP"]:
+									phrase.set_tense("infinitive")
+								elif v[1] in ["VBD"]:
+									phrase.set_tense("past")
+								elif v[1] in ["VBN"]:
+									phrase.set_tense("past_participle")
+								elif v[1] in ["VBG"]:
+									phrase.set_tense("present_participle")
+								elif v[1] in ["MD"]:
+									if lex.getWordFromVariant(v[0],"MODAL").base == v[0]:
+										phrase.set_tense("present")
+									else:
+										phrase.set_tense("past")
+								vps.append(phrase)
+								redundant.append(v[0])
+					vebs.append(vps)
+				
+				for op in lobj:
+					ops = []
+					nn =""
+					redundant = []
+					for o in op.leaves():
+						adjs = []
+						print(o)
+						if o[1] in ["NN","NNS","NNP","NNPS"]:
+							if o[0] not in redundant:
+								nn+=o[0]+" "
+								redundant.append(n[0])
+						elif o[1] in ["DT"]:
+							Det = o[0]
+						elif o[1] in ["JJR","JJ","JJS"]:
+							adjs.append(o[0])
 							nn+=o[0]+" "
-							redundant.append(o[0])
-					Ophrase = NounPhrase(nn,Det,adjs)
-					ops.append(Ophrase)
-				opha.append([ops,svo.sNum])
-				#printing function
-				# not sedis.append((Nphrase,vps)) not used
-				gen = ""
-				for vps in vebs:
-					gen+= Nphrase.realize()+" "
-					for vph in vps:
-						if vps.index(vph) == (len(vps)-1):
-							for op in ops:
-								print(op.realize())
-								vph.add_object(op)
-							gen+=vph.realize()+" "
 						else:
-							gen+=vph.realize()+" "
-					summary.append([svo.sNum,gen])
-					print(gen)
+							if o[0] not in redundant:
+								nn+=o[0]+" "
+								redundant.append(o[0])
+						Ophrase = NounPhrase(nn,Det,adjs)
+						ops.append(Ophrase)
+					opha.append([ops,svo.sNum])
+					#printing function
+					# not sedis.append((Nphrase,vps)) not used
+					gen = ""
+					for vps in vebs:
+						gen+= Nphrase.realize()+" "
+						for vph in vps:
+							if vph.verb != None:
+								if vps.index(vph) == (len(vps)-1):
+									for op in ops:
+										print(op.realize())
+										vph.add_object(op)
+									gen+=vph.realize()+" "
+								else:
+									gen+=vph.realize()+" "
+						summary.append([svo.sNum,gen])
+						print(gen)
+		else:
+			for np in lsubj:
+				gen = ""
+				nn =""
+				redundant = []
+				Det = None
+				for n in np.leaves():
+					adjs = []
+					if n[1] in ["NNT","NNST","NNPT","NNPST"]:
+						if n[0] not in redundant:
+							nn+=n[0]+" "
+							redundant.append(n[0])
+					elif n[1] in ["DTT"]:
+						Det = n[0]
+					elif n[1] in ["JJRT","JJT","JJST"]:
+						adjs.append(n[0])
+					else:
+						if n[0] not in redundant:
+							nn+=n[0]+" "
+							redundant.append(n[0])
+				Nphrase = NounPhrase(nn,Det,adjs)
+				vebs = []
+				for vp in lverb:
+					vps = []
+					redundant = []
+					for v in vp.leaves():
+						if v[1] in ["VBDT","VBZT","VBT", "VBNT","VBGT","VBPT"]:
+							if v[0] not in redundant:
+								phrase = VerbPhrase(lex.getWordFromVariant(v[0],"VERB"))
+								
+								if v[1] in ["VBT"]:
+									phrase.set_tense("present")
+								elif v[1] in ["VBZT","VBPT"]:
+									phrase.set_tense("infinitive")
+								elif v[1] in ["VBDT"]:
+									phrase.set_tense("past")
+								elif v[1] in ["VBNT"]:
+									phrase.set_tense("past_participle")
+								elif v[1] in ["VBGT"]:
+									phrase.set_tense("present_participle")
+								vps.append(phrase)
+								redundant.append(v[0])
+					vebs.append(vps)
+				
+				for op in lobj:
+					ops = []
+					nn =""
+					redundant = []
+					for o in op.leaves():
+						adjs = []
+						print(o)
+						if o[1] in ["NNT","NNST","NNPT","NNPST"]:
+							if o[0] not in redundant:
+								nn+=o[0]+" "
+								redundant.append(n[0])
+						elif o[1] in ["DTT"]:
+							Det = o[0]
+						elif o[1] in ["JJRT","JJT","JJST"]:
+							adjs.append(o[0])
+							nn+=o[0]+" "
+						else:
+							if o[0] not in redundant:
+								nn+=o[0]+" "
+								redundant.append(o[0])
+						Ophrase = NounPhrase(nn,Det,adjs)
+						ops.append(Ophrase)
+					opha.append([ops,svo.sNum])
+					#printing function
+					# not sedis.append((Nphrase,vps)) not used
+					gen = ""
+					for vps in vebs:
+						gen+= Nphrase.realize()+" "
+						for vph in vps:
+							if vph.verb != None:
+								if vps.index(vph) == (len(vps)-1):
+									for op in ops:
+										print(op.realize())
+										vph.add_object(op)
+									gen+=vph.realize()+" "
+								else:
+									gen+=vph.realize()+" "
+						summary.append([svo.sNum,gen])
+						print(gen)
+
 				#printing function
 		
 							#gen+=" "+Ophrase.realize()
@@ -457,18 +582,32 @@ def getIdealSent(num):
 	for sents in sent:
 		if sentences[sents[0]][3] =="en":
 			sents.append(getSumScore(True,sents[1]))
-		else:
+		elif sentences[sents[0]][3] =="tl":
 			sents.append(getSumScore(False,sents[1]))
 	getSumTh(sent)
 	for sents in sent:
 		if sents[2] >= sumTh:
 			if sents[1] not in lsidea:
-				lsidea.append(sents[1])
+				lsidea.append(sents)
 				#print(sents[2])
-				ideal = sents[1]
+	ideal = None
+	for ideas in lsidea:
+		if ideal ==None:
+			ideal = ideas
+		elif ideal[2] < ideas[2]:
+			ideal = ideas
+		elif ideal[2] == ideas[2]:
+			if sentences[ideal[0]][3] =="en":
+				if len(getPOS(ideal[1])) < len(getPOS(ideas[1])):
+					ideal = ideas
+			elif sentences[ideal[0]][3] =="tl":
+					print("roadblock bitches")
+#				sents.append(getSumScore(False,sents[1]))
 
-	ideal = ideal +"."
-	return ideal
+	if ideal == None:
+		return "."
+	else:
+		return ideal[1] + "."
 
 
 
@@ -488,7 +627,7 @@ def getSumScore(isEnglish, sent):
 	lent = 0
 	if isEnglish:
 		lent = len(getPOS(sent))
-		print(lent)
+
 		for word in getPOS(sent):
 			if word[1] in ["NN","NNS","NNP","NNPS","VBD","VBZ","VB", "VBN","VBG","VBP","MD",
 							"JJ","JJR","JJS"]:

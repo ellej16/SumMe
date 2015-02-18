@@ -33,6 +33,7 @@ def makeInflections(word):
         inflections["comparative"] = adj_comparative(word)
     if word.category == "MODAL":
         inflections["past"] = verb_past(word)
+        inflections["present"] = verb_inf(word)
     return inflections
 
 #def verb_focus(word):

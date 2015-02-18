@@ -52,6 +52,8 @@ class Determiner(Word):
         return self.base  
 
 class Modal(Word):
+    def tense(self, tense):
+        return self.inflections[tense]
     def __str__(self):
         return self.base
 
