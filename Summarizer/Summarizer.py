@@ -457,18 +457,32 @@ def getIdealSent(num):
 	for sents in sent:
 		if sentences[sents[0]][3] =="en":
 			sents.append(getSumScore(True,sents[1]))
-		else:
+		elif sentences[sents[0]][3] =="tl":
 			sents.append(getSumScore(False,sents[1]))
 	getSumTh(sent)
 	for sents in sent:
 		if sents[2] >= sumTh:
 			if sents[1] not in lsidea:
-				lsidea.append(sents[1])
+				lsidea.append(sents)
 				#print(sents[2])
-				ideal = sents[1]
+	ideal = None
+	for ideas in lsidea:
+		if ideal ==None:
+			ideal = ideas
+		elif ideal[2] < ideas[2]:
+			ideal = ideas
+		elif ideal[2] == ideas[2]:
+			if sentences[ideal[0]][3] =="en":
+				if len(getPOS(ideal[1])) < len(getPOS(ideas[1])):
+					ideal = ideas
+			elif sentences[ideal[0]][3] =="tl":
+					print("roadblock bitches")
+#				sents.append(getSumScore(False,sents[1]))
 
-	ideal = ideal +"."
-	return ideal
+	if ideal == None:
+		return "."
+	else:
+		return ideal[1] + "."
 
 
 
@@ -488,7 +502,7 @@ def getSumScore(isEnglish, sent):
 	lent = 0
 	if isEnglish:
 		lent = len(getPOS(sent))
-		print(lent)
+
 		for word in getPOS(sent):
 			if word[1] in ["NN","NNS","NNP","NNPS","VBD","VBZ","VB", "VBN","VBG","VBP","MD",
 							"JJ","JJR","JJS"]:
