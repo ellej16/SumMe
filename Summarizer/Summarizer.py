@@ -347,7 +347,10 @@ def genSents():
 				for v in vp.leaves():
 					if v[1] in ["VBD","VBZ","VB", "VBN","VBG","VBP","MD"]:
 						if v[0] not in redundant:
-							phrase = VerbPhrase(lex.getWordFromVariant(v[0],"VERB"))
+							if v[1] not in ["MD"]:
+								phrase = VerbPhrase(lex.getWordFromVariant(v[0],"VERB"))
+							else:
+								phrase = VerbPhrase(lex.getWordFromVariant(v[0],"MODAL"))
 							if v[1] in ["VB"]:
 								phrase.set_tense("present")
 							elif v[1] in ["VBZ","VBP"]:
@@ -358,6 +361,11 @@ def genSents():
 								phrase.set_tense("past_participle")
 							elif v[1] in ["VBG"]:
 								phrase.set_tense("present_participle")
+							elif v[1] in ["MD"]:
+								if lex.getWordFromVariant(v[0],"MODAL").base == v[0]:
+									phrase.set_tense("present")
+								else:
+									phrase.set_tense("past")
 							vps.append(phrase)
 							redundant.append(v[0])
 				vebs.append(vps)
@@ -391,13 +399,14 @@ def genSents():
 				for vps in vebs:
 					gen+= Nphrase.realize()+" "
 					for vph in vps:
-						if vps.index(vph) == (len(vps)-1):
-							for op in ops:
-								print(op.realize())
-								vph.add_object(op)
-							gen+=vph.realize()+" "
-						else:
-							gen+=vph.realize()+" "
+						if vph.verb != None:
+							if vps.index(vph) == (len(vps)-1):
+								for op in ops:
+									print(op.realize())
+									vph.add_object(op)
+								gen+=vph.realize()+" "
+							else:
+								gen+=vph.realize()+" "
 					summary.append([svo.sNum,gen])
 					print(gen)
 				#printing function
