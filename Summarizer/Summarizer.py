@@ -93,7 +93,7 @@ def getSenScore(sent, isEnglish):
 			if word[1] in ["NNT","NNST","NNPT","NNPST","VBDT","VBZT","VBT", "VBNT","VBGT","VBPT",
 							"JJT","JJRT","JJST"]:
 				sentScore = sentScore + 0.75
-			elif word[1] in ["RBT","RBRT","RBST","RPT","."]:
+			elif word[1] in ["RBT""RBRT","RBST","RPT","."]:
 				sentScore  = sentScore + 0.25
 			else:
 				sentScore = sentScore + 0.50
