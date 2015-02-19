@@ -1150,7 +1150,7 @@ at CDT I-NP
 Isang JJT B-NP
 oportunidad NNT I-NP
 din INT I-NP
-diumano INT INP
+diumano INT I-NP
 ang DTT B-VP
 nasabing VBDT I-VP
 okasyon NNT I-VP
