@@ -62,8 +62,11 @@ def get_file(text):
     with open('static/files/%s' % text, 'r') as f:
         temp = f.readlines()
         newfile = con.join(temp)
-        print(newfile)
-    return newfile
+        sumMe.clearMem()
+        sumMe.getSentences(newfile)
+        sumMe.doGetAll()
+
+    return sumMe.gvActSum()
 
 '''TAWAGIN MO LANG TONG FUNCTION NA TO PARA MAKUHA MO UNG VALUE NG TEXTAREA'''
 
@@ -90,6 +93,7 @@ def download(request):
 
 
 def upload_file(request):
+    text =""
     if request.method == 'POST':
         form = UploadFileForm(request.POST, request.FILES)
         if form.is_valid():
@@ -97,8 +101,10 @@ def upload_file(request):
             instance.save()
             print(request.FILES['docfile'])
             #return HttpResponse("uploaded %s" % request.FILES['docfile'])
-            text = get_file(request.FILES['docfile'])
+            test = get_file(request.FILES['docfile'])
             '''^^^^^JUST PASS THE VALUE HERE!!!'''
+            for tx in test:
+                text = text+" "+tx
             return render(request, "testOutput.html", {"text" : text})
     else:
         form = UploadFileForm()
@@ -129,7 +135,7 @@ def get_text(request):
             sumMe.doGetAll()
             test = sumMe.gvActSum()
             for tx in test:
-                text = text+"\n"+tx
+                text = text+" "+tx
            #return HttpResponse(text['txt'])
             
     return render(request, "testOutput.html", {"text" : text})
