@@ -84,7 +84,7 @@ Si INT B-NP
 Sheriff NNT I-NP
 Juanito NNPT I-NP
 Diazon NNPT I-NP
-ay VBZT O
+ay VBZT I-NP
 nagtamo VBDT B-VP
 ng INT I-VP
 maraming JJT B-NP
@@ -1125,7 +1125,7 @@ Nobyembre NNPT I-NP
 Ang DTT B-NP
 nasabing VBDT I-NP
 jamboree NNT I-NP
-ay INT O
+ay INT I-NP
 magsisimula VBGT B-VP
 sa INT I-VP
 Agosto NNPT I-VP
@@ -1137,7 +1137,7 @@ saan INT I-NP
 ang DTT I-NP
 mga RBT I-NP
 kalahokan NNT I-NP
-ay INT O
+ay INT I-NP
 magmumula VBGT B-VP
 sa INT B-NP
 Region NNT I-NP
@@ -1171,7 +1171,7 @@ zipline NNT I-NP
 sa INT I-NP
 Barangay NNPT I-NP
 New NNPT I-NP
-Israel NNPT I-NP  
+Israel NNPT I-NP
 at CCT I-NP
 eco-tourism NNPT I-NP
 park NNPT I-NP
@@ -1250,7 +1250,7 @@ ni INT B-NP
 Maguindanao NNPT I-NP
 Governor NNT I-NP
 Esmael NNPT I-NP
-Mangudadatu NNPT I-NP    
+Mangudadatu NNPT I-NP 
 ang DTT B-VP
 nasabing VBDT I-VP
 proyekto NNT I-VP
