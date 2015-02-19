@@ -27,10 +27,12 @@ global sentenceTh
 global CandidSVO
 global sumTh
 global ActualSum
+global removed
 
 sumTh = 0
 sentenceTh = 0
 ActualSum = []
+removed = []
 
 
 sentences = []
@@ -102,10 +104,13 @@ def getSenScore(sent, isEnglish):
 
 def getSenThreshold():
 	global sentenceTh
+	sentenceTh = 0
 	for sent in sentences:
 		sentenceTh = sentenceTh + sent[7]
 	sentenceTh = sentenceTh/len(sentences)
 	return sentenceTh
+
+
 
 
 
@@ -116,6 +121,8 @@ def clearMem():
 	global sentenceTh
 	global sumTh
 	global ActualSum
+	global removed
+
 
 	ActualSum = []
 	sumTh = 0
@@ -123,7 +130,8 @@ def clearMem():
 	terms = []
 	CandidSVO = []
 	sentences = []
-	#return sentences
+	removed = []
+
 
 def getTriple():
 	global sentences
@@ -299,13 +307,26 @@ def doGet():
 	print(sentenceTh)
 
 def doGetAll():
+	global sentenceTh
+	
 	doGet()
+	checkForEmpty()
+	getSenThreshold()
 	getCandidSubjs(None,10)
 	genSents()
 
-def genSents():
+def checkForEmpty():
+	global sentences
+	global removed
 
-	
+
+	for s in sentences:
+		if not s[5]:
+			removed.append(s)
+			sentences.remove(s)
+
+
+def genSents():
 
 	global CandidSVO
 	global sentences
@@ -662,7 +683,7 @@ def getSumScore(isEnglish, sent):
 			else:
 				sentScore = sentScore + 0.50
 	else:
-		lent = preprocessor.tokenizer(sent)
+		lent = len(preprocessor.tokenizer(sent))
 		for word in getFilPOS(preprocessor.tokenizer(sent)):
 			if word[1] in ["NNT","NNST","NNPT","NNPST","VBDT","VBZT","VBT", "VBNT","VBGT","VBPT",
 							"JJT","JJRT","JJST"]:
