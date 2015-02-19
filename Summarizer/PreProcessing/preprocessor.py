@@ -13,12 +13,12 @@ from PreProcessing import parsers
 LangPaths =os.path.realpath("C:/users/rihanna/Documents/Pol/ThesisIt/SumMe/Summarizer/langdetector/profiles/")
 tltagger = nltk.data.load("taggers/filipino_aubt.pickle") #filipino pos tagger
 
-tlChunker = nltk.data.load("chunkers/fili_ub.pickle")#filipino chunker here
+tlChunker = nltk.data.load("chunkers/filipino_ub.pickle")#filipino chunker here
 enChunker = nltk.data.load("chunkers/conll2000_ub.pickle") #enChunkerhere
 
 
 punkt_param  = PunktParameters() #creates an opening for tokenizer parameters.
-punkt_param.abbrev_types = set(['gng','mr','mrs','dr']) #abbreviations further accepted goes here
+punkt_param.abbrev_types = set(['gng','mr','mrs','dr','rep']) #abbreviations further accepted goes here
 
 sentence_splitter = PunktSentenceTokenizer(punkt_param)
 tokenized = ""

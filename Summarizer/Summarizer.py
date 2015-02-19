@@ -1,8 +1,15 @@
 'author pol'
 from PreProcessing import preprocessor
 import math
+#english NLG
 from NLG.pynlg.realizer import Clause, ImperativeClause, PrepositionalPhrase, NounPhrase, SubjectPredicate, PredicateSubject, VerbPhrase
 from NLG.pynlg.lexicon import Word, XMLLexicon, Noun, Determiner, Adjective,Verb
+#english NLG
+#Filipino NLG
+from NLG.pynlg.fil_realizer import ImperativeClause as FImp, PrepositionalPhrase as FPrep, NounPhrase as FNP, SubjectPredicate as FSP, PredicateSubject as FPS, VerbPhrase as FVP
+from NLG.pynlg.fil_lexicon import Word as Fword, XMLLexicon as Flex, Noun as Fnoun, Determiner as Fd, Adjective as Fad,Verb as Fverb
+#Filipino NLG
+
 import NLG.Sample3 as nlg
 from nltk.tree import Tree
 #should contain these:
@@ -82,7 +89,14 @@ def getSenScore(sent, isEnglish):
 			else:
 				sentScore = sentScore + 0.50
 	else:
-		pass
+		for word in sent[2]:
+			if word[1] in ["NNT","NNST","NNPT","NNPST","VBDT","VBZT","VBT", "VBNT","VBGT","VBPT",
+							"JJ","JJR","JJS"]:
+				sentScore = sentScore + 0.75
+			elif word[1] in ["RBRT","RBST","RPT","."]:
+				sentScore  = sentScore + 0.25
+			else:
+				sentScore = sentScore + 0.50
 	sentScore = sentScore/len(sent[2])
 	return sentScore
 
@@ -293,6 +307,7 @@ def genSents():
 	summary = []
 	dis = []
 	lex = XMLLexicon()
+	flex = Flex()
 	lsubj = []
 	lobj = []
 	lverb = []
@@ -319,7 +334,7 @@ def genSents():
 							lverb.append(subs)
 #reminder try getting all them pos tags
 #and try getting the object part too
-		if sentences[svo.sNum][3] == "en" or not in ["tl"]:
+		if sentences[svo.sNum][3] == "en" or  sentences[svo.sNum][3] not in ["tl"]:
 			for np in lsubj:
 				gen = ""
 				nn =""
@@ -429,7 +444,7 @@ def genSents():
 						if n[0] not in redundant:
 							nn+=n[0]+" "
 							redundant.append(n[0])
-				Nphrase = NounPhrase(nn,Det,adjs)
+				Nphrase = FNP(nn,Det,adjs)
 				vebs = []
 				for vp in lverb:
 					vps = []
@@ -437,7 +452,7 @@ def genSents():
 					for v in vp.leaves():
 						if v[1] in ["VBDT","VBZT","VBT", "VBNT","VBGT","VBPT"]:
 							if v[0] not in redundant:
-								phrase = VerbPhrase(lex.getWordFromVariant(v[0],"VERB"))
+								phrase = FVP(flex.getWordFromVariant(v[0],"VERB"))
 								
 								if v[1] in ["VBT"]:
 									phrase.set_tense("present")
@@ -473,7 +488,7 @@ def genSents():
 							if o[0] not in redundant:
 								nn+=o[0]+" "
 								redundant.append(o[0])
-						Ophrase = NounPhrase(nn,Det,adjs)
+						Ophrase = FNP(nn,Det,adjs)
 						ops.append(Ophrase)
 					opha.append([ops,svo.sNum])
 					#printing function
@@ -639,10 +654,10 @@ def getSumScore(isEnglish, sent):
 	else:
 		lent = preprocessor.tokenizer(sent)
 		for word in getFilPOS(preprocessor.tokenizer(sent)):
-			if word[1] in ["NN","NNS","NNP","NNPS","VBD","VBZ","VB", "VBN","VBG","VBP","MD",
-							"JJ","JJR","JJS"]:
+			if word[1] in ["NNT","NNST","NNPT","NNPST","VBDT","VBZT","VBT", "VBNT","VBGT","VBPT",
+							"JJT","JJRT","JJST"]:
 				sentScore = sentScore + 0.75
-			elif word[1] in ["RBR","RBS","RP","."]:
+			elif word[1] in ["RBRT","RBST","RPT","."]:
 				sentScore  = sentScore + 0.25
 			else:
 				sentScore = sentScore + 0.50
