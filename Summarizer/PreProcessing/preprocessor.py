@@ -11,7 +11,7 @@ from PreProcessing import parsers
 
 #edit this when changind dirs
 LangPaths =os.path.realpath("C:/users/rihanna/Documents/Pol/ThesisIt/SumMe/Summarizer/langdetector/profiles/")
-tltagger = nltk.data.load("taggers/fil-tagged_aubt.pickle") #filipino pos tagger
+tltagger = nltk.data.load("taggers/filipino_aubt.pickle") #filipino pos tagger
 
 tlChunker = nltk.data.load("chunkers/fili_ub.pickle")#filipino chunker here
 enChunker = nltk.data.load("chunkers/conll2000_ub.pickle") #enChunkerhere
