@@ -307,6 +307,7 @@ def genSents():
 	summary = []
 	dis = []
 	lex = XMLLexicon()
+	flex = Flex()
 	lsubj = []
 	lobj = []
 	lverb = []
@@ -443,7 +444,7 @@ def genSents():
 						if n[0] not in redundant:
 							nn+=n[0]+" "
 							redundant.append(n[0])
-				Nphrase = NounPhrase(nn,Det,adjs)
+				Nphrase = FNP(nn,Det,adjs)
 				vebs = []
 				for vp in lverb:
 					vps = []
@@ -451,7 +452,7 @@ def genSents():
 					for v in vp.leaves():
 						if v[1] in ["VBDT","VBZT","VBT", "VBNT","VBGT","VBPT"]:
 							if v[0] not in redundant:
-								phrase = VerbPhrase(lex.getWordFromVariant(v[0],"VERB"))
+								phrase = FVP(flex.getWordFromVariant(v[0],"VERB"))
 								
 								if v[1] in ["VBT"]:
 									phrase.set_tense("present")
@@ -487,7 +488,7 @@ def genSents():
 							if o[0] not in redundant:
 								nn+=o[0]+" "
 								redundant.append(o[0])
-						Ophrase = NounPhrase(nn,Det,adjs)
+						Ophrase = FNP(nn,Det,adjs)
 						ops.append(Ophrase)
 					opha.append([ops,svo.sNum])
 					#printing function
