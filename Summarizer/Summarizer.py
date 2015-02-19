@@ -82,7 +82,7 @@ def getSenScore(sent, isEnglish):
 	if isEnglish:
 		for word in sent[2]:
 			if word[1] in ["NN","NNS","NNP","NNPS","VBD","VBZ","VB", "VBN","VBG","VBP","MD",
-							"JJ","JJR","JJS"]:
+							"JJ","JJR","JJS"]: 
 				sentScore = sentScore + 0.75
 			elif word[1] in ["RBR","RBS","RP","."]:
 				sentScore  = sentScore + 0.25
@@ -91,9 +91,9 @@ def getSenScore(sent, isEnglish):
 	else:
 		for word in sent[2]:
 			if word[1] in ["NNT","NNST","NNPT","NNPST","VBDT","VBZT","VBT", "VBNT","VBGT","VBPT",
-							"JJT","JJRT","JJST"]:
+							"JJT","JJRT","JJST","PRPT","PRP$T"]:
 				sentScore = sentScore + 0.75
-			elif word[1] in ["RBT""RBRT","RBST","RPT","."]:
+			elif word[1] in ["RBT""RBRT","RBST","RPT",".","INT"]:
 				sentScore  = sentScore + 0.25
 			else:
 				sentScore = sentScore + 0.50
@@ -373,24 +373,25 @@ def genSents():
 							if v[0] not in redundant:
 								if v[1] not in ["MD"]:
 									phrase = VerbPhrase(lex.getWordFromVariant(v[0],"VERB"))
-								else:
-									phrase = VerbPhrase(lex.getWordFromVariant(v[0],"MODAL"))
-								if v[1] in ["VB"]:
-									phrase.set_tense("present")
-								elif v[1] in ["VBZ","VBP"]:
-									phrase.set_tense("infinitive")
-								elif v[1] in ["VBD"]:
-									phrase.set_tense("past")
-								elif v[1] in ["VBN"]:
-									phrase.set_tense("past_participle")
-								elif v[1] in ["VBG"]:
-									phrase.set_tense("present_participle")
 								elif v[1] in ["MD"]:
-									if lex.getWordFromVariant(v[0],"MODAL").base == v[0]:
+									phrase = VerbPhrase(lex.getWordFromVariant(v[0],"MODAL"))
+								if phrase.verb != None:
+									if v[1] in ["VB"]:
 										phrase.set_tense("present")
-									else:
+									elif v[1] in ["VBZ","VBP"]:
+										phrase.set_tense("infinitive")
+									elif v[1] in ["VBD"]:
 										phrase.set_tense("past")
-								vps.append(phrase)
+									elif v[1] in ["VBN"]:
+										phrase.set_tense("past_participle")
+									elif v[1] in ["VBG"]:
+										phrase.set_tense("present_participle")
+									elif v[1] in ["MD"]:
+										if lex.getWordFromVariant(v[0],"MODAL").base == v[0]:
+											phrase.set_tense("present")
+										else:
+											phrase.set_tense("past")
+									vps.append(phrase)
 								redundant.append(v[0])
 					vebs.append(vps)
 				
