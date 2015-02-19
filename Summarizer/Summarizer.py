@@ -537,7 +537,7 @@ def genSents():
 							if vph.verb != None:
 								if vps.index(vph) == (len(vps)-1):
 									for op in ops:
-										print(op.realize())
+										print(op.realize()+ "wat")#di pumapasok dito
 										vph.add_object(op)
 									gen+=vph.realize()+" "
 								else:
@@ -615,17 +615,11 @@ def gvActSum():
 #		for s in d:
 
 
-
-
-
-
-
 def getIdealSent(num):
 	global summary
 	global sentences
 	global sumTh
 	sent = []
-	sent2 = []
 	ideal = ""
 	lsidea = []
 	for sents in summary:
@@ -634,9 +628,17 @@ def getIdealSent(num):
 	for sents in sent:
 		if sentences[sents[0]][3] =="en":
 			sents.append(getSumScore(True,sents[1]))
+			sent[sent.index(sents)] = sents
+			print("score:")
+			print(sents[2])
 		elif sentences[sents[0]][3] =="tl":
 			sents.append(getSumScore(False,sents[1]))
+			sent[sent.index(sents)] = sents
+			print("score:")
+			print(sents[2])
 	getSumTh(sent)
+	print("thres:")
+	print(sumTh)
 	for sents in sent:
 		if sents[2] >= sumTh:
 			if sents[1] not in lsidea:
@@ -651,7 +653,7 @@ def getIdealSent(num):
 		elif ideal[2] == ideas[2]:
 			if sentences[ideal[0]][3] =="en":
 				if len(getPOS(ideal[1])) < len(getPOS(ideas[1])):
-					ideal = getIdealSent
+					ideal = ideas
 			elif sentences[ideal[0]][3] =="tl":
 				if len(preprocessor.tokenizer(ideal[1])) < len(preprocessor.tokenizer(ideas[1])):
 					ideal = ideas
@@ -660,6 +662,7 @@ def getIdealSent(num):
 	if ideal == None:
 		return "."
 	else:
+		print(ideal[2])
 		return ideal[1] + "."
 
 
@@ -671,6 +674,7 @@ def getSumIDF():
 	pass
 def getSumTh(lst):
 	global sumTh
+	sumTh = 0
 	for sent in lst:
 		sumTh = sumTh + sent[2]
 	sumTh = sumTh/len(lst)
@@ -690,12 +694,12 @@ def getSumScore(isEnglish, sent):
 			else:
 				sentScore = sentScore + 0.50
 	else:
-		lent = len(preprocessor.tokenizer(sent))
+		lent = len(getFilPOS(preprocessor.tokenizer(sent)))
 		for word in getFilPOS(preprocessor.tokenizer(sent)):
 			if word[1] in ["NNT","NNST","NNPT","NNPST","VBDT","VBZT","VBT", "VBNT","VBGT","VBPT",
-							"JJT","JJRT","JJST"]:
+							"JJT","JJRT","JJST","PRPT","PRP$T"]:
 				sentScore = sentScore + 0.75
-			elif word[1] in ["RBRT","RBST","RPT","."]:
+			elif word[1] in ["RBT""RBRT","RBST","RPT",".","INT"]:
 				sentScore  = sentScore + 0.25
 			else:
 				sentScore = sentScore + 0.50

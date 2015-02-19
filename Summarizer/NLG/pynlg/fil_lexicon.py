@@ -10,7 +10,7 @@ from collections import defaultdict
 import NLG.pynlg.fil_morphology as fil_morph
 
 #Filipino Corpus
-DEFAULT_PATH = os.path.realpath("C:/users/rihanna/Documents/pol/ThesisIt/SumMe/NLG/asdf.xml")
+DEFAULT_PATH = os.path.realpath("C:/users/rihanna/Documents/pol/ThesisIt/SumMe/Summarizer/NLG/filipino-lexicon.xml")
 
 
 class Word():
