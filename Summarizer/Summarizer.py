@@ -323,7 +323,9 @@ def checkForEmpty():
 	for s in sentences:
 		if not s[5]:
 			removed.append(s)
-			sentences.remove(s)
+			s[7] = 0
+			sentences[s[0]] = s
+
 
 
 def genSents():
@@ -647,7 +649,8 @@ def getIdealSent(num):
 				if len(getPOS(ideal[1])) < len(getPOS(ideas[1])):
 					ideal = ideas
 			elif sentences[ideal[0]][3] =="tl":
-					print("roadblock bitches")
+				if len(preprocessor.tokenizer(ideal[1])) < len(preprocessor.tokenizer(ideas[1])):
+					ideal = ideas
 #				sents.append(getSumScore(False,sents[1]))
 
 	if ideal == None:
