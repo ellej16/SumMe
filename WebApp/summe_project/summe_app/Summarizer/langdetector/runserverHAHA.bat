@@ -1,0 +1,1 @@
+java -cp "jsonic-1.2.0.jar;langdetect.jar;py4j0.8.2.1.jar" LangDetect

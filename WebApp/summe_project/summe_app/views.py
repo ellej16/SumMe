@@ -15,7 +15,7 @@ from django.http import JsonResponse
 import io
 from django.core.servers.basehttp import FileWrapper
 
-#import summe_app.Summarizer as sumMe
+import summe_app.Summarizer.Summarizer as sumMe
 
 # Create your views here.
 
@@ -69,9 +69,10 @@ def get_file(text):
 
 
 def get_text_holder(text):
+    sumMe.clearMem()
     sumMe.getSentences(text)
 
-    return sumMe.chunkSents()
+
 
 '''LAHAT NG NASA TAAS,DITO MO IPAPASA UNG VALUE'''
 
@@ -115,17 +116,27 @@ def upload_file(request):
 
 
 def get_text(request):
+    text=""
+
     if request.method == 'POST':
+        print("another")
         form = GetTextForm(request.POST)
         if form.is_valid():
             text_from_form = form.cleaned_data['txt']
             print(text_from_form)
-            text = get_text_holder(text_from_form)
-            '''^^^^^JUST PASS THE VALUE HERE!!!'''
-            #return HttpResponse(text['txt'])
-            return render(request, "testOutput.html", {"text" : text})
-    else:
-        return HttpResponse("fail")
+            get_text_holder(text_from_form)
+       # '''^^^^^JUST PASS THE VALUE HERE!!!'''
+            sumMe.doGetAll()
+            test = sumMe.gvActSum()
+            for tx in test:
+                text = text+"\n"+tx
+           #return HttpResponse(text['txt'])
+            
+    return render(request, "testOutput.html", {"text" : text})
+    #else:
+     #   return render(request, "testOutput.html", {"text" : text})
+    #return render(request, "testOutput.html", {"text" : "fml"})
+
 
 
 def web_crawler(request):
