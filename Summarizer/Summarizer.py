@@ -237,15 +237,22 @@ def getCandidSubjs(start, end):
 	global sentences
 	global terms
 	global CandidSVO
+	print("got here entrance")
 	for sents in sentences:
+		print("got here first loop")
 		for svo in sents[5]:
+			print("got here second loop")
+			print(sentences[svo.sNum][7])
 			if svo.sNum in getAcSents():
+				print("got here")
 				for term in  terms[start:end]:
 					if svo.subj[0] == term[0] and svo.obj[0]==term[0]:
 						continue
 					elif svo.subj[0]==term[0]:
+						print("got appended")
 						CandidSVO.append(svo)
 					elif svo.obj[0] == term[0]:
+						print("got appended")
 						CandidSVO.append(svo)
 	clnCandSubjs(start,end)
 
@@ -257,10 +264,12 @@ def clnCandSubjs(start,end):
 	for svo in CandidSVO:
 		for term in terms[start:end]:
 			if(svo.subj[0]==term[0]):
+				dltMe = False
 				continue
 			else:
 				dltMe = True
 		if dltMe:
+			print("they're gonna remove me D:"+ " "+svo.subj[0] + " " +svo.obj[0] + " "+svo.verb[0])
 			CandidSVO.remove(svo)
 			dltMe = False
 
