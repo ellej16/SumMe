@@ -97,7 +97,7 @@ katawan NNT I-NP
 Hindi RBRT B-VP
 umano VBT I-VP
 namukhaan VBNT I-VP
-ang DTT V-NP
+ang DTT B-NP
 pumaslang NTT I-NP
 kay INT I-NP
 Diazon NNPT I-NP
@@ -354,7 +354,7 @@ na INT B-NP
 anim JJT I-NP
 na INT I-NP
 Pilipino NNPT I-NP
-namatay VBDT V-NP
+namatay VBDT B-NP
 sa INT B-NP
 prenda NNT I-NP
 krisis NNT I-NP
@@ -1187,7 +1187,7 @@ sa INT B-NP
 mga RBT I-NP
 national NNT I-NP
 highway NNT I-NP
-sa INT N-VP
+sa INT B-VP
 Maguindanao NNPT I-NP
 province NNT I-NP
 . . O
