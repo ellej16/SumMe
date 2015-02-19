@@ -105,9 +105,13 @@ def getSenScore(sent, isEnglish):
 def getSenThreshold():
 	global sentenceTh
 	sentenceTh = 0
+	zeros = 0
 	for sent in sentences:
+		if sent[7] == 0:
+			zeros = zeros +1
 		sentenceTh = sentenceTh + sent[7]
-	sentenceTh = sentenceTh/len(sentences)
+
+	sentenceTh = sentenceTh/(len(sentences)-zeros)
 	return sentenceTh
 
 
@@ -647,7 +651,7 @@ def getIdealSent(num):
 		elif ideal[2] == ideas[2]:
 			if sentences[ideal[0]][3] =="en":
 				if len(getPOS(ideal[1])) < len(getPOS(ideas[1])):
-					ideal = ideas
+					ideal = getIdealSent
 			elif sentences[ideal[0]][3] =="tl":
 				if len(preprocessor.tokenizer(ideal[1])) < len(preprocessor.tokenizer(ideas[1])):
 					ideal = ideas
