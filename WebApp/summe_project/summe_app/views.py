@@ -15,7 +15,7 @@ from django.http import JsonResponse
 import io
 from django.core.servers.basehttp import FileWrapper
 
-#import summe_app.Summarizer as sumMe
+import summe_app.Summarizer.Summarizer as sumMe
 
 # Create your views here.
 
@@ -62,16 +62,20 @@ def get_file(text):
     with open('static/files/%s' % text, 'r') as f:
         temp = f.readlines()
         newfile = con.join(temp)
-        print(newfile)
-    return newfile
+        sumMe.clearMem()
+        sumMe.getSentences(newfile)
+        sumMe.doGetAll()
+
+    return sumMe.gvActSum()
 
 '''TAWAGIN MO LANG TONG FUNCTION NA TO PARA MAKUHA MO UNG VALUE NG TEXTAREA'''
 
 
 def get_text_holder(text):
+    sumMe.clearMem()
     sumMe.getSentences(text)
 
-    return sumMe.chunkSents()
+
 
 '''LAHAT NG NASA TAAS,DITO MO IPAPASA UNG VALUE'''
 
@@ -89,6 +93,7 @@ def download(request):
 
 
 def upload_file(request):
+    text =""
     if request.method == 'POST':
         form = UploadFileForm(request.POST, request.FILES)
         if form.is_valid():
@@ -96,8 +101,10 @@ def upload_file(request):
             instance.save()
             print(request.FILES['docfile'])
             #return HttpResponse("uploaded %s" % request.FILES['docfile'])
-            text = get_file(request.FILES['docfile'])
+            test = get_file(request.FILES['docfile'])
             '''^^^^^JUST PASS THE VALUE HERE!!!'''
+            for tx in test:
+                text = text+" "+tx
             return render(request, "testOutput.html", {"text" : text})
     else:
         form = UploadFileForm()
@@ -115,17 +122,27 @@ def upload_file(request):
 
 
 def get_text(request):
+    text=""
+
     if request.method == 'POST':
+        print("another")
         form = GetTextForm(request.POST)
         if form.is_valid():
             text_from_form = form.cleaned_data['txt']
             print(text_from_form)
-            text = get_text_holder(text_from_form)
-            '''^^^^^JUST PASS THE VALUE HERE!!!'''
-            #return HttpResponse(text['txt'])
-            return render(request, "testOutput.html", {"text" : text})
-    else:
-        return HttpResponse("fail")
+            get_text_holder(text_from_form)
+       # '''^^^^^JUST PASS THE VALUE HERE!!!'''
+            sumMe.doGetAll()
+            test = sumMe.gvActSum()
+            for tx in test:
+                text = text+" "+tx
+           #return HttpResponse(text['txt'])
+            
+    return render(request, "testOutput.html", {"text" : text})
+    #else:
+     #   return render(request, "testOutput.html", {"text" : text})
+    #return render(request, "testOutput.html", {"text" : "fml"})
+
 
 
 def web_crawler(request):
