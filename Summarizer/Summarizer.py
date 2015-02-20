@@ -82,7 +82,7 @@ def getSenScore(sent, isEnglish):
 	if isEnglish:
 		for word in sent[2]:
 			if word[1] in ["NN","NNS","NNP","NNPS","VBD","VBZ","VB", "VBN","VBG","VBP","MD",
-							"JJ","JJR","JJS"]:
+							"JJ","JJR","JJS"]: 
 				sentScore = sentScore + 0.75
 			elif word[1] in ["RBR","RBS","RP","."]:
 				sentScore  = sentScore + 0.25
@@ -91,9 +91,9 @@ def getSenScore(sent, isEnglish):
 	else:
 		for word in sent[2]:
 			if word[1] in ["NNT","NNST","NNPT","NNPST","VBDT","VBZT","VBT", "VBNT","VBGT","VBPT",
-							"JJ","JJR","JJS"]:
+							"JJT","JJRT","JJST","PRPT","PRP$T"]:
 				sentScore = sentScore + 0.75
-			elif word[1] in ["RBRT","RBST","RPT","."]:
+			elif word[1] in ["RBT""RBRT","RBST","RPT",".","INT"]:
 				sentScore  = sentScore + 0.25
 			else:
 				sentScore = sentScore + 0.50
@@ -237,15 +237,22 @@ def getCandidSubjs(start, end):
 	global sentences
 	global terms
 	global CandidSVO
+	#print("got here entrance")
 	for sents in sentences:
+	#	print("got here first loop")
 		for svo in sents[5]:
+	#		print("got here second loop")
+	#		print(sentences[svo.sNum][7])
 			if svo.sNum in getAcSents():
+	#			print("got here")
 				for term in  terms[start:end]:
 					if svo.subj[0] == term[0] and svo.obj[0]==term[0]:
 						continue
 					elif svo.subj[0]==term[0]:
+	#					print("got appended")
 						CandidSVO.append(svo)
 					elif svo.obj[0] == term[0]:
+	#					print("got appended")
 						CandidSVO.append(svo)
 	clnCandSubjs(start,end)
 
@@ -257,10 +264,12 @@ def clnCandSubjs(start,end):
 	for svo in CandidSVO:
 		for term in terms[start:end]:
 			if(svo.subj[0]==term[0]):
+				dltMe = False
 				continue
 			else:
 				dltMe = True
 		if dltMe:
+	#		print("they're gonna remove me D:"+ " "+svo.subj[0] + " " +svo.obj[0] + " "+svo.verb[0])
 			CandidSVO.remove(svo)
 			dltMe = False
 
@@ -364,24 +373,25 @@ def genSents():
 							if v[0] not in redundant:
 								if v[1] not in ["MD"]:
 									phrase = VerbPhrase(lex.getWordFromVariant(v[0],"VERB"))
-								else:
-									phrase = VerbPhrase(lex.getWordFromVariant(v[0],"MODAL"))
-								if v[1] in ["VB"]:
-									phrase.set_tense("present")
-								elif v[1] in ["VBZ","VBP"]:
-									phrase.set_tense("infinitive")
-								elif v[1] in ["VBD"]:
-									phrase.set_tense("past")
-								elif v[1] in ["VBN"]:
-									phrase.set_tense("past_participle")
-								elif v[1] in ["VBG"]:
-									phrase.set_tense("present_participle")
 								elif v[1] in ["MD"]:
-									if lex.getWordFromVariant(v[0],"MODAL").base == v[0]:
+									phrase = VerbPhrase(lex.getWordFromVariant(v[0],"MODAL"))
+								if phrase.verb != None:
+									if v[1] in ["VB"]:
 										phrase.set_tense("present")
-									else:
+									elif v[1] in ["VBZ","VBP"]:
+										phrase.set_tense("infinitive")
+									elif v[1] in ["VBD"]:
 										phrase.set_tense("past")
-								vps.append(phrase)
+									elif v[1] in ["VBN"]:
+										phrase.set_tense("past_participle")
+									elif v[1] in ["VBG"]:
+										phrase.set_tense("present_participle")
+									elif v[1] in ["MD"]:
+										if lex.getWordFromVariant(v[0],"MODAL").base == v[0]:
+											phrase.set_tense("present")
+										else:
+											phrase.set_tense("past")
+									vps.append(phrase)
 								redundant.append(v[0])
 					vebs.append(vps)
 				
