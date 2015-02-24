@@ -60,10 +60,12 @@ def text_from_web_crawler(text):
 
 def get_file(fail):
     con = " "
+    newfile = None
     with open('static/files/%s' % fail, 'r') as f:
         temp = f.readlines()
         newfile = con.join(temp)
-        unicodedata.normalize('NFKD', newfile).encode('utf-8','ignore')
+        #unicodedata.normalize('NFKD', newfile).encode('utf8','ignore')
+            
         sumMe.clearMem()
         sumMe.getSentences(newfile)
         sumMe.doGetAll()
