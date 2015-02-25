@@ -484,16 +484,12 @@ def genSents():
 							if v[0] not in redundant:
 								phrase = FVP(flex.getWordFromVariant(v[0],"VERB"))
 								
-								if v[1] in ["VBT"]:
+								if v[1] in ["VBT","VBGT"]:
 									phrase.set_tense("present")
 								elif v[1] in ["VBZT","VBPT"]:
 									phrase.set_tense("infinitive")
-								elif v[1] in ["VBDT"]:
+								elif v[1] in ["VBDT","VBNT"]:
 									phrase.set_tense("past")
-								elif v[1] in ["VBNT"]:
-									phrase.set_tense("past_participle")
-								elif v[1] in ["VBGT"]:
-									phrase.set_tense("present_participle")
 								vps.append(phrase)
 								redundant.append(v[0])
 					vebs.append(vps)

@@ -15,6 +15,7 @@ from django.http import JsonResponse
 import io
 from django.core.servers.basehttp import FileWrapper
 
+import unicodedata
 import summe_app.Summarizer.Summarizer as sumMe
 
 # Create your views here.
@@ -57,11 +58,14 @@ def text_from_web_crawler(text):
 '''ITO PARA SA UPLOAD FILE, DITO NYA BINASA UNG FILE,JUST CALL THIS FUNCTION'''
 
 
-def get_file(text):
+def get_file(fail):
     con = " "
-    with open('static/files/%s' % text, 'r') as f:
+    newfile = None
+    with open('static/files/%s' % fail, 'r') as f:
         temp = f.readlines()
         newfile = con.join(temp)
+        #unicodedata.normalize('NFKD', newfile).encode('utf8','ignore')
+            
         sumMe.clearMem()
         sumMe.getSentences(newfile)
         sumMe.doGetAll()
@@ -71,7 +75,8 @@ def get_file(text):
 '''TAWAGIN MO LANG TONG FUNCTION NA TO PARA MAKUHA MO UNG VALUE NG TEXTAREA'''
 
 
-def get_text_holder(text):
+def get_text(text):
+    #unicodedata.normalize('NFKD', str(text)).encode('utf-8','ignore')
     sumMe.clearMem()
     sumMe.getSentences(text)
 
@@ -121,7 +126,7 @@ def upload_file(request):
 
 
 
-def get_text(request):
+def get_text_holder(request):
     text=""
 
     if request.method == 'POST':
@@ -130,7 +135,7 @@ def get_text(request):
         if form.is_valid():
             text_from_form = form.cleaned_data['txt']
             print(text_from_form)
-            get_text_holder(text_from_form)
+            get_text(text_from_form)
        # '''^^^^^JUST PASS THE VALUE HERE!!!'''
             sumMe.doGetAll()
             test = sumMe.gvActSum()
@@ -200,7 +205,7 @@ new
 '''
 '''
 
-def get_text_form(request):
+def f_form(request):
     if request.method == 'POST':
         form = (request.POST, request.FILES)
         handle_get_text_form(request.FILES['texttext'])
